@@ -3683,7 +3683,7 @@ export default function Home() {
 					<div className="lg:w-[60%] w-full relative">
 						<form
 							action=""
-							className="border-[#00393D] border rounded-3xl p-10 bg-gradient-to-bl from-[#00171A] to-transparent"
+							className="border-[#00393D] border rounded-3xl sm:p-10 p-2 bg-gradient-to-bl from-[#00171A] to-transparent"
 						>
 							<div className="w-full h-full flex  flex-col gap-8">
 								<div className="w-full gap-10 flex flex-col lg:flex-row justify-between md:items-center">

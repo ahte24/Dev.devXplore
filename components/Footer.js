@@ -94,7 +94,7 @@ const Footer = () => {
 						<div className="xl:w-[40%] w-[29%] text-5xl h-full justify-center items-center hidden xl:flex">
 							LOGO
 						</div>
-						<div className="xl:w-[60%] w-full h-full flex gap-2 flex-col md:flex-row xl:flex-col items-center justify-center xl:justify-between xl:pl-10">
+						<div className="xl:w-[60%] w-full h-full flex gap-2 py-4 flex-col md:flex-row xl:flex-col items-center justify-between xl:justify-between xl:pl-10">
 							<div className="w-full h-[300px] 2xl:flex justify-between gap-5 items-center  hidden">
 								<div className="w-1/3 h-full p-4 items-center flex flex-col ">
 									<div className="w-[70%] flex flex-col gap-4">
@@ -154,263 +154,265 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="relative max-h-[300px] 2xl:hidden block">
-								<div className="w-full  gap-4 flex flex-col p-2 justify-between items-center border-[#00393D] border  rounded-3xl ">
-									<div className="w-full  flex flex-col gap-2 h-full">
-										<div className="relative">
-											<div className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
-												devxplore@devxplore.tech
+							<div className="flex justify-between gap-5 sm:flex-row flex-col w-full">
+								<div className="relative max-h-[300px] 2xl:hidden block">
+									<div className="w-[300px]  gap-4 flex flex-col p-2 justify-between items-center border-[#00393D] border  rounded-3xl ">
+										<div className="w-full  flex flex-col gap-2 h-full">
+											<div className="relative">
+												<div className="rounded-full max-w-[330px] pl-14 pr-2 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
+													devxplore@devxplore.tech
+												</div>
+												<svg
+													className="absolute top-2 left-2"
+													width="40"
+													height="40"
+													viewBox="0 0 40 40"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														fill="#001D1F"
+													/>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														stroke="#00393D"
+													/>
+													<path
+														d="M11.25 17.2242V24.375C11.25 25.7557 12.3693 26.875 13.75 26.875H26.25C27.6307 26.875 28.75 25.7557 28.75 24.375V17.2242L21.3102 21.8026C20.5067 22.297 19.4933 22.297 18.6898 21.8026L11.25 17.2242Z"
+														fill="#1AFFE9"
+													/>
+													<path
+														d="M28.75 15.7565V15.625C28.75 14.2443 27.6307 13.125 26.25 13.125H13.75C12.3693 13.125 11.25 14.2443 11.25 15.625V15.7565L19.3449 20.738C19.7466 20.9852 20.2534 20.9852 20.6551 20.738L28.75 15.7565Z"
+														fill="#1AFFE9"
+													/>
+												</svg>
 											</div>
-											<svg
-												className="absolute top-2 left-2"
-												width="40"
-												height="40"
-												viewBox="0 0 40 40"
-												fill="none"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													fill="#001D1F"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													stroke="#00393D"
-												/>
-												<path
-													d="M11.25 17.2242V24.375C11.25 25.7557 12.3693 26.875 13.75 26.875H26.25C27.6307 26.875 28.75 25.7557 28.75 24.375V17.2242L21.3102 21.8026C20.5067 22.297 19.4933 22.297 18.6898 21.8026L11.25 17.2242Z"
-													fill="#1AFFE9"
-												/>
-												<path
-													d="M28.75 15.7565V15.625C28.75 14.2443 27.6307 13.125 26.25 13.125H13.75C12.3693 13.125 11.25 14.2443 11.25 15.625V15.7565L19.3449 20.738C19.7466 20.9852 20.2534 20.9852 20.6551 20.738L28.75 15.7565Z"
-													fill="#1AFFE9"
-												/>
-											</svg>
+										</div>
+										<div className="w-full flex flex-col gap-2 h-full">
+											<div className="relative">
+												<div className="rounded-full max-w-[330px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
+													+91 9114111987
+												</div>
+												<svg
+													className="absolute top-2 left-2"
+													width="40"
+													height="40"
+													viewBox="0 0 40 40"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														fill="#001D1F"
+													/>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														stroke="#00393D"
+													/>
+													<path
+														fill-rule="evenodd"
+														clip-rule="evenodd"
+														d="M11.25 13.75C11.25 12.3693 12.3693 11.25 13.75 11.25H14.893C15.61 11.25 16.235 11.738 16.4089 12.4335L17.3304 16.1195C17.4828 16.7294 17.2549 17.3713 16.752 17.7485L15.674 18.557C15.5621 18.641 15.5377 18.7639 15.5692 18.8497C16.5154 21.4329 18.5671 23.4846 21.1503 24.4308C21.2361 24.4623 21.359 24.4379 21.443 24.326L22.2515 23.248C22.6287 22.7451 23.2706 22.5172 23.8805 22.6696L27.5665 23.5911C28.262 23.765 28.75 24.39 28.75 25.107V26.25C28.75 27.6307 27.6307 28.75 26.25 28.75H24.375C17.1263 28.75 11.25 22.8737 11.25 15.625V13.75Z"
+														fill="#1AFFE9"
+													/>
+												</svg>
+											</div>
+										</div>
+										<div className="w-full flex flex-col gap-2 h-full">
+											<div className="relative">
+												<div className="rounded-full max-w-[330px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
+													Bhubaneswar, Odisha
+												</div>
+												<svg
+													className="absolute top-2 left-2"
+													width="40"
+													height="40"
+													viewBox="0 0 40 40"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														fill="#001D1F"
+													/>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														stroke="#00393D"
+													/>
+													<path
+														fill-rule="evenodd"
+														clip-rule="evenodd"
+														d="M19.6165 28.6259C19.6416 28.6405 19.6614 28.6517 19.6754 28.6596L19.6987 28.6726C19.8844 28.7745 20.1148 28.7738 20.3007 28.6729L20.3246 28.6596C20.3386 28.6517 20.3584 28.6405 20.3835 28.6259C20.4339 28.5967 20.5058 28.5542 20.5963 28.4985C20.7771 28.3872 21.0323 28.223 21.3372 28.0076C21.9459 27.5776 22.7581 26.9395 23.5721 26.1061C25.1922 24.4474 26.875 21.9551 26.875 18.75C26.875 14.953 23.797 11.875 20 11.875C16.203 11.875 13.125 14.953 13.125 18.75C13.125 21.9551 14.8078 24.4474 16.4279 26.1061C17.2419 26.9395 18.0541 27.5776 18.6628 28.0076C18.9677 28.223 19.2229 28.3872 19.4037 28.4985C19.4942 28.5542 19.5661 28.5967 19.6165 28.6259ZM20 21.25C21.3807 21.25 22.5 20.1307 22.5 18.75C22.5 17.3693 21.3807 16.25 20 16.25C18.6193 16.25 17.5 17.3693 17.5 18.75C17.5 20.1307 18.6193 21.25 20 21.25Z"
+														fill="#1AFFE9"
+													/>
+												</svg>
+											</div>
 										</div>
 									</div>
-									<div className="w-full flex flex-col gap-2 h-full">
-										<div className="relative">
-											<div className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
-												+91 9114111987
-											</div>
-											<svg
-												className="absolute top-2 left-2"
-												width="40"
-												height="40"
-												viewBox="0 0 40 40"
-												fill="none"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													fill="#001D1F"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													stroke="#00393D"
-												/>
-												<path
-													fill-rule="evenodd"
-													clip-rule="evenodd"
-													d="M11.25 13.75C11.25 12.3693 12.3693 11.25 13.75 11.25H14.893C15.61 11.25 16.235 11.738 16.4089 12.4335L17.3304 16.1195C17.4828 16.7294 17.2549 17.3713 16.752 17.7485L15.674 18.557C15.5621 18.641 15.5377 18.7639 15.5692 18.8497C16.5154 21.4329 18.5671 23.4846 21.1503 24.4308C21.2361 24.4623 21.359 24.4379 21.443 24.326L22.2515 23.248C22.6287 22.7451 23.2706 22.5172 23.8805 22.6696L27.5665 23.5911C28.262 23.765 28.75 24.39 28.75 25.107V26.25C28.75 27.6307 27.6307 28.75 26.25 28.75H24.375C17.1263 28.75 11.25 22.8737 11.25 15.625V13.75Z"
-													fill="#1AFFE9"
-												/>
-											</svg>
-										</div>
-									</div>
-									<div className="w-full flex flex-col gap-2 h-full">
-										<div className="relative">
-											<div className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
-												Bhubaneswar, Odisha
-											</div>
-											<svg
-												className="absolute top-2 left-2"
-												width="40"
-												height="40"
-												viewBox="0 0 40 40"
-												fill="none"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													fill="#001D1F"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													stroke="#00393D"
-												/>
-												<path
-													fill-rule="evenodd"
-													clip-rule="evenodd"
-													d="M19.6165 28.6259C19.6416 28.6405 19.6614 28.6517 19.6754 28.6596L19.6987 28.6726C19.8844 28.7745 20.1148 28.7738 20.3007 28.6729L20.3246 28.6596C20.3386 28.6517 20.3584 28.6405 20.3835 28.6259C20.4339 28.5967 20.5058 28.5542 20.5963 28.4985C20.7771 28.3872 21.0323 28.223 21.3372 28.0076C21.9459 27.5776 22.7581 26.9395 23.5721 26.1061C25.1922 24.4474 26.875 21.9551 26.875 18.75C26.875 14.953 23.797 11.875 20 11.875C16.203 11.875 13.125 14.953 13.125 18.75C13.125 21.9551 14.8078 24.4474 16.4279 26.1061C17.2419 26.9395 18.0541 27.5776 18.6628 28.0076C18.9677 28.223 19.2229 28.3872 19.4037 28.4985C19.4942 28.5542 19.5661 28.5967 19.6165 28.6259ZM20 21.25C21.3807 21.25 22.5 20.1307 22.5 18.75C22.5 17.3693 21.3807 16.25 20 16.25C18.6193 16.25 17.5 17.3693 17.5 18.75C17.5 20.1307 18.6193 21.25 20 21.25Z"
-													fill="#1AFFE9"
-												/>
-											</svg>
-										</div>
-									</div>
+									<div className="absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 								</div>
-								<div className="absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
-							</div>
-							<div className="relative max-h-[300px] 2xl:hidden block">
-								<div className="w-[350px] min-h-[220px] border border-[#00393D] rounded-3xl flex flex-col gap-3 justify-center items-center">
-									<h2 className="text-[20px] text-[#CCFFFA]">Thank You!</h2>
-									<span className="text-[16px] text-[#649B9B]">
-										Follow Us on Social Media
-									</span>
-									<div className="w-[50%] h-[55px] rounded-full border border-[#00393D] flex justify-center items-center gap-3">
-										<Link href={""}>
-											<svg
-												width="40"
-												height="40"
-												viewBox="0 0 40 40"
-												fill="none"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													fill="#00171A"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													stroke="#00393D"
-												/>
-												<g clip-path="url(#clip0_1_812)">
-													<path
-														d="M30 20C30 14.4771 25.5229 10 20 10C14.4771 10 10 14.4771 10 20C10 24.9912 13.6568 29.1283 18.4375 29.8785V22.8906H15.8984V20H18.4375V17.7969C18.4375 15.2906 19.9305 13.9062 22.2146 13.9062C23.3084 13.9062 24.4531 14.1016 24.4531 14.1016V16.5625H23.1922C21.95 16.5625 21.5625 17.3334 21.5625 18.125V20H24.3359L23.8926 22.8906H21.5625V29.8785C26.3432 29.1283 30 24.9912 30 20Z"
-														fill="#1AFFE9"
+								<div className="relative max-h-[300px] 2xl:hidden block">
+									<div className="w-[300px] min-h-[220px] border border-[#00393D] rounded-3xl flex flex-col gap-3 justify-center items-center">
+										<h2 className="text-[20px] text-[#CCFFFA]">Thank You!</h2>
+										<span className="text-[16px] text-[#649B9B]">
+											Follow Us on Social Media
+										</span>
+										<div className="w-[50%] h-[55px] rounded-full border border-[#00393D] flex justify-center items-center gap-3">
+											<Link href={""}>
+												<svg
+													width="40"
+													height="40"
+													viewBox="0 0 40 40"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														fill="#00171A"
 													/>
-												</g>
-												<defs>
-													<clipPath id="clip0_1_812">
-														<rect
-															width="20"
-															height="20"
-															fill="white"
-															transform="translate(10 10)"
-														/>
-													</clipPath>
-												</defs>
-											</svg>
-										</Link>
-										<Link href={""}>
-											<svg
-												width="40"
-												height="40"
-												viewBox="0 0 40 40"
-												fill="none"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													fill="#00171A"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													stroke="#00393D"
-												/>
-												<g clip-path="url(#clip0_1_815)">
-													<path
-														d="M16.2918 28.1251C23.8371 28.1251 27.9652 21.8724 27.9652 16.4517C27.9652 16.2759 27.9613 16.0962 27.9535 15.9204C28.7566 15.3397 29.4496 14.6203 30 13.7962C29.2521 14.129 28.458 14.3463 27.6449 14.4407C28.5011 13.9275 29.1421 13.1213 29.4492 12.1716C28.6438 12.6489 27.763 12.9856 26.8445 13.1673C26.2257 12.5098 25.4075 12.0744 24.5164 11.9285C23.6253 11.7826 22.711 11.9343 21.9148 12.3602C21.1186 12.7861 20.4848 13.4624 20.1115 14.2845C19.7382 15.1067 19.6462 16.029 19.8496 16.9087C18.2187 16.8269 16.6233 16.4032 15.1667 15.6652C13.71 14.9272 12.4247 13.8913 11.3941 12.6247C10.8703 13.5278 10.71 14.5965 10.9459 15.6135C11.1817 16.6306 11.7959 17.5197 12.6637 18.1001C12.0122 18.0794 11.375 17.904 10.8047 17.5884V17.6392C10.8041 18.5869 11.1317 19.5056 11.7319 20.2391C12.3321 20.9726 13.1678 21.4756 14.0969 21.6626C13.4934 21.8277 12.86 21.8518 12.2457 21.7329C12.5079 22.548 13.018 23.2609 13.7048 23.7721C14.3916 24.2833 15.2209 24.5673 16.077 24.5845C14.6237 25.726 12.8285 26.3452 10.9805 26.3423C10.6527 26.3418 10.3253 26.3217 10 26.2821C11.8774 27.4866 14.0613 28.1263 16.2918 28.1251Z"
-														fill="#1AFFE9"
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														stroke="#00393D"
 													/>
-												</g>
-												<defs>
-													<clipPath id="clip0_1_815">
-														<rect
-															width="20"
-															height="20"
-															fill="white"
-															transform="translate(10 10)"
+													<g clip-path="url(#clip0_1_812)">
+														<path
+															d="M30 20C30 14.4771 25.5229 10 20 10C14.4771 10 10 14.4771 10 20C10 24.9912 13.6568 29.1283 18.4375 29.8785V22.8906H15.8984V20H18.4375V17.7969C18.4375 15.2906 19.9305 13.9062 22.2146 13.9062C23.3084 13.9062 24.4531 14.1016 24.4531 14.1016V16.5625H23.1922C21.95 16.5625 21.5625 17.3334 21.5625 18.125V20H24.3359L23.8926 22.8906H21.5625V29.8785C26.3432 29.1283 30 24.9912 30 20Z"
+															fill="#1AFFE9"
 														/>
-													</clipPath>
-												</defs>
-											</svg>
-										</Link>
-										<Link href={""}>
-											<svg
-												width="40"
-												height="40"
-												viewBox="0 0 40 40"
-												fill="none"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													fill="#00171A"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="39"
-													height="39"
-													rx="19.5"
-													stroke="#00393D"
-												/>
-												<g clip-path="url(#clip0_1_818)">
-													<path
-														d="M28.5195 10H11.4766C10.6602 10 10 10.6445 10 11.4414V28.5547C10 29.3516 10.6602 30 11.4766 30H28.5195C29.3359 30 30 29.3516 30 28.5586V11.4414C30 10.6445 29.3359 10 28.5195 10ZM15.9336 27.043H12.9648V17.4961H15.9336V27.043ZM14.4492 16.1953C13.4961 16.1953 12.7266 15.4258 12.7266 14.4766C12.7266 13.5273 13.4961 12.7578 14.4492 12.7578C15.3984 12.7578 16.168 13.5273 16.168 14.4766C16.168 15.4219 15.3984 16.1953 14.4492 16.1953ZM27.043 27.043H24.0781V22.4023C24.0781 21.2969 24.0586 19.8711 22.5352 19.8711C20.9922 19.8711 20.7578 21.0781 20.7578 22.3242V27.043H17.7969V17.4961H20.6406V18.8008H20.6797C21.0742 18.0508 22.043 17.2578 23.4844 17.2578C26.4883 17.2578 27.043 19.2344 27.043 21.8047V27.043Z"
-														fill="#1AFFE9"
+													</g>
+													<defs>
+														<clipPath id="clip0_1_812">
+															<rect
+																width="20"
+																height="20"
+																fill="white"
+																transform="translate(10 10)"
+															/>
+														</clipPath>
+													</defs>
+												</svg>
+											</Link>
+											<Link href={""}>
+												<svg
+													width="40"
+													height="40"
+													viewBox="0 0 40 40"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														fill="#00171A"
 													/>
-												</g>
-												<defs>
-													<clipPath id="clip0_1_818">
-														<rect
-															width="20"
-															height="20"
-															fill="white"
-															transform="translate(10 10)"
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														stroke="#00393D"
+													/>
+													<g clip-path="url(#clip0_1_815)">
+														<path
+															d="M16.2918 28.1251C23.8371 28.1251 27.9652 21.8724 27.9652 16.4517C27.9652 16.2759 27.9613 16.0962 27.9535 15.9204C28.7566 15.3397 29.4496 14.6203 30 13.7962C29.2521 14.129 28.458 14.3463 27.6449 14.4407C28.5011 13.9275 29.1421 13.1213 29.4492 12.1716C28.6438 12.6489 27.763 12.9856 26.8445 13.1673C26.2257 12.5098 25.4075 12.0744 24.5164 11.9285C23.6253 11.7826 22.711 11.9343 21.9148 12.3602C21.1186 12.7861 20.4848 13.4624 20.1115 14.2845C19.7382 15.1067 19.6462 16.029 19.8496 16.9087C18.2187 16.8269 16.6233 16.4032 15.1667 15.6652C13.71 14.9272 12.4247 13.8913 11.3941 12.6247C10.8703 13.5278 10.71 14.5965 10.9459 15.6135C11.1817 16.6306 11.7959 17.5197 12.6637 18.1001C12.0122 18.0794 11.375 17.904 10.8047 17.5884V17.6392C10.8041 18.5869 11.1317 19.5056 11.7319 20.2391C12.3321 20.9726 13.1678 21.4756 14.0969 21.6626C13.4934 21.8277 12.86 21.8518 12.2457 21.7329C12.5079 22.548 13.018 23.2609 13.7048 23.7721C14.3916 24.2833 15.2209 24.5673 16.077 24.5845C14.6237 25.726 12.8285 26.3452 10.9805 26.3423C10.6527 26.3418 10.3253 26.3217 10 26.2821C11.8774 27.4866 14.0613 28.1263 16.2918 28.1251Z"
+															fill="#1AFFE9"
 														/>
-													</clipPath>
-												</defs>
-											</svg>
-										</Link>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_815">
+															<rect
+																width="20"
+																height="20"
+																fill="white"
+																transform="translate(10 10)"
+															/>
+														</clipPath>
+													</defs>
+												</svg>
+											</Link>
+											<Link href={""}>
+												<svg
+													width="40"
+													height="40"
+													viewBox="0 0 40 40"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														fill="#00171A"
+													/>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="39"
+														height="39"
+														rx="19.5"
+														stroke="#00393D"
+													/>
+													<g clip-path="url(#clip0_1_818)">
+														<path
+															d="M28.5195 10H11.4766C10.6602 10 10 10.6445 10 11.4414V28.5547C10 29.3516 10.6602 30 11.4766 30H28.5195C29.3359 30 30 29.3516 30 28.5586V11.4414C30 10.6445 29.3359 10 28.5195 10ZM15.9336 27.043H12.9648V17.4961H15.9336V27.043ZM14.4492 16.1953C13.4961 16.1953 12.7266 15.4258 12.7266 14.4766C12.7266 13.5273 13.4961 12.7578 14.4492 12.7578C15.3984 12.7578 16.168 13.5273 16.168 14.4766C16.168 15.4219 15.3984 16.1953 14.4492 16.1953ZM27.043 27.043H24.0781V22.4023C24.0781 21.2969 24.0586 19.8711 22.5352 19.8711C20.9922 19.8711 20.7578 21.0781 20.7578 22.3242V27.043H17.7969V17.4961H20.6406V18.8008H20.6797C21.0742 18.0508 22.043 17.2578 23.4844 17.2578C26.4883 17.2578 27.043 19.2344 27.043 21.8047V27.043Z"
+															fill="#1AFFE9"
+														/>
+													</g>
+													<defs>
+														<clipPath id="clip0_1_818">
+															<rect
+																width="20"
+																height="20"
+																fill="white"
+																transform="translate(10 10)"
+															/>
+														</clipPath>
+													</defs>
+												</svg>
+											</Link>
+										</div>
 									</div>
+									<div className="w-full bottom-0 left-0 absolute bg-gradient-to-t from-[#000e0f] to-transparent h-[40px]"></div>
 								</div>
-								<div className="w-full bottom-0 left-0 absolute bg-gradient-to-t from-[#000e0f] to-transparent h-[40px]"></div>
 							</div>
 							<div className="w-full h-[150px] border-t border-x rounded-t-3xl border-[#00393D] xl:flex items-center hidden">
 								<div className="w-1/3 h-full p-2 flex flex-col gap-3 items-center justify-center ">
@@ -637,11 +639,17 @@ const Footer = () => {
 					</div>
 					<div className="w-[97%] h-[70px] border-t px-2  border-[#00393D] flex justify-between items-center">
 						<div className="flex justify-center items-center gap-2">
-							<Link href={"#"} className="md:text-[14px] text-[10px] text-[#507C7C]">
+							<Link
+								href={"#"}
+								className="md:text-[14px] text-[10px] text-[#507C7C]"
+							>
 								Terms & Conditions
 							</Link>
 							<span className="text-[#507C7C]">|</span>
-							<Link href={"#"} className="md:text-[14px] text-[10px] text-[#507C7C]">
+							<Link
+								href={"#"}
+								className="md:text-[14px] text-[10px] text-[#507C7C]"
+							>
 								Privacy Policy
 							</Link>
 						</div>

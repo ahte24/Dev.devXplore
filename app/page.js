@@ -998,7 +998,7 @@ export default function Home() {
 				</div>
 				<div className="absolute bottom-0 left-0 w-full h-[350px]  bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 			</div>
-			<div className="w-full px-8 mt-20 flex">
+			<div className="w-full px-2 sm:px-8 mt-20 flex">
 				<div className="w-full min-h-[400px] relative  rounded-3xl overflow-hidden flex flex-col gap-36 2xl:flex-row 2xl:justify-center items-center">
 					<div className="2xl:w-[45%] px-8 min-h-[400px] justify-center flex flex-col gap-5 ">
 						<div className=" flex flex-col gap-8">
@@ -2786,14 +2786,14 @@ export default function Home() {
 					<div className="w-full gap-4 flex flex-col items-center">
 						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 							<div className="flex flex-col">
-								<h4 className="font-semibold text-[#CCFFFA] min-w-[250px] md:max-w-[600px]">
+								<h4 className="font-semibold text-[#CCFFFA] w-[85%]">
 									How long does it take to complete a web development project?
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
 										isHidden1
 											? "opacity-0 h-0 mt-0"
-											: "opacity-100 h-[60px] mt-5"
+											: "opacity-100 min-h-[60px] mt-5"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -2874,14 +2874,14 @@ export default function Home() {
 						</div>
 						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 							<div className="flex flex-col">
-								<h4 className="md:font-semibold text-[#CCFFFA] min-w-[250px] md:max-w-[600px]">
+								<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 									Can you handle large-scale mobile app development projects?
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
 										isHidden2
 											? "opacity-0 h-0 mt-0"
-											: "opacity-100 h-[60px] mt-5"
+											: "opacity-100 min-h-[60px] mt-5"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -2962,7 +2962,7 @@ export default function Home() {
 						</div>
 						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 							<div className="flex flex-col">
-								<h4 className="md:font-semibold text-[#CCFFFA] min-w-[250px] md:max-w-[600px]">
+								<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 									Do you offer maintenance services for websites and apps
 									developed by other companies?
 								</h4>
@@ -2970,7 +2970,7 @@ export default function Home() {
 									className={`text-[16px] text-[#507C7C] ${
 										isHidden3
 											? "opacity-0 mt-0 h-[0px]"
-											: "opacity-100 mt-5 h-[60px]"
+											: "opacity-100 mt-5 min-h-[60px]"
 									} transition-opacity duration-500`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -3051,13 +3051,13 @@ export default function Home() {
 						</div>
 						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 							<div className="flex flex-col">
-								<h4 className="md:font-semibold text-[#CCFFFA] min-w-[250px] md:max-w-[600px]">
+								<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 									How do you ensure the security of user data in your web
 									applications?
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
-										isHidden4 ? "opacity-0 h-0" : "mt-5 opacity-100 h-[60px]"
+										isHidden4 ? "opacity-0 h-0" : "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -3138,13 +3138,13 @@ export default function Home() {
 						</div>
 						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 							<div className="flex flex-col">
-								<h4 className="md:font-semibold text-[#CCFFFA] min-w-[250px] md:max-w-[600px]">
+								<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 									How do you ensure the security of user data in your web
 									applications?
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
-										isHidden5 ? "opacity-0 h-0" : "mt-5 opacity-100 h-[60px]"
+										isHidden5 ? "opacity-0 h-0" : "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -3227,14 +3227,14 @@ export default function Home() {
 					<div className="w-full gap-4 flex flex-col items-center">
 						<div className="max-w-[750px] min-h-[60px] p-5 border rounded-3xl relative gap-2 flex border-[#002629] transition-all items-center">
 							<div className="flex flex-col">
-								<h4 className="md:font-semibold text-[#CCFFFA] min-w-[250px] md:max-w-[600px]">
+								<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 									How long does it take to complete a web development project?
 								</h4>
 								<p
 									className={`text-[16px]  text-[#507C7C] ${
 										isHidden6
 											? "opacity-0 h-0 mt-0"
-											: "opacity-100 h-[60px] mt-5"
+											: "opacity-100 min-h-[60px] mt-5"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -3315,14 +3315,14 @@ export default function Home() {
 						</div>
 						<div className="max-w-[750px] min-h-[60px] p-5 border rounded-3xl relative gap-2 flex border-[#002629] transition-all items-center">
 							<div className="flex flex-col">
-								<h4 className="md:font-semibold text-[#CCFFFA] min-w-[250px] md:max-w-[600px]">
+								<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 									Can you handle large-scale mobile app development projects?
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
 										isHidden7
 											? "opacity-0 h-0 mt-0"
-											: "opacity-100 h-[60px] mt-5"
+											: "opacity-100 min-h-[60px] mt-5"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -3403,13 +3403,13 @@ export default function Home() {
 						</div>
 						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex border-[#002629] transition-all items-center">
 							<div className="flex flex-col">
-								<h4 className="md:font-semibold min-w-[250px] text-[#CCFFFA] md:max-w-[600px]">
+								<h4 className="md:font-semibold w-[85%] text-[#CCFFFA]">
 									How do you ensure the security of user data in your web
 									applications?
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
-										isHidden8 ? "opacity-0 h-0" : "mt-5 opacity-100 h-[60px]"
+										isHidden8 ? "opacity-0 h-0" : "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -3490,13 +3490,13 @@ export default function Home() {
 						</div>
 						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex border-[#002629] transition-all items-center">
 							<div className="flex flex-col">
-								<h4 className="md:font-semibold min-w-[250px] text-[#CCFFFA] md:max-w-[600px]">
+								<h4 className="md:font-semibold  text-[#CCFFFA] w-[85%]">
 									How do you ensure the security of user data in your web
 									applications?
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
-										isHidden9 ? "opacity-0 h-0" : "mt-5 opacity-100 h-[60px]"
+										isHidden9 ? "opacity-0 h-0" : "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -3577,7 +3577,7 @@ export default function Home() {
 						</div>
 						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex border-[#002629] transition-all items-center">
 							<div className="flex flex-col">
-								<h4 className="md:font-semibold min-w-[250px] text-[#CCFFFA] md:max-w-[600px]">
+								<h4 className="md:font-semibold w-[85%] text-[#CCFFFA] ">
 									Do you offer maintenance services for websites and apps
 									developed by other companies?
 								</h4>
@@ -3585,7 +3585,7 @@ export default function Home() {
 									className={`text-[16px] text-[#507C7C] ${
 										isHidden
 											? "opacity-0 mt-0 h-[0px]"
-											: "opacity-100 mt-5 h-[60px]"
+											: "opacity-100 mt-5 min-h-[60px]"
 									} transition-opacity duration-500`}
 								>
 									The timeline varies depending on the project s complexity and

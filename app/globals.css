@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+    background-image: url("../public/bg.svg");
+}
+
+.heroBg1 {
+    background-image: url("../public/herosecBG1.svg");
+}
+
+.heroBg2 {
+    background-image: url("../public/herosecBG2.svg");
+}
+
+.servicesBg {
+    background-image: url("../public/services.svg");
+}
+
+.showCaseBg {
+    background-image: url("../public/showCaseBG.svg");
+}
+
+.showCaseBg3 {
+    background-image: url("../public/3BG.svg");
+}
+
+.bulb{
+    background-image: url("../public/bulb.svg");
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 30px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #000e0f;
+    /* Use the theme color */
+    border-radius: 30px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444444;
+    /* Customize as per your need */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+
+    /* Customize as per your need */
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #c7faf5 #000e0f;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -18,8 +18,8 @@ const Navbar = () => {
 	};
 	return (
 		<>
-			<div className="z-30">
-				<nav className="h-[90px] w-full  flex justify-between items-center px-[20px] absolute">
+			<div className="md:static  sticky top-0 z-30">
+				<nav className="h-[90px] w-full  flex justify-between items-center px-[20px] absolute backdrop-filter md:backdrop-blur-none backdrop-blur-lg bg-opacity-30 bg-[#000e0f]">
 					<Link href={"/"} className="">
 						<Image src={Logo} alt="hello world" />
 					</Link>
@@ -75,23 +75,23 @@ const Navbar = () => {
 							</div>
 						</ul>
 					</div>
-						<button
-							className={`md:hidden absolute right-[40px]  top-[28px]  ${
-								isHidden ? "opacity-100 h-auto" : "opacity-0 h-0"
-							} transition-opacity duration-1000`}
-							onClick={toggleVisibility}
-						>
-							<Image width={30} height={30} src={hamburger} alt="" />
-						</button>
-						<button
-							className={`md:hidden absolute  right-[40px] top-[28px] z-20 ${
-								isHidden ? "opacity-0 h-0" : "opacity-100 h-auto"
-							} transition-opacity duration-1000`}
-							onClick={toggleVisibility}
-						>
-							<Image width={30} height={30} src={close} alt="" />
-						</button>
-					<div className="hidden">
+					<button
+						className={`md:hidden absolute right-[40px]  top-[28px]  ${
+							isHidden ? "opacity-100 h-auto" : "opacity-0 h-0"
+						} transition-opacity duration-1000`}
+						onClick={toggleVisibility}
+					>
+						<Image width={30} height={30} src={hamburger} alt="" />
+					</button>
+					<button
+						className={`md:hidden absolute  right-[40px] top-[28px] z-20 ${
+							isHidden ? "opacity-0 h-0" : "opacity-100 h-auto"
+						} transition-opacity duration-1000`}
+						onClick={toggleVisibility}
+					>
+						<Image width={30} height={30} src={close} alt="" />
+					</button>
+					<div className="md:block hidden">
 						<label className="themeSwitcherTwo relative inline-flex cursor-pointer select-none items-center">
 							<input
 								type="checkbox"
@@ -116,10 +116,10 @@ const Navbar = () => {
 				</nav>
 				<div
 					onClick={toggleVisibility}
-					className={`w-full left-0 bg-black transition-all border-b z-10 border-[#00393d] backdrop-filter backdrop-blur-md bg-opacity-20 absolute ${
+					className={`w-full left-0 bg-[#000e0f] transition-all border-b z-10 border-[#00393d] backdrop-filter backdrop-blur-lg bg-opacity-30 absolute ${
 						isHidden
 							? " transition-all  duration-1000 transform-y-full"
-							: "transition-all top-[0] duration-500 transform-y-0"
+							: "transition-all top-[70px] duration-500 transform-y-0"
 					} top-[-260px]`}
 				>
 					<div>
@@ -157,6 +157,7 @@ const Navbar = () => {
 							>
 								Contact Us
 							</Link>
+							
 						</ul>
 					</div>
 				</div>

@@ -69,7 +69,7 @@ const Navbar = () => {
 						</div>
 					</ul>
 				</div>
-				{/* <div className="">
+				<div className="hidden">
 					<label className="themeSwitcherTwo relative inline-flex cursor-pointer select-none items-center">
 						<input
 							type="checkbox"
@@ -90,7 +90,7 @@ const Navbar = () => {
 							></span>
 						</span>
 					</label>
-				</div> */}
+				</div>
 				
 			</nav>
 		</>

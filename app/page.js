@@ -181,26 +181,12 @@ export default function Home() {
 			title: "Marketing Director at SalesCorp",
 			image: profile,
 		},
-		{
-			quote:
-				"We have seen a significant increase in traffic and engagement since DigitX revamped our site. Their teams expertise is unmatched.",
-			name: "John Smith",
-			title: "Marketing Director at SalesCorp",
-			image: profile,
-		},
-		{
-			quote:
-				"We have seen a significant increase in traffic and engagement since DigitX revamped our site. Their teams expertise is unmatched.",
-			name: "John Smith",
-			title: "Marketing Director at SalesCorp",
-			image: profile,
-		},
 	];
 	return (
 		<div className="">
 			<div className="w-full bg 2xl:flex-row flex-col flex justify-center items-center sm:min-h-[600px] pt-[120px] relative">
-				<div className="2xl:w-1/2 h-full flex flex-col items-center justify-center">
-					<div className=" max-w-[657px] px-5  flex justify-center flex-col gap-[20px] h-[550px]">
+				<div className="2xl:w-1/2 w-full h-full flex flex-col items-center justify-center">
+					<div className=" w-[90%] md:w-[80%] 2xl:max-w-[657px] px-5  flex justify-center flex-col gap-[20px] h-[550px]">
 						<h4 className="text-[16px] text-[#507C7C]">
 							Innovate. Elevate. Captivate
 						</h4>
@@ -227,7 +213,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="2xl:w-1/2 h-full hidden md:flex justify-center items-end ">
-					<div className="max-w-[657px] h-[520px] heroBg2 heroBg1 rounded-3xl flex border border-x-[#00393D] border-t-[#00393D] border-b-[#040d0e] relative overflow-hidden bg-gradient-to-b from-[#00393D] to-slate-950">
+					<div className="w-[657px] h-[520px] heroBg2 heroBg1 rounded-3xl flex border border-x-[#00393D] border-t-[#00393D] border-b-[#040d0e] relative overflow-hidden bg-gradient-to-b from-[#00393D] to-slate-950">
 						<div className="w-1/2 h-full rounded-l-3xl overflow-hidden">
 							<svg
 								width="328"
@@ -820,7 +806,9 @@ export default function Home() {
 												</span>
 											</div>
 											<div className=" h-full flex items-center justify-center text-[#649B9B]">
-												<span className="text-[12px] sm:text-[14px]">View Projects</span>
+												<span className="text-[12px] sm:text-[14px]">
+													View Projects
+												</span>
 											</div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
@@ -865,7 +853,9 @@ export default function Home() {
 												</span>
 											</div>
 											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-												<span className="text-[12px] sm:text-[14px]">View Projects</span>
+												<span className="text-[12px] sm:text-[14px]">
+													View Projects
+												</span>
 											</div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
@@ -912,7 +902,9 @@ export default function Home() {
 												</span>
 											</div>
 											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-												<span className="text-[12px] sm:text-[14px]">View Projects</span>
+												<span className="text-[12px] sm:text-[14px]">
+													View Projects
+												</span>
 											</div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
@@ -957,7 +949,9 @@ export default function Home() {
 												</span>
 											</div>
 											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-												<span className="text-[12px] sm:text-[14px]">View Projects</span>
+												<span className="text-[12px] sm:text-[14px]">
+													View Projects
+												</span>
 											</div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
@@ -998,8 +992,8 @@ export default function Home() {
 				</div>
 				<div className="absolute bottom-0 left-0 w-full h-[350px]  bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 			</div>
-			<div className="w-full px-2 sm:px-8 mt-20 flex">
-				<div className="w-full min-h-[400px] relative  rounded-3xl overflow-hidden flex flex-col gap-36 2xl:flex-row 2xl:justify-center items-center">
+			<div className="w-full px-2 sm:px-2 mt-20 flex">
+				<div className="w-full min-h-[400px] relative  rounded-3xl overflow-hidden flex flex-col gap- 2xl:flex-row 2xl:justify-center items-center">
 					<div className="2xl:w-[45%] px-8 min-h-[400px] justify-center flex flex-col gap-5 ">
 						<div className=" flex flex-col gap-8">
 							<h1 className="sm:text-[38px] text-[28px] text-[#E5FFFD]">
@@ -1032,8 +1026,8 @@ export default function Home() {
 							src={showCase}
 							alt=""
 						/>
-						<div className="w-[859px] h-[150px] flex justify-between items-center absolute top-[20px]">
-							<div className="flex flex-col gap-4 h-full p-3 border-[#00393D] border rounded-3xl w-[400px] backdrop-filter backdrop-blur-md opacity-65 bg-gradient-to-tl from-[#001a1b] to-[#00171A] ">
+						<div className="w-[750px] h-[150px] flex justify-between items-center absolute top-[20px]">
+							<div className="flex flex-col gap-4 h-full p-3 border-[#00393D] border rounded-3xl w-[350px] backdrop-filter backdrop-blur-md opacity-65 bg-gradient-to-tl from-[#001a1b] to-[#00171A] ">
 								<div className="flex items-center gap-2">
 									<svg
 										width="50"
@@ -1281,7 +1275,7 @@ export default function Home() {
 								</p>
 								<div></div>
 							</div>
-							<div className="flex flex-col gap-4 h-full p-3 border-[#00393D] border rounded-3xl w-[400px] backdrop-filter backdrop-blur-md opacity-65 bg-gradient-to-tl from-[#001a1b] to-[#00171A] ">
+							<div className="flex flex-col gap-4 h-full p-3 border-[#00393D] border rounded-3xl w-[350px] backdrop-filter backdrop-blur-md opacity-65 bg-gradient-to-tl from-[#001a1b] to-[#00171A] ">
 								<div className="flex items-center gap-2">
 									<svg
 										width="50"
@@ -1544,8 +1538,8 @@ export default function Home() {
 								<div></div>
 							</div>
 						</div>
-						<div className="w-[859px] h-[150px] flex justify-between items-center absolute bottom-[42px]">
-							<div className="flex flex-col gap-4 h-full p-3 border-[#00393D] border rounded-3xl w-[400px] backdrop-filter backdrop-blur-md opacity-65 bg-gradient-to-tl from-[#001a1b] to-[#00171A] ">
+						<div className="w-[750px] h-[150px] flex justify-between items-center absolute bottom-[42px]">
+							<div className="flex flex-col gap-4 h-full p-3 border-[#00393D] border rounded-3xl w-[350px] backdrop-filter backdrop-blur-md opacity-65 bg-gradient-to-tl from-[#001a1b] to-[#00171A] ">
 								<div className="flex items-center gap-2">
 									<svg
 										width="50"
@@ -1792,7 +1786,7 @@ export default function Home() {
 									your ideas, challenges.
 								</p>
 							</div>
-							<div className="flex flex-col gap-4 h-full p-3 border-[#00393D] border rounded-3xl w-[400px] backdrop-filter backdrop-blur-md opacity-65 bg-gradient-to-tl from-[#001a1b] to-[#00171A] ">
+							<div className="flex flex-col gap-4 h-full p-3 border-[#00393D] border rounded-3xl w-[350px] backdrop-filter backdrop-blur-md opacity-65 bg-gradient-to-tl from-[#001a1b] to-[#00171A] ">
 								<div className="flex items-center gap-2">
 									<svg
 										width="50"
@@ -2606,7 +2600,7 @@ export default function Home() {
 					<div className="absolute bottom-0 left-0 w-full h-[350px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>{" "}
 				</div>
 			</div>
-			<div className="mt-20 px-8 w-full relative">
+			<div className="mt-20 px-2 sm:px-8 w-full relative">
 				<div className="w-full min-h-[400px] flex flex-col gap-5 py-8">
 					<div className="w-full mx-auto flex flex-col items-center gap-5">
 						<h1 className="sm:text-[38px] text-[28px] text-[#E5FFFD] text-center">
@@ -2630,9 +2624,9 @@ export default function Home() {
 								{testimonials.map((testimonial, index) => (
 									<div
 										key={index}
-										className="h-full sm:w-[330px] flex-shrink-0"
+										className="h-full  sm:w-[330px] flex-shrink-0"
 									>
-										<div className="flex flex-col justify-between gap-4 w-[330px] transition-all duration-200 min--h-[200px] border border-[#00393D] rounded-2xl p-5 hover:bg-gradient-to-b from-[#00393d9a] to-transparent">
+										<div className="flex flex-col justify-between gap-4 w-[330px] transition-all duration-200 h-[220px] sm:h-fit border border-[#00393D] rounded-2xl p-5 hover:bg-gradient-to-b from-[#00393d9a] to-transparent">
 											<div className="w-full h-[70px] flex items-center gap-3">
 												<Image
 													className="rounded-[50%] w-12 h-12 object-cover"
@@ -2650,7 +2644,7 @@ export default function Home() {
 													</span>
 												</div>
 											</div>
-											<p className="md:text-[14px] text-[12px] text-[#649B9B] h-[130px]">
+											<p className="md:text-[14px] text-[12px] text-[#649B9B] h-fit">
 												{testimonial.quote}
 											</p>
 											<div className="h-[30px] flex gap-2 items-center">
@@ -3057,7 +3051,9 @@ export default function Home() {
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
-										isHidden4 ? "opacity-0 h-0" : "mt-5 opacity-100 min-h-[60px]"
+										isHidden4
+											? "opacity-0 h-0"
+											: "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -3144,7 +3140,9 @@ export default function Home() {
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
-										isHidden5 ? "opacity-0 h-0" : "mt-5 opacity-100 min-h-[60px]"
+										isHidden5
+											? "opacity-0 h-0"
+											: "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -3409,7 +3407,9 @@ export default function Home() {
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
-										isHidden8 ? "opacity-0 h-0" : "mt-5 opacity-100 min-h-[60px]"
+										isHidden8
+											? "opacity-0 h-0"
+											: "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and
@@ -3496,7 +3496,9 @@ export default function Home() {
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
-										isHidden9 ? "opacity-0 h-0" : "mt-5 opacity-100 min-h-[60px]"
+										isHidden9
+											? "opacity-0 h-0"
+: "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and

@@ -94,7 +94,7 @@ const Footer = () => {
 						<div className="xl:w-[40%] w-[29%] text-5xl h-full justify-center items-center hidden xl:flex">
 							LOGO
 						</div>
-						<div className="xl:w-[60%] w-full h-full flex gap-2 py-4 flex-col md:flex-row xl:flex-col items-center justify-between xl:justify-between xl:pl-10">
+						<div className="xl:w-[60%] w-full h-full flex gap-2 pt-4 flex-col md:flex-row xl:flex-col  items-center justify-between xl:justify-end xl:pl-10">
 							<div className="w-full h-[300px] 2xl:flex justify-between gap-5 items-center  hidden">
 								<div className="w-1/3 h-full p-4 items-center flex flex-col ">
 									<div className="w-[70%] flex flex-col gap-4">

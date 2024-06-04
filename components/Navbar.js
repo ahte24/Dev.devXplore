@@ -19,8 +19,8 @@ const Navbar = () => {
 	return (
 		<>
 			<div className="sticky top-0 z-30">
-				<nav className="h-[90px] w-full  flex justify-between items-center px-16 absolute z-20">
-					<Link href={"/"}>
+				<nav className="h-[90px] w-full  flex justify-between items-center px-[20px] absolute">
+					<Link href={"/"} className="">
 						<Image src={Logo} alt="hello world" />
 					</Link>
 					<div className="max-w-[500px] h-[60px] px-2 md:flex justify-center items-center bg-[#000e0f] border border-[#00393d] rounded-full hidden">
@@ -76,7 +76,7 @@ const Navbar = () => {
 						</ul>
 					</div>
 						<button
-							className={`md:hidden absolute right-[40px]  top-[16px] ${
+							className={`md:hidden absolute right-[40px]  top-[28px]  ${
 								isHidden ? "opacity-100 h-auto" : "opacity-0 h-0"
 							} transition-opacity duration-1000`}
 							onClick={toggleVisibility}
@@ -84,7 +84,7 @@ const Navbar = () => {
 							<Image width={30} height={30} src={hamburger} alt="" />
 						</button>
 						<button
-							className={`md:hidden absolute  right-[40px] top-[16px] z-50  ${
+							className={`md:hidden absolute  right-[40px] top-[28px] z-20 ${
 								isHidden ? "opacity-0 h-0" : "opacity-100 h-auto"
 							} transition-opacity duration-1000`}
 							onClick={toggleVisibility}

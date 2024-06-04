@@ -18,7 +18,7 @@ const Navbar = () => {
 	};
 	return (
 		<>
-			<div className="sticky top-0 z-30">
+			<div className="z-30">
 				<nav className="h-[90px] w-full  flex justify-between items-center px-[20px] absolute">
 					<Link href={"/"} className="">
 						<Image src={Logo} alt="hello world" />

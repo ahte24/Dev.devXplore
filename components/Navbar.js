@@ -19,7 +19,7 @@ const Navbar = () => {
 	return (
 		<>
 			<div className="md:static  sticky top-0 z-30">
-				<nav className="h-[90px] w-full  flex justify-between items-center px-[20px] absolute backdrop-filter md:backdrop-blur-none backdrop-blur-lg bg-opacity-30 bg-[#000e0f]">
+				<nav className="h-[90px] w-full  flex justify-between items-center px-[20px] absolute backdrop-filter md:backdrop-blur-none backdrop-blur-lg bg-opacity-30 z-30 bg-[#000e0f]">
 					<Link href={"/"} className="">
 						<Image src={Logo} alt="hello world" />
 					</Link>

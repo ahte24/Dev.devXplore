@@ -182,6 +182,7 @@ export default function Home() {
 			image: profile,
 		},
 	];
+
 	return (
 		<div className="">
 			<div className="w-full bg 2xl:flex-row flex-col flex justify-center items-center sm:min-h-[600px] pt-[120px] relative">
@@ -350,11 +351,273 @@ export default function Home() {
 										Tools we Use For Designing
 									</span>
 									<div className="w-full h-[60%]">
-										<div className="w-[50%] mx-auto h-full rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
-											<Image src={Adobe} width={51} height={50} alt="" />
-											<Image src={Figma} width={51} height={50} alt="" />
-											<Image src={Diamond} width={51} height={50} alt="" />
-											<Image src={In} width={51} height={50} alt="" />
+										<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
+											<Image src={Adobe} width={45} height={45} alt="" />
+											<Image src={Figma} width={45} height={45} alt="" />
+											<Image src={Diamond} width={45} height={45} alt="" />
+											<Image src={In} width={45} height={45} alt="" />
+										</div>
+									</div>
+								</div>
+								<div className="w-full h-full relative">
+									<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
+										<Image width={57} height={57} src={webApp} alt="" />
+										<span className="text-[14px]">Web Design</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+									<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
+										<Image width={57} height={57} src={Graphic} alt="" />
+										<span className="text-[14px]">Graphic Design</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+									<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
+										<Image width={57} height={57} src={uX} alt="" />
+										<span className="text-[14px]">UX Design</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+									<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
+										<Image width={57} height={57} src={landingPage} alt="" />
+										<span className="text-[14px]">Landing Page</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+									<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
+										<Image width={57} height={57} src={uiDesign} alt="s" />
+										<span className="text-[14px]">UI Design</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+									<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
+										<Image width={57} height={57} src={Mobile} alt="" />
+										<span className="text-[14px]">Hero Secrion</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div className="w-full flex flex-col justify-center h-[80%] z-20 md:hidden">
+								<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
+									<span className="text-[12px] text-[#A2C3C3]">
+										Tools we Use For Designing
+									</span>
+									<div className="w-full h-[60%]">
+										<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
+											<Image src={Adobe} width={45} height={45} alt="" />
+											<Image src={Figma} width={45} height={45} alt="" />
+											<Image src={Diamond} width={45} height={45} alt="" />
+											<Image src={In} width={45} height={45} alt="" />
+										</div>
+									</div>
+								</div>
+								<div className="w-full h-full relative">
+									<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
+										<Image width={57} height={57} src={webApp} alt="" />
+										<span className="text-[14px]">Web Design</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+									<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
+										<Image width={57} height={57} src={Graphic} alt="" />
+										<span className="text-[14px]">Graphic Design</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+									<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
+										<Image width={57} height={57} src={uX} alt="" />
+										<span className="text-[14px]">UX Design</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+									<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
+										<Image width={57} height={57} src={landingPage} alt="" />
+										<span className="text-[14px]">Landing Page</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+									<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
+										<Image width={57} height={57} src={uiDesign} alt="s" />
+										<span className="text-[14px]">UI Design</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+									<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
+										<Image width={57} height={57} src={Mobile} alt="" />
+										<span className="text-[14px]">Hero Secrion</span>
+										<svg
+											width="20"
+											height="21"
+											viewBox="0 0 20 21"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+												stroke="#1AFFE9"
+												stroke-width="1.5"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div className="w-full flex flex-col justify-center h-[80%] z-20 md:hidden">
+								<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
+									<span className="text-[12px] text-[#A2C3C3]">
+										Tools we Use For Designing
+									</span>
+									<div className="w-full h-[60%]">
+										<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
+											<Image src={Adobe} width={45} height={45} alt="" />
+											<Image src={Figma} width={45} height={45} alt="" />
+											<Image src={Diamond} width={45} height={45} alt="" />
+											<Image src={In} width={45} height={45} alt="" />
 										</div>
 									</div>
 								</div>
@@ -3498,7 +3761,7 @@ export default function Home() {
 									className={`text-[16px] text-[#507C7C] ${
 										isHidden9
 											? "opacity-0 h-0"
-: "mt-5 opacity-100 min-h-[60px]"
+											: "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
 									The timeline varies depending on the project s complexity and

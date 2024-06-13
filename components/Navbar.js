@@ -106,8 +106,8 @@ const Navbar = () => {
 								}`}
 							>
 								<span
-									className={`dot h-6 w-6 rounded-full bg-white duration-200 ${
-										isChecked ? "translate-x-[28px]" : "bg-[#003a3f]"
+									className={`dot h-6 w-6 rounded-full  duration-200 ${
+										isChecked ? "translate-x-[28px] bg-[#003a3f] " : " bg-[#f6ffff]"
 									}`}
 								></span>
 							</span>
@@ -157,7 +157,6 @@ const Navbar = () => {
 							>
 								Contact Us
 							</Link>
-							
 						</ul>
 					</div>
 				</div>

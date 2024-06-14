@@ -23,6 +23,16 @@ import profile from "@/public/image4.png";
 import { useState } from "react";
 
 export default function Home() {
+	const [currentVisibleIndex, setCurrentVisibleIndex] = useState(0); // Initially no div visible
+
+	const toggleVisibilitym = (index) => {
+		if (currentVisibleIndex === index) {
+			setCurrentVisibleIndex(null); // Hide if the same button is clicked again
+		} else {
+			setCurrentVisibleIndex(index); // Show the respective div
+		}
+	};
+
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const itemsToShow = 1;
 	const itemWidth = 345;
@@ -85,84 +95,56 @@ export default function Home() {
 	const testimonials = [
 		{
 			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
+				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
 			name: "Mark Roberts",
 			title: "Founder of GreenEarth Eco Store",
 			image: profile,
 		},
 		{
 			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
+				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
 			name: "Mark Roberts",
 			title: "Founder of GreenEarth Eco Store",
 			image: profile,
 		},
 		{
 			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
+				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
 			name: "Mark Roberts",
 			title: "Founder of GreenEarth Eco Store",
 			image: profile,
 		},
 		{
 			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
+				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
 			name: "Mark Roberts",
 			title: "Founder of GreenEarth Eco Store",
 			image: profile,
 		},
 		{
 			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
+				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
 			name: "Mark Roberts",
 			title: "Founder of GreenEarth Eco Store",
 			image: profile,
 		},
 		{
 			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
+				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
 			name: "Mark Roberts",
 			title: "Founder of GreenEarth Eco Store",
 			image: profile,
 		},
 		{
 			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
+				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
 			name: "Mark Roberts",
 			title: "Founder of GreenEarth Eco Store",
 			image: profile,
 		},
 		{
 			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
-			image: profile,
-		},
-		{
-			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
-			image: profile,
-		},
-		{
-			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
-			image: profile,
-		},
-		{
-			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
-			image: profile,
-		},
-		{
-			quote:
-				"Working with DigitX was a pleasure. Their web design team created a stunning website that perfectly captured our brand essence. The feedback from our customers has been overwhelmingly positive.",
+				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
 			name: "Mark Roberts",
 			title: "Founder of GreenEarth Eco Store",
 			image: profile,
@@ -185,7 +167,10 @@ export default function Home() {
 
 	return (
 		<div className="">
-			<div className="w-full bg 2xl:flex-row flex-col flex justify-center items-center sm:min-h-[600px] pt-[120px] relative">
+			<div
+				id="section1"
+				className="w-full bg 2xl:flex-row flex-col flex justify-center items-center sm:min-h-[600px] pt-[120px] relative"
+			>
 				<div className="2xl:w-1/2 w-full h-full flex flex-col items-center justify-center">
 					<div className=" w-[90%] md:w-[80%] 2xl:max-w-[657px] px-5  flex justify-center flex-col gap-[20px] h-[550px]">
 						<h4 className="text-[16px] text-[#507C7C]">
@@ -296,11 +281,13 @@ export default function Home() {
 						<div className="absolute h-full w-full backdrop-blur-lg opacity-40 flex flex-col"></div>
 						<div className="absolute h-full w-full  flex flex-col p-5 ">
 							<div className="w-full flex justify-center h-[20%] text-white gap-5 items-center">
-								<div className="text-[#507C7C] hover:text-[#99FFF5] transition-all flex flex-col items-center justify-center gap-2 w-[110px]">
+								<button
+									className="text-[#507C7C] hover:text-[#99FFF5] transition-all flex flex-col items-center justify-center gap-2 w-[110px]"
+									onClick={() => toggleVisibilitym(0)}
+								>
 									<span className="text-[14px]">Design</span>
 									<div className="h-4 w-full flex flex-col justify-center items-center gap-2">
 										<svg
-											// className="hidden"
 											width="2"
 											height="2"
 											viewBox="0 0 2 2"
@@ -311,12 +298,14 @@ export default function Home() {
 										</svg>
 										<div className="h-[2px] w-full bg-gradient-to-r from-transparent via-custom-dark to-transparent"></div>
 									</div>
-								</div>
-								<div className="text-[#507C7C]  hover:text-[#99FFF5] transition-all flex flex-col items-center justify-center gap-2 w-[110px]">
+								</button>
+								<button
+									className="text-[#507C7C] hover:text-[#99FFF5] transition-all flex flex-col items-center justify-center gap-2 w-[110px]"
+									onClick={() => toggleVisibilitym(1)}
+								>
 									<span className="text-[14px]">Development</span>
 									<div className="h-4 w-full flex flex-col justify-center items-center gap-2">
 										<svg
-											className="hidden"
 											width="2"
 											height="2"
 											viewBox="0 0 2 2"
@@ -325,14 +314,16 @@ export default function Home() {
 										>
 											<circle cx="1" cy="1" r="1" fill="#1AFFE9" />
 										</svg>
-										<div className="h-[2px] w-full bg-gradient-to-r from-transparent via-custom-dark to-transparent hidden"></div>
+										<div className="h-[2px] w-full bg-gradient-to-r from-transparent via-custom-dark to-transparent"></div>
 									</div>
-								</div>
-								<div className="text-[#507C7C] hover:text-[#99FFF5] transition-all flex flex-col items-center justify-center gap-2 w-[110px]">
+								</button>
+								<button
+									className="text-[#507C7C] hover:text-[#99FFF5] transition-all flex flex-col items-center justify-center gap-2 w-[110px]"
+									onClick={() => toggleVisibilitym(2)}
+								>
 									<span className="text-[14px]">Management</span>
-									<div className="h-4 w-full flex flex-col justify-center items-center gap-2 ">
+									<div className="h-4 w-full flex flex-col justify-center items-center gap-2">
 										<svg
-											className="hidden"
 											width="2"
 											height="2"
 											viewBox="0 0 2 2"
@@ -341,413 +332,418 @@ export default function Home() {
 										>
 											<circle cx="1" cy="1" r="1" fill="#1AFFE9" />
 										</svg>
-										<div className="h-[2px] w-full bg-gradient-to-r from-transparent via-custom-dark to-transparent hidden"></div>
+										<div className="h-[2px] w-full bg-gradient-to-r from-transparent via-custom-dark to-transparent"></div>
 									</div>
-								</div>
+								</button>
 							</div>
-							<div className="w-full flex flex-col justify-center h-[80%] z-20">
-								<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
-									<span className="text-[12px] text-[#A2C3C3]">
-										Tools we Use For Designing
-									</span>
-									<div className="w-full h-[60%]">
-										<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
-											<Image src={Adobe} width={45} height={45} alt="" />
-											<Image src={Figma} width={45} height={45} alt="" />
-											<Image src={Diamond} width={45} height={45} alt="" />
-											<Image src={In} width={45} height={45} alt="" />
+							{currentVisibleIndex === 0 && (
+								<div className="w-full flex flex-col justify-center h-[80%] z-20">
+									<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
+										<span className="text-[12px] text-[#A2C3C3]">
+											Tools we Use For Designing
+										</span>
+										<div className="w-full h-[60%]">
+											<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
+												<Image src={Adobe} width={45} height={45} alt="" />
+												<Image src={Figma} width={45} height={45} alt="" />
+												<Image src={Diamond} width={45} height={45} alt="" />
+												<Image src={In} width={45} height={45} alt="" />
+											</div>
+										</div>
+									</div>
+									<div className="w-full h-full relative">
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
+											<Image width={57} height={57} src={webApp} alt="" />
+											<span className="text-[14px]">Web Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
+											<Image width={57} height={57} src={Graphic} alt="" />
+											<span className="text-[14px]">Graphic Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
+											<Image width={57} height={57} src={uX} alt="" />
+											<span className="text-[14px]">UX Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
+											<Image width={57} height={57} src={landingPage} alt="" />
+											<span className="text-[14px]">Landing Page</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
+											<Image width={57} height={57} src={uiDesign} alt="s" />
+											<span className="text-[14px]">UI Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
+											<Image width={57} height={57} src={Mobile} alt="" />
+											<span className="text-[14px]">Hero Secrion</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
 										</div>
 									</div>
 								</div>
-								<div className="w-full h-full relative">
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
-										<Image width={57} height={57} src={webApp} alt="" />
-										<span className="text-[14px]">Web Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
+							)}
+							{currentVisibleIndex === 1 && (
+								<div className="w-full flex flex-col justify-center h-[80%] z-20 ">
+									<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
+										<span className="text-[12px] text-[#A2C3C3]">
+											Tools we Use For Development
+										</span>
+										<div className="w-full h-[60%]">
+											<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
+												<Image src={Adobe} width={45} height={45} alt="" />
+												<Image src={Figma} width={45} height={45} alt="" />
+												<Image src={Diamond} width={45} height={45} alt="" />
+												<Image src={In} width={45} height={45} alt="" />
+											</div>
+										</div>
 									</div>
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
-										<Image width={57} height={57} src={Graphic} alt="" />
-										<span className="text-[14px]">Graphic Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
-										<Image width={57} height={57} src={uX} alt="" />
-										<span className="text-[14px]">UX Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
-										<Image width={57} height={57} src={landingPage} alt="" />
-										<span className="text-[14px]">Landing Page</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
-										<Image width={57} height={57} src={uiDesign} alt="s" />
-										<span className="text-[14px]">UI Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
-										<Image width={57} height={57} src={Mobile} alt="" />
-										<span className="text-[14px]">Hero Secrion</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-								</div>
-							</div>
-							<div className="w-full flex flex-col justify-center h-[80%] z-20 md:hidden">
-								<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
-									<span className="text-[12px] text-[#A2C3C3]">
-										Tools we Use For Designing
-									</span>
-									<div className="w-full h-[60%]">
-										<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
-											<Image src={Adobe} width={45} height={45} alt="" />
-											<Image src={Figma} width={45} height={45} alt="" />
-											<Image src={Diamond} width={45} height={45} alt="" />
-											<Image src={In} width={45} height={45} alt="" />
+									<div className="w-full h-full relative">
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
+											<Image width={57} height={57} src={webApp} alt="" />
+											<span className="text-[14px]">Web Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
+											<Image width={57} height={57} src={Graphic} alt="" />
+											<span className="text-[14px]">Graphic Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
+											<Image width={57} height={57} src={uX} alt="" />
+											<span className="text-[14px]">UX Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
+											<Image width={57} height={57} src={landingPage} alt="" />
+											<span className="text-[14px]">Landing Page</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
+											<Image width={57} height={57} src={uiDesign} alt="s" />
+											<span className="text-[14px]">UI Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
+											<Image width={57} height={57} src={Mobile} alt="" />
+											<span className="text-[14px]">Hero Secrion</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
 										</div>
 									</div>
 								</div>
-								<div className="w-full h-full relative">
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
-										<Image width={57} height={57} src={webApp} alt="" />
-										<span className="text-[14px]">Web Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
+							)}
+							{currentVisibleIndex === 2 && (
+								<div className="w-full flex flex-col justify-center h-[80%] z-20 ">
+									<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
+										<span className="text-[12px] text-[#A2C3C3]">
+											Tools we Use For Management
+										</span>
+										<div className="w-full h-[60%]">
+											<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
+												<Image src={Adobe} width={45} height={45} alt="" />
+												<Image src={Figma} width={45} height={45} alt="" />
+												<Image src={Diamond} width={45} height={45} alt="" />
+												<Image src={In} width={45} height={45} alt="" />
+											</div>
+										</div>
 									</div>
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
-										<Image width={57} height={57} src={Graphic} alt="" />
-										<span className="text-[14px]">Graphic Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
-										<Image width={57} height={57} src={uX} alt="" />
-										<span className="text-[14px]">UX Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
-										<Image width={57} height={57} src={landingPage} alt="" />
-										<span className="text-[14px]">Landing Page</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
-										<Image width={57} height={57} src={uiDesign} alt="s" />
-										<span className="text-[14px]">UI Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
-										<Image width={57} height={57} src={Mobile} alt="" />
-										<span className="text-[14px]">Hero Secrion</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-								</div>
-							</div>
-							<div className="w-full flex flex-col justify-center h-[80%] z-20 md:hidden">
-								<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
-									<span className="text-[12px] text-[#A2C3C3]">
-										Tools we Use For Designing
-									</span>
-									<div className="w-full h-[60%]">
-										<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
-											<Image src={Adobe} width={45} height={45} alt="" />
-											<Image src={Figma} width={45} height={45} alt="" />
-											<Image src={Diamond} width={45} height={45} alt="" />
-											<Image src={In} width={45} height={45} alt="" />
+									<div className="w-full h-full relative">
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
+											<Image width={57} height={57} src={webApp} alt="" />
+											<span className="text-[14px]">Web Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
+											<Image width={57} height={57} src={Graphic} alt="" />
+											<span className="text-[14px]">Graphic Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
+											<Image width={57} height={57} src={uX} alt="" />
+											<span className="text-[14px]">UX Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
+											<Image width={57} height={57} src={landingPage} alt="" />
+											<span className="text-[14px]">Landing Page</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
+											<Image width={57} height={57} src={uiDesign} alt="s" />
+											<span className="text-[14px]">UI Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
+											<Image width={57} height={57} src={Mobile} alt="" />
+											<span className="text-[14px]">Hero Secrion</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
 										</div>
 									</div>
 								</div>
-								<div className="w-full h-full relative">
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
-										<Image width={57} height={57} src={webApp} alt="" />
-										<span className="text-[14px]">Web Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
-										<Image width={57} height={57} src={Graphic} alt="" />
-										<span className="text-[14px]">Graphic Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
-										<Image width={57} height={57} src={uX} alt="" />
-										<span className="text-[14px]">UX Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
-										<Image width={57} height={57} src={landingPage} alt="" />
-										<span className="text-[14px]">Landing Page</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
-										<Image width={57} height={57} src={uiDesign} alt="s" />
-										<span className="text-[14px]">UI Design</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-									<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
-										<Image width={57} height={57} src={Mobile} alt="" />
-										<span className="text-[14px]">Hero Secrion</span>
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-												stroke="#1AFFE9"
-												stroke-width="1.5"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</div>
-								</div>
-							</div>
+							)}
 						</div>
 					</div>
 				</div>
 				<div className="absolute bottom-0 w-full h-[250px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 			</div>
-			<div className="w-full mt-20 min-h-[180px] gap-4  flex flex-col justify-center px-2 md:px-8">
+			<div  className="w-full mt-20 min-h-[180px] gap-4  flex flex-col justify-center px-2 md:px-8">
 				<h4 className="text-center text-[16px] text-[#C1D7D7] my-4">
 					Our Custombers
 				</h4>
-
 				<div className="flex items-center lg:flex-row flex-col min-h-[90px] justify-center  md:gap-4 gap-2">
 					<div className="flex justify-center w-full lg:w-1/2 items-center gap-4 relative">
 						<div className="w-1/3 border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
@@ -953,7 +949,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="w-full md:px-8 px-2 mt-20 relative">
+			<div id="section2" className="w-full md:px-8 px-2 mt-20 relative">
 				<div className="relative rounded-3xl max-w-full overflow-hidden border-[#002629] border sm:p-[16px] border-b-[#000e0f] flex justify-center">
 					<div className="w-full sm:block hidden bg-[#011212] h-[16px] overflow-hidden absolute top-0">
 						<svg
@@ -1255,7 +1251,7 @@ export default function Home() {
 				</div>
 				<div className="absolute bottom-0 left-0 w-full h-[350px]  bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 			</div>
-			<div className="w-full px-2 sm:px-2 mt-20 flex">
+			<div  className="w-full px-2 sm:px-2 mt-20 flex">
 				<div className="w-full min-h-[400px] relative  rounded-3xl overflow-hidden flex flex-col gap- 2xl:flex-row 2xl:justify-center items-center">
 					<div className="2xl:w-[45%] px-8 min-h-[400px] justify-center flex flex-col gap-5 ">
 						<div className=" flex flex-col gap-8">
@@ -2314,7 +2310,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="mt-20 md:px-8 p-2 w-full relative">
+			<div id="section3" className="mt-20 md:px-8 p-2 w-full relative">
 				<div className="w-full flex flex-col gap-10 bg showCaseBg3">
 					<div className="w-[90%] mx-auto flex flex-col gap-4">
 						<h3 className="text-center sm:text-[38px] text-[28px] text-[#E5FFFD]">
@@ -2863,7 +2859,7 @@ export default function Home() {
 					<div className="absolute bottom-0 left-0 w-full h-[350px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>{" "}
 				</div>
 			</div>
-			<div className="mt-20 px-2 sm:px-8 w-full relative">
+			<div  className="mt-20 px-2 sm:px-8 w-full relative">
 				<div className="w-full min-h-[400px] flex flex-col gap-5 py-8">
 					<div className="w-full mx-auto flex flex-col items-center gap-5">
 						<h1 className="sm:text-[38px] text-[28px] text-[#E5FFFD] text-center">
@@ -3485,454 +3481,9 @@ export default function Home() {
 							</button>
 						</div>
 					</div>
-					<div className="w-full gap-4 flex flex-col items-center">
-						<div className="max-w-[750px] min-h-[60px] p-5 border rounded-3xl relative gap-2 flex border-[#002629] transition-all items-center">
-							<div className="flex flex-col">
-								<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
-									How long does it take to complete a web development project?
-								</h4>
-								<p
-									className={`text-[16px]  text-[#507C7C] ${
-										isHidden6
-											? "opacity-0 h-0 mt-0"
-											: "opacity-100 min-h-[60px] mt-5"
-									} transition-opacity duration-1000`}
-								>
-									The timeline varies depending on the project s complexity and
-									requirements. Our team strives to deliver projects on time
-									while maintaining the highest quality standards.
-								</p>
-							</div>
-							<button
-								onClick={toggleVisibility6}
-								className={`hide absolute top-[15px] right-5  ${
-									isHidden6 ? "opacity-0 h-0" : "opacity-100 h-auto"
-								} transition-opacity duration-1000`}
-							>
-								<svg
-									width="36"
-									height="36"
-									viewBox="0 0 40 40"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										fill="#00171A"
-									/>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										stroke="#00393D"
-									/>
-									<path
-										d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
-										fill="#1AFFE9"
-									/>
-								</svg>
-							</button>
-							<button
-								onClick={toggleVisibility6}
-								className={`Show absolute top-[15px] right-5 ${
-									isHidden6 ? "opacity-100 h-auto" : "opacity-0 h-0"
-								} transition-opacity duration-1000`}
-							>
-								<svg
-									width="36"
-									height="36"
-									viewBox="0 0 40 40"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										fill="#00171A"
-									/>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										stroke="#00393D"
-									/>
-									<path
-										d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
-										fill="#1AFFE9"
-									/>
-								</svg>
-							</button>
-						</div>
-						<div className="max-w-[750px] min-h-[60px] p-5 border rounded-3xl relative gap-2 flex border-[#002629] transition-all items-center">
-							<div className="flex flex-col">
-								<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
-									Can you handle large-scale mobile app development projects?
-								</h4>
-								<p
-									className={`text-[16px] text-[#507C7C] ${
-										isHidden7
-											? "opacity-0 h-0 mt-0"
-											: "opacity-100 min-h-[60px] mt-5"
-									} transition-opacity duration-1000`}
-								>
-									The timeline varies depending on the project s complexity and
-									requirements. Our team strives to deliver projects on time
-									while maintaining the highest quality standards.
-								</p>
-							</div>
-							<button
-								onClick={toggleVisibility7}
-								className={`hide absolute top-[15px] right-5 ${
-									isHidden7 ? "opacity-0 h-0" : "opacity-100 h-auto"
-								} transition-opacity duration-1000`}
-							>
-								<svg
-									width="36"
-									height="36"
-									viewBox="0 0 40 40"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										fill="#00171A"
-									/>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										stroke="#00393D"
-									/>
-									<path
-										d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
-										fill="#1AFFE9"
-									/>
-								</svg>
-							</button>
-							<button
-								onClick={toggleVisibility7}
-								className={`Show absolute top-[15px] right-5 ${
-									isHidden7 ? "opacity-100 h-auto" : "opacity-0 h-0"
-								} transition-opacity duration-1000`}
-							>
-								<svg
-									width="36"
-									height="36"
-									viewBox="0 0 40 40"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										fill="#00171A"
-									/>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										stroke="#00393D"
-									/>
-									<path
-										d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
-										fill="#1AFFE9"
-									/>
-								</svg>
-							</button>
-						</div>
-						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex border-[#002629] transition-all items-center">
-							<div className="flex flex-col">
-								<h4 className="md:font-semibold w-[85%] text-[#CCFFFA]">
-									How do you ensure the security of user data in your web
-									applications?
-								</h4>
-								<p
-									className={`text-[16px] text-[#507C7C] ${
-										isHidden8
-											? "opacity-0 h-0"
-											: "mt-5 opacity-100 min-h-[60px]"
-									} transition-opacity duration-1000`}
-								>
-									The timeline varies depending on the project s complexity and
-									requirements. Our team strives to deliver projects on time
-									while maintaining the highest quality standards.
-								</p>
-							</div>
-							<button
-								onClick={toggleVisibility8}
-								className={`hide absolute top-[15px] right-5  ${
-									isHidden8 ? "opacity-0 h-0" : "opacity-100 h-auto"
-								} transition-opacity duration-1000`}
-							>
-								<svg
-									width="36"
-									height="36"
-									viewBox="0 0 40 40"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										fill="#00171A"
-									/>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										stroke="#00393D"
-									/>
-									<path
-										d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
-										fill="#1AFFE9"
-									/>
-								</svg>
-							</button>
-							<button
-								onClick={toggleVisibility8}
-								className={`Show absolute top-[15px] right-5  ${
-									isHidden8 ? "opacity-100 h-auto" : "opacity-0 h-0"
-								} transition-opacity duration-1000`}
-							>
-								<svg
-									width="36"
-									height="36"
-									viewBox="0 0 40 40"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										fill="#00171A"
-									/>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										stroke="#00393D"
-									/>
-									<path
-										d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
-										fill="#1AFFE9"
-									/>
-								</svg>
-							</button>
-						</div>
-						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex border-[#002629] transition-all items-center">
-							<div className="flex flex-col">
-								<h4 className="md:font-semibold  text-[#CCFFFA] w-[85%]">
-									How do you ensure the security of user data in your web
-									applications?
-								</h4>
-								<p
-									className={`text-[16px] text-[#507C7C] ${
-										isHidden9
-											? "opacity-0 h-0"
-											: "mt-5 opacity-100 min-h-[60px]"
-									} transition-opacity duration-1000`}
-								>
-									The timeline varies depending on the project s complexity and
-									requirements. Our team strives to deliver projects on time
-									while maintaining the highest quality standards.
-								</p>
-							</div>
-							<button
-								onClick={toggleVisibility9}
-								className={`hide absolute top-[15px] right-5  ${
-									isHidden9 ? "opacity-0 h-0" : "opacity-100 h-auto"
-								} transition-opacity duration-1000`}
-							>
-								<svg
-									width="36"
-									height="36"
-									viewBox="0 0 40 40"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										fill="#00171A"
-									/>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										stroke="#00393D"
-									/>
-									<path
-										d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
-										fill="#1AFFE9"
-									/>
-								</svg>
-							</button>
-							<button
-								onClick={toggleVisibility9}
-								className={`Show absolute top-[15px] right-5  ${
-									isHidden9 ? "opacity-100 h-auto" : "opacity-0 h-0"
-								} transition-opacity duration-1000`}
-							>
-								<svg
-									width="36"
-									height="36"
-									viewBox="0 0 40 40"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										fill="#00171A"
-									/>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										stroke="#00393D"
-									/>
-									<path
-										d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
-										fill="#1AFFE9"
-									/>
-								</svg>
-							</button>
-						</div>
-						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex border-[#002629] transition-all items-center">
-							<div className="flex flex-col">
-								<h4 className="md:font-semibold w-[85%] text-[#CCFFFA] ">
-									Do you offer maintenance services for websites and apps
-									developed by other companies?
-								</h4>
-								<p
-									className={`text-[16px] text-[#507C7C] ${
-										isHidden
-											? "opacity-0 mt-0 h-[0px]"
-											: "opacity-100 mt-5 min-h-[60px]"
-									} transition-opacity duration-500`}
-								>
-									The timeline varies depending on the project s complexity and
-									requirements. Our team strives to deliver projects on time
-									while maintaining the highest quality standards.
-								</p>
-							</div>
-							<button
-								onClick={toggleVisibility}
-								className={`hide absolute top-[15px] right-5 ${
-									isHidden ? "opacity-0 h-0" : "opacity-100 h-auto"
-								} transition-opacity duration-1000`}
-							>
-								<svg
-									width="36"
-									height="36"
-									viewBox="0 0 40 40"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										fill="#00171A"
-									/>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										stroke="#00393D"
-									/>
-									<path
-										d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
-										fill="#1AFFE9"
-									/>
-								</svg>
-							</button>
-							<button
-								onClick={toggleVisibility}
-								className={`Show absolute top-[15px] right-5  ${
-									isHidden ? "opacity-100 h-auto" : "opacity-0 h-0"
-								} transition-opacity duration-1000`}
-							>
-								<svg
-									width="36"
-									height="36"
-									viewBox="0 0 40 40"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										fill="#00171A"
-									/>
-									<rect
-										x="0.5"
-										y="0.5"
-										width="39"
-										height="39"
-										rx="19.5"
-										stroke="#00393D"
-									/>
-									<path
-										d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
-										fill="#1AFFE9"
-									/>
-								</svg>
-							</button>
-						</div>
-					</div>
 				</div>
 			</div>
-			<div className="mt-20 w-full gap-10 sm:px-8 p-2 py-10 flex flex-col items-center showCaseBg3 min-h-[700px]">
+			<div id="section5" className="mt-20 w-full gap-10 sm:px-8 p-2 py-10 flex flex-col items-center showCaseBg3 min-h-[700px]">
 				<div className="sm:w-full px-5 w-full min-h-[150px] flex flex-col items-center justify-center">
 					<h1 className="text-[28px] sm:text-[38px] text-[#E5FFFD] text-center">
 						Connect with Novus

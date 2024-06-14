@@ -5,8 +5,30 @@ import Logo from "@/public/Logo.svg";
 import Image from "next/image";
 import hamburger from "@/public/hamburger.svg";
 import close from "@/public/close.svg";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 const Navbar = () => {
+	useEffect(() => {
+		const handleScroll = (event) => {
+			const target = event.target.closest('a[href^="#"]');
+			if (target) {
+				event.preventDefault();
+				const id = target.getAttribute("href").slice(1);
+				const element = document.getElementById(id);
+				if (element) {
+					window.scrollTo({
+						top: element.offsetTop,
+						behavior: "smooth",
+					});
+				}
+			}
+		};
+
+		document.addEventListener("click", handleScroll);
+
+		return () => {
+			document.removeEventListener("click", handleScroll);
+		};
+	}, []);
 	const [isChecked, setIsChecked] = useState(false);
 	const [opened, setOpened] = useState(false);
 	const handleCheckboxChange = () => {
@@ -27,7 +49,8 @@ const Navbar = () => {
 						<ul className="flex justify-evenly w-[490px] items-center transition-all">
 							<div className="w-[100px] flex justify-center items-center">
 								<Link
-									href={"/"}
+									href="#section1"
+									scroll={false}
 									className="hover:text-white text-[#649B9B] w-[70px] transition-all duration-200 h-[40px] py-3 px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
 								>
 									<div className="text-sm font-medium leading-[21px]">Home</div>
@@ -35,7 +58,8 @@ const Navbar = () => {
 							</div>
 							<div className="w-[100px] flex justify-center items-center">
 								<Link
-									href={"/"}
+									href="#section2"
+									scroll={false}
 									className="hover:text-white text-[#649B9B] min-w-[72px] transition-all duration-200 h-[40px] py-3 px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
 								>
 									<div className="text-sm font-medium leading-[21px] ">
@@ -45,7 +69,8 @@ const Navbar = () => {
 							</div>
 							<div className="w-[100px] flex justify-center items-center">
 								<Link
-									href={"/"}
+									href="#section3"
+									scroll={false}
 									className="hover:text-white text-[#649B9B] min-w-[79px] transition-all duration-200 h-[40px] py-3 px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
 								>
 									<div className="text-sm font-medium leading-[21px]">
@@ -55,7 +80,8 @@ const Navbar = () => {
 							</div>
 							<div className="w-[100px] flex justify-center items-center">
 								<Link
-									href={"/"}
+									href="#section4"
+									scroll={false}
 									className="hover:text-white text-[#649B9B] min-w-[79px] transition-all duration-200 h-[40px] py-3 px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
 								>
 									<div className="text-sm font-medium leading-[21px]">
@@ -65,7 +91,8 @@ const Navbar = () => {
 							</div>
 							<div className="w-[100px] flex justify-center items-center">
 								<Link
-									href={"/"}
+									href="#section5"
+									scroll={false}
 									className="hover:text-white text-[#649B9B] min-w-[82px] transition-all duration-200 h-[40px] py-3 px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
 								>
 									<div className="text-sm font-medium leading-[21px]">
@@ -107,7 +134,9 @@ const Navbar = () => {
 							>
 								<span
 									className={`dot h-6 w-6 rounded-full  duration-200 ${
-										isChecked ? "translate-x-[28px] bg-[#003a3f] " : " bg-[#f6ffff]"
+										isChecked
+											? "translate-x-[28px] bg-[#003a3f] "
+											: " bg-[#f6ffff]"
 									}`}
 								></span>
 							</span>
@@ -125,34 +154,39 @@ const Navbar = () => {
 					<div>
 						<ul className=" gap-[10px] p-4 flex flex-col items-center justify-center ">
 							<Link
-								href={"/"}
+								href="#section1"
+								scroll={false}
 								className="text-sm text-center py-2 px-3 transition-all hover:bg-[#1A1A1A] rounded-full"
 							>
 								Home
 							</Link>
 							<Link
-								href={"/services"}
+								href="#section2"
+								scroll={false}
 								className="text-sm text-center py-2 px-3 transition-all hover:bg-[#1A1A1A] rounded-full"
 							>
 								Services
 							</Link>
 
 							<Link
-								href={"/projects"}
+								href="#section3"
+								scroll={false}
 								className="text-sm text-center py-2 px-3 transition-all hover:bg-[#1A1A1A] rounded-full"
 							>
 								Projects
 							</Link>
 
 							<Link
-								href={"/about"}
+								href="#section4"
+								scroll={false}
 								className="text-sm text-center py-2 px-3 transition-all hover:bg-[#1A1A1A] rounded-full"
 							>
 								About Us
 							</Link>
 
 							<Link
-								href={"/contact"}
+								href="#section5"
+								scroll={false}
 								className="text-sm text-center py-2 px-3 transition-all hover:bg-[#1A1A1A] rounded-full"
 							>
 								Contact Us

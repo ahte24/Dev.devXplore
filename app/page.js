@@ -35,7 +35,7 @@ export default function Home() {
 
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const itemsToShow = 1;
-	const itemWidth = 345;
+	const itemWidth = 365;
 
 	const handlePrevClick = () => {
 		setCurrentIndex((prevIndex) => Math.max(prevIndex - itemsToShow, 0));
@@ -95,76 +95,54 @@ export default function Home() {
 	const testimonials = [
 		{
 			quote:
-				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
+				"Working with Devxplore was a fantastic experience. Their team delivered a sleek, user-friendly mobile app that exceeded our expectations. We've seen a significant increase in user engagement and satisfaction since launching.",
+			name: "Sarah Thompson",
+			title: "CEO of TechInnovate",
 			image: profile,
 		},
 		{
 			quote:
-				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
+				"Devxplore transformed our outdated website into a modern, responsive platform that perfectly reflects our brand. The project was completed on time and within budget. Our online presence has never been stronger!",
+			name: "James Peterson",
+			title: "Marketing Director at Green Solutions",
 			image: profile,
 		},
 		{
 			quote:
-				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
+				"We needed a robust e-commerce website to support our growing business, and Devxplore delivered beyond our expectations. Sales have increased by 30% since the launch, and we couldn't be happier.",
+			name: "Emily Rodriguez",
+			title: "Owner of EcoShop",
 			image: profile,
 		},
 		{
 			quote:
-				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
+				"The custom software solution developed by Devxplore has streamlined our operations and significantly improved our efficiency. Their post-launch support has been exemplary, ensuring everything runs smoothly.",
+			name: "Michael Lee",
+			title: "Operations Manager at LogisticsPro",
 			image: profile,
 		},
 		{
 			quote:
-				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
+				"The UI/UX design services provided by Devxplore were top-notch. They completely revamped our website's interface, making it more intuitive and visually appealing. Feedback from our users has been overwhelmingly positive.",
+			name: "Anna Martins",
+			title: "Product Manager at EduTech",
 			image: profile,
 		},
 		{
 			quote:
-				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
+				"Devxplore handled our full-stack development project with utmost professionalism. They delivered a solution that is both scalable and efficient. Their technical expertise made the entire process smooth and stress-free.",
+			name: "Robert Williams",
+			title: "CTO at HealthNet",
 			image: profile,
 		},
 		{
 			quote:
-				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
-			image: profile,
-		},
-		{
-			quote:
-				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
-			name: "Mark Roberts",
-			title: "Founder of GreenEarth Eco Store",
-			image: profile,
-		},
-		{
-			quote:
-				"DigitX transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
-			name: "Jane Doe",
-			title: "CEO of TechWorld",
-			image: profile,
-		},
-		{
-			quote:
-				"We have seen a significant increase in traffic and engagement since DigitX revamped our site. Their teams expertise is unmatched.",
-			name: "John Smith",
-			title: "Marketing Director at SalesCorp",
+				"The ongoing support and maintenance services from Devxplore have been a lifesaver. They are always quick to address any issues and provide valuable recommendations for improvements. Knowing we have such a reliable partner gives us peace of mind.",
+			name: "Lisa Chen",
+			title: "COO at FinTech Solutions",
 			image: profile,
 		},
 	];
-
 	return (
 		<div className="">
 			<div
@@ -180,7 +158,7 @@ export default function Home() {
 							Transforming Visions into Digital Excellence
 						</h1>
 						<p className="text-[16px] text-[#507C7C]">
-							At Novus, we craft digital experiences that resonate. As your
+							At DevXplore, we craft digital experiences that resonate. As your
 							strategic digital partner, we merge creativity with cutting-edge
 							technology to propel your brand to new heights. Join us on a
 							journey where innovation meets impact.
@@ -740,7 +718,7 @@ export default function Home() {
 				</div>
 				<div className="absolute bottom-0 w-full h-[250px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 			</div>
-			<div  className="w-full mt-20 min-h-[180px] gap-4  flex flex-col justify-center px-2 md:px-8">
+			<div className="w-full mt-20 min-h-[180px] gap-4  flex flex-col justify-center px-2 md:px-8">
 				<h4 className="text-center text-[16px] text-[#C1D7D7] my-4">
 					Our Custombers
 				</h4>
@@ -1048,7 +1026,7 @@ export default function Home() {
 								Our Comprehensive Services Suite
 							</h1>
 							<p className="text-center text-[16px] text-[#507C7C] ">
-								Novus offers a diverse array of expertly crafted services,
+								DevXplore offers a diverse array of expertly crafted services,
 								seamlessly merging creativity and technology to deliver
 								solutions that exceed expectations and drive digital success.
 							</p>
@@ -1091,10 +1069,10 @@ export default function Home() {
 									<div className=" h-[60%] flex flex-col gap-4 ">
 										<div className="w-full h-[65%] flex justify-center items-center z-20">
 											<p className="text-[16px] text-[#649B9B] text-center">
-												At Novus, were dedicated to crafting captivating designs
-												that resonate with users. Every detail, from color to
-												navigation, is meticulously considered for a seamless
-												experience. Committed to innovation
+												At DevXplore, were dedicated to crafting captivating
+												designs that resonate with users. Every detail, from
+												color to navigation, is meticulously considered for a
+												seamless experience. Committed to innovation
 											</p>
 										</div>
 										<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
@@ -1138,10 +1116,10 @@ export default function Home() {
 									<div className="w-full h-[60%] flex flex-col gap-4">
 										<div className="w-full h-[65%] flex justify-center items-center z-20">
 											<p className="text-[16px] text-[#649B9B] text-center">
-												At Novus, were dedicated to crafting captivating designs
-												that resonate with users. Every detail, from color to
-												navigation, is meticulously considered for a seamless
-												experience. Committed to innovation
+												At DevXplore, were dedicated to crafting captivating
+												designs that resonate with users. Every detail, from
+												color to navigation, is meticulously considered for a
+												seamless experience. Committed to innovation
 											</p>
 										</div>
 										<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
@@ -1187,10 +1165,10 @@ export default function Home() {
 									<div className="w-full h-[60%] flex flex-col gap-4">
 										<div className="w-full h-[65%] flex justify-center items-center z-20">
 											<p className="text-[16px] text-[#649B9B] text-center">
-												At Novus, were dedicated to crafting captivating designs
-												that resonate with users. Every detail, from color to
-												navigation, is meticulously considered for a seamless
-												experience. Committed to innovation
+												At DevXplore, were dedicated to crafting captivating
+												designs that resonate with users. Every detail, from
+												color to navigation, is meticulously considered for a
+												seamless experience. Committed to innovation
 											</p>
 										</div>
 										<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
@@ -1234,10 +1212,10 @@ export default function Home() {
 									<div className="w-full h-[60%] flex flex-col gap-4">
 										<div className="w-full h-[65%] flex justify-center items-center z-20">
 											<p className="text-[16px] text-[#649B9B] text-center">
-												At Novus, were dedicated to crafting captivating designs
-												that resonate with users. Every detail, from color to
-												navigation, is meticulously considered for a seamless
-												experience. Committed to innovation
+												At DevXplore, were dedicated to crafting captivating
+												designs that resonate with users. Every detail, from
+												color to navigation, is meticulously considered for a
+												seamless experience. Committed to innovation
 											</p>
 										</div>
 										<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
@@ -1251,18 +1229,20 @@ export default function Home() {
 				</div>
 				<div className="absolute bottom-0 left-0 w-full h-[350px]  bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 			</div>
-			<div  className="w-full px-2 sm:px-2 mt-20 flex">
+			<div className="w-full px-2 sm:px-2 mt-20 flex">
 				<div className="w-full min-h-[400px] relative  rounded-3xl overflow-hidden flex flex-col gap- 2xl:flex-row 2xl:justify-center items-center">
 					<div className="2xl:w-[45%] px-8 min-h-[400px] justify-center flex flex-col gap-5 ">
 						<div className=" flex flex-col gap-8">
 							<h1 className="sm:text-[38px] text-[28px] text-[#E5FFFD]">
-								Unlocking Your Digital Potential
+								Unlock the Potential of Your Business with Devxplore!
 							</h1>
 							<p className="text-[#507C7C] text-[16px]">
-								Discover the Novus advantage – where passion meets proficiency.
-								Choose us for a transformative partnership, delivering
-								cutting-edge solutions, unmatched expertise, and a commitment to
-								driving your digital success story.
+								At Devxplore, we specialize in crafting custom apps and websites
+								that cater to your unique business needs. Our team of expert
+								developers and designers work closely with you to transform your
+								vision into a reality. Whether you need a sleek, user-friendly
+								website or a robust, scalable mobile app, we have the skills and
+								experience to deliver exceptional results.
 							</p>
 						</div>
 						<div className="buttons flex gap-4">
@@ -2859,7 +2839,7 @@ export default function Home() {
 					<div className="absolute bottom-0 left-0 w-full h-[350px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>{" "}
 				</div>
 			</div>
-			<div  className="mt-20 px-2 sm:px-8 w-full relative">
+			<div className="mt-20 px-2 sm:px-8 w-full relative">
 				<div className="w-full min-h-[400px] flex flex-col gap-5 py-8">
 					<div className="w-full mx-auto flex flex-col items-center gap-5">
 						<h1 className="sm:text-[38px] text-[28px] text-[#E5FFFD] text-center">
@@ -2867,7 +2847,7 @@ export default function Home() {
 						</h1>
 						<p className="text-[#507C7C] text-[16px] text-center">
 							Dive into a collection of testimonials that speak to the impact of
-							Novus. Our clients share their journey, highlighting the
+							DevXplore. Our clients share their journey, highlighting the
 							excellence, reliability, and transformative experiences theyve
 							encountered working with us.
 						</p>
@@ -2881,11 +2861,8 @@ export default function Home() {
 								}}
 							>
 								{testimonials.map((testimonial, index) => (
-									<div
-										key={index}
-										className="h-full  sm:w-[330px] flex-shrink-0"
-									>
-										<div className="flex flex-col justify-between gap-4 w-[330px] transition-all duration-200 h-[220px] sm:h-fit border border-[#00393D] rounded-2xl p-5 hover:bg-gradient-to-b from-[#00393d9a] to-transparent">
+									<div key={index} className="h-full w-[350px] flex-shrink-0">
+										<div className="flex flex-col justify-between gap-2  transition-all duration-200  sm:h-[300px] border border-[#00393D] rounded-2xl p-5 hover:bg-gradient-to-b from-[#00393d9a] to-transparent">
 											<div className="w-full h-[70px] flex items-center gap-3">
 												<Image
 													className="rounded-[50%] w-12 h-12 object-cover"
@@ -2903,7 +2880,7 @@ export default function Home() {
 													</span>
 												</div>
 											</div>
-											<p className="md:text-[14px] text-[12px] text-[#649B9B] h-fit">
+											<p className="md:text-[14px] text-[12px] text-[#649B9B] min-h-[110px] text-wrap w-[310px]">
 												{testimonial.quote}
 											</p>
 											<div className="h-[30px] flex gap-2 items-center">
@@ -3394,8 +3371,7 @@ export default function Home() {
 						<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 							<div className="flex flex-col">
 								<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
-									How do you ensure the security of user data in your web
-									applications?
+									What is your approach to UI/UX design?
 								</h4>
 								<p
 									className={`text-[16px] text-[#507C7C] ${
@@ -3404,9 +3380,9 @@ export default function Home() {
 											: "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
-									The timeline varies depending on the project s complexity and
-									requirements. Our team strives to deliver projects on time
-									while maintaining the highest quality standards.
+									Our UI/UX design process focuses on creating intuitive and
+									visually appealing interfaces. We conduct thorough research
+									and usability testing to ensure an excellent user experience.
 								</p>
 							</div>
 							<button
@@ -3483,10 +3459,13 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div id="section5" className="mt-20 w-full gap-10 sm:px-8 p-2 py-10 flex flex-col items-center showCaseBg3 min-h-[700px]">
+			<div
+				id="section5"
+				className="mt-20 w-full gap-10 sm:px-8 p-2 py-10 flex flex-col items-center showCaseBg3 min-h-[700px]"
+			>
 				<div className="sm:w-full px-5 w-full min-h-[150px] flex flex-col items-center justify-center">
 					<h1 className="text-[28px] sm:text-[38px] text-[#E5FFFD] text-center">
-						Connect with Novus
+						Connect with DevXplore
 					</h1>
 					<p className="text-[16px] text-[#507C7C] text-center">
 						Ready to embark on your digital journey? Reach out to us today. Our

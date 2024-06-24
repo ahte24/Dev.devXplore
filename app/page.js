@@ -21,6 +21,9 @@ import Image3 from "@/public/image3.png";
 import Image4 from "@/public/image4.png";
 import profile from "@/public/image4.png";
 import { useState, useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { Bounce } from "react-toastify";
 
 export default function Home() {
 	const [formData, setFormData] = useState({
@@ -40,7 +43,6 @@ export default function Home() {
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
-
 		const response = await fetch("/api/contact", {
 			method: "POST",
 			headers: {
@@ -49,8 +51,32 @@ export default function Home() {
 			body: JSON.stringify(formData),
 		});
 
-		const result = await response.json();
-		console.log(result);
+		if (response.ok) {
+			toast.success("Inquiry Sent Successfully.", {
+				position: "top-right",
+				autoClose: 5000,
+				hideProgressBar: false,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+				theme: "light",
+				transition: Bounce,
+			});
+		} else {
+			const errorData = await response.json();
+			toast.error("Something went wrong.", {
+				position: "top-right",
+				autoClose: 5000,
+				hideProgressBar: false,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+				theme: "light",
+				transition: Bounce,
+			});
+		}
 	};
 
 	useEffect(() => {
@@ -198,6 +224,20 @@ export default function Home() {
 	];
 	return (
 		<div className="">
+			<ToastContainer
+				position="top-right"
+				autoClose={5000}
+				hideProgressBar={false}
+				newestOnTop={false}
+				closeOnClick
+				rtl={false}
+				pauseOnFocusLoss
+				draggable
+				pauseOnHover
+				theme="light"
+				Bounce="true"
+			/>
+			<ToastContainer />
 			<div
 				id="section1"
 				className="w-full bg 2xl:flex-row flex-col flex justify-center items-center sm:min-h-[600px] pt-[120px] relative"

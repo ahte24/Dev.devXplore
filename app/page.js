@@ -43,25 +43,14 @@ export default function Home() {
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
-		const response = await fetch("/api/contact", {
-			method: "POST",
-			headers: {
-				"Content-Type": "application/json",
-			},
-			body: JSON.stringify(formData),
-		});
 
-		if (response.ok) {
-			toast.success("Inquiry Sent Successfully.", {
-				position: "top-right",
-				autoClose: 5000,
-				hideProgressBar: false,
-				closeOnClick: true,
-				pauseOnHover: true,
-				draggable: true,
-				progress: undefined,
-				theme: "light",
-				transition: Bounce,
+		try {
+			const response = await fetch("/api/contact", {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify(formData),
 			});
 			setFormData({
 				name: "",
@@ -70,9 +59,33 @@ export default function Home() {
 				services: "",
 				message: "",
 			});
-		} else {
-			const errorData = await response.json();
-			toast.error("Something went wrong.", {
+			if (response.ok) {
+				toast.success("Inquiry Sent Successfully.", {
+					position: "top-right",
+					autoClose: 5000,
+					hideProgressBar: false,
+					closeOnClick: true,
+					pauseOnHover: true,
+					draggable: true,
+					theme: "light",
+					transition: Bounce,
+				});
+			} else {
+				const errorData = await response.json();
+				toast.error("Something went wrong.", {
+					position: "top-right",
+					autoClose: 5000,
+					hideProgressBar: false,
+					closeOnClick: true,
+					pauseOnHover: true,
+					draggable: true,
+					progress: undefined,
+					theme: "light",
+					transition: Bounce,
+				});
+			}
+		} catch (error) {
+			toast.error(`Error: ${error.message}`, {
 				position: "top-right",
 				autoClose: 5000,
 				hideProgressBar: false,
@@ -3765,7 +3778,7 @@ export default function Home() {
 										<div className="relative">
 											<select
 												required
-												id="pet-select"
+												id="services"
 												name="services"
 												value={formData.services}
 												onChange={handleChange}
@@ -3820,10 +3833,10 @@ export default function Home() {
 										required
 										className="rounded-xl p-3 w-full h-[160px] placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
 										name="message"
-										placeholder="Enter your Message"
+										id="message"
+										placeholder="Your message..."
 										value={formData.message}
 										onChange={handleChange}
-										id="message"
 									></textarea>
 								</div>
 								<div className="flex justify-center z-20">

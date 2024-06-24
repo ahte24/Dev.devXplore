@@ -3727,12 +3727,10 @@ export default function Home() {
 												<option className="text-[#507C7C]" disabled value="">
 													--Please choose an option--
 												</option>
-												<option value="dog">Web Development</option>
-												<option value="cat">App Development</option>
-												<option value="hamster">Web Design</option>
-												<option value="parrot">App Design</option>
-												<option value="spider">Spider</option>
-												<option value="goldfish">Goldfish</option>
+												<option value="Web Development">Web Development</option>
+												<option value="App Development">App Development</option>
+												<option value="Web Design">Web Design</option>
+												<option value="App Design">App Design</option>
 											</select>
 											<svg
 												className="absolute top-2 left-2"

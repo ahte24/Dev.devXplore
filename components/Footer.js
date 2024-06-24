@@ -160,7 +160,7 @@ const Footer = () => {
 										<div className="w-full  flex flex-col gap-2 h-full">
 											<div className="relative">
 												<div className="rounded-full max-w-[330px] pl-14 pr-2 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
-													devxplore@devxplore.tech
+													support@devxplore.tech
 												</div>
 												<svg
 													className="absolute top-2 left-2"

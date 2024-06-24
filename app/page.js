@@ -20,9 +20,62 @@ import Image2 from "@/public/image2.png";
 import Image3 from "@/public/image3.png";
 import Image4 from "@/public/image4.png";
 import profile from "@/public/image4.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+	const [formData, setFormData] = useState({
+		name: "",
+		email: "",
+		phone: "",
+		services: "",
+		message: "",
+	});
+
+	const handleChange = (e) => {
+		setFormData({
+			...formData,
+			[e.target.name]: e.target.value,
+		});
+	};
+
+	const handleSubmit = async (e) => {
+		e.preventDefault();
+
+		const response = await fetch("/api/contact", {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify(formData),
+		});
+
+		const result = await response.json();
+		console.log(result);
+	};
+
+	useEffect(() => {
+		const handleScroll = (event) => {
+			const target = event.target.closest('a[href^="#"]');
+			if (target) {
+				event.preventDefault();
+				const id = target.getAttribute("href").slice(1);
+				const element = document.getElementById(id);
+				if (element) {
+					window.scrollTo({
+						top: element.offsetTop,
+						behavior: "smooth",
+					});
+				}
+			}
+		};
+
+		document.addEventListener("click", handleScroll);
+
+		return () => {
+			document.removeEventListener("click", handleScroll);
+		};
+	}, []);
+
 	const [currentVisibleIndex, setCurrentVisibleIndex] = useState(0); // Initially no div visible
 
 	const toggleVisibilitym = (index) => {
@@ -167,12 +220,14 @@ export default function Home() {
 							<button className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] hover:bg-[#66FFF0] rounded-full hover:text-black text-[14px]">
 								View Projects
 							</button>
-							<button
+							<Link
+								href="#section5"
+								scroll={false}
 								className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] 
 							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
 							>
 								Contact Us
-							</button>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -265,16 +320,20 @@ export default function Home() {
 								>
 									<span className="text-[14px]">Design</span>
 									<div className="h-4 w-full flex flex-col justify-center items-center gap-2">
-										<svg
-											width="2"
-											height="2"
-											viewBox="0 0 2 2"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<circle cx="1" cy="1" r="1" fill="#1AFFE9" />
-										</svg>
-										<div className="h-[2px] w-full bg-gradient-to-r from-transparent via-custom-dark to-transparent"></div>
+										{currentVisibleIndex === 0 && (
+											<>
+												<svg
+													width="2"
+													height="2"
+													viewBox="0 0 2 2"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<circle cx="1" cy="1" r="1" fill="#1AFFE9" />
+												</svg>
+												<div className="h-[2px] w-full bg-gradient-to-r from-transparent via-custom-dark to-transparent"></div>
+											</>
+										)}
 									</div>
 								</button>
 								<button
@@ -283,16 +342,20 @@ export default function Home() {
 								>
 									<span className="text-[14px]">Development</span>
 									<div className="h-4 w-full flex flex-col justify-center items-center gap-2">
-										<svg
-											width="2"
-											height="2"
-											viewBox="0 0 2 2"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<circle cx="1" cy="1" r="1" fill="#1AFFE9" />
-										</svg>
-										<div className="h-[2px] w-full bg-gradient-to-r from-transparent via-custom-dark to-transparent"></div>
+										{currentVisibleIndex === 1 && (
+											<>
+												<svg
+													width="2"
+													height="2"
+													viewBox="0 0 2 2"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<circle cx="1" cy="1" r="1" fill="#1AFFE9" />
+												</svg>
+												<div className="h-[2px] w-full bg-gradient-to-r from-transparent via-custom-dark to-transparent"></div>
+											</>
+										)}
 									</div>
 								</button>
 								<button
@@ -301,16 +364,20 @@ export default function Home() {
 								>
 									<span className="text-[14px]">Management</span>
 									<div className="h-4 w-full flex flex-col justify-center items-center gap-2">
-										<svg
-											width="2"
-											height="2"
-											viewBox="0 0 2 2"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<circle cx="1" cy="1" r="1" fill="#1AFFE9" />
-										</svg>
-										<div className="h-[2px] w-full bg-gradient-to-r from-transparent via-custom-dark to-transparent"></div>
+										{currentVisibleIndex === 2 && (
+											<>
+												<svg
+													width="2"
+													height="2"
+													viewBox="0 0 2 2"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<circle cx="1" cy="1" r="1" fill="#1AFFE9" />
+												</svg>
+												<div className="h-[2px] w-full bg-gradient-to-r from-transparent via-custom-dark to-transparent"></div>
+											</>
+										)}
 									</div>
 								</button>
 							</div>
@@ -2862,7 +2929,7 @@ export default function Home() {
 							>
 								{testimonials.map((testimonial, index) => (
 									<div key={index} className="h-full w-[350px] flex-shrink-0">
-										<div className="flex flex-col justify-between gap-2  transition-all duration-200  sm:h-[300px] border border-[#00393D] rounded-2xl p-5 hover:bg-gradient-to-b from-[#00393d9a] to-transparent">
+										<div className="flex flex-col justify-between gap-2  transition-all duration-200  sm:h-[290px] border border-[#00393D] rounded-2xl p-5 hover:bg-gradient-to-b from-[#00393d9a] to-transparent">
 											<div className="w-full h-[70px] flex items-center gap-3">
 												<Image
 													className="rounded-[50%] w-12 h-12 object-cover"
@@ -3463,7 +3530,7 @@ export default function Home() {
 				id="section5"
 				className="mt-20 w-full gap-10 sm:px-8 p-2 py-10 flex flex-col items-center showCaseBg3 min-h-[700px]"
 			>
-				<div className="sm:w-full px-5 w-full min-h-[150px] flex flex-col items-center justify-center">
+				<div className="sm:w-[85%] px-5 w-full min-h-[150px] flex flex-col items-center justify-center">
 					<h1 className="text-[28px] sm:text-[38px] text-[#E5FFFD] text-center">
 						Connect with DevXplore
 					</h1>
@@ -3477,7 +3544,7 @@ export default function Home() {
 				<div className="w-full p-4 justify-center lg:flex-row lg:items-start flex-col items-center flex gap-8">
 					<div className="lg:w-[60%] w-full relative">
 						<form
-							action=""
+							onSubmit={handleSubmit}
 							className="border-[#00393D] border rounded-3xl sm:p-10 p-4 bg-gradient-to-bl from-[#00171A] to-transparent"
 						>
 							<div className="w-full h-full flex  flex-col gap-8">
@@ -3491,9 +3558,13 @@ export default function Home() {
 										</label>
 										<div className="relative">
 											<input
+												required
 												className="rounded-full w-full pl-14 h-[56px] placeholder:text-sm placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
 												placeholder="Enter Name"
 												type="text"
+												name="name"
+												value={formData.name}
+												onChange={handleChange}
 											/>
 											<svg
 												className="absolute top-2 left-2"
@@ -3543,9 +3614,13 @@ export default function Home() {
 										</label>
 										<div className="relative">
 											<input
+												required
 												className="rounded-full placeholder:text-sm w-full pl-14 h-[56px] placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
 												placeholder="Enter Email"
 												type="email"
+												name="email"
+												value={formData.email}
+												onChange={handleChange}
 											/>
 											<svg
 												className="absolute top-2 left-2"
@@ -3595,7 +3670,10 @@ export default function Home() {
 											<input
 												className="rounded-full placeholder:text-sm  w-full pl-14 h-[56px] placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
 												placeholder="Enter Phone Number"
-												type="number"
+												type="text"
+												name="phone"
+												value={formData.phone}
+												onChange={handleChange}
 											/>
 											<svg
 												className="absolute top-2 left-2"
@@ -3639,10 +3717,14 @@ export default function Home() {
 										</label>
 										<div className="relative">
 											<select
+												required
 												id="pet-select"
-												className="rounded-full w-full pl-14 h-[56px] text-sm text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border appearance-none"
+												name="services"
+												value={formData.services}
+												onChange={handleChange}
+												className="rounded-full w-full pl-14 h-[56px] text-sm  outline-none bg-[#00171A] border-[#00393D] border appearance-none"
 											>
-												<option className="text-[#507C7C]" value="">
+												<option className="text-[#507C7C]" disabled value="">
 													--Please choose an option--
 												</option>
 												<option value="dog">Web Development</option>
@@ -3690,21 +3772,26 @@ export default function Home() {
 								</div>
 								<div className="z-20">
 									<textarea
-										className="rounded-xl p-3 w-full h-[160px] text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
-										name="messagge"
+										required
+										className="rounded-xl p-3 w-full h-[160px] placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
+										name="message"
+										placeholder="Enter your Message"
+										value={formData.message}
+										onChange={handleChange}
 										id="message"
 									></textarea>
 								</div>
 								<div className="flex justify-center z-20">
-									<button className="text-black bg-[#66FFF0] w-[220px] h-[45px] rounded-full border-[#00393D] text-[14px] hover:border hover:text-white hover:bg-[#001112] transition-all duration-300">
+									<button
+										type="submit"
+										className="text-black bg-[#66FFF0] w-[220px] h-[45px] rounded-full border-[#00393D] text-[14px] hover:border hover:text-white hover:bg-[#001112] transition-all duration-300"
+									>
 										Submit Your Message
 									</button>
 								</div>
 							</div>
 						</form>
-						<div className="absolute w-full bottom-0 left-0 h-[150px] bg-gradient-to-t from-[#000e0f] to-transparent">
-							{" "}
-						</div>
+						<div className="absolute w-full bottom-0 left-0 h-[150px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 					</div>
 					<div className=" lg:items-center lg:flex lg:flex-col flex-row justify-center gap-20  hidden">
 						<div className="relative">
@@ -3712,7 +3799,7 @@ export default function Home() {
 								<div className="w-full  flex flex-col gap-2 h-full">
 									<div className="relative">
 										<div className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
-											devxplore@devxplore.tech
+											support@devxplore.tech
 										</div>
 										<svg
 											className="absolute top-2 left-2"

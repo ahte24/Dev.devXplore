@@ -63,6 +63,13 @@ export default function Home() {
 				theme: "light",
 				transition: Bounce,
 			});
+			setFormData({
+				name: "",
+				email: "",
+				phone: "",
+				services: "",
+				message: "",
+			});
 		} else {
 			const errorData = await response.json();
 			toast.error("Something went wrong.", {

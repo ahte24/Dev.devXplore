@@ -52,13 +52,7 @@ export default function Home() {
 				},
 				body: JSON.stringify(formData),
 			});
-			setFormData({
-				name: "",
-				email: "",
-				phone: "",
-				services: "",
-				message: "",
-			});
+
 			if (response.ok) {
 				toast.success("Inquiry Sent Successfully.", {
 					position: "top-right",
@@ -69,6 +63,13 @@ export default function Home() {
 					draggable: true,
 					theme: "light",
 					transition: Bounce,
+				});
+				setFormData({
+					name: "",
+					email: "",
+					phone: "",
+					services: "",
+					message: "",
 				});
 			} else {
 				const errorData = await response.json();

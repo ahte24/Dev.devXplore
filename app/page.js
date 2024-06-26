@@ -287,9 +287,13 @@ export default function Home() {
 							journey where innovation meets impact.
 						</p>
 						<div className="buttons flex gap-4 z-20">
-							<button className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] hover:bg-[#66FFF0] rounded-full hover:text-black text-[14px]">
+							<Link
+								href="#section3"
+								scroll={false}
+								className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] hover:bg-[#66FFF0] rounded-full hover:text-black text-[14px]"
+							>
 								View Projects
-							</button>
+							</Link>
 							<Link
 								href="#section5"
 								scroll={false}

@@ -126,7 +126,6 @@ const Navbar = () => {
 								onChange={handleCheckboxChange}
 								className="sr-only"
 							/>
-
 							<span
 								className={`slider mx-4 flex h-8 w-[60px] items-center rounded-full p-1 duration-200 border border-teal-700 ${
 									isChecked ? "bg-[#f6ffff]" : "bg-[#003a3f]"

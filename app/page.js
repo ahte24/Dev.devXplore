@@ -61,7 +61,7 @@ export default function Home() {
 					closeOnClick: true,
 					pauseOnHover: true,
 					draggable: true,
-					theme: "light",
+					theme: "dark",
 					transition: Bounce,
 				});
 				setFormData({
@@ -81,7 +81,7 @@ export default function Home() {
 					pauseOnHover: true,
 					draggable: true,
 					progress: undefined,
-					theme: "light",
+					theme: "dark",
 					transition: Bounce,
 				});
 			}
@@ -94,7 +94,7 @@ export default function Home() {
 				pauseOnHover: true,
 				draggable: true,
 				progress: undefined,
-				theme: "light",
+				theme: "dark",
 				transition: Bounce,
 			});
 		}

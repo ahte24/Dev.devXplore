@@ -134,9 +134,9 @@ export default function Home() {
 	};
 	const [currentVisibleIndexTwo, setCurrentVisibleIndexTwo] = useState(0); // Initially no div visible
 
-	const toggleVisibilitymTwo = (index) => {
-		if (currentVisibleIndex === index) {
-			setCurrentVisibleIndexTwo(null); // Hide if the same button is clicked again
+	const toggleVisibilityTwo = (index) => {
+		if (currentVisibleIndexTwo === index) {
+			setCurrentVisibleIndexTwo(index); // Hide if the same button is clicked again
 		} else {
 			setCurrentVisibleIndexTwo(index); // Show the respective div
 		}
@@ -1117,11 +1117,7 @@ export default function Home() {
 									gradientUnits="userSpaceOnUse"
 								>
 									<stop stopColor="#002629" />
-									<stop
-										offset="0.742191"
-										stopColor="#002629"
-										stopOpacity="0"
-									/>
+									<stop offset="0.742191" stopColor="#002629" stopOpacity="0" />
 								</linearGradient>
 							</defs>
 						</svg>
@@ -1148,11 +1144,7 @@ export default function Home() {
 									gradientUnits="userSpaceOnUse"
 								>
 									<stop stopColor="#002629" />
-									<stop
-										offset="0.742191"
-										stopColor="#002629"
-										stopOpacity="0"
-									/>
+									<stop offset="0.742191" stopColor="#002629" stopOpacity="0" />
 								</linearGradient>
 							</defs>
 						</svg>
@@ -1421,11 +1413,7 @@ export default function Home() {
 												rx="28"
 												fill="#002629"
 											/>
-											<path
-												d="M1 12.2H57"
-												stroke="#00474D"
-												strokeWidth="0.6"
-											/>
+											<path d="M1 12.2H57" stroke="#00474D" strokeWidth="0.6" />
 											<path
 												d="M45.7998 1L45.7998 57"
 												stroke="#00474D"
@@ -1441,11 +1429,7 @@ export default function Home() {
 												stroke="url(#paint1_linear_1_405)"
 												strokeWidth="0.6"
 											/>
-											<path
-												d="M1 45.8H57"
-												stroke="#00474D"
-												strokeWidth="0.6"
-											/>
+											<path d="M1 45.8H57" stroke="#00474D" strokeWidth="0.6" />
 											<path
 												d="M12.2002 1L12.2002 57"
 												stroke="#00474D"
@@ -1513,11 +1497,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint1_linear_1_405"
@@ -1529,11 +1509,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint2_linear_1_405"
@@ -1545,11 +1521,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint3_linear_1_405"
@@ -1561,11 +1533,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint4_linear_1_405"
@@ -1577,11 +1545,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint5_linear_1_405"
@@ -1593,11 +1557,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint6_linear_1_405"
@@ -1609,11 +1569,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint7_linear_1_405"
@@ -1625,11 +1581,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<clipPath id="clip0_1_405">
 												<rect
@@ -1669,11 +1621,7 @@ export default function Home() {
 												rx="28"
 												fill="#002629"
 											/>
-											<path
-												d="M1 12.2H57"
-												stroke="#00474D"
-												strokeWidth="0.6"
-											/>
+											<path d="M1 12.2H57" stroke="#00474D" strokeWidth="0.6" />
 											<path
 												d="M45.7998 1L45.7998 57"
 												stroke="#00474D"
@@ -1689,11 +1637,7 @@ export default function Home() {
 												stroke="url(#paint1_linear_1_425)"
 												strokeWidth="0.6"
 											/>
-											<path
-												d="M1 45.8H57"
-												stroke="#00474D"
-												strokeWidth="0.6"
-											/>
+											<path d="M1 45.8H57" stroke="#00474D" strokeWidth="0.6" />
 											<path
 												d="M12.2002 1L12.2002 57"
 												stroke="#00474D"
@@ -1773,11 +1717,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint1_linear_1_425"
@@ -1789,11 +1729,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint2_linear_1_425"
@@ -1805,11 +1741,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint3_linear_1_425"
@@ -1821,11 +1753,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint4_linear_1_425"
@@ -1837,11 +1765,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint5_linear_1_425"
@@ -1853,11 +1777,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint6_linear_1_425"
@@ -1869,11 +1789,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint7_linear_1_425"
@@ -1885,11 +1801,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<clipPath id="clip0_1_425">
 												<rect
@@ -1933,11 +1845,7 @@ export default function Home() {
 												rx="28"
 												fill="#002629"
 											/>
-											<path
-												d="M1 12.2H57"
-												stroke="#00474D"
-												strokeWidth="0.6"
-											/>
+											<path d="M1 12.2H57" stroke="#00474D" strokeWidth="0.6" />
 											<path
 												d="M45.7998 1L45.7998 57"
 												stroke="#00474D"
@@ -1953,11 +1861,7 @@ export default function Home() {
 												stroke="url(#paint1_linear_1_405)"
 												strokeWidth="0.6"
 											/>
-											<path
-												d="M1 45.8H57"
-												stroke="#00474D"
-												strokeWidth="0.6"
-											/>
+											<path d="M1 45.8H57" stroke="#00474D" strokeWidth="0.6" />
 											<path
 												d="M12.2002 1L12.2002 57"
 												stroke="#00474D"
@@ -2025,11 +1929,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint1_linear_1_405"
@@ -2041,11 +1941,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint2_linear_1_405"
@@ -2057,11 +1953,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint3_linear_1_405"
@@ -2073,11 +1965,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint4_linear_1_405"
@@ -2089,11 +1977,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint5_linear_1_405"
@@ -2105,11 +1989,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint6_linear_1_405"
@@ -2121,11 +2001,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint7_linear_1_405"
@@ -2137,11 +2013,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<clipPath id="clip0_1_405">
 												<rect
@@ -2180,11 +2052,7 @@ export default function Home() {
 												rx="28"
 												fill="#002629"
 											/>
-											<path
-												d="M1 12.2H57"
-												stroke="#00474D"
-												strokeWidth="0.6"
-											/>
+											<path d="M1 12.2H57" stroke="#00474D" strokeWidth="0.6" />
 											<path
 												d="M45.7998 1L45.7998 57"
 												stroke="#00474D"
@@ -2200,11 +2068,7 @@ export default function Home() {
 												stroke="url(#paint1_linear_1_425)"
 												strokeWidth="0.6"
 											/>
-											<path
-												d="M1 45.8H57"
-												stroke="#00474D"
-												strokeWidth="0.6"
-											/>
+											<path d="M1 45.8H57" stroke="#00474D" strokeWidth="0.6" />
 											<path
 												d="M12.2002 1L12.2002 57"
 												stroke="#00474D"
@@ -2284,11 +2148,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint1_linear_1_425"
@@ -2300,11 +2160,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint2_linear_1_425"
@@ -2316,11 +2172,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint3_linear_1_425"
@@ -2332,11 +2184,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint4_linear_1_425"
@@ -2348,11 +2196,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint5_linear_1_425"
@@ -2364,11 +2208,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint6_linear_1_425"
@@ -2380,11 +2220,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<linearGradient
 												id="paint7_linear_1_425"
@@ -2396,11 +2232,7 @@ export default function Home() {
 											>
 												<stop stopColor="#19FFE9" stopOpacity="0" />
 												<stop offset="0.50284" stopColor="#19FFE9" />
-												<stop
-													offset="1"
-													stopColor="#19FFE9"
-													stopOpacity="0"
-												/>
+												<stop offset="1" stopColor="#19FFE9" stopOpacity="0" />
 											</linearGradient>
 											<clipPath id="clip0_1_425">
 												<rect
@@ -2443,36 +2275,52 @@ export default function Home() {
 						<div className="max-w-[500px] h-[50px] px-2 hidden md:flex justify-center items-center bg-[#001719] border border-[#00393d] rounded-full">
 							<ul className="flex justify-evenly max-w-[490px]  items-center transition-all">
 								<div className="w-[100px] flex justify-center items-center">
-									<Link
-										href={"/"}
-										className="hover:text-white text-[#649B9B] w-[70px] transition-all duration-200 h-[40px]  px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
+									<button
+										onClick={() => toggleVisibilityTwo(0)}
+										className={`text-[#649B9B] min-w-[72px] h-[40px] px-2 rounded-[100px]  gap-2.5 flex justify-center items-center ${
+											currentVisibleIndexTwo === 0
+												? "bg-gradient-to-l from-[#00181b] to-emerald-950 border border-teal-700 text-white"
+												: "bg-none border-none"
+										} transition-all duration-700 ease-in-out`}
 									>
 										<div className="text-[14px] ">Design</div>
-									</Link>
+									</button>
 								</div>
 								<div className="w-[120px] flex justify-center items-center">
-									<Link
-										href={"/"}
-										className="hover:text-white text-[#649B9B] min-w-[72px] transition-all duration-200 h-[40px]  px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
+									<button
+										onClick={() => toggleVisibilityTwo(1)}
+										className={`text-[#649B9B] min-w-[72px] h-[40px] px-2 rounded-[100px] gap-2.5 flex justify-center items-center ${
+											currentVisibleIndexTwo === 1
+												? "bg-gradient-to-l from-[#00181b] to-emerald-950 border border-teal-700 text-white"
+												: "bg-none border-none"
+										} transition-all duration-700`}
 									>
 										<div className="text-[14px]  ">Development</div>
-									</Link>
+									</button>
 								</div>
 								<div className="w-[100px] flex justify-center items-center">
-									<Link
-										href={"/"}
-										className="hover:text-white text-[#649B9B] min-w-[79px] transition-all duration-200 h-[40px]  px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
+									<button
+										onClick={() => toggleVisibilityTwo(2)}
+										className={`text-[#649B9B] min-w-[72px] h-[40px] px-2 rounded-[100px] gap-2.5 flex justify-center items-center ${
+											currentVisibleIndexTwo === 2
+												? "bg-gradient-to-l from-[#00181b] to-emerald-950 border border-teal-700 text-white"
+												: "bg-none border-none"
+										} transition-all duration-700`}
 									>
 										<div className="text-[14px] ">Marketing</div>
-									</Link>
+									</button>
 								</div>
 								<div className="w-[120px] flex justify-center items-center">
-									<Link
-										href={"/"}
-										className="hover:text-white text-[#649B9B] min-w-[79px] transition-all duration-200 h-[40px]  px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
+									<button
+										onClick={() => toggleVisibilityTwo(3)}
+										className={`text-[#649B9B] min-w-[72px] h-[40px] px-2 rounded-[100px] gap-2.5 flex justify-center items-center ${
+											currentVisibleIndexTwo === 3
+												? "bg-gradient-to-l from-[#00181b] to-emerald-950  border-teal-700 border text-white"
+												: "bg-none border-none"
+										} transition-all duration-700`}
 									>
 										<div className="text-[14px] ">Management</div>
-									</Link>
+									</button>
 								</div>
 							</ul>
 						</div>
@@ -2481,493 +2329,1945 @@ export default function Home() {
 								<ul className="flex flex-col justify-evenly max-w-[490px]  items-center transition-all">
 									<div className="flex items-center gap-2 p-3">
 										<div className="w-[150px] flex justify-center items-center">
-											<Link
-												href={"/"}
-												className="hover:text-white text-[#649B9B] w-[70px] transition-all duration-200 h-[40px]  px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-xl hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
+											<button
+												onClick={() => toggleVisibilityTwo(0)}
+												className={` text-[#649B9B] min-w-[72px] h-[40px] px-2 rounded-xl gap-2.5 flex justify-center items-center ${
+													currentVisibleIndexTwo === 0
+														? "bg-gradient-to-l from-[#00181b] to-emerald-950  border-teal-700 border text-white"
+														: "bg-none border-none"
+												} transition-all duration-700`}
 											>
 												<div className="text-[14px] ">Design</div>
-											</Link>
+											</button>
 										</div>
 										<div className="w-[150px] flex justify-center items-center">
-											<Link
-												href={"/"}
-												className="hover:text-white text-[#649B9B] min-w-[72px] transition-all duration-200 h-[40px]  px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-xl hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
+											<button
+												onClick={() => toggleVisibilityTwo(1)}
+												className={` text-[#649B9B] min-w-[72px] h-[40px] px-2 rounded-xl gap-2.5 flex justify-center items-center ${
+													currentVisibleIndexTwo === 1
+														? "bg-gradient-to-l from-[#00181b] to-emerald-950  border-teal-700 border text-white"
+														: "bg-none border-none"
+												} transition-all duration-700`}
 											>
 												<div className="text-[14px]  ">Development</div>
-											</Link>
+											</button>
 										</div>
 									</div>
 									<div className="flex items-center gap-2 p-3">
 										<div className="w-[150px] flex justify-center items-center">
-											<Link
-												href={"/"}
-												className="hover:text-white text-[#649B9B] min-w-[79px] transition-all duration-200 h-[40px]  px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-xl hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
+											<button
+												onClick={() => toggleVisibilityTwo(2)}
+												className={` text-[#649B9B] min-w-[72px] h-[40px] px-2 rounded-xl gap-2.5 flex justify-center items-center ${
+													currentVisibleIndexTwo === 2
+														? "bg-gradient-to-l from-[#00181b] to-emerald-950  border-teal-700 border text-white"
+														: "bg-none border-none"
+												} transition-all duration-700`}
 											>
 												<div className="text-[14px] ">Marketing</div>
-											</Link>
+											</button>
 										</div>
 										<div className="w-[150px] flex justify-center items-center">
-											<Link
-												href={"/"}
-												className="hover:text-white text-[#649B9B] min-w-[79px] transition-all duration-200 h-[40px]  px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-xl hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
+											<button
+												onClick={() => toggleVisibilityTwo(3)}
+												className={` text-[#649B9B] min-w-[72px] h-[40px] px-2 rounded-xl gap-2.5 flex justify-center items-center ${
+													currentVisibleIndexTwo === 3
+														? "bg-gradient-to-l from-[#00181b] to-emerald-950  border-teal-700 border text-white"
+														: "bg-none border-none"
+												} transition-all duration-700`}
 											>
 												<div className="text-[14px] ">Management</div>
-											</Link>
+											</button>
 										</div>
 									</div>
 								</ul>
 							</div>
 						</div>
 					</div>
-					<div className="w-full lg:flex-row flex-col flex items-center gap-10">
-						<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
-							<div className="flex flex-col gap-5">
-								<div className="w-full h-[60px] flex justify-between items-center">
-									<h4 className="text-[20px] text-[#ccfffa]">
-										Designer Portfolio
-									</h4>
-									<button
-										className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
+					<div>
+						<div
+							className={`Design  ${
+								currentVisibleIndexTwo === 0
+									? "opacity-100 h-auto ="
+									: "opacity-0 h-0 "
+							} transition-opacity duration-700`}
+						>
+							<div className="w-full lg:flex-row flex-col flex items-center gap-10 ">
+								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+									<div className="flex flex-col gap-5">
+										<div className="w-full h-[60px] flex justify-between items-center">
+											<h4 className="text-[20px] text-[#ccfffa]">
+												Designer Portfolio
+											</h4>
+											<button
+												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
 							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
-									>
-										View Projects
-									</button>
-								</div>
-								<p className="text-[#649B9B] text-[14px]">
-									Explore a showcase of unique design projects that blend
-									creativity and technical finesse. Lorem, ipsum dolor sit amet
-									consectetur adipisicing elit. Vero, at.
-								</p>
-							</div>
-							<div className="w-full flex flex-wrap items-center  gap-3">
-								<div className="flex gap-3 items-center w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
-									<span className="text-[12px] text-[#649B9B]">Client</span>
-									<svg
-										width="4"
-										height="4"
-										viewBox="0 0 4 4"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="2" cy="2" r="2" fill="#507C7C" />
-									</svg>
-									<span className="text-[12px] text-[#99FFF5] w-[90px]">
-										John Smith
-									</span>{" "}
-								</div>
-								<div className="flex gap-3 items-center w-[160px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
-									<span className="text-[12px] text-[#649B9B]">Category</span>
-									<svg
-										width="4"
-										height="4"
-										viewBox="0 0 4 4"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="2" cy="2" r="2" fill="#507C7C" />
-									</svg>
-									<span className="text-[12px] text-[#99FFF5]">Portfolio</span>{" "}
-								</div>
-								<div className="flex gap-3 items-center w-[240px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
-									<span className="text-[12px] text-[#649B9B]">Work</span>
-									<svg
-										width="4"
-										height="4"
-										viewBox="0 0 4 4"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="2" cy="2" r="2" fill="#507C7C" />
-									</svg>
-									<span className="text-[12px] text-[#99FFF5]">Design</span>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 20 20"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M15.8333 9.16665H10.8333V4.16665C10.8333 3.94563 10.7455 3.73367 10.5893 3.57739C10.433 3.42111 10.221 3.33331 9.99999 3.33331C9.77898 3.33331 9.56702 3.42111 9.41074 3.57739C9.25446 3.73367 9.16666 3.94563 9.16666 4.16665V9.16665H4.16666C3.94565 9.16665 3.73369 9.25444 3.57741 9.41072C3.42113 9.567 3.33333 9.77897 3.33333 9.99998C3.33333 10.221 3.42113 10.433 3.57741 10.5892C3.73369 10.7455 3.94565 10.8333 4.16666 10.8333H9.16666V15.8333C9.16666 16.0543 9.25446 16.2663 9.41074 16.4226C9.56702 16.5788 9.77898 16.6666 9.99999 16.6666C10.221 16.6666 10.433 16.5788 10.5893 16.4226C10.7455 16.2663 10.8333 16.0543 10.8333 15.8333V10.8333H15.8333C16.0543 10.8333 16.2663 10.7455 16.4226 10.5892C16.5789 10.433 16.6667 10.221 16.6667 9.99998C16.6667 9.77897 16.5789 9.567 16.4226 9.41072C16.2663 9.25444 16.0543 9.16665 15.8333 9.16665Z"
-											fill="#1AFFE9"
-										/>
-									</svg>
-									<span className="text-[12px] text-[#99FFF5]">
-										Develoopment
-									</span>
-								</div>
-							</div>
-							<div className="w-full border flex flex-col gap-5 items-center p-4 border-[#00393D] rounded-3xl">
-								<div className="flex gap-5 flex-col md:flex-row justify-between">
-									<div className="md:w-1/2 w-full rounded-xl h-[230px] overflow-hidden">
-										<Image
-											width={50000}
-											className="object-cover h-[230px]"
-											height={50000}
-											src={Image1}
-											alt=""
-										/>
+											>
+												View Projects
+											</button>
+										</div>
+										<p className="text-[#649B9B] text-[14px]">
+											Explore a showcase of unique design projects that blend
+											creativity and technical finesse. Lorem, ipsum dolor sit
+											amet consectetur adipisicing elit. Vero, at.
+										</p>
 									</div>
-									<div className="md:w-1/2 w-full rounded-xl h-[230px] overflow-hidden">
-										<Image
-											width={50000}
-											className="object-cover h-[230px]"
-											height={50000}
-											src={Image2}
-											alt=""
-										/>
+									<div className="w-full flex flex-wrap items-center  gap-3">
+										<div className="flex gap-3 items-center w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Client</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5] w-[90px]">
+												John Smith
+											</span>{" "}
+										</div>
+										<div className="flex gap-3 items-center w-[160px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">
+												Category
+											</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Portfolio
+											</span>{" "}
+										</div>
+										<div className="flex gap-3 items-center w-[240px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Work</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">Design</span>
+											<svg
+												width="20"
+												height="20"
+												viewBox="0 0 20 20"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M15.8333 9.16665H10.8333V4.16665C10.8333 3.94563 10.7455 3.73367 10.5893 3.57739C10.433 3.42111 10.221 3.33331 9.99999 3.33331C9.77898 3.33331 9.56702 3.42111 9.41074 3.57739C9.25446 3.73367 9.16666 3.94563 9.16666 4.16665V9.16665H4.16666C3.94565 9.16665 3.73369 9.25444 3.57741 9.41072C3.42113 9.567 3.33333 9.77897 3.33333 9.99998C3.33333 10.221 3.42113 10.433 3.57741 10.5892C3.73369 10.7455 3.94565 10.8333 4.16666 10.8333H9.16666V15.8333C9.16666 16.0543 9.25446 16.2663 9.41074 16.4226C9.56702 16.5788 9.77898 16.6666 9.99999 16.6666C10.221 16.6666 10.433 16.5788 10.5893 16.4226C10.7455 16.2663 10.8333 16.0543 10.8333 15.8333V10.8333H15.8333C16.0543 10.8333 16.2663 10.7455 16.4226 10.5892C16.5789 10.433 16.6667 10.221 16.6667 9.99998C16.6667 9.77897 16.5789 9.567 16.4226 9.41072C16.2663 9.25444 16.0543 9.16665 15.8333 9.16665Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Develoopment
+											</span>
+										</div>
 									</div>
-								</div>
-								<div className="w-full h-[60px] flex justify-center sm:justify-between items-center z-20">
-									<div className="w-[200px] h-[45px] rounded-full flex justify-center items-center border-[#00393D] border gap-2">
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
-												fill="#1AFFE9"
-											/>
-											<path
-												d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
+									<div className="w-full border flex flex-col gap-5 items-center p-4 border-[#00393D] rounded-3xl">
+										<div className="flex gap-5 flex-col md:flex-row justify-between">
+											<div className="md:w-1/2 w-full rounded-xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image1}
+													alt=""
+												/>
+											</div>
+											<div className="md:w-1/2 w-full rounded-xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image2}
+													alt=""
+												/>
+											</div>
+										</div>
+										<div className="w-full h-[60px] flex justify-center sm:justify-between items-center z-20">
+											<div className="w-[200px] h-[45px] rounded-full flex justify-center items-center border-[#00393D] border gap-2">
+												<svg
+													width="20"
+													height="21"
+													viewBox="0 0 20 21"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
+														fill="#1AFFE9"
+													/>
+													<path
+														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
+														fill="#1AFFE9"
+													/>
+												</svg>
 
-										<Link
-											href={"http://www.google.com"}
-											className="text-[#649B9B] text-[14px]"
-											target="_blank"
-										>
-											www.google.com
-										</Link>
+												<Link
+													href={"http://www.google.com"}
+													className="text-[#649B9B] text-[14px]"
+													target="_blank"
+												>
+													www.google.com
+												</Link>
+											</div>
+											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border hidden sm:flex justify-between">
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<path
+															d="M28.5 13L23.5 18L28.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+													</svg>
+												</button>
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															fill="url(#paint0_linear_1_597)"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="url(#paint1_radial_1_597)"
+														/>
+														<path
+															d="M23.5 13L28.5 18L23.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+														<defs>
+															<linearGradient
+																id="paint0_linear_1_597"
+																x1="58.898"
+																y1="-13.0909"
+																x2="2.11379"
+																y2="20.033"
+																gradientUnits="userSpaceOnUse"
+															>
+																<stop offset="0.238871" stopColor="#003033" />
+																<stop
+																	offset="1"
+																	stopColor="#001D1F"
+																	stopOpacity="0"
+																/>
+															</linearGradient>
+															<radialGradient
+																id="paint1_radial_1_597"
+																cx="0"
+																cy="0"
+																r="1"
+																gradientUnits="userSpaceOnUse"
+																gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
+															>
+																<stop stopColor="#00998A" />
+																<stop
+																	offset="0.597922"
+																	stopColor="#00998A"
+																	stopOpacity="0"
+																/>
+															</radialGradient>
+														</defs>
+													</svg>
+												</button>
+											</div>
+										</div>
 									</div>
-									<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border hidden sm:flex justify-between">
-										<button>
+								</div>
+								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+									<div className="flex flex-col gap-5">
+										<div className="w-full h-[60px] flex justify-between items-center">
+											<h4 className="text-[20px] text-[#ccfffa]">
+												FutureTech AI
+											</h4>
+											<button
+												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
+							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
+											>
+												View Projects
+											</button>
+										</div>
+										<p className="text-[#649B9B] text-[14px]">
+											Explore a showcase of unique design projects that blend
+											creativity and technical finesse. Lorem, ipsum dolor sit
+											amet consectetur adipisicing elit. Vero, at.
+										</p>
+									</div>
+									<div className="w-full flex items-center  flex-wrap gap-3">
+										<div className="flex gap-3 items-center  justify-center w-[170px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Client</span>
 											<svg
-												width="52"
-												height="36"
-												viewBox="0 0 52 36"
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
 												fill="none"
 												xmlns="http://www.w3.org/2000/svg"
 											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													stroke="#00393D"
-												/>
-												<path
-													d="M28.5 13L23.5 18L28.5 23"
-													stroke="white"
-													strokeWidth="2"
-													strokeLinecap="round"
-													strokeLinejoin="round"
-												/>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
-										</button>
-										<button>
+											<span className="text-[12px] text-[#99FFF5]">
+												FutureTech
+											</span>
+										</div>
+										<div className="flex gap-3 items-center  w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">
+												Category
+											</span>
 											<svg
-												width="52"
-												height="36"
-												viewBox="0 0 52 36"
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
 												fill="none"
 												xmlns="http://www.w3.org/2000/svg"
 											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													fill="url(#paint0_linear_1_597)"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													stroke="#00393D"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													stroke="url(#paint1_radial_1_597)"
-												/>
-												<path
-													d="M23.5 13L28.5 18L23.5 23"
-													stroke="white"
-													strokeWidth="2"
-													strokeLinecap="round"
-													strokeLinejoin="round"
-												/>
-												<defs>
-													<linearGradient
-														id="paint0_linear_1_597"
-														x1="58.898"
-														y1="-13.0909"
-														x2="2.11379"
-														y2="20.033"
-														gradientUnits="userSpaceOnUse"
-													>
-														<stop offset="0.238871" stopColor="#003033" />
-														<stop
-															offset="1"
-															stopColor="#001D1F"
-															stopOpacity="0"
-														/>
-													</linearGradient>
-													<radialGradient
-														id="paint1_radial_1_597"
-														cx="0"
-														cy="0"
-														r="1"
-														gradientUnits="userSpaceOnUse"
-														gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
-													>
-														<stop stopColor="#00998A" />
-														<stop
-															offset="0.597922"
-															stopColor="#00998A"
-															stopOpacity="0"
-														/>
-													</radialGradient>
-												</defs>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
-										</button>
+											<span className="text-[12px] text-[#99FFF5]">Ai</span>
+										</div>
+										<div className="flex gap-3 items-center  justify-center w-[250px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Work</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">Design</span>
+											<svg
+												width="20"
+												height="20"
+												viewBox="0 0 20 20"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M15.8333 9.16665H10.8333V4.16665C10.8333 3.94563 10.7455 3.73367 10.5893 3.57739C10.433 3.42111 10.221 3.33331 9.99999 3.33331C9.77898 3.33331 9.56702 3.42111 9.41074 3.57739C9.25446 3.73367 9.16666 3.94563 9.16666 4.16665V9.16665H4.16666C3.94565 9.16665 3.73369 9.25444 3.57741 9.41072C3.42113 9.567 3.33333 9.77897 3.33333 9.99998C3.33333 10.221 3.42113 10.433 3.57741 10.5892C3.73369 10.7455 3.94565 10.8333 4.16666 10.8333H9.16666V15.8333C9.16666 16.0543 9.25446 16.2663 9.41074 16.4226C9.56702 16.5788 9.77898 16.6666 9.99999 16.6666C10.221 16.6666 10.433 16.5788 10.5893 16.4226C10.7455 16.2663 10.8333 16.0543 10.8333 15.8333V10.8333H15.8333C16.0543 10.8333 16.2663 10.7455 16.4226 10.5892C16.5789 10.433 16.6667 10.221 16.6667 9.99998C16.6667 9.77897 16.5789 9.567 16.4226 9.41072C16.2663 9.25444 16.0543 9.16665 15.8333 9.16665Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Develoopment
+											</span>
+										</div>
+									</div>
+									<div className="w-full border  flex flex-col gap-5 items-center p-4 border-[#00393D] rounded-3xl  ">
+										<div className="flex gap-5 flex-col md:flex-row justify-between">
+											<div className="md:w-1/2 rounded-3xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image3}
+													alt=""
+												/>
+											</div>
+											<div className="md:w-1/2 rounded-3xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image4}
+													alt=""
+												/>
+											</div>
+										</div>
+										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-between items-center">
+											<div className="w-[200px] h-[45px] rounded-full flex justify-center items-center border-[#00393D] border gap-2">
+												<svg
+													width="20"
+													height="21"
+													viewBox="0 0 20 21"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
+														fill="#1AFFE9"
+													/>
+													<path
+														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
+														fill="#1AFFE9"
+													/>
+												</svg>
+
+												<Link
+													href={"http://www.google.com"}
+													className="text-[#649B9B] text-[14px]"
+													target="_blank"
+												>
+													www.google.com
+												</Link>
+											</div>
+											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border sm:flex hidden justify-between">
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<path
+															d="M28.5 13L23.5 18L28.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+													</svg>
+												</button>
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															fill="url(#paint0_linear_1_597)"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="url(#paint1_radial_1_597)"
+														/>
+														<path
+															d="M23.5 13L28.5 18L23.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+														<defs>
+															<linearGradient
+																id="paint0_linear_1_597"
+																x1="58.898"
+																y1="-13.0909"
+																x2="2.11379"
+																y2="20.033"
+																gradientUnits="userSpaceOnUse"
+															>
+																<stop offset="0.238871" stopColor="#003033" />
+																<stop
+																	offset="1"
+																	stopColor="#001D1F"
+																	stopOpacity="0"
+																/>
+															</linearGradient>
+															<radialGradient
+																id="paint1_radial_1_597"
+																cx="0"
+																cy="0"
+																r="1"
+																gradientUnits="userSpaceOnUse"
+																gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
+															>
+																<stop stopColor="#00998A" />
+																<stop
+																	offset="0.597922"
+																	stopColor="#00998A"
+																	stopOpacity="0"
+																/>
+															</radialGradient>
+														</defs>
+													</svg>
+												</button>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
-							<div className="flex flex-col gap-5">
-								<div className="w-full h-[60px] flex justify-between items-center">
-									<h4 className="text-[20px] text-[#ccfffa]">FutureTech AI</h4>
-									<button
-										className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
+						<div
+							className={`Development  ${
+								currentVisibleIndexTwo === 1
+									? "opacity-100 h-auto "
+									: "opacity-0 h-0"
+							} transition-opacity duration-700`}
+						>
+							<div className="w-full lg:flex-row flex-col flex items-center gap-10">
+								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+									<div className="flex flex-col gap-5">
+										<div className="w-full h-[60px] flex justify-between items-center">
+											<h4 className="text-[20px] text-[#ccfffa]">
+												Designer Portfolio
+											</h4>
+											<button
+												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
 							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
-									>
-										View Projects
-									</button>
-								</div>
-								<p className="text-[#649B9B] text-[14px]">
-									Explore a showcase of unique design projects that blend
-									creativity and technical finesse. Lorem, ipsum dolor sit amet
-									consectetur adipisicing elit. Vero, at.
-								</p>
-							</div>
-							<div className="w-full flex items-center  flex-wrap gap-3">
-								<div className="flex gap-3 items-center  justify-center w-[170px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
-									<span className="text-[12px] text-[#649B9B]">Client</span>
-									<svg
-										width="4"
-										height="4"
-										viewBox="0 0 4 4"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="2" cy="2" r="2" fill="#507C7C" />
-									</svg>
-									<span className="text-[12px] text-[#99FFF5]">FutureTech</span>
-								</div>
-								<div className="flex gap-3 items-center  w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
-									<span className="text-[12px] text-[#649B9B]">Category</span>
-									<svg
-										width="4"
-										height="4"
-										viewBox="0 0 4 4"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="2" cy="2" r="2" fill="#507C7C" />
-									</svg>
-									<span className="text-[12px] text-[#99FFF5]">Ai</span>
-								</div>
-								<div className="flex gap-3 items-center  justify-center w-[250px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
-									<span className="text-[12px] text-[#649B9B]">Work</span>
-									<svg
-										width="4"
-										height="4"
-										viewBox="0 0 4 4"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<circle cx="2" cy="2" r="2" fill="#507C7C" />
-									</svg>
-									<span className="text-[12px] text-[#99FFF5]">Design</span>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 20 20"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M15.8333 9.16665H10.8333V4.16665C10.8333 3.94563 10.7455 3.73367 10.5893 3.57739C10.433 3.42111 10.221 3.33331 9.99999 3.33331C9.77898 3.33331 9.56702 3.42111 9.41074 3.57739C9.25446 3.73367 9.16666 3.94563 9.16666 4.16665V9.16665H4.16666C3.94565 9.16665 3.73369 9.25444 3.57741 9.41072C3.42113 9.567 3.33333 9.77897 3.33333 9.99998C3.33333 10.221 3.42113 10.433 3.57741 10.5892C3.73369 10.7455 3.94565 10.8333 4.16666 10.8333H9.16666V15.8333C9.16666 16.0543 9.25446 16.2663 9.41074 16.4226C9.56702 16.5788 9.77898 16.6666 9.99999 16.6666C10.221 16.6666 10.433 16.5788 10.5893 16.4226C10.7455 16.2663 10.8333 16.0543 10.8333 15.8333V10.8333H15.8333C16.0543 10.8333 16.2663 10.7455 16.4226 10.5892C16.5789 10.433 16.6667 10.221 16.6667 9.99998C16.6667 9.77897 16.5789 9.567 16.4226 9.41072C16.2663 9.25444 16.0543 9.16665 15.8333 9.16665Z"
-											fill="#1AFFE9"
-										/>
-									</svg>
-									<span className="text-[12px] text-[#99FFF5]">
-										Develoopment
-									</span>
-								</div>
-							</div>
-							<div className="w-full border  flex flex-col gap-5 items-center p-4 border-[#00393D] rounded-3xl  ">
-								<div className="flex gap-5 flex-col md:flex-row justify-between">
-									<div className="md:w-1/2 rounded-3xl h-[230px] overflow-hidden">
-										<Image
-											width={50000}
-											className="object-cover h-[230px]"
-											height={50000}
-											src={Image3}
-											alt=""
-										/>
+											>
+												View Projects
+											</button>
+										</div>
+										<p className="text-[#649B9B] text-[14px]">
+											Explore a showcase of unique design projects that blend
+											creativity and technical finesse. Lorem, ipsum dolor sit
+											amet consectetur adipisicing elit. Vero, at.
+										</p>
 									</div>
-									<div className="md:w-1/2 rounded-3xl h-[230px] overflow-hidden">
-										<Image
-											width={50000}
-											className="object-cover h-[230px]"
-											height={50000}
-											src={Image4}
-											alt=""
-										/>
+									<div className="w-full flex flex-wrap items-center  gap-3">
+										<div className="flex gap-3 items-center w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Client</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5] w-[90px]">
+												John Smith
+											</span>{" "}
+										</div>
+										<div className="flex gap-3 items-center w-[160px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">
+												Category
+											</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Portfolio
+											</span>{" "}
+										</div>
+										<div className="flex gap-3 items-center w-[240px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Work</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">Design</span>
+											<svg
+												width="20"
+												height="20"
+												viewBox="0 0 20 20"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M15.8333 9.16665H10.8333V4.16665C10.8333 3.94563 10.7455 3.73367 10.5893 3.57739C10.433 3.42111 10.221 3.33331 9.99999 3.33331C9.77898 3.33331 9.56702 3.42111 9.41074 3.57739C9.25446 3.73367 9.16666 3.94563 9.16666 4.16665V9.16665H4.16666C3.94565 9.16665 3.73369 9.25444 3.57741 9.41072C3.42113 9.567 3.33333 9.77897 3.33333 9.99998C3.33333 10.221 3.42113 10.433 3.57741 10.5892C3.73369 10.7455 3.94565 10.8333 4.16666 10.8333H9.16666V15.8333C9.16666 16.0543 9.25446 16.2663 9.41074 16.4226C9.56702 16.5788 9.77898 16.6666 9.99999 16.6666C10.221 16.6666 10.433 16.5788 10.5893 16.4226C10.7455 16.2663 10.8333 16.0543 10.8333 15.8333V10.8333H15.8333C16.0543 10.8333 16.2663 10.7455 16.4226 10.5892C16.5789 10.433 16.6667 10.221 16.6667 9.99998C16.6667 9.77897 16.5789 9.567 16.4226 9.41072C16.2663 9.25444 16.0543 9.16665 15.8333 9.16665Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Develoopment
+											</span>
+										</div>
 									</div>
-								</div>
-								<div className="w-full h-[60px] z-10 flex justify-center sm:justify-between items-center">
-									<div className="w-[200px] h-[45px] rounded-full flex justify-center items-center border-[#00393D] border gap-2">
-										<svg
-											width="20"
-											height="21"
-											viewBox="0 0 20 21"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
-												fill="#1AFFE9"
-											/>
-											<path
-												d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
+									<div className="w-full border flex flex-col gap-5 items-center p-4 border-[#00393D] rounded-3xl">
+										<div className="flex gap-5 flex-col md:flex-row justify-between">
+											<div className="md:w-1/2 w-full rounded-xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image1}
+													alt=""
+												/>
+											</div>
+											<div className="md:w-1/2 w-full rounded-xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image2}
+													alt=""
+												/>
+											</div>
+										</div>
+										<div className="w-full h-[60px] flex justify-center sm:justify-between items-center z-20">
+											<div className="w-[200px] h-[45px] rounded-full flex justify-center items-center border-[#00393D] border gap-2">
+												<svg
+													width="20"
+													height="21"
+													viewBox="0 0 20 21"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
+														fill="#1AFFE9"
+													/>
+													<path
+														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
+														fill="#1AFFE9"
+													/>
+												</svg>
 
-										<Link
-											href={"http://www.google.com"}
-											className="text-[#649B9B] text-[14px]"
-											target="_blank"
-										>
-											www.google.com
-										</Link>
+												<Link
+													href={"http://www.google.com"}
+													className="text-[#649B9B] text-[14px]"
+													target="_blank"
+												>
+													www.google.com
+												</Link>
+											</div>
+											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border hidden sm:flex justify-between">
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<path
+															d="M28.5 13L23.5 18L28.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+													</svg>
+												</button>
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															fill="url(#paint0_linear_1_597)"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="url(#paint1_radial_1_597)"
+														/>
+														<path
+															d="M23.5 13L28.5 18L23.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+														<defs>
+															<linearGradient
+																id="paint0_linear_1_597"
+																x1="58.898"
+																y1="-13.0909"
+																x2="2.11379"
+																y2="20.033"
+																gradientUnits="userSpaceOnUse"
+															>
+																<stop offset="0.238871" stopColor="#003033" />
+																<stop
+																	offset="1"
+																	stopColor="#001D1F"
+																	stopOpacity="0"
+																/>
+															</linearGradient>
+															<radialGradient
+																id="paint1_radial_1_597"
+																cx="0"
+																cy="0"
+																r="1"
+																gradientUnits="userSpaceOnUse"
+																gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
+															>
+																<stop stopColor="#00998A" />
+																<stop
+																	offset="0.597922"
+																	stopColor="#00998A"
+																	stopOpacity="0"
+																/>
+															</radialGradient>
+														</defs>
+													</svg>
+												</button>
+											</div>
+										</div>
 									</div>
-									<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border sm:flex hidden justify-between">
-										<button>
+								</div>
+								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+									<div className="flex flex-col gap-5">
+										<div className="w-full h-[60px] flex justify-between items-center">
+											<h4 className="text-[20px] text-[#ccfffa]">
+												FutureTech AI
+											</h4>
+											<button
+												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
+							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
+											>
+												View Projects
+											</button>
+										</div>
+										<p className="text-[#649B9B] text-[14px]">
+											Explore a showcase of unique design projects that blend
+											creativity and technical finesse. Lorem, ipsum dolor sit
+											amet consectetur adipisicing elit. Vero, at.
+										</p>
+									</div>
+									<div className="w-full flex items-center  flex-wrap gap-3">
+										<div className="flex gap-3 items-center  justify-center w-[170px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Client</span>
 											<svg
-												width="52"
-												height="36"
-												viewBox="0 0 52 36"
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
 												fill="none"
 												xmlns="http://www.w3.org/2000/svg"
 											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													stroke="#00393D"
-												/>
-												<path
-													d="M28.5 13L23.5 18L28.5 23"
-													stroke="white"
-													strokeWidth="2"
-													strokeLinecap="round"
-													strokeLinejoin="round"
-												/>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
-										</button>
-										<button>
+											<span className="text-[12px] text-[#99FFF5]">
+												FutureTech
+											</span>
+										</div>
+										<div className="flex gap-3 items-center  w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">
+												Category
+											</span>
 											<svg
-												width="52"
-												height="36"
-												viewBox="0 0 52 36"
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
 												fill="none"
 												xmlns="http://www.w3.org/2000/svg"
 											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													fill="url(#paint0_linear_1_597)"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													stroke="#00393D"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													stroke="url(#paint1_radial_1_597)"
-												/>
-												<path
-													d="M23.5 13L28.5 18L23.5 23"
-													stroke="white"
-													strokeWidth="2"
-													strokeLinecap="round"
-													strokeLinejoin="round"
-												/>
-												<defs>
-													<linearGradient
-														id="paint0_linear_1_597"
-														x1="58.898"
-														y1="-13.0909"
-														x2="2.11379"
-														y2="20.033"
-														gradientUnits="userSpaceOnUse"
-													>
-														<stop offset="0.238871" stopColor="#003033" />
-														<stop
-															offset="1"
-															stopColor="#001D1F"
-															stopOpacity="0"
-														/>
-													</linearGradient>
-													<radialGradient
-														id="paint1_radial_1_597"
-														cx="0"
-														cy="0"
-														r="1"
-														gradientUnits="userSpaceOnUse"
-														gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
-													>
-														<stop stopColor="#00998A" />
-														<stop
-															offset="0.597922"
-															stopColor="#00998A"
-															stopOpacity="0"
-														/>
-													</radialGradient>
-												</defs>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
-										</button>
+											<span className="text-[12px] text-[#99FFF5]">Ai</span>
+										</div>
+										<div className="flex gap-3 items-center  justify-center w-[250px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Work</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">Design</span>
+											<svg
+												width="20"
+												height="20"
+												viewBox="0 0 20 20"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M15.8333 9.16665H10.8333V4.16665C10.8333 3.94563 10.7455 3.73367 10.5893 3.57739C10.433 3.42111 10.221 3.33331 9.99999 3.33331C9.77898 3.33331 9.56702 3.42111 9.41074 3.57739C9.25446 3.73367 9.16666 3.94563 9.16666 4.16665V9.16665H4.16666C3.94565 9.16665 3.73369 9.25444 3.57741 9.41072C3.42113 9.567 3.33333 9.77897 3.33333 9.99998C3.33333 10.221 3.42113 10.433 3.57741 10.5892C3.73369 10.7455 3.94565 10.8333 4.16666 10.8333H9.16666V15.8333C9.16666 16.0543 9.25446 16.2663 9.41074 16.4226C9.56702 16.5788 9.77898 16.6666 9.99999 16.6666C10.221 16.6666 10.433 16.5788 10.5893 16.4226C10.7455 16.2663 10.8333 16.0543 10.8333 15.8333V10.8333H15.8333C16.0543 10.8333 16.2663 10.7455 16.4226 10.5892C16.5789 10.433 16.6667 10.221 16.6667 9.99998C16.6667 9.77897 16.5789 9.567 16.4226 9.41072C16.2663 9.25444 16.0543 9.16665 15.8333 9.16665Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Develoopment
+											</span>
+										</div>
+									</div>
+									<div className="w-full border  flex flex-col gap-5 items-center p-4 border-[#00393D] rounded-3xl  ">
+										<div className="flex gap-5 flex-col md:flex-row justify-between">
+											<div className="md:w-1/2 rounded-3xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image3}
+													alt=""
+												/>
+											</div>
+											<div className="md:w-1/2 rounded-3xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image4}
+													alt=""
+												/>
+											</div>
+										</div>
+										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-between items-center">
+											<div className="w-[200px] h-[45px] rounded-full flex justify-center items-center border-[#00393D] border gap-2">
+												<svg
+													width="20"
+													height="21"
+													viewBox="0 0 20 21"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
+														fill="#1AFFE9"
+													/>
+													<path
+														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
+														fill="#1AFFE9"
+													/>
+												</svg>
+
+												<Link
+													href={"http://www.google.com"}
+													className="text-[#649B9B] text-[14px]"
+													target="_blank"
+												>
+													www.google.com
+												</Link>
+											</div>
+											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border sm:flex hidden justify-between">
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<path
+															d="M28.5 13L23.5 18L28.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+													</svg>
+												</button>
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															fill="url(#paint0_linear_1_597)"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="url(#paint1_radial_1_597)"
+														/>
+														<path
+															d="M23.5 13L28.5 18L23.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+														<defs>
+															<linearGradient
+																id="paint0_linear_1_597"
+																x1="58.898"
+																y1="-13.0909"
+																x2="2.11379"
+																y2="20.033"
+																gradientUnits="userSpaceOnUse"
+															>
+																<stop offset="0.238871" stopColor="#003033" />
+																<stop
+																	offset="1"
+																	stopColor="#001D1F"
+																	stopOpacity="0"
+																/>
+															</linearGradient>
+															<radialGradient
+																id="paint1_radial_1_597"
+																cx="0"
+																cy="0"
+																r="1"
+																gradientUnits="userSpaceOnUse"
+																gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
+															>
+																<stop stopColor="#00998A" />
+																<stop
+																	offset="0.597922"
+																	stopColor="#00998A"
+																	stopOpacity="0"
+																/>
+															</radialGradient>
+														</defs>
+													</svg>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							className={`Marketing ${
+								currentVisibleIndexTwo === 2
+									? "opacity-100 h-auto"
+									: "opacity-0 h-0"
+							} transition-opacity duration-700`}
+						>
+							<div className="w-full lg:flex-row flex-col flex items-center gap-10">
+								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+									<div className="flex flex-col gap-5">
+										<div className="w-full h-[60px] flex justify-between items-center">
+											<h4 className="text-[20px] text-[#ccfffa]">
+												Designer Portfolio
+											</h4>
+											<button
+												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
+							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
+											>
+												View Projects
+											</button>
+										</div>
+										<p className="text-[#649B9B] text-[14px]">
+											Explore a showcase of unique design projects that blend
+											creativity and technical finesse. Lorem, ipsum dolor sit
+											amet consectetur adipisicing elit. Vero, at.
+										</p>
+									</div>
+									<div className="w-full flex flex-wrap items-center  gap-3">
+										<div className="flex gap-3 items-center w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Client</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5] w-[90px]">
+												John Smith
+											</span>{" "}
+										</div>
+										<div className="flex gap-3 items-center w-[160px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">
+												Category
+											</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Portfolio
+											</span>{" "}
+										</div>
+										<div className="flex gap-3 items-center w-[240px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Work</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">Design</span>
+											<svg
+												width="20"
+												height="20"
+												viewBox="0 0 20 20"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M15.8333 9.16665H10.8333V4.16665C10.8333 3.94563 10.7455 3.73367 10.5893 3.57739C10.433 3.42111 10.221 3.33331 9.99999 3.33331C9.77898 3.33331 9.56702 3.42111 9.41074 3.57739C9.25446 3.73367 9.16666 3.94563 9.16666 4.16665V9.16665H4.16666C3.94565 9.16665 3.73369 9.25444 3.57741 9.41072C3.42113 9.567 3.33333 9.77897 3.33333 9.99998C3.33333 10.221 3.42113 10.433 3.57741 10.5892C3.73369 10.7455 3.94565 10.8333 4.16666 10.8333H9.16666V15.8333C9.16666 16.0543 9.25446 16.2663 9.41074 16.4226C9.56702 16.5788 9.77898 16.6666 9.99999 16.6666C10.221 16.6666 10.433 16.5788 10.5893 16.4226C10.7455 16.2663 10.8333 16.0543 10.8333 15.8333V10.8333H15.8333C16.0543 10.8333 16.2663 10.7455 16.4226 10.5892C16.5789 10.433 16.6667 10.221 16.6667 9.99998C16.6667 9.77897 16.5789 9.567 16.4226 9.41072C16.2663 9.25444 16.0543 9.16665 15.8333 9.16665Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Develoopment
+											</span>
+										</div>
+									</div>
+									<div className="w-full border flex flex-col gap-5 items-center p-4 border-[#00393D] rounded-3xl">
+										<div className="flex gap-5 flex-col md:flex-row justify-between">
+											<div className="md:w-1/2 w-full rounded-xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image1}
+													alt=""
+												/>
+											</div>
+											<div className="md:w-1/2 w-full rounded-xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image2}
+													alt=""
+												/>
+											</div>
+										</div>
+										<div className="w-full h-[60px] flex justify-center sm:justify-between items-center z-20">
+											<div className="w-[200px] h-[45px] rounded-full flex justify-center items-center border-[#00393D] border gap-2">
+												<svg
+													width="20"
+													height="21"
+													viewBox="0 0 20 21"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
+														fill="#1AFFE9"
+													/>
+													<path
+														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
+														fill="#1AFFE9"
+													/>
+												</svg>
+
+												<Link
+													href={"http://www.google.com"}
+													className="text-[#649B9B] text-[14px]"
+													target="_blank"
+												>
+													www.google.com
+												</Link>
+											</div>
+											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border hidden sm:flex justify-between">
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<path
+															d="M28.5 13L23.5 18L28.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+													</svg>
+												</button>
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															fill="url(#paint0_linear_1_597)"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="url(#paint1_radial_1_597)"
+														/>
+														<path
+															d="M23.5 13L28.5 18L23.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+														<defs>
+															<linearGradient
+																id="paint0_linear_1_597"
+																x1="58.898"
+																y1="-13.0909"
+																x2="2.11379"
+																y2="20.033"
+																gradientUnits="userSpaceOnUse"
+															>
+																<stop offset="0.238871" stopColor="#003033" />
+																<stop
+																	offset="1"
+																	stopColor="#001D1F"
+																	stopOpacity="0"
+																/>
+															</linearGradient>
+															<radialGradient
+																id="paint1_radial_1_597"
+																cx="0"
+																cy="0"
+																r="1"
+																gradientUnits="userSpaceOnUse"
+																gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
+															>
+																<stop stopColor="#00998A" />
+																<stop
+																	offset="0.597922"
+																	stopColor="#00998A"
+																	stopOpacity="0"
+																/>
+															</radialGradient>
+														</defs>
+													</svg>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+									<div className="flex flex-col gap-5">
+										<div className="w-full h-[60px] flex justify-between items-center">
+											<h4 className="text-[20px] text-[#ccfffa]">
+												FutureTech AI
+											</h4>
+											<button
+												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
+							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
+											>
+												View Projects
+											</button>
+										</div>
+										<p className="text-[#649B9B] text-[14px]">
+											Explore a showcase of unique design projects that blend
+											creativity and technical finesse. Lorem, ipsum dolor sit
+											amet consectetur adipisicing elit. Vero, at.
+										</p>
+									</div>
+									<div className="w-full flex items-center  flex-wrap gap-3">
+										<div className="flex gap-3 items-center  justify-center w-[170px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Client</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												FutureTech
+											</span>
+										</div>
+										<div className="flex gap-3 items-center  w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">
+												Category
+											</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">Ai</span>
+										</div>
+										<div className="flex gap-3 items-center  justify-center w-[250px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Work</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">Design</span>
+											<svg
+												width="20"
+												height="20"
+												viewBox="0 0 20 20"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M15.8333 9.16665H10.8333V4.16665C10.8333 3.94563 10.7455 3.73367 10.5893 3.57739C10.433 3.42111 10.221 3.33331 9.99999 3.33331C9.77898 3.33331 9.56702 3.42111 9.41074 3.57739C9.25446 3.73367 9.16666 3.94563 9.16666 4.16665V9.16665H4.16666C3.94565 9.16665 3.73369 9.25444 3.57741 9.41072C3.42113 9.567 3.33333 9.77897 3.33333 9.99998C3.33333 10.221 3.42113 10.433 3.57741 10.5892C3.73369 10.7455 3.94565 10.8333 4.16666 10.8333H9.16666V15.8333C9.16666 16.0543 9.25446 16.2663 9.41074 16.4226C9.56702 16.5788 9.77898 16.6666 9.99999 16.6666C10.221 16.6666 10.433 16.5788 10.5893 16.4226C10.7455 16.2663 10.8333 16.0543 10.8333 15.8333V10.8333H15.8333C16.0543 10.8333 16.2663 10.7455 16.4226 10.5892C16.5789 10.433 16.6667 10.221 16.6667 9.99998C16.6667 9.77897 16.5789 9.567 16.4226 9.41072C16.2663 9.25444 16.0543 9.16665 15.8333 9.16665Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Develoopment
+											</span>
+										</div>
+									</div>
+									<div className="w-full border  flex flex-col gap-5 items-center p-4 border-[#00393D] rounded-3xl  ">
+										<div className="flex gap-5 flex-col md:flex-row justify-between">
+											<div className="md:w-1/2 rounded-3xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image3}
+													alt=""
+												/>
+											</div>
+											<div className="md:w-1/2 rounded-3xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image4}
+													alt=""
+												/>
+											</div>
+										</div>
+										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-between items-center">
+											<div className="w-[200px] h-[45px] rounded-full flex justify-center items-center border-[#00393D] border gap-2">
+												<svg
+													width="20"
+													height="21"
+													viewBox="0 0 20 21"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
+														fill="#1AFFE9"
+													/>
+													<path
+														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
+														fill="#1AFFE9"
+													/>
+												</svg>
+
+												<Link
+													href={"http://www.google.com"}
+													className="text-[#649B9B] text-[14px]"
+													target="_blank"
+												>
+													www.google.com
+												</Link>
+											</div>
+											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border sm:flex hidden justify-between">
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<path
+															d="M28.5 13L23.5 18L28.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+													</svg>
+												</button>
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															fill="url(#paint0_linear_1_597)"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="url(#paint1_radial_1_597)"
+														/>
+														<path
+															d="M23.5 13L28.5 18L23.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+														<defs>
+															<linearGradient
+																id="paint0_linear_1_597"
+																x1="58.898"
+																y1="-13.0909"
+																x2="2.11379"
+																y2="20.033"
+																gradientUnits="userSpaceOnUse"
+															>
+																<stop offset="0.238871" stopColor="#003033" />
+																<stop
+																	offset="1"
+																	stopColor="#001D1F"
+																	stopOpacity="0"
+																/>
+															</linearGradient>
+															<radialGradient
+																id="paint1_radial_1_597"
+																cx="0"
+																cy="0"
+																r="1"
+																gradientUnits="userSpaceOnUse"
+																gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
+															>
+																<stop stopColor="#00998A" />
+																<stop
+																	offset="0.597922"
+																	stopColor="#00998A"
+																	stopOpacity="0"
+																/>
+															</radialGradient>
+														</defs>
+													</svg>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							className={`Management ${
+								currentVisibleIndexTwo === 3
+									? "opacity-100 h-auto"
+									: "opacity-0 h-0"
+							} transition-opacity duration-700`}
+						>
+							<div className="w-full lg:flex-row flex-col flex items-center gap-10">
+								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+									<div className="flex flex-col gap-5">
+										<div className="w-full h-[60px] flex justify-between items-center">
+											<h4 className="text-[20px] text-[#ccfffa]">
+												Designer Portfolio
+											</h4>
+											<button
+												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
+							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
+											>
+												View Projects
+											</button>
+										</div>
+										<p className="text-[#649B9B] text-[14px]">
+											Explore a showcase of unique design projects that blend
+											creativity and technical finesse. Lorem, ipsum dolor sit
+											amet consectetur adipisicing elit. Vero, at.
+										</p>
+									</div>
+									<div className="w-full flex flex-wrap items-center  gap-3">
+										<div className="flex gap-3 items-center w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Client</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5] w-[90px]">
+												John Smith
+											</span>{" "}
+										</div>
+										<div className="flex gap-3 items-center w-[160px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">
+												Category
+											</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Portfolio
+											</span>{" "}
+										</div>
+										<div className="flex gap-3 items-center w-[240px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Work</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">Design</span>
+											<svg
+												width="20"
+												height="20"
+												viewBox="0 0 20 20"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M15.8333 9.16665H10.8333V4.16665C10.8333 3.94563 10.7455 3.73367 10.5893 3.57739C10.433 3.42111 10.221 3.33331 9.99999 3.33331C9.77898 3.33331 9.56702 3.42111 9.41074 3.57739C9.25446 3.73367 9.16666 3.94563 9.16666 4.16665V9.16665H4.16666C3.94565 9.16665 3.73369 9.25444 3.57741 9.41072C3.42113 9.567 3.33333 9.77897 3.33333 9.99998C3.33333 10.221 3.42113 10.433 3.57741 10.5892C3.73369 10.7455 3.94565 10.8333 4.16666 10.8333H9.16666V15.8333C9.16666 16.0543 9.25446 16.2663 9.41074 16.4226C9.56702 16.5788 9.77898 16.6666 9.99999 16.6666C10.221 16.6666 10.433 16.5788 10.5893 16.4226C10.7455 16.2663 10.8333 16.0543 10.8333 15.8333V10.8333H15.8333C16.0543 10.8333 16.2663 10.7455 16.4226 10.5892C16.5789 10.433 16.6667 10.221 16.6667 9.99998C16.6667 9.77897 16.5789 9.567 16.4226 9.41072C16.2663 9.25444 16.0543 9.16665 15.8333 9.16665Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Develoopment
+											</span>
+										</div>
+									</div>
+									<div className="w-full border flex flex-col gap-5 items-center p-4 border-[#00393D] rounded-3xl">
+										<div className="flex gap-5 flex-col md:flex-row justify-between">
+											<div className="md:w-1/2 w-full rounded-xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image1}
+													alt=""
+												/>
+											</div>
+											<div className="md:w-1/2 w-full rounded-xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image2}
+													alt=""
+												/>
+											</div>
+										</div>
+										<div className="w-full h-[60px] flex justify-center sm:justify-between items-center z-20">
+											<div className="w-[200px] h-[45px] rounded-full flex justify-center items-center border-[#00393D] border gap-2">
+												<svg
+													width="20"
+													height="21"
+													viewBox="0 0 20 21"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
+														fill="#1AFFE9"
+													/>
+													<path
+														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
+														fill="#1AFFE9"
+													/>
+												</svg>
+
+												<Link
+													href={"http://www.google.com"}
+													className="text-[#649B9B] text-[14px]"
+													target="_blank"
+												>
+													www.google.com
+												</Link>
+											</div>
+											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border hidden sm:flex justify-between">
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<path
+															d="M28.5 13L23.5 18L28.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+													</svg>
+												</button>
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															fill="url(#paint0_linear_1_597)"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="url(#paint1_radial_1_597)"
+														/>
+														<path
+															d="M23.5 13L28.5 18L23.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+														<defs>
+															<linearGradient
+																id="paint0_linear_1_597"
+																x1="58.898"
+																y1="-13.0909"
+																x2="2.11379"
+																y2="20.033"
+																gradientUnits="userSpaceOnUse"
+															>
+																<stop offset="0.238871" stopColor="#003033" />
+																<stop
+																	offset="1"
+																	stopColor="#001D1F"
+																	stopOpacity="0"
+																/>
+															</linearGradient>
+															<radialGradient
+																id="paint1_radial_1_597"
+																cx="0"
+																cy="0"
+																r="1"
+																gradientUnits="userSpaceOnUse"
+																gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
+															>
+																<stop stopColor="#00998A" />
+																<stop
+																	offset="0.597922"
+																	stopColor="#00998A"
+																	stopOpacity="0"
+																/>
+															</radialGradient>
+														</defs>
+													</svg>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+									<div className="flex flex-col gap-5">
+										<div className="w-full h-[60px] flex justify-between items-center">
+											<h4 className="text-[20px] text-[#ccfffa]">
+												FutureTech AI
+											</h4>
+											<button
+												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
+							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
+											>
+												View Projects
+											</button>
+										</div>
+										<p className="text-[#649B9B] text-[14px]">
+											Explore a showcase of unique design projects that blend
+											creativity and technical finesse. Lorem, ipsum dolor sit
+											amet consectetur adipisicing elit. Vero, at.
+										</p>
+									</div>
+									<div className="w-full flex items-center  flex-wrap gap-3">
+										<div className="flex gap-3 items-center  justify-center w-[170px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Client</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												FutureTech
+											</span>
+										</div>
+										<div className="flex gap-3 items-center  w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">
+												Category
+											</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">Ai</span>
+										</div>
+										<div className="flex gap-3 items-center  justify-center w-[250px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
+											<span className="text-[12px] text-[#649B9B]">Work</span>
+											<svg
+												width="4"
+												height="4"
+												viewBox="0 0 4 4"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="2" cy="2" r="2" fill="#507C7C" />
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">Design</span>
+											<svg
+												width="20"
+												height="20"
+												viewBox="0 0 20 20"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M15.8333 9.16665H10.8333V4.16665C10.8333 3.94563 10.7455 3.73367 10.5893 3.57739C10.433 3.42111 10.221 3.33331 9.99999 3.33331C9.77898 3.33331 9.56702 3.42111 9.41074 3.57739C9.25446 3.73367 9.16666 3.94563 9.16666 4.16665V9.16665H4.16666C3.94565 9.16665 3.73369 9.25444 3.57741 9.41072C3.42113 9.567 3.33333 9.77897 3.33333 9.99998C3.33333 10.221 3.42113 10.433 3.57741 10.5892C3.73369 10.7455 3.94565 10.8333 4.16666 10.8333H9.16666V15.8333C9.16666 16.0543 9.25446 16.2663 9.41074 16.4226C9.56702 16.5788 9.77898 16.6666 9.99999 16.6666C10.221 16.6666 10.433 16.5788 10.5893 16.4226C10.7455 16.2663 10.8333 16.0543 10.8333 15.8333V10.8333H15.8333C16.0543 10.8333 16.2663 10.7455 16.4226 10.5892C16.5789 10.433 16.6667 10.221 16.6667 9.99998C16.6667 9.77897 16.5789 9.567 16.4226 9.41072C16.2663 9.25444 16.0543 9.16665 15.8333 9.16665Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+											<span className="text-[12px] text-[#99FFF5]">
+												Develoopment
+											</span>
+										</div>
+									</div>
+									<div className="w-full border  flex flex-col gap-5 items-center p-4 border-[#00393D] rounded-3xl  ">
+										<div className="flex gap-5 flex-col md:flex-row justify-between">
+											<div className="md:w-1/2 rounded-3xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image3}
+													alt=""
+												/>
+											</div>
+											<div className="md:w-1/2 rounded-3xl h-[230px] overflow-hidden">
+												<Image
+													width={50000}
+													className="object-cover h-[230px]"
+													height={50000}
+													src={Image4}
+													alt=""
+												/>
+											</div>
+										</div>
+										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-between items-center">
+											<div className="w-[200px] h-[45px] rounded-full flex justify-center items-center border-[#00393D] border gap-2">
+												<svg
+													width="20"
+													height="21"
+													viewBox="0 0 20 21"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
+														fill="#1AFFE9"
+													/>
+													<path
+														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
+														fill="#1AFFE9"
+													/>
+												</svg>
+
+												<Link
+													href={"http://www.google.com"}
+													className="text-[#649B9B] text-[14px]"
+													target="_blank"
+												>
+													www.google.com
+												</Link>
+											</div>
+											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border sm:flex hidden justify-between">
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<path
+															d="M28.5 13L23.5 18L28.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+													</svg>
+												</button>
+												<button>
+													<svg
+														width="52"
+														height="36"
+														viewBox="0 0 52 36"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															fill="url(#paint0_linear_1_597)"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="#00393D"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="51"
+															height="35"
+															rx="17.5"
+															stroke="url(#paint1_radial_1_597)"
+														/>
+														<path
+															d="M23.5 13L28.5 18L23.5 23"
+															stroke="white"
+															strokeWidth="2"
+															strokeLinecap="round"
+															strokeLinejoin="round"
+														/>
+														<defs>
+															<linearGradient
+																id="paint0_linear_1_597"
+																x1="58.898"
+																y1="-13.0909"
+																x2="2.11379"
+																y2="20.033"
+																gradientUnits="userSpaceOnUse"
+															>
+																<stop offset="0.238871" stopColor="#003033" />
+																<stop
+																	offset="1"
+																	stopColor="#001D1F"
+																	stopOpacity="0"
+																/>
+															</linearGradient>
+															<radialGradient
+																id="paint1_radial_1_597"
+																cx="0"
+																cy="0"
+																r="1"
+																gradientUnits="userSpaceOnUse"
+																gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
+															>
+																<stop stopColor="#00998A" />
+																<stop
+																	offset="0.597922"
+																	stopColor="#00998A"
+																	stopOpacity="0"
+																/>
+															</radialGradient>
+														</defs>
+													</svg>
+												</button>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -2998,7 +4298,10 @@ export default function Home() {
 								}}
 							>
 								{testimonials.map((testimonial, index) => (
-									<div key={index} className="h-full min-w-[330px] flex-shrink-0">
+									<div
+										key={index}
+										className="h-full min-w-[330px] flex-shrink-0"
+									>
 										<div className="flex flex-col justify-between gap-2  transition-all duration-200  sm:h-[290px] border border-[#00393D] rounded-2xl p-5 hover:bg-gradient-to-b from-[#00393d9a] to-transparent">
 											<div className="w-full h-[70px] flex items-center gap-3">
 												<Image

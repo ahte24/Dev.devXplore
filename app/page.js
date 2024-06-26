@@ -127,7 +127,7 @@ export default function Home() {
 
 	const toggleVisibilitym = (index) => {
 		if (currentVisibleIndex === index) {
-			setCurrentVisibleIndex(null); // Hide if the same button is clicked again
+			setCurrentVisibleIndex(index); // Hide if the same button is clicked again
 		} else {
 			setCurrentVisibleIndex(index); // Show the respective div
 		}
@@ -1249,10 +1249,10 @@ export default function Home() {
 									<div className="w-full h-[60%] flex flex-col gap-4">
 										<div className="w-full h-[65%] flex justify-center items-center z-20">
 											<p className="text-[16px] text-[#649B9B] text-center">
-												At DevXplore, were dedicated to crafting captivating
-												designs that resonate with users. Every detail, from
-												color to navigation, is meticulously considered for a
-												seamless experience. Committed to innovation
+												At DevXplore, we’re committed to developing robust
+												solutions that drive performance. Every aspect, from
+												frontend to backend, is meticulously engineered for a
+												seamless experience. Committed to quality.
 											</p>
 										</div>
 										<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
@@ -1268,7 +1268,7 @@ export default function Home() {
 											<div className="w-[40%] h-full flex gap-2 items-center">
 												<Image width={50} height={50} src={Dev} alt="" />
 												<span className="text-[18px] text-[#CCFFFA]">
-													Development
+													Marketing
 												</span>
 											</div>
 											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
@@ -1280,17 +1280,17 @@ export default function Home() {
 										<div className="w-full flex items-center h-[40%] gap-3">
 											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
 												<span className="text-[14px] text-[#649B9B]">
-													Frontend
+												Digital
 												</span>
 											</div>
 											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
 												<span className="text-[14px] text-[#649B9B]">
-													Backend
+												Content
 												</span>
 											</div>
 											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
 												<span className="text-[14px] text-[#649B9B]">
-													Full Stack
+													Email
 												</span>
 											</div>
 										</div>
@@ -1298,10 +1298,10 @@ export default function Home() {
 									<div className="w-full h-[60%] flex flex-col gap-4">
 										<div className="w-full h-[65%] flex justify-center items-center z-20">
 											<p className="text-[16px] text-[#649B9B] text-center">
-												At DevXplore, were dedicated to crafting captivating
-												designs that resonate with users. Every detail, from
-												color to navigation, is meticulously considered for a
-												seamless experience. Committed to innovation
+												At DevXplore, we’re focused on crafting effective
+												marketing strategies that boost your online presence.
+												Every element, from SEO to social media, is meticulously
+												planned for maximum impact. Committed to growth.
 											</p>
 										</div>
 										<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
@@ -1315,7 +1315,7 @@ export default function Home() {
 											<div className="w-[40%] h-full flex gap-2 items-center">
 												<Image width={50} height={50} src={Dev} alt="" />
 												<span className="text-[18px] text-[#CCFFFA]">
-													Development
+													Consulting
 												</span>
 											</div>
 											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
@@ -1325,19 +1325,19 @@ export default function Home() {
 											</div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
-											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-												<span className="text-[14px] text-[#649B9B]">
-													Frontend
+											<div className="w-[130px] border h-[45px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px] text-center  text-[#649B9B]">
+												IT Consulting
 												</span>
 											</div>
-											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-												<span className="text-[14px] text-[#649B9B]">
-													Backend
+											<div className="w-[150px] border h-[45px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px]  text-center text-[#649B9B]">
+												Business Strategy
 												</span>
 											</div>
-											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-												<span className="text-[14px] text-[#649B9B]">
-													Full Stack
+											<div className="w-[160px] border h-[45px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px] text-center text-[#649B9B]">
+												Project Management
 												</span>
 											</div>
 										</div>
@@ -1345,10 +1345,10 @@ export default function Home() {
 									<div className="w-full h-[60%] flex flex-col gap-4">
 										<div className="w-full h-[65%] flex justify-center items-center z-20">
 											<p className="text-[16px] text-[#649B9B] text-center">
-												At DevXplore, were dedicated to crafting captivating
-												designs that resonate with users. Every detail, from
-												color to navigation, is meticulously considered for a
-												seamless experience. Committed to innovation
+												At DevXplore, we’re dedicated to providing expert
+												consulting services that drive success. Every aspect,
+												from strategy to execution, is meticulously tailored for
+												optimal results. Committed to excellence.
 											</p>
 										</div>
 										<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">

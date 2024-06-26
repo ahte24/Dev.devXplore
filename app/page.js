@@ -144,7 +144,7 @@ export default function Home() {
 
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const itemsToShow = 1;
-	const itemWidth = 365;
+	const itemWidth = 370;
 
 	const handlePrevClick = () => {
 		setCurrentIndex((prevIndex) => Math.max(prevIndex - itemsToShow, 0));

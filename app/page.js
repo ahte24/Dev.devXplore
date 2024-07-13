@@ -1325,19 +1325,19 @@ export default function Home() {
 											</div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
-											<div className="w-[130px] border h-[45px] flex items-center justify-center rounded-full border-[#00393D]">
-												<span className="text-[14px] text-center  text-[#649B9B]">
+											<div className="w-[130px] py-2 px-2 border h-[45px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[10px] text-center  text-[#649B9B]">
 												IT Consulting
 												</span>
 											</div>
-											<div className="w-[150px] border h-[45px] flex items-center justify-center rounded-full border-[#00393D]">
-												<span className="text-[14px]  text-center text-[#649B9B]">
+											<div className="w-[150px] border py-2 px-2 h-[45px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[10px]  text-center text-[#649B9B]">
 												Business Strategy
 												</span>
 											</div>
-											<div className="w-[160px] border h-[45px] flex items-center justify-center rounded-full border-[#00393D]">
-												<span className="text-[14px] text-center text-[#649B9B]">
-												Project Management
+											<div className="w-[160px] border py-2 px-2 h-[45px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[10px] text-center text-[#649B9B]">
+												Management
 												</span>
 											</div>
 										</div>

@@ -205,50 +205,50 @@ export default function Home() {
 		{
 			quote:
 				"Working with Devxplore was a fantastic experience. Their team delivered a sleek, user-friendly mobile app that exceeded our expectations. We've seen a significant increase in user engagement and satisfaction since launching.",
-			name: "Sarah Thompson",
+			name: "Vikram Singh",
 			title: "CEO of TechInnovate",
 			image: profile,
 		},
 		{
 			quote:
 				"Devxplore transformed our outdated website into a modern, responsive platform that perfectly reflects our brand. The project was completed on time and within budget. Our online presence has never been stronger!",
-			name: "James Peterson",
-			title: "Marketing Director at Green Solutions",
+			name: "Neha Patil",
+			title: "Vice President of Sales, Pinnacle Media Group",
 			image: profile,
 		},
 		{
 			quote:
 				"We needed a robust e-commerce website to support our growing business, and Devxplore delivered beyond our expectations. Sales have increased by 30% since the launch, and we couldn't be happier.",
-			name: "Emily Rodriguez",
-			title: "Owner of EcoShop",
+			name: "Suresh Iyer",
+			title: "CEO, Quantum Reach",
 			image: profile,
 		},
 		{
 			quote:
 				"The custom software solution developed by Devxplore has streamlined our operations and significantly improved our efficiency. Their post-launch support has been exemplary, ensuring everything runs smoothly.",
-			name: "Michael Lee",
+			name: "Anjali Gupta",
 			title: "Operations Manager at LogisticsPro",
 			image: profile,
 		},
 		{
 			quote:
 				"The UI/UX design services provided by Devxplore were top-notch. They completely revamped our website's interface, making it more intuitive and visually appealing. Feedback from our users has been overwhelmingly positive.",
-			name: "Anna Martins",
-			title: "Product Manager at EduTech",
+			name: "Amit Sharma",
+			title: "CTO, TechWave Solutions",
 			image: profile,
 		},
 		{
 			quote:
 				"Devxplore handled our full-stack development project with utmost professionalism. They delivered a solution that is both scalable and efficient. Their technical expertise made the entire process smooth and stress-free.",
-			name: "Robert Williams",
-			title: "CTO at HealthNet",
+			name: "Priya Menon",
+			title: "Head of Marketing, BrightFuture Enterprise",
 			image: profile,
 		},
 		{
 			quote:
 				"The ongoing support and maintenance services from Devxplore have been a lifesaver. They are always quick to address any issues and provide valuable recommendations for improvements. Knowing we have such a reliable partner gives us peace of mind.",
-			name: "Lisa Chen",
-			title: "COO at FinTech Solutions",
+			name: "Rajesh Kumar",
+			title: " Senior Product Manager, Innovatech Systems",
 			image: profile,
 		},
 	];
@@ -456,406 +456,406 @@ export default function Home() {
 									</div>
 								</button>
 							</div>
-								{currentVisibleIndex === 0 && (
-									<div className="w-full flex flex-col justify-center h-[80%] z-20">
-										<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
-											<span className="text-[12px] text-[#A2C3C3]">
-												Tools we Use For Designing
-											</span>
-											<div className="w-full h-[60%]">
-												<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
-													<Image src={Adobe} width={45} height={45} alt="" />
-													<Image src={Figma} width={45} height={45} alt="" />
-													<Image src={Diamond} width={45} height={45} alt="" />
-													<Image src={In} width={45} height={45} alt="" />
-												</div>
-											</div>
-										</div>
-										<div className="w-full h-full relative">
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
-												<Image width={57} height={57} src={webApp} alt="" />
-												<span className="text-[14px]">Web Design</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
-												<Image width={57} height={57} src={Graphic} alt="" />
-												<span className="text-[14px]">Graphic Design</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
-												<Image width={57} height={57} src={uX} alt="" />
-												<span className="text-[14px]">UX Design</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
-												<Image width={57} height={57} src={landingPage} alt="" />
-												<span className="text-[14px]">Landing Page</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
-												<Image width={57} height={57} src={uiDesign} alt="s" />
-												<span className="text-[14px]">UI Design</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
-												<Image width={57} height={57} src={Mobile} alt="" />
-												<span className="text-[14px]">Hero Secrion</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
+							{currentVisibleIndex === 0 && (
+								<div className="w-full flex flex-col justify-center h-[80%] z-20">
+									<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
+										<span className="text-[12px] text-[#A2C3C3]">
+											Tools we Use For Designing
+										</span>
+										<div className="w-full h-[60%]">
+											<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
+												<Image src={Adobe} width={45} height={45} alt="" />
+												<Image src={Figma} width={45} height={45} alt="" />
+												<Image src={Diamond} width={45} height={45} alt="" />
+												<Image src={In} width={45} height={45} alt="" />
 											</div>
 										</div>
 									</div>
-								)}
-								{currentVisibleIndex === 1 && (
-									<div className="w-full flex flex-col justify-center h-[80%] z-20 ">
-										<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
-											<span className="text-[12px] text-[#A2C3C3]">
-												Tools we Use For Development
-											</span>
-											<div className="w-full h-[60%]">
-												<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
-													<Image src={Adobe} width={45} height={45} alt="" />
-													<Image src={Figma} width={45} height={45} alt="" />
-													<Image src={Diamond} width={45} height={45} alt="" />
-													<Image src={In} width={45} height={45} alt="" />
-												</div>
-											</div>
+									<div className="w-full h-full relative">
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
+											<Image width={57} height={57} src={webApp} alt="" />
+											<span className="text-[14px]">Web Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
 										</div>
-										<div className="w-full h-full relative">
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
-												<Image width={57} height={57} src={webApp} alt="" />
-												<span className="text-[14px]">GitHub </span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
-												<Image width={57} height={57} src={Graphic} alt="" />
-												<span className="text-[14px]">VS Code</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
-												<Image width={57} height={57} src={uX} alt="" />
-												<span className="text-[14px]">JIRA</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
-												<Image width={57} height={57} src={landingPage} alt="" />
-												<span className="text-[14px]">Docker</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
-												<Image width={57} height={57} src={uiDesign} alt="s" />
-												<span className="text-[14px]">Postman</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
-												<Image width={57} height={57} src={Mobile} alt="" />
-												<span className="text-[14px]">AWS</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
+											<Image width={57} height={57} src={Graphic} alt="" />
+											<span className="text-[14px]">Graphic Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
+											<Image width={57} height={57} src={uX} alt="" />
+											<span className="text-[14px]">UX Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
+											<Image width={57} height={57} src={landingPage} alt="" />
+											<span className="text-[14px]">Landing Page</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
+											<Image width={57} height={57} src={uiDesign} alt="s" />
+											<span className="text-[14px]">UI Design</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
+											<Image width={57} height={57} src={Mobile} alt="" />
+											<span className="text-[14px]">Hero Secrion</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+									</div>
+								</div>
+							)}
+							{currentVisibleIndex === 1 && (
+								<div className="w-full flex flex-col justify-center h-[80%] z-20 ">
+									<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
+										<span className="text-[12px] text-[#A2C3C3]">
+											Tools we Use For Development
+										</span>
+										<div className="w-full h-[60%]">
+											<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
+												<Image src={Adobe} width={45} height={45} alt="" />
+												<Image src={Figma} width={45} height={45} alt="" />
+												<Image src={Diamond} width={45} height={45} alt="" />
+												<Image src={In} width={45} height={45} alt="" />
 											</div>
 										</div>
 									</div>
-								)}
-								{currentVisibleIndex === 2 && (
-									<div className="w-full flex flex-col justify-center h-[80%] z-20 ">
-										<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
-											<span className="text-[12px] text-[#A2C3C3]">
-												Tools we Use For Management
-											</span>
-											<div className="w-full h-[60%]">
-												<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
-													<Image src={Adobe} width={45} height={45} alt="" />
-													<Image src={Figma} width={45} height={45} alt="" />
-													<Image src={Diamond} width={45} height={45} alt="" />
-													<Image src={In} width={45} height={45} alt="" />
-												</div>
-											</div>
+									<div className="w-full h-full relative">
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
+											<Image width={57} height={57} src={webApp} alt="" />
+											<span className="text-[14px]">GitHub </span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
 										</div>
-										<div className="w-full h-full relative">
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
-												<Image width={57} height={57} src={webApp} alt="" />
-												<span className="text-[13px]">Microsoft Project</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
-												<Image width={57} height={57} src={Graphic} alt="" />
-												<span className="text-[14px]">Trello</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
-												<Image width={57} height={57} src={uX} alt="" />
-												<span className="text-[14px]">Asana</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
-												<Image width={57} height={57} src={landingPage} alt="" />
-												<span className="text-[14px]">Monday.com</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
-												<Image width={57} height={57} src={uiDesign} alt="s" />
-												<span className="text-[14px]">Slack</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
-											</div>
-											<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
-												<Image width={57} height={57} src={Mobile} alt="" />
-												<span className="text-[13px]">Zoho Projects</span>
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
-														stroke="#1AFFE9"
-														strokeWidth="1.5"
-														strokeLinecap="round"
-														strokeLinejoin="round"
-													/>
-												</svg>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
+											<Image width={57} height={57} src={Graphic} alt="" />
+											<span className="text-[14px]">VS Code</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
+											<Image width={57} height={57} src={uX} alt="" />
+											<span className="text-[14px]">JIRA</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
+											<Image width={57} height={57} src={landingPage} alt="" />
+											<span className="text-[14px]">Docker</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
+											<Image width={57} height={57} src={uiDesign} alt="s" />
+											<span className="text-[14px]">Postman</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
+											<Image width={57} height={57} src={Mobile} alt="" />
+											<span className="text-[14px]">AWS</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+									</div>
+								</div>
+							)}
+							{currentVisibleIndex === 2 && (
+								<div className="w-full flex flex-col justify-center h-[80%] z-20 ">
+									<div className="w-full flex flex-col gap-4 items-center justify-center h-[30%]  mt-5">
+										<span className="text-[12px] text-[#A2C3C3]">
+											Tools we Use For Management
+										</span>
+										<div className="w-full h-[60%]">
+											<div className="w-[50%] mx-auto h-full py-2 rounded-full border border-[#00393D] bg-[#00171A] flex justify-evenly items-center">
+												<Image src={Adobe} width={45} height={45} alt="" />
+												<Image src={Figma} width={45} height={45} alt="" />
+												<Image src={Diamond} width={45} height={45} alt="" />
+												<Image src={In} width={45} height={45} alt="" />
 											</div>
 										</div>
 									</div>
-								)}
-							</div>
+									<div className="w-full h-full relative">
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 left-3">
+											<Image width={57} height={57} src={webApp} alt="" />
+											<span className="text-[13px]">Microsoft Project</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-16 left-[122px] rotate-45">
+											<Image width={57} height={57} src={Graphic} alt="" />
+											<span className="text-[14px]">Trello</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[200px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-0 right-[80px]">
+											<Image width={57} height={57} src={uX} alt="" />
+											<span className="text-[14px]">Asana</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[240px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[75px] right-[-33px] rotate-[58deg]">
+											<Image width={57} height={57} src={landingPage} alt="" />
+											<span className="text-[14px]">Monday.com</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3 gap-2 absolute w-[260px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[88px] right-[114px] rotate-[16deg]">
+											<Image width={57} height={57} src={uiDesign} alt="s" />
+											<span className="text-[14px]">Slack</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+										<div className="flex items-center justify-between px-3  gap-2 absolute w-[215px] h-[60px] bg-gradient-to-l from-[#012a2d77] to-[#000000] border border-[#00393D] rounded-full bottom-[123px] left-[-7px] -rotate-[55deg]">
+											<Image width={57} height={57} src={Mobile} alt="" />
+											<span className="text-[13px]">Zoho Projects</span>
+											<svg
+												width="20"
+												height="21"
+												viewBox="0 0 20 21"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.75 17.0835L16.25 4.5835M16.25 4.5835L6.875 4.5835M16.25 4.5835V13.9585"
+													stroke="#1AFFE9"
+													strokeWidth="1.5"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</div>
+									</div>
+								</div>
+							)}
+						</div>
 					</div>
 				</div>
 				<div className="absolute bottom-0 w-full h-[250px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
@@ -868,35 +868,35 @@ export default function Home() {
 					<div className="flex justify-center w-full lg:w-1/2 items-center gap-4 relative">
 						<div className="w-1/3 border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
 							<span className="text-[#007780] font-bold text-center sm:text-balance text-sm">
-							Pinksurfing
+								Pinksurfing
 							</span>
 						</div>
 						<div className="w-1/3  border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-						<span className="text-[#007780] font-bold text-center sm:text-balance text-sm">
-							Superuniforms
+							<span className="text-[#007780] font-bold text-center sm:text-balance text-sm">
+								Superuniforms
 							</span>
 						</div>
 						<div className="w-1/3  border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-						<span className="text-[#007780] font-bold text-center sm:text-balance text-sm">
-						Zenith Innovations
+							<span className="text-[#007780] font-bold text-center sm:text-balance text-sm">
+								Zenith Innovations
 							</span>
 						</div>
 						<div className="w-full absolute bottom-0 h-[20px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 					</div>
 					<div className="flex justify-center w-full lg:w-1/2  items-center md:gap-4 gap-2 relative">
 						<div className="w-1/3  border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-						<span className="text-[#007780] font-bold text-center sm:text-balance text-sm">
-						Apex Solutions
+							<span className="text-[#007780] font-bold text-center sm:text-balance text-sm">
+								Apex Solutions
 							</span>
 						</div>
 						<div className="w-1/3  border  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-						<span className="text-[#007780] text-center sm:text-balance text-sm font-bold">
-						Synergy Consultants
+							<span className="text-[#007780] text-center sm:text-balance text-sm font-bold">
+								Synergy Consultants
 							</span>
 						</div>
 						<div className="w-1/3  border  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-						<span className="text-[#007780] text-center sm:text-balance text-sm font-bold">
-						SmartAds Solutions
+							<span className="text-[#007780] text-center sm:text-balance text-sm font-bold">
+								SmartAds Solutions
 							</span>
 						</div>
 						<div className="w-full absolute bottom-0 h-[20px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
@@ -998,202 +998,201 @@ export default function Home() {
 								seamlessly merging creativity and technology to deliver
 								solutions that exceed expectations and drive digital success.
 							</p>
-						</div>						
-							<div className="min-h-[450px] w-full flex flex-col items-center px-5 gap-8">
-								<div className="  flex lg:flex-row flex-col items-center gap-8">
-									<div className="flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
-										<div className=" flex flex-col gap-1 h-[40%]">
-											<div className="w-full h-[60%] flex justify-between items-center">
-												<div className=" h-full flex gap-2 items-center">
-													<Image width={50} height={50} src={Design} alt="" />
-													<span className="text-[18px] text-[#CCFFFA]">
-														Design
-													</span>
-												</div>
-												<div className=" h-full flex items-center justify-center text-[#649B9B]">
-													<span className="text-[12px] sm:text-[14px]">
-														View Projects
-													</span>
-												</div>
+						</div>
+						<div className="min-h-[450px] w-full flex flex-col items-center px-5 gap-8">
+							<div className="  flex lg:flex-row flex-col items-center gap-8">
+								<div className="flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className=" flex flex-col gap-1 h-[40%]">
+										<div className="w-full h-[60%] flex justify-between items-center">
+											<div className=" h-full flex gap-2 items-center">
+												<Image width={50} height={50} src={Design} alt="" />
+												<span className="text-[18px] text-[#CCFFFA]">
+													Design
+												</span>
 											</div>
-											<div className="w-full flex items-center h-[40%] gap-3">
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="text-[14px] text-[#649B9B]">
-														UI Design
-													</span>
-												</div>
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="text-[14px] text-[#649B9B]">
-														UX Design
-													</span>
-												</div>
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="text-[14px] text-[#649B9B]">
-														Branding
-													</span>
-												</div>
+											<div className=" h-full flex items-center justify-center text-[#649B9B]">
+												<span className="text-[12px] sm:text-[14px]">
+													View Projects
+												</span>
 											</div>
 										</div>
-										<div className=" h-[60%] flex flex-col gap-4 ">
-											<div className="w-full h-[65%] flex justify-center items-center z-20">
-												<p className="text-[16px] text-[#649B9B] text-center">
-													At DevXplore, were dedicated to crafting captivating
-													designs that resonate with users. Every detail, from
-													color to navigation, is meticulously considered for a
-													seamless experience. Committed to innovation
-												</p>
+										<div className="w-full flex items-center h-[40%] gap-3">
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px] text-[#649B9B]">
+													UI Design
+												</span>
 											</div>
-											<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
-												Learn More
-											</button>
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px] text-[#649B9B]">
+													UX Design
+												</span>
+											</div>
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px] text-[#649B9B]">
+													Branding
+												</span>
+											</div>
 										</div>
 									</div>
-									<div className="flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
-										<div className="w-full flex flex-col gap-1 h-[40%]">
-											<div className="w-full h-[60%] flex justify-between items-center">
-												<div className="w-[40%] h-full flex gap-2 items-center">
-													<Image width={50} height={50} src={Dev} alt="" />
-													<span className="text-[18px] text-[#CCFFFA]">
-														Development
-													</span>
-												</div>
-												<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-													<span className="text-[12px] sm:text-[14px]">
-														View Projects
-													</span>
-												</div>
-											</div>
-											<div className="w-full flex items-center h-[40%] gap-3">
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="text-[14px] text-[#649B9B]">
-														Frontend
-													</span>
-												</div>
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="text-[14px] text-[#649B9B]">
-														Backend
-													</span>
-												</div>
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="text-[14px] text-[#649B9B]">
-														Full Stack
-													</span>
-												</div>
-											</div>
+									<div className=" h-[60%] flex flex-col gap-4 ">
+										<div className="w-full h-[65%] flex justify-center items-center z-20">
+											<p className="text-[16px] text-[#649B9B] text-center">
+												At DevXplore, were dedicated to crafting captivating
+												designs that resonate with users. Every detail, from
+												color to navigation, is meticulously considered for a
+												seamless experience. Committed to innovation
+											</p>
 										</div>
-										<div className="w-full h-[60%] flex flex-col gap-4">
-											<div className="w-full h-[65%] flex justify-center items-center z-20">
-												<p className="text-[16px] text-[#649B9B] text-center">
-													At DevXplore, we’re committed to developing robust
-													solutions that drive performance. Every aspect, from
-													frontend to backend, is meticulously engineered for a
-													seamless experience. Committed to quality.
-												</p>
-											</div>
-											<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
-												Learn More
-											</button>
-										</div>
+										<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
+											Learn More
+										</button>
 									</div>
 								</div>
-								<div className=" flex lg:flex-row flex-col items-center gap-8">
-									<div className="flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
-										<div className="w-full flex flex-col gap-1 h-[40%]">
-											<div className="w-full h-[60%] flex justify-between items-center">
-												<div className="w-[40%] h-full flex gap-2 items-center">
-													<Image width={50} height={50} src={Dev} alt="" />
-													<span className="text-[18px] text-[#CCFFFA]">
-														Marketing
-													</span>
-												</div>
-												<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-													<span className="text-[12px] sm:text-[14px]">
-														View Projects
-													</span>
-												</div>
+								<div className="flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className="w-full flex flex-col gap-1 h-[40%]">
+										<div className="w-full h-[60%] flex justify-between items-center">
+											<div className="w-[40%] h-full flex gap-2 items-center">
+												<Image width={50} height={50} src={Dev} alt="" />
+												<span className="text-[18px] text-[#CCFFFA]">
+													Development
+												</span>
 											</div>
-											<div className="w-full flex items-center h-[40%] gap-3">
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="text-[14px] text-[#649B9B]">
-														Digital
-													</span>
-												</div>
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="text-[14px] text-[#649B9B]">
-														Content
-													</span>
-												</div>
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="text-[14px] text-[#649B9B]">
-														Email
-													</span>
-												</div>
+											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
+												<span className="text-[12px] sm:text-[14px]">
+													View Projects
+												</span>
 											</div>
 										</div>
-										<div className="w-full h-[60%] flex flex-col gap-4">
-											<div className="w-full h-[65%] flex justify-center items-center z-20">
-												<p className="text-[16px] text-[#649B9B] text-center">
-													At DevXplore, we’re focused on crafting effective
-													marketing strategies that boost your online presence.
-													Every element, from SEO to social media, is
-													meticulously planned for maximum impact. Committed to
-													growth.
-												</p>
+										<div className="w-full flex items-center h-[40%] gap-3">
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px] text-[#649B9B]">
+													Frontend
+												</span>
 											</div>
-											<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
-												Learn More
-											</button>
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px] text-[#649B9B]">
+													Backend
+												</span>
+											</div>
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px] text-[#649B9B]">
+													Full Stack
+												</span>
+											</div>
 										</div>
 									</div>
-									<div className=" flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
-										<div className="w-full flex flex-col gap-1 h-[40%]">
-											<div className="w-full h-[60%] flex justify-between items-center">
-												<div className="w-[40%] h-full flex gap-2 items-center">
-													<Image width={50} height={50} src={Dev} alt="" />
-													<span className="text-[18px] text-[#CCFFFA]">
-														Consulting
-													</span>
-												</div>
-												<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-													<span className="text-[12px] sm:text-[14px]">
-														View Projects
-													</span>
-												</div>
-											</div>
-											<div className="w-full flex items-center h-[40%] gap-3">
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="sm:text-[12px] text-[10px] text-center  text-[#649B9B]">
-														IT Consulting
-													</span>
-												</div>
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="text-[10px] sm:text-[12px] text-center text-[#649B9B]">
-														Business Strategy
-													</span>
-												</div>
-												<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
-													<span className="text-[10px] sm:text-[12px]  text-center text-[#649B9B]">
-														Management
-													</span>
-												</div>
-											</div>
+									<div className="w-full h-[60%] flex flex-col gap-4">
+										<div className="w-full h-[65%] flex justify-center items-center z-20">
+											<p className="text-[16px] text-[#649B9B] text-center">
+												At DevXplore, we’re committed to developing robust
+												solutions that drive performance. Every aspect, from
+												frontend to backend, is meticulously engineered for a
+												seamless experience. Committed to quality.
+											</p>
 										</div>
-										<div className="w-full h-[60%] flex flex-col gap-4">
-											<div className="w-full h-[65%] flex justify-center items-center z-20">
-												<p className="text-[16px] text-[#649B9B] text-center">
-													At DevXplore, we’re dedicated to providing expert
-													consulting services that drive success. Every aspect,
-													from strategy to execution, is meticulously tailored
-													for optimal results. Committed to excellence.
-												</p>
-											</div>
-											<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
-												Learn More
-											</button>
-										</div>
+										<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
+											Learn More
+										</button>
 									</div>
 								</div>
 							</div>
+							<div className=" flex lg:flex-row flex-col items-center gap-8">
+								<div className="flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className="w-full flex flex-col gap-1 h-[40%]">
+										<div className="w-full h-[60%] flex justify-between items-center">
+											<div className="w-[40%] h-full flex gap-2 items-center">
+												<Image width={50} height={50} src={Dev} alt="" />
+												<span className="text-[18px] text-[#CCFFFA]">
+													Marketing
+												</span>
+											</div>
+											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
+												<span className="text-[12px] sm:text-[14px]">
+													View Projects
+												</span>
+											</div>
+										</div>
+										<div className="w-full flex items-center h-[40%] gap-3">
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px] text-[#649B9B]">
+													Digital
+												</span>
+											</div>
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px] text-[#649B9B]">
+													Content
+												</span>
+											</div>
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[14px] text-[#649B9B]">
+													Email
+												</span>
+											</div>
+										</div>
+									</div>
+									<div className="w-full h-[60%] flex flex-col gap-4">
+										<div className="w-full h-[65%] flex justify-center items-center z-20">
+											<p className="text-[16px] text-[#649B9B] text-center">
+												At DevXplore, we’re focused on crafting effective
+												marketing strategies that boost your online presence.
+												Every element, from SEO to social media, is meticulously
+												planned for maximum impact. Committed to growth.
+											</p>
+										</div>
+										<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
+											Learn More
+										</button>
+									</div>
+								</div>
+								<div className=" flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className="w-full flex flex-col gap-1 h-[40%]">
+										<div className="w-full h-[60%] flex justify-between items-center">
+											<div className="w-[40%] h-full flex gap-2 items-center">
+												<Image width={50} height={50} src={Dev} alt="" />
+												<span className="text-[18px] text-[#CCFFFA]">
+													Consulting
+												</span>
+											</div>
+											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
+												<span className="text-[12px] sm:text-[14px]">
+													View Projects
+												</span>
+											</div>
+										</div>
+										<div className="w-full flex items-center h-[40%] gap-3">
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="sm:text-[12px] text-[10px] text-center  text-[#649B9B]">
+													IT Consulting
+												</span>
+											</div>
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[10px] sm:text-[12px] text-center text-[#649B9B]">
+													Business Strategy
+												</span>
+											</div>
+											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
+												<span className="text-[10px] sm:text-[12px]  text-center text-[#649B9B]">
+													Management
+												</span>
+											</div>
+										</div>
+									</div>
+									<div className="w-full h-[60%] flex flex-col gap-4">
+										<div className="w-full h-[65%] flex justify-center items-center z-20">
+											<p className="text-[16px] text-[#649B9B] text-center">
+												At DevXplore, we’re dedicated to providing expert
+												consulting services that drive success. Every aspect,
+												from strategy to execution, is meticulously tailored for
+												optimal results. Committed to excellence.
+											</p>
+										</div>
+										<button className="w-[90%] mx-auto h-[23%] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
+											Learn More
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div className="absolute bottom-0 left-0 w-full h-[350px]  bg-gradient-to-t from-[#000e0f] to-transparent"></div>
@@ -2666,7 +2665,9 @@ export default function Home() {
 											</button>
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
-										Explore a showcase of unique development projects that blend creativity and technical finesse. Our projects are tailored to the fast-growing Indian tech sector.
+											Explore a showcase of unique development projects that
+											blend creativity and technical finesse. Our projects are
+											tailored to the fast-growing Indian tech sector.
 										</p>
 									</div>
 									<div className="w-full flex flex-wrap items-center  gap-3">
@@ -2860,7 +2861,7 @@ export default function Home() {
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
-											Zenith Innovations
+												Zenith Innovations
 											</h4>
 											<button
 												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
@@ -2870,7 +2871,9 @@ export default function Home() {
 											</button>
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
-										Explore a showcase of innovative development projects that blend technical expertise and creative solutions. Our projects cater to the dynamic needs of the Indian market.
+											Explore a showcase of innovative development projects that
+											blend technical expertise and creative solutions. Our
+											projects cater to the dynamic needs of the Indian market.
 										</p>
 									</div>
 									<div className="w-full flex items-center  flex-wrap gap-3">
@@ -2886,7 +2889,7 @@ export default function Home() {
 												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
 											<span className="text-[12px] text-[#99FFF5]">
-											Zenith Innovations
+												Zenith Innovations
 											</span>
 										</div>
 										<div className="flex gap-3 items-center  min-w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
@@ -2903,7 +2906,7 @@ export default function Home() {
 												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
 											<span className="text-[12px] text-[#99FFF5]">
-											Software Development
+												Software Development
 											</span>
 										</div>
 										<div className="flex gap-3 items-center  justify-center min-w-[250px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
@@ -2917,9 +2920,7 @@ export default function Home() {
 											>
 												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
-											<span className="text-[12px] text-[#99FFF5]">
-											Web
-											</span>
+											<span className="text-[12px] text-[#99FFF5]">Web</span>
 											<svg
 												width="20"
 												height="20"
@@ -2933,7 +2934,7 @@ export default function Home() {
 												/>
 											</svg>
 											<span className="text-[12px] text-[#99FFF5]">
-											Mobile Development
+												Mobile Development
 											</span>
 										</div>
 									</div>
@@ -3175,7 +3176,6 @@ export default function Home() {
 											</div>
 										</div>
 										<div className="w-full h-[60px] flex justify-center sm:justify-end items-center z-20">
-											
 											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border  sm:flex justify-between">
 												<button>
 													<svg
@@ -3293,7 +3293,9 @@ export default function Home() {
 											</button>
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
-										Explore a showcase of unique AI-driven marketing projects that blend creativity and technical finesse. Our projects are tailored to the fast-growing Indian AI sector.
+											Explore a showcase of unique AI-driven marketing projects
+											that blend creativity and technical finesse. Our projects
+											are tailored to the fast-growing Indian AI sector.
 										</p>
 									</div>
 									<div className="w-full flex items-center  flex-wrap gap-3">
@@ -3325,7 +3327,9 @@ export default function Home() {
 											>
 												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
-											<span className="text-[12px] text-[#99FFF5]">AI & Automation</span>
+											<span className="text-[12px] text-[#99FFF5]">
+												AI & Automation
+											</span>
 										</div>
 										<div className="flex gap-3 items-center  justify-center min-w-[250px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
 											<span className="text-[12px] text-[#649B9B]">Work</span>
@@ -3338,7 +3342,9 @@ export default function Home() {
 											>
 												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
-											<span className="text-[12px] text-[#99FFF5]">Marketing Automation</span>
+											<span className="text-[12px] text-[#99FFF5]">
+												Marketing Automation
+											</span>
 											<svg
 												width="20"
 												height="20"
@@ -3352,7 +3358,7 @@ export default function Home() {
 												/>
 											</svg>
 											<span className="text-[12px] text-[#99FFF5]">
-											Analytics
+												Analytics
 											</span>
 										</div>
 									</div>
@@ -3378,7 +3384,6 @@ export default function Home() {
 											</div>
 										</div>
 										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-end items-center">
-											
 											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border sm:flex  justify-between">
 												<button>
 													<svg
@@ -3496,7 +3501,7 @@ export default function Home() {
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
-											Apex Solutions
+												Apex Solutions
 											</h4>
 											<button
 												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
@@ -3506,7 +3511,9 @@ export default function Home() {
 											</button>
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
-										Explore a showcase of innovative management projects that blend strategic planning and operational excellence. Our projects cater to the dynamic needs of the Indian market.
+											Explore a showcase of innovative management projects that
+											blend strategic planning and operational excellence. Our
+											projects cater to the dynamic needs of the Indian market.
 										</p>
 									</div>
 									<div className="w-full flex flex-wrap items-center  gap-3">
@@ -3522,7 +3529,7 @@ export default function Home() {
 												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
 											<span className="text-[12px] text-[#99FFF5] min-w-[90px]">
-											Apex Solutions
+												Apex Solutions
 											</span>{" "}
 										</div>
 										<div className="flex gap-3 items-center min-w-[160px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
@@ -3539,7 +3546,7 @@ export default function Home() {
 												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
 											<span className="text-[12px] text-[#99FFF5]">
-											Business Consulting
+												Business Consulting
 											</span>{" "}
 										</div>
 										<div className="flex gap-3 items-center min-w-[240px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
@@ -3553,7 +3560,9 @@ export default function Home() {
 											>
 												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
-											<span className="text-[12px] text-[#99FFF5]">Strategy</span>
+											<span className="text-[12px] text-[#99FFF5]">
+												Strategy
+											</span>
 											<svg
 												width="20"
 												height="20"
@@ -3567,7 +3576,7 @@ export default function Home() {
 												/>
 											</svg>
 											<span className="text-[12px] text-[#99FFF5]">
-											Operations
+												Operations
 											</span>
 										</div>
 									</div>
@@ -3593,7 +3602,6 @@ export default function Home() {
 											</div>
 										</div>
 										<div className="w-full h-[60px] flex justify-center sm:justify-end items-center z-20">
-
 											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border  sm:flex justify-between">
 												<button>
 													<svg
@@ -3701,7 +3709,7 @@ export default function Home() {
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
-											Synergy Consultants
+												Synergy Consultants
 											</h4>
 											<button
 												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
@@ -3711,7 +3719,9 @@ export default function Home() {
 											</button>
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
-										Explore a showcase of innovative management projects that leverage technology and strategic insights. Our projects cater to the evolving needs of the Indian market.
+											Explore a showcase of innovative management projects that
+											leverage technology and strategic insights. Our projects
+											cater to the evolving needs of the Indian market.
 										</p>
 									</div>
 									<div className="w-full flex items-center  flex-wrap gap-3">
@@ -3727,7 +3737,7 @@ export default function Home() {
 												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
 											<span className="text-[12px] text-[#99FFF5]">
-											Synergy Consultants
+												Synergy Consultants
 											</span>
 										</div>
 										<div className="flex gap-3 items-center  min-w-[160px] justify-center border border-[#00393D] h-[40px] rounded-full py-2 px-2">
@@ -3743,7 +3753,9 @@ export default function Home() {
 											>
 												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
-											<span className="text-[12px] text-[#99FFF5]">Process Automation</span>
+											<span className="text-[12px] text-[#99FFF5]">
+												Process Automation
+											</span>
 										</div>
 										<div className="flex gap-3 items-center  justify-center min-w-[250px] border border-[#00393D] h-[40px] rounded-full py-2 px-2">
 											<span className="text-[12px] text-[#649B9B]">Work</span>
@@ -3756,7 +3768,9 @@ export default function Home() {
 											>
 												<circle cx="2" cy="2" r="2" fill="#507C7C" />
 											</svg>
-											<span className="text-[12px] text-[#99FFF5]">Strategy</span>
+											<span className="text-[12px] text-[#99FFF5]">
+												Strategy
+											</span>
 											<svg
 												width="20"
 												height="20"
@@ -3770,7 +3784,7 @@ export default function Home() {
 												/>
 											</svg>
 											<span className="text-[12px] text-[#99FFF5]">
-											Data Analytics
+												Data Analytics
 											</span>
 										</div>
 									</div>
@@ -3795,7 +3809,7 @@ export default function Home() {
 												/>
 											</div>
 										</div>
-										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-end items-center">											
+										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-end items-center">
 											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border sm:flex  justify-between">
 												<button>
 													<svg

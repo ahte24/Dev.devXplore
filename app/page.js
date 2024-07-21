@@ -2233,8 +2233,8 @@ export default function Home() {
 									: "opacity-0 h-0 "
 							} transition-opacity duration-700`}
 						>
-							<div className="w-full lg:flex-row flex-col flex items-center gap-10 ">
-								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+							<div className="w-full min-h-[700px] lg:flex-row flex-col flex items-center gap-10 ">
+								<div className="relative max-h-[700px] flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
@@ -2438,7 +2438,7 @@ export default function Home() {
 										</div>
 									</div>
 								</div>
-								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+								<div className="relative max-h-[700px] flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
@@ -2653,8 +2653,8 @@ export default function Home() {
 									: "opacity-0 h-0"
 							} transition-opacity duration-700`}
 						>
-							<div className="w-full lg:flex-row flex-col flex items-center gap-10">
-								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+							<div className="w-full min-h-[700px] lg:flex-row flex-col flex items-center gap-10">
+								<div className="relative sm:h-[750px] flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
@@ -2733,7 +2733,7 @@ export default function Home() {
 											</span>
 										</div>
 									</div>
-									<div className="w-full border flex flex-col gap-5 items-center p-4 border-[#00393D] rounded-3xl">
+									<div className="w-full border flex  flex-col  gap-5 items-center  p-4 border-[#00393D] rounded-3xl">
 										<div className="flex gap-5 flex-col md:flex-row justify-between">
 											<div className="md:w-1/2 w-full rounded-xl h-[230px] overflow-hidden">
 												<Image
@@ -2754,33 +2754,7 @@ export default function Home() {
 												/>
 											</div>
 										</div>
-										<div className="w-full h-[60px] flex justify-center sm:justify-between items-center z-20">
-											<div className="w-[200px] h-[45px] rounded-full hidden sm:flex justify-center items-center border-[#00393D] border gap-2">
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
-														fill="#1AFFE9"
-													/>
-													<path
-														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
-														fill="#1AFFE9"
-													/>
-												</svg>
-
-												<Link
-													href={"http://www.google.com"}
-													className="text-[#649B9B] text-[14px]"
-													target="_blank"
-												>
-													www.google.com
-												</Link>
-											</div>
+										<div className="w-full h-[60px] flex justify-center sm:justify-end items-center z-20">
 											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border  sm:flex justify-between">
 												<button>
 													<svg
@@ -2884,7 +2858,7 @@ export default function Home() {
 										</div>
 									</div>
 								</div>
-								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+								<div className="relative sm:h-[750px] flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
@@ -2986,33 +2960,7 @@ export default function Home() {
 												/>
 											</div>
 										</div>
-										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-between items-center">
-											<div className="w-[200px] h-[45px] rounded-full hidden sm:flex justify-center items-center border-[#00393D] border gap-2">
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
-														fill="#1AFFE9"
-													/>
-													<path
-														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
-														fill="#1AFFE9"
-													/>
-												</svg>
-
-												<Link
-													href={"http://www.google.com"}
-													className="text-[#649B9B] text-[14px]"
-													target="_blank"
-												>
-													www.google.com
-												</Link>
-											</div>
+										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-end items-center ">
 											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border sm:flex  justify-between">
 												<button>
 													<svg
@@ -3125,8 +3073,8 @@ export default function Home() {
 									: "opacity-0 h-0"
 							} transition-opacity duration-700`}
 						>
-							<div className="w-full lg:flex-row flex-col flex items-center gap-10">
-								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+							<div className="w-full min-h-[700px] lg:flex-row flex-col flex items-center gap-10">
+								<div className=" relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
@@ -3228,33 +3176,8 @@ export default function Home() {
 												/>
 											</div>
 										</div>
-										<div className="w-full h-[60px] flex justify-center sm:justify-between items-center z-20">
-											<div className="w-[200px] h-[45px] rounded-full hidden sm:flex justify-center items-center border-[#00393D] border gap-2">
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
-														fill="#1AFFE9"
-													/>
-													<path
-														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
-														fill="#1AFFE9"
-													/>
-												</svg>
-
-												<Link
-													href={"http://www.google.com"}
-													className="text-[#649B9B] text-[14px]"
-													target="_blank"
-												>
-													www.google.com
-												</Link>
-											</div>
+										<div className="w-full h-[60px] flex justify-center sm:justify-end items-center z-20">
+											
 											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border  sm:flex justify-between">
 												<button>
 													<svg
@@ -3358,7 +3281,7 @@ export default function Home() {
 										</div>
 									</div>
 								</div>
-								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+								<div className=" relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
@@ -3456,33 +3379,8 @@ export default function Home() {
 												/>
 											</div>
 										</div>
-										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-between items-center">
-											<div className="w-[200px] h-[45px] rounded-full hidden sm:flex justify-center items-center border-[#00393D] border gap-2">
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
-														fill="#1AFFE9"
-													/>
-													<path
-														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
-														fill="#1AFFE9"
-													/>
-												</svg>
-
-												<Link
-													href={"http://www.google.com"}
-													className="text-[#649B9B] text-[14px]"
-													target="_blank"
-												>
-													www.google.com
-												</Link>
-											</div>
+										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-end items-center">
+											
 											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border sm:flex  justify-between">
 												<button>
 													<svg
@@ -3595,7 +3493,7 @@ export default function Home() {
 									: "opacity-0 h-0"
 							} transition-opacity duration-700`}
 						>
-							<div className="w-full lg:flex-row flex-col flex items-center gap-10">
+							<div className="w-full min-h-[700px] lg:flex-row flex-col flex items-center gap-10">
 								<div className="relative flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
@@ -3696,33 +3594,8 @@ export default function Home() {
 												/>
 											</div>
 										</div>
-										<div className="w-full h-[60px] flex justify-center sm:justify-between items-center z-20">
-											<div className="w-[200px] h-[45px] rounded-full hidden sm:flex justify-center items-center border-[#00393D] border gap-2">
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
-														fill="#1AFFE9"
-													/>
-													<path
-														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
-														fill="#1AFFE9"
-													/>
-												</svg>
+										<div className="w-full h-[60px] flex justify-center sm:justify-end items-center z-20">
 
-												<Link
-													href={"http://www.google.com"}
-													className="text-[#649B9B] text-[14px]"
-													target="_blank"
-												>
-													www.google.com
-												</Link>
-											</div>
 											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border  sm:flex justify-between">
 												<button>
 													<svg
@@ -3924,33 +3797,7 @@ export default function Home() {
 												/>
 											</div>
 										</div>
-										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-between items-center">
-											<div className="w-[200px] h-[45px] rounded-full hidden  sm:flex justify-center items-center border-[#00393D] border gap-2">
-												<svg
-													width="20"
-													height="21"
-													viewBox="0 0 20 21"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M13.107 3.73662C14.3023 2.53671 16.0507 2.51151 17.0185 3.48315C17.9882 4.45663 17.9621 6.216 16.7661 7.41672L14.7462 9.44443C14.5026 9.68898 14.5034 10.0847 14.7479 10.3283C14.9925 10.5719 15.3882 10.5711 15.6318 10.3266L17.6516 8.29889C19.2444 6.69996 19.4444 4.14719 17.9041 2.60098C16.3621 1.05294 13.815 1.2547 12.2214 2.85445L8.18169 6.90983C6.58894 8.50876 6.38898 11.0616 7.9292 12.6078C8.1728 12.8523 8.56853 12.8531 8.81308 12.6095C9.05763 12.3659 9.0584 11.9701 8.8148 11.7256C7.84508 10.7521 7.8712 8.99272 9.06728 7.792L13.107 3.73662Z"
-														fill="#1AFFE9"
-													/>
-													<path
-														d="M12.0708 8.39226C11.8272 8.14771 11.4315 8.14694 11.1869 8.39055C10.9424 8.63415 10.9416 9.02988 11.1852 9.27443C12.1549 10.2479 12.1288 12.0073 10.9327 13.208L6.89302 17.2634C5.69776 18.4633 3.94936 18.4885 2.98147 17.5169C2.01175 16.5434 2.03787 14.784 3.23395 13.5833L5.25382 11.5556C5.49743 11.311 5.49666 10.9153 5.25211 10.6717C5.00756 10.4281 4.61183 10.4288 4.36823 10.6734L2.34836 12.7011C0.755608 14.3 0.555641 16.8528 2.09587 18.399C3.63793 19.9471 6.18506 19.7453 7.77862 18.1456L11.8183 14.0902C13.4111 12.4912 13.611 9.93847 12.0708 8.39226Z"
-														fill="#1AFFE9"
-													/>
-												</svg>
-
-												<Link
-													href={"http://www.google.com"}
-													className="text-[#649B9B] text-[14px]"
-													target="_blank"
-												>
-													www.google.com
-												</Link>
-											</div>
+										<div className="w-full h-[60px] z-10 flex justify-center sm:justify-end items-center">											
 											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border sm:flex  justify-between">
 												<button>
 													<svg

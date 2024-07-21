@@ -904,7 +904,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div id="section2" className="w-full md:px-8 px-2 mt-20 relative">
-				<div className="relative rounded-3xl max-w-full overflow-hidden border-[#002629] border sm:p-[16px] border-b-[#000e0f] flex justify-center">
+				<div className="relative rounded-3xl max-w-full overflow-hidden border-[#002629] md:border sm:p-[16px] border-b-[#000e0f] flex justify-center">
 					<div className="w-full sm:block hidden bg-[#011212] h-[16px] overflow-hidden absolute top-0">
 						<svg
 							width="2000"
@@ -1002,7 +1002,7 @@ export default function Home() {
 						<div className="min-h-[450px]  w-full flex flex-col items-center gap-8 px-2 md:px-8">
 							<div className="min-h-[450px] w-full flex flex-col items-center px-5 gap-8">
 								<div className="  flex lg:flex-row flex-col items-center gap-8">
-									<div className="flex flex-col gap-4 w-[90%] 2xl:w-1/2 min-h-[450px] p-2 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className="flex flex-col gap-4 w-[85%] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
 										<div className=" flex flex-col gap-1 h-[40%]">
 											<div className="w-full h-[60%] flex justify-between items-center">
 												<div className=" h-full flex gap-2 items-center">
@@ -1049,7 +1049,7 @@ export default function Home() {
 											</button>
 										</div>
 									</div>
-									<div className="flex flex-col gap-4 w-[90%] 2xl:w-1/2 min-h-[450px] p-2 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className="flex flex-col gap-4 w-[85%] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
 										<div className="w-full flex flex-col gap-1 h-[40%]">
 											<div className="w-full h-[60%] flex justify-between items-center">
 												<div className="w-[40%] h-full flex gap-2 items-center">
@@ -1098,7 +1098,7 @@ export default function Home() {
 									</div>
 								</div>
 								<div className=" flex lg:flex-row flex-col items-center gap-8">
-									<div className="flex flex-col gap-4 w-[90%] 2xl:w-1/2 min-h-[450px] p-2 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className="flex flex-col gap-4 w-[85%] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
 										<div className="w-full flex flex-col gap-1 h-[40%]">
 											<div className="w-full h-[60%] flex justify-between items-center">
 												<div className="w-[40%] h-full flex gap-2 items-center">
@@ -1146,7 +1146,7 @@ export default function Home() {
 											</button>
 										</div>
 									</div>
-									<div className="flex flex-col gap-4 w-[90%] 2xl:w-1/2 min-h-[450px] p-2 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className=" flex flex-col gap-4 w-[85%] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
 										<div className="w-full flex flex-col gap-1 h-[40%]">
 											<div className="w-full h-[60%] flex justify-between items-center">
 												<div className="w-[40%] h-full flex gap-2 items-center">

@@ -2333,7 +2333,7 @@ export default function Home() {
 											</div>
 										</div>
 										<div className="w-full h-[60px] flex justify-center sm:justify-end items-center z-20">
-											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border hidden sm:flex justify-between">
+											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border  sm:flex justify-between">
 												<button>
 													<svg
 														width="52"
@@ -2539,7 +2539,7 @@ export default function Home() {
 											</div>
 										</div>
 										<div className="w-full h-[60px] flex justify-center sm:justify-end items-center z-20">
-											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border hidden sm:flex justify-between">
+											<div className="button w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border  sm:flex justify-between">
 												<button>
 													<svg
 														width="52"

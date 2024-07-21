@@ -91,8 +91,8 @@ const Footer = () => {
 				</div>
 				<div className="flex flex-col w-full px-5 pt-5 items-center servicesBg border-[#002629]   mt-[16px] mx-[16px] rounded-t-3xl border bg-[#000e0f]">
 					<div className="w-[97%] max-h-[850px] justify-center flex items-center gap-5">
-						<div className="xl:w-[40%] w-[29%] text-5xl h-full justify-center items-center hidden xl:flex">
-							LOGO
+						<div className="xl:w-[40%] w-[29%] text-6xl text-[#ccfffa] h-full justify-center items-center hidden xl:flex">
+							DevXplore
 						</div>
 						<div className="xl:w-[60%] w-full h-full flex gap-2 pt-4 flex-col md:flex-row xl:flex-col  items-center justify-between xl:justify-end xl:pl-10">
 							<div className="w-full h-[300px] 2xl:flex justify-between gap-5 items-center  hidden">
@@ -655,7 +655,7 @@ const Footer = () => {
 							</Link>
 						</div>
 						<div className="text-[#507C7C] md:text-[14px] text-[10px]">
-							© 2024 Novus. All rights reserved.
+							© 2024 DevXplore. -- All rights reserved.
 						</div>
 					</div>
 				</div>

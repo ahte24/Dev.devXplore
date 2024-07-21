@@ -998,11 +998,10 @@ export default function Home() {
 								seamlessly merging creativity and technology to deliver
 								solutions that exceed expectations and drive digital success.
 							</p>
-						</div>
-						<div className="min-h-[450px]  w-full flex flex-col items-center gap-8 px-2 md:px-8">
+						</div>						
 							<div className="min-h-[450px] w-full flex flex-col items-center px-5 gap-8">
 								<div className="  flex lg:flex-row flex-col items-center gap-8">
-									<div className="flex flex-col gap-4 sm:w-[90%] w-[350px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className="flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
 										<div className=" flex flex-col gap-1 h-[40%]">
 											<div className="w-full h-[60%] flex justify-between items-center">
 												<div className=" h-full flex gap-2 items-center">
@@ -1049,7 +1048,7 @@ export default function Home() {
 											</button>
 										</div>
 									</div>
-									<div className="flex flex-col gap-4 sm:w-[90%] w-[350px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className="flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
 										<div className="w-full flex flex-col gap-1 h-[40%]">
 											<div className="w-full h-[60%] flex justify-between items-center">
 												<div className="w-[40%] h-full flex gap-2 items-center">
@@ -1098,7 +1097,7 @@ export default function Home() {
 									</div>
 								</div>
 								<div className=" flex lg:flex-row flex-col items-center gap-8">
-									<div className="flex flex-col gap-4 sm:w-[90%] w-[350px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className="flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
 										<div className="w-full flex flex-col gap-1 h-[40%]">
 											<div className="w-full h-[60%] flex justify-between items-center">
 												<div className="w-[40%] h-full flex gap-2 items-center">
@@ -1146,7 +1145,7 @@ export default function Home() {
 											</button>
 										</div>
 									</div>
-									<div className=" flex flex-col gap-4 sm:w-[90%] w-[350px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
+									<div className=" flex flex-col gap-4 sm:w-[90%] w-[320px] 2xl:w-1/2 h-[450px] p-5 border border-[#00393D] rounded-3xl bg-[#000e0f] hover:bg-gradient-to-b from-[#001b1d] to-transparent transition-all duration-500">
 										<div className="w-full flex flex-col gap-1 h-[40%]">
 											<div className="w-full h-[60%] flex justify-between items-center">
 												<div className="w-[40%] h-full flex gap-2 items-center">
@@ -1195,7 +1194,6 @@ export default function Home() {
 									</div>
 								</div>
 							</div>
-						</div>
 					</div>
 				</div>
 				<div className="absolute bottom-0 left-0 w-full h-[350px]  bg-gradient-to-t from-[#000e0f] to-transparent"></div>
@@ -2234,7 +2232,7 @@ export default function Home() {
 							} transition-opacity duration-700`}
 						>
 							<div className="w-full min-h-[700px] lg:flex-row flex-col flex items-center gap-10 ">
-								<div className="relative max-h-[700px] flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+								<div className="relative  flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
@@ -2438,7 +2436,7 @@ export default function Home() {
 										</div>
 									</div>
 								</div>
-								<div className="relative max-h-[700px] flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+								<div className="relative  flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
@@ -2654,7 +2652,7 @@ export default function Home() {
 							} transition-opacity duration-700`}
 						>
 							<div className="w-full min-h-[700px] lg:flex-row flex-col flex items-center gap-10">
-								<div className="relative sm:h-[750px] flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+								<div className="relative ] flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
@@ -2858,7 +2856,7 @@ export default function Home() {
 										</div>
 									</div>
 								</div>
-								<div className="relative sm:h-[750px] flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+								<div className="relative  flex flex-col sm:p-8 p-3 w-full  gap-5 lg:w-1/2  bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
@@ -3498,7 +3496,7 @@ export default function Home() {
 									<div className="flex flex-col gap-5">
 										<div className="w-full h-[60px] flex justify-between items-center">
 											<h4 className="text-[20px] text-[#ccfffa]">
-											Apex Management Solutions
+											Apex Solutions
 											</h4>
 											<button
 												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 

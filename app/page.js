@@ -867,17 +867,17 @@ export default function Home() {
 				<div className="flex items-center lg:flex-row flex-col min-h-[90px] justify-center  md:gap-4 gap-2">
 					<div className="flex justify-center w-full lg:w-1/2 items-center gap-4 relative">
 						<div className="w-1/3 border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-							<span className="text-[#007780] font-bold text-center sm:text-balance text-sm">
+							<span className="text-[#007780] px-2 font-bold text-center sm:text-balance text-xs">
 								Pinksurfing
 							</span>
 						</div>
 						<div className="w-1/3  border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-							<span className="text-[#007780] font-bold text-center sm:text-balance text-sm">
+							<span className="text-[#007780] px-2 font-bold text-center sm:text-balance text-xs">
 								Superuniforms
 							</span>
 						</div>
 						<div className="w-1/3  border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-							<span className="text-[#007780] font-bold text-center sm:text-balance text-sm">
+							<span className="text-[#007780] px-2 font-bold text-center sm:text-balance text-xs">
 								Zenith Innovations
 							</span>
 						</div>
@@ -885,17 +885,17 @@ export default function Home() {
 					</div>
 					<div className="flex justify-center w-full lg:w-1/2  items-center md:gap-4 gap-2 relative">
 						<div className="w-1/3  border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-							<span className="text-[#007780] font-bold text-center sm:text-balance text-sm">
+							<span className="text-[#007780] px-2 font-bold text-center sm:text-balance text-xs">
 								Apex Solutions
 							</span>
 						</div>
 						<div className="w-1/3  border  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-							<span className="text-[#007780] text-center sm:text-balance text-sm font-bold">
+							<span className="text-[#007780] px-2 text-center sm:text-balance text-xs font-bold">
 								Synergy Consultants
 							</span>
 						</div>
 						<div className="w-1/3  border  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-							<span className="text-[#007780] text-center sm:text-balance text-sm font-bold">
+							<span className="text-[#007780] px-2 text-center sm:text-balance text-xs font-bold">
 								SmartAds Solutions
 							</span>
 						</div>

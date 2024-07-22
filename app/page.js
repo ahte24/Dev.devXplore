@@ -288,7 +288,7 @@ export default function Home() {
 						</p>
 						<div className="buttons flex gap-4 z-20">
 							<Link
-								href={"https://calendly.com/zaman-dev26/30min"}
+								href={"https://calendly.com/solutions-devxplore/30min"}
 								target="_blank"
 								scroll={false}
 								className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] hover:bg-[#66FFF0] rounded-full hover:text-black text-[14px]"
@@ -296,12 +296,12 @@ export default function Home() {
 								Consult now
 							</Link>
 							<Link
-								href="#section5"
-								scroll={false}
+							href="#section3"
+							scroll={false}
 								className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] 
 							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
 							>
-								Contact Us
+								View Projects
 							</Link>
 						</div>
 					</div>
@@ -1214,15 +1214,22 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="buttons flex gap-4">
-							<button className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] hover:bg-[#66FFF0] rounded-full hover:text-black text-[14px]">
-								View Projects
-							</button>
-							<button
+						<Link
+								href={"https://calendly.com/solutions-devxplore/30min"}
+								target="_blank"
+								scroll={false}
+								className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] hover:bg-[#66FFF0] rounded-full hover:text-black text-[14px]"
+							>
+								Consult now
+							</Link>
+							<Link
+							href="#section3"
+							scroll={false}
 								className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] 
 							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
 							>
-								Contact Us
-							</button>
+								View Projects
+							</Link>
 						</div>
 					</div>
 					<div className="hidden 2xl:w-[55%] w-full min-h-[450px] lg:flex flex-col justify-center items-center  relative showCaseBg">

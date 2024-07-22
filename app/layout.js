@@ -59,6 +59,30 @@ export default function RootLayout({ children }) {
 				/>
 				<meta name="twitter:image" content={metadata.twitter.image} />
 				<link rel="icon" href="../public/favicon.ico" />
+				{/* Calendly badge widget */}
+				<link
+					href="https://assets.calendly.com/assets/external/widget.css"
+					rel="stylesheet"
+				/>
+				<script
+					src="https://assets.calendly.com/assets/external/widget.js"
+					async
+				></script>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+                        window.onload = function() {
+                            Calendly.initBadgeWidget({
+                                url: 'https://calendly.com/solutions-devxplore/30min',
+                                text: 'Schedule time with me',
+                                color: '#000e0f',
+                                textColor: '#66fff0',
+                                branding: undefined
+                            });
+                        };
+                    `,
+					}}
+				/>
 			</Head>
 			<body className={sora.className}>
 				<div className="bg-[#000E0F] text-white">

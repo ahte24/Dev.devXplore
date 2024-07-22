@@ -159,9 +159,12 @@ const Footer = () => {
 									<div className="w-[300px]  gap-4 flex flex-col p-2 justify-between items-center border-[#00393D] border  rounded-3xl ">
 										<div className="w-full  flex flex-col gap-2 h-full">
 											<div className="relative">
-												<div className="rounded-full max-w-[330px] pl-14 pr-2 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
-													support@devxplore.tech
-												</div>
+												<Link
+													href={"mailto:solutions@devxplore.tech"}
+													className="rounded-full max-w-[330px] pl-14 pr-2 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border"
+												>
+													solutions@devxplore.tech
+												</Link>
 												<svg
 													className="absolute top-2 left-2"
 													width="40"
@@ -170,7 +173,6 @@ const Footer = () => {
 													fill="none"
 													xmlns="http://www.w3.org/2000/svg"
 												>
-													
 													<rect
 														x="0.5"
 														y="0.5"
@@ -200,9 +202,13 @@ const Footer = () => {
 										</div>
 										<div className="w-full flex flex-col gap-2 h-full">
 											<div className="relative">
-												<div className="rounded-full max-w-[330px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
-													+91 9114111987
-												</div>
+												<Link
+													href="tel:+916371165893"
+													target="_blank"
+													className="rounded-full max-w-[330px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border"
+												>
+													+91 63711 65893
+												</Link>
 												<svg
 													className="absolute top-2 left-2"
 													width="40"

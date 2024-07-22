@@ -1,7 +1,9 @@
 import { Sora } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
 const sora = Sora({ subsets: ["latin"] });
 
 export const metadata = {
@@ -36,6 +38,28 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+			<Head>
+				<title>{metadata.title}</title>
+				<meta name="description" content={metadata.description} />
+				<meta name="keywords" content={metadata.keywords} />
+				<meta name="author" content={metadata.author} />
+				<meta name="robots" content={metadata.robots} />
+				<meta name="viewport" content={metadata.viewport} />
+				<meta property="og:title" content={metadata.og.title} />
+				<meta property="og:description" content={metadata.og.description} />
+				<meta property="og:type" content={metadata.og.type} />
+				<meta property="og:url" content={metadata.og.url} />
+				<meta property="og:image" content={metadata.og.image} />
+				<meta name="twitter:card" content={metadata.twitter.card} />
+				<meta name="twitter:site" content={metadata.twitter.site} />
+				<meta name="twitter:title" content={metadata.twitter.title} />
+				<meta
+					name="twitter:description"
+					content={metadata.twitter.description}
+				/>
+				<meta name="twitter:image" content={metadata.twitter.image} />
+				<link rel="icon" href="../public/favicon.ico" />
+			</Head>
 			<body className={sora.className}>
 				<div className="bg-[#000E0F] text-white">
 					<Navbar />

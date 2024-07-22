@@ -644,8 +644,8 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className="w-[97%] h-[70px] border-t px-2  border-[#00393D] flex justify-between items-center">
-						<div className="flex justify-center items-center gap-2">
+					<div className="w-[97%] h-[70px] border-t px-2  border-[#00393D] flex justify-center sm:justify-between items-center">
+						<div className="sm:flex hidden justify-center items-center gap-2">
 							<Link
 								href={"#"}
 								className="md:text-[14px] text-[10px] text-[#507C7C]"

@@ -119,7 +119,7 @@ const Navbar = () => {
 						<Image width={30} height={30} src={close} alt="" />
 					</button>
 					<div className="md:block hidden">
-						<label className="themeSwitcherTwo relative inline-flex cursor-pointer select-none items-center">
+						<label className="themeSwitcherTwo relative inline-flex cursor-pointer select-none items-center w-fit">
 							<input
 								type="checkbox"
 								checked={isChecked}
@@ -127,7 +127,7 @@ const Navbar = () => {
 								className="sr-only"
 							/>
 							<span
-								className={`slider mx-4 flex h-8 w-[60px] items-center rounded-full p-1 duration-200 border border-teal-700 ${
+								className={`slider flex h-8 w-[60px] items-center rounded-full p-1 duration-200 border border-teal-700 ${
 									isChecked ? "bg-[#f6ffff]" : "bg-[#003a3f]"
 								}`}
 							>

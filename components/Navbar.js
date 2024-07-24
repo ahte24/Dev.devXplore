@@ -15,13 +15,38 @@ const Navbar = () => {
 				const id = target.getAttribute("href").slice(1);
 				const element = document.getElementById(id);
 				if (element) {
-					window.scrollTo({
-						top: element.offsetTop,
-						behavior: "smooth",
-					});
+					const targetPosition = element.offsetTop;
+					const startPosition = window.pageYOffset;
+					const distance = targetPosition - startPosition;
+					const duration = 2000; // Adjust this value to change the speed
+					let startTime = null;
+
+					const easeInOutQuad = (t, b, c, d) => {
+						t /= d / 2;
+						if (t < 1) return (c / 2) * t * t + b;
+						t--;
+						return (-c / 2) * (t * (t - 2) - 1) + b;
+					};
+
+					const animateScroll = (currentTime) => {
+						if (startTime === null) startTime = currentTime;
+						const timeElapsed = currentTime - startTime;
+						const run = easeInOutQuad(
+							timeElapsed,
+							startPosition,
+							distance,
+							duration
+						);
+						window.scrollTo(0, run);
+						if (timeElapsed < duration) requestAnimationFrame(animateScroll);
+					};
+
+					requestAnimationFrame(animateScroll);
 				}
 			}
 		};
+
+		document.addEventListener("click", handleScroll);
 
 		document.addEventListener("click", handleScroll);
 
@@ -43,7 +68,9 @@ const Navbar = () => {
 			<div className="md:static  sticky top-0 z-30">
 				<nav className="h-[90px] w-full  flex justify-between items-center px-[20px] absolute backdrop-filter md:backdrop-blur-none backdrop-blur-lg bg-opacity-30 z-30 bg-[#000e0f]">
 					<Link href={"/"} className="">
-						<span className="text-[#ccfffa] text-xl sm:text-2xl">DevXplore</span>
+						<span className="text-[#ccfffa] text-xl sm:text-2xl">
+							DevXplore
+						</span>
 					</Link>
 					<div className="max-w-[500px] h-[60px] px-2 md:flex justify-center items-center bg-[#000e0f] border border-[#00393d] rounded-full hidden">
 						<ul className="flex justify-evenly w-[490px] items-center transition-all">

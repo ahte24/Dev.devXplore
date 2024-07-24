@@ -11,7 +11,7 @@ export const metadata = {
 	description:
 		"Unlock the full potential of your business with DevXplore.tech's bespoke web and mobile app solutions. We create custom software that drives success worldwide.",
 	keywords:
-		"DevXplore, DevXplore.tech, DevXplore reviews, technology solutions, website development, mobile app development, custom software development, tech startup, enterprise software solutions, web design, mobile UX design, local tech company, software development, DevXplore portfolio",
+		"DevXplore, best development agency, DevXplore.tech, DevXplore reviews, technology solutions, website development, mobile app development, custom software development, tech startup, enterprise software solutions, web design, mobile UX design, local tech company, software development, DevXplore portfolio",
 	author: "DevXplore Team",
 	robots: "index, follow",
 	viewport: "width=device-width, initial-scale=1.0",

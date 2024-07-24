@@ -7,11 +7,11 @@ import Footer from "@/components/Footer";
 const sora = Sora({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "DevXplore | Your Ultimate Tech Solutions Partner",
+	title: "DevXplore.tech | Your Ultimate Tech Solutions Partner",
 	description:
-		"DevXplore offers top-notch web and mobile app development and design services. Transform your ideas into innovative digital solutions with our expert team.",
+		"Unlock the full potential of your business with DevXplore.tech's bespoke web and mobile app solutions. We create custom software that drives success worldwide.",
 	keywords:
-		"web development, mobile app development, app design, tech solutions, software development, DevXplore",
+		"DevXplore, DevXplore.tech, DevXplore reviews, technology solutions, website development, mobile app development, custom software development, tech startup, enterprise software solutions, web design, mobile UX design, local tech company, software development, DevXplore portfolio",
 	author: "DevXplore Team",
 	robots: "index, follow",
 	viewport: "width=device-width, initial-scale=1.0",
@@ -26,8 +26,8 @@ export const metadata = {
 	},
 	twitter: {
 		card: "summary_large_image",
-		site: "@DevXplore",
-		title: "DevXplore | Your Ultimate Tech Solutions Partner",
+		site: "@DevXploreTech",
+		title: "DevXplore.tech | Custom Web & Mobile Apps",
 		description:
 			"DevXplore offers top-notch web and mobile app development and design services. Transform your ideas into innovative digital solutions with our expert team.",
 		image:
@@ -59,30 +59,6 @@ export default function RootLayout({ children }) {
 				/>
 				<meta name="twitter:image" content={metadata.twitter.image} />
 				<link rel="icon" href="../public/favicon.ico" />
-				{/* Calendly badge widget */}
-				<link
-					href="https://assets.calendly.com/assets/external/widget.css"
-					rel="stylesheet"
-				/>
-				<script
-					src="https://assets.calendly.com/assets/external/widget.js"
-					async
-				></script>
-				<script
-					dangerouslySetInnerHTML={{
-						__html: `
-                        window.onload = function() {
-                            Calendly.initBadgeWidget({
-                                url: 'https://calendly.com/solutions-devxplore/30min',
-                                text: 'Schedule time with me',
-                                color: '#000e0f',
-                                textColor: '#66fff0',
-                                branding: undefined
-                            });
-                        };
-                    `,
-					}}
-				/>
 			</Head>
 			<body className={sora.className}>
 				<div className="bg-[#000E0F] text-white">

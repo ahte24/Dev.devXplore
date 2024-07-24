@@ -4204,9 +4204,7 @@ export default function Home() {
 											: "opacity-100 min-h-[60px] mt-5"
 									} transition-opacity duration-1000`}
 								>
-									The timeline varies depending on the project s complexity and
-									requirements. Our team strives to deliver projects on time
-									while maintaining the highest quality standards.
+									Yes, our team is equipped to manage and execute large-scale mobile app projects, ensuring scalability and robust performance.
 								</p>
 							</div>
 							<button
@@ -4293,9 +4291,7 @@ export default function Home() {
 											: "opacity-100 mt-5 min-h-[60px]"
 									} transition-opacity duration-500`}
 								>
-									The timeline varies depending on the project s complexity and
-									requirements. Our team strives to deliver projects on time
-									while maintaining the highest quality standards.
+									We offer maintenance services for all websites and apps, including updates, bug fixes, and security audits, regardless of the original developer.
 								</p>
 							</div>
 							<button
@@ -4382,9 +4378,7 @@ export default function Home() {
 											: "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
-									The timeline varies depending on the project s complexity and
-									requirements. Our team strives to deliver projects on time
-									while maintaining the highest quality standards.
+									We prioritize user data security by implementing SSL/TLS encryption, regular security audits, and secure coding practices to safeguard against threats.
 								</p>
 							</div>
 							<button

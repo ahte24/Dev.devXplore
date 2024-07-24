@@ -138,7 +138,7 @@ const Footer = () => {
 								<div className="w-1/3 h-full p-4 flex flex-col items-center">
 									<div className="w-[70%] flex flex-col gap-4">
 										<div className="">
-											<h4>Services</h4>
+											<h4>Others</h4>
 										</div>
 										<div className="flex flex-col  gap-3">
 											<Link href={"#"} className="text-[16px] text-[#507C7C]">

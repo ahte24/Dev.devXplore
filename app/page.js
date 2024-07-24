@@ -4748,6 +4748,7 @@ export default function Home() {
 												<option value="App Development">App Development</option>
 												<option value="Web Design">Web Design</option>
 												<option value="App Design">App Design</option>
+												<option value="Job Applicant">Job Applicant</option>
 											</select>
 											<svg
 												className="absolute top-2 left-2"

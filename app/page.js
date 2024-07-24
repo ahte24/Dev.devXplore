@@ -1011,9 +1011,7 @@ export default function Home() {
 												</span>
 											</div>
 											<div className=" h-full flex items-center justify-center text-[#649B9B]">
-												<span className="text-[12px] sm:text-[14px]">
-													View Projects
-												</span>
+												
 											</div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
@@ -1058,9 +1056,7 @@ export default function Home() {
 												</span>
 											</div>
 											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-												<span className="text-[12px] sm:text-[14px]">
-													View Projects
-												</span>
+												
 											</div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
@@ -1107,9 +1103,7 @@ export default function Home() {
 												</span>
 											</div>
 											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-												<span className="text-[12px] sm:text-[14px]">
-													View Projects
-												</span>
+												
 											</div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
@@ -1154,9 +1148,7 @@ export default function Home() {
 												</span>
 											</div>
 											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-												<span className="text-[12px] sm:text-[14px]">
-													View Projects
-												</span>
+												
 											</div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
@@ -2244,12 +2236,7 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												Designer Portfolio
 											</h4>
-											<button
-												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
-							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
-											>
-												View Projects
-											</button>
+											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of unique design projects that blend
@@ -2448,12 +2435,7 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												FutureWave AI
 											</h4>
-											<button
-												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
-							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
-											>
-												View Projects
-											</button>
+											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of unique design projects that blend
@@ -2664,12 +2646,7 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												Agency Website
 											</h4>
-											<button
-												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
-							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
-											>
-												View Projects
-											</button>
+											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of unique development projects that
@@ -2870,12 +2847,7 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												Zenith Innovations
 											</h4>
-											<button
-												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
-							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
-											>
-												View Projects
-											</button>
+											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of innovative development projects that
@@ -3086,12 +3058,7 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												BrightWave Marketing
 											</h4>
-											<button
-												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
-							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
-											>
-												View Projects
-											</button>
+											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of unique design projects that blend
@@ -3292,12 +3259,7 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												SmartAds Solutions
 											</h4>
-											<button
-												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
-							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
-											>
-												View Projects
-											</button>
+											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of unique AI-driven marketing projects
@@ -3510,12 +3472,7 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												Apex Solutions
 											</h4>
-											<button
-												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
-							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
-											>
-												View Projects
-											</button>
+											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of innovative management projects that
@@ -3718,12 +3675,7 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												Synergy Consultants
 											</h4>
-											<button
-												className="flex items-center justify-center transition-all duration-300  h-[40px] w-[120px]  border border-[#00393D] 
-							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
-											>
-												View Projects
-											</button>
+											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of innovative management projects that
@@ -4858,9 +4810,15 @@ export default function Home() {
 								</div>
 								<div className="w-full flex flex-col gap-2 h-full">
 									<div className="relative">
-										<Link href="tel:+9163711 65893" target="_blank" className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
-											+91 63711 65893
+										<div className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center gap-2 outline-none bg-[#00171A] border-[#00393D] border">
+
+										<Link className="text-sm" href="tel:+9163711 65893" target="_blank" >
+											+91 63711 65893,
 										</Link>
+										<Link className="text-sm" href="tel:+9198270 53173" target="_blank" >
+											+91 98270 53173
+										</Link>
+										</div>
 										<svg
 											className="absolute top-2 left-2"
 											width="40"

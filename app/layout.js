@@ -58,7 +58,16 @@ export default function RootLayout({ children }) {
 					content={metadata.twitter.description}
 				/>
 				<meta name="twitter:image" content={metadata.twitter.image} />
-				<link rel="icon" href="../public/favicon.ico" />
+				<link
+					rel="icon"
+					href="../public/favicon.ico"
+					type="../public/favicon.ico"
+				/>
+				<link
+					rel="shortcut icon"
+					href="../public/favicon.ico"
+					type="../public/favicon.ico"
+				/>
 			</Head>
 			<body className={sora.className}>
 				<div className="bg-[#000E0F] text-white">

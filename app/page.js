@@ -3893,7 +3893,7 @@ export default function Home() {
 						<div className=" flex flex-col px-4 py-4 gap-4 justify-center items-center text-[#ccfffa]">
 							<span>Ahtesham Zaman</span>
 							<span className="text-[#649B9B] text-center">
-								Co-Founder · Softwere Developer
+								Co-Founder · Software Developer
 							</span>
 							<p className="text-[13px] text-center">
 								Co-Founder and frontend developer with 4+ years of experience,
@@ -3917,7 +3917,7 @@ export default function Home() {
 						<div className=" flex flex-col px-4 py-4 gap-4 justify-center items-center text-[#ccfffa]">
 							<span>Arshad Aman</span>
 							<span className="text-[#649B9B] text-center">
-								Co-Founder · Softwere Developer
+								Co-Founder · Software Developer
 							</span>
 							<p className="text-[13px] text-center">
 								Co-Founder and backend developer with 5+ years of experience,

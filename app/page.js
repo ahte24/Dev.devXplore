@@ -3888,7 +3888,7 @@ export default function Home() {
 						</div>
 						<div className=" flex flex-col px-4 py-2 gap-4 justify-center items-center text-[#ccfffa]">
 							<span>Mohammed Zaman</span>
-							<span className="text-[#649B9B]">
+							<span className="text-[#649B9B] text-center">
 								Co-Founder · Softwere Developer
 							</span>
 							<p className="text-[13px] text-center">
@@ -3909,7 +3909,7 @@ export default function Home() {
 						</div>
 						<div className=" flex flex-col px-4 py-2 gap-4 justify-center items-center text-[#ccfffa]">
 							<span>Arshad Aman</span>
-							<span className="text-[#649B9B]">
+							<span className="text-[#649B9B] text-center">
 								Co-Founder · Softwere Developer
 							</span>
 							<p className="text-[13px] text-center">
@@ -3930,7 +3930,7 @@ export default function Home() {
 						</div>
 						<div className=" flex flex-col px-4 py-2 gap-4 justify-center items-center text-[#ccfffa]">
 							<span>Sucharita Mohanty</span>
-							<span className="text-[#649B9B]">Co-Founder & UI, UX Designer</span>
+							<span className="text-[#649B9B] text-center">Co-Founder & UI, UX Designer</span>
 							<p className="text-[13px] text-center">
 							Co-Founder and UI/UX designer with 4+ years of experience, crafting intuitive, visually appealing interfaces to enhance user experience creatively and insightfully.
 							</p>

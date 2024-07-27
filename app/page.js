@@ -3879,6 +3879,8 @@ export default function Home() {
 						<div className="w-full h-[35%]  bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
 							<div className="w-[80px] h-[80px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
 								<Image
+								alt="Zaman Image"
+
 									src={zaman}
 									width={500}
 									height={500}
@@ -3886,8 +3888,8 @@ export default function Home() {
 								></Image>
 							</div>
 						</div>
-						<div className=" flex flex-col px-4 py-2 gap-4 justify-center items-center text-[#ccfffa]">
-							<span>Mohammed Zaman</span>
+						<div className=" flex flex-col px-4 py-4 gap-4 justify-center items-center text-[#ccfffa]">
+							<span>Ahtesham Zaman</span>
 							<span className="text-[#649B9B] text-center">
 								Co-Founder · Softwere Developer
 							</span>
@@ -3900,6 +3902,8 @@ export default function Home() {
 						<div className="w-full h-[35%] bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
 							<div className="w-[80px] h-[80px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
 								<Image
+								alt="Aman Image"
+
 									src={arshad}
 									width={500}
 									height={500}
@@ -3907,7 +3911,7 @@ export default function Home() {
 								></Image>
 							</div>
 						</div>
-						<div className=" flex flex-col px-4 py-2 gap-4 justify-center items-center text-[#ccfffa]">
+						<div className=" flex flex-col px-4 py-4 gap-4 justify-center items-center text-[#ccfffa]">
 							<span>Arshad Aman</span>
 							<span className="text-[#649B9B] text-center">
 								Co-Founder · Softwere Developer
@@ -3921,6 +3925,7 @@ export default function Home() {
 						<div className="w-full h-[35%] bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
 							<div className="w-[80px] h-[80px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
 								<Image
+								alt="Suchi Image"
 									src={suchi}
 									width={500}
 									height={500}
@@ -3928,7 +3933,7 @@ export default function Home() {
 								></Image>
 							</div>
 						</div>
-						<div className=" flex flex-col px-4 py-2 gap-4 justify-center items-center text-[#ccfffa]">
+						<div className=" flex flex-col px-4 py-4 gap-4 justify-center items-center text-[#ccfffa]">
 							<span>Sucharita Mohanty</span>
 							<span className="text-[#649B9B] text-center">Co-Founder & UI, UX Designer</span>
 							<p className="text-[13px] text-center">

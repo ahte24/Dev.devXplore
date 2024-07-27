@@ -24,9 +24,9 @@ import { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Bounce } from "react-toastify";
-import zaman from "@/public/zaman.png"
-import suchi from "@/public/suchi.png"
-import arshad from "@/public/arshad.png"
+import zaman from "@/public/zaman.png";
+import suchi from "@/public/suchi.png";
+import arshad from "@/public/arshad.png";
 
 export default function Home() {
 	const [formData, setFormData] = useState({
@@ -3871,20 +3871,22 @@ export default function Home() {
 						Our Team
 					</h1>
 					<p className="text-[#507C7C] text-[16px] text-center">
-					At DevXplore, we pride ourselves on our dedicated team of professionals who are committed to delivering top-notch web and mobile app solutions. Our team consists of experts in various fields:
+						At DevXplore, we pride ourselves on our dedicated team of
+						professionals who are committed to delivering top-notch web and
+						mobile app solutions. Our team consists of experts in various
+						fields:
 					</p>
 				</div>
 				<div className="w-full min-h-96 overflow-hidden justify-center items-center flex flex-wrap mt-10 px-5 gap-10">
 					<div className="flex flex-col gap-10 max-w-[440px] h-[350px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
 						<div className="w-full h-[35%]  bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
-							<div className="w-[80px] h-[80px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
+							<div className="w-[100px] h-[100px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
 								<Image
-								alt="Zaman Image"
-
+									alt="Zaman Image"
 									src={zaman}
 									width={500}
 									height={500}
-									className="w-[80px] h-[80px] rounded-full object-contain object-top"
+									className="w-[100px] h-[100px] rounded-full object-cover "
 								></Image>
 							</div>
 						</div>
@@ -3894,20 +3896,21 @@ export default function Home() {
 								Co-Founder · Softwere Developer
 							</span>
 							<p className="text-[13px] text-center">
-							Co-Founder and frontend developer with 4+ years of experience, creating bespoke web and mobile solutions with technical expertise and innovation.
+								Co-Founder and frontend developer with 4+ years of experience,
+								creating bespoke web and mobile solutions with technical
+								expertise and innovation.
 							</p>
 						</div>
 					</div>
 					<div className="flex flex-col gap-10 max-w-[440px] h-[350px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
 						<div className="w-full h-[35%] bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
-							<div className="w-[80px] h-[80px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
+							<div className="w-[100px] h-[100px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
 								<Image
-								alt="Aman Image"
-
+									alt="Aman Image"
 									src={arshad}
 									width={500}
 									height={500}
-									className="w-[80px] h-[80px] rounded-full object-contain object-top"
+									className="w-[100px] h-[100px] rounded-full object-cover object-top"
 								></Image>
 							</div>
 						</div>
@@ -3917,27 +3920,33 @@ export default function Home() {
 								Co-Founder · Softwere Developer
 							</span>
 							<p className="text-[13px] text-center">
-							Co-Founder and backend developer with 5+ years of experience, excelling in problem-solving and precision for high-quality, client-focused project execution.
+								Co-Founder and backend developer with 5+ years of experience,
+								excelling in problem-solving and precision for high-quality,
+								client-focused project execution.
 							</p>
 						</div>
 					</div>
 					<div className="flex flex-col gap-10 max-w-[440px] h-[350px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
 						<div className="w-full h-[35%] bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
-							<div className="w-[80px] h-[80px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
+							<div className="w-[100px] h-[100px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
 								<Image
-								alt="Suchi Image"
+									alt="Suchi Image"
 									src={suchi}
 									width={500}
 									height={500}
-									className="w-[80px] h-[80px] rounded-full object-contain object-top"
+									className="w-[100px] h-[100px] rounded-full object-cover object-bottom"
 								></Image>
 							</div>
 						</div>
 						<div className=" flex flex-col px-4 py-4 gap-4 justify-center items-center text-[#ccfffa]">
 							<span>Sucharita Mohanty</span>
-							<span className="text-[#649B9B] text-center">Co-Founder & UI, UX Designer</span>
+							<span className="text-[#649B9B] text-center">
+								Co-Founder & UI, UX Designer
+							</span>
 							<p className="text-[13px] text-center">
-							Co-Founder and UI/UX designer with 4+ years of experience, crafting intuitive, visually appealing interfaces to enhance user experience creatively and insightfully.
+								Co-Founder and UI/UX designer with 4+ years of experience,
+								crafting intuitive, visually appealing interfaces to enhance
+								user experience creatively and insightfully.
 							</p>
 						</div>
 					</div>

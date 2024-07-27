@@ -28,7 +28,7 @@ export const metadata = {
 	twitter: {
 		card: "summary_large_image",
 		site: "@DevXploreTech",
-		title: "DevXplore.tech | Custom Web & Mobile Apps",
+		title: "DevXplore.tech | Your Ultimate Tech Solutions Partner",
 		description:
 			"DevXplore offers top-notch web and mobile app development and design services. Transform your ideas into innovative digital solutions with our expert team.",
 		image:

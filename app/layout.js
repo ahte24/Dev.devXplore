@@ -11,7 +11,7 @@ export const metadata = {
 	description:
 		"Unlock the full potential of your business with DevXplore.tech's bespoke web and mobile app solutions. We create custom software that drives success worldwide.",
 	keywords:
-		"DevXplore, best development agency, DevXplore.tech, DevXplore reviews, technology solutions, website development, mobile app development, custom software development, tech startup, enterprise software solutions, web design, mobile UX design, local tech company, software development, DevXplore portfolio",
+		"devxplore, best development agency, devxplore.tech, devxplore reviews, technology solutions, website development, mobile app development, custom software development, tech startup, enterprise software solutions, web design, mobile UX design, local tech company, software development, devxplore portfolio, IT consultancy, digital transformation, cloud services, AI solutions, blockchain development, SaaS development, e-commerce solutions, agile development, tech innovation, digital agency, tech consultancy, MVP development, full-stack development",
 	author: "DevXplore Team",
 	robots: "index, follow",
 	viewport: "width=device-width, initial-scale=1.0",
@@ -22,7 +22,8 @@ export const metadata = {
 		type: "website",
 		url: "https://www.devxplore.tech",
 		image:
-			"https://github.com/ahte24/Dev.devXplore/blob/master/WhatsApp%20Image%202024-07-06%20at%2012.30.01%20(1).jpeg?raw=true",
+			"https://www.devxplore.tech/favicon.ico",
+		site_name: "DevXplore.tech",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -31,7 +32,7 @@ export const metadata = {
 		description:
 			"DevXplore offers top-notch web and mobile app development and design services. Transform your ideas into innovative digital solutions with our expert team.",
 		image:
-			"https://github.com/ahte24/Dev.devXplore/blob/master/WhatsApp%20Image%202024-07-06%20at%2012.30.01%20(1).jpeg?raw=true",
+			"https://www.devxplore.tech/favicon.ico",
 	},
 };
 

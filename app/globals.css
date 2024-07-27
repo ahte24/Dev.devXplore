@@ -21,6 +21,9 @@
 .showCaseBg {
     background-image: url("../public/showCaseBG.svg");
 }
+.teambg {
+    background-image: url("../public/team.svg");
+}
 
 .showCaseBg3 {
     background-image: url("../public/3BG.svg");

@@ -24,6 +24,9 @@ import { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Bounce } from "react-toastify";
+import zaman from "@/public/zaman.png"
+import suchi from "@/public/suchi.png"
+import arshad from "@/public/arshad.png"
 
 export default function Home() {
 	const [formData, setFormData] = useState({
@@ -296,8 +299,8 @@ export default function Home() {
 								Consult now
 							</Link>
 							<Link
-							href="#section3"
-							scroll={false}
+								href="#section3"
+								scroll={false}
 								className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] 
 							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
 							>
@@ -860,7 +863,7 @@ export default function Home() {
 				</div>
 				<div className="absolute bottom-0 w-full h-[250px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 			</div>
-			<div className="w-full mt-20 min-h-[180px] gap-4  flex flex-col justify-center px-2 md:px-8">
+			<div className="w-full pt-20 min-h-[180px] gap-4  flex flex-col justify-center px-2 md:px-8">
 				<h4 className="text-center text-[16px] text-[#C1D7D7] my-4">
 					Our Custombers
 				</h4>
@@ -903,7 +906,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div id="section2" className="w-full md:px-8 px-2 mt-20 relative">
+			<div id="section2" className="w-full md:px-8 px-2 pt-24 relative">
 				<div className="relative rounded-3xl max-w-full overflow-hidden border-[#002629] md:border sm:p-[16px] border-b-[#000e0f] flex justify-center">
 					<div className="w-full sm:block hidden bg-[#011212] h-[16px] overflow-hidden absolute top-0">
 						<svg
@@ -1010,9 +1013,7 @@ export default function Home() {
 													Design
 												</span>
 											</div>
-											<div className=" h-full flex items-center justify-center text-[#649B9B]">
-												
-											</div>
+											<div className=" h-full flex items-center justify-center text-[#649B9B]"></div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
 											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
@@ -1055,9 +1056,7 @@ export default function Home() {
 													Development
 												</span>
 											</div>
-											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-												
-											</div>
+											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]"></div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
 											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
@@ -1102,9 +1101,7 @@ export default function Home() {
 													Marketing
 												</span>
 											</div>
-											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-												
-											</div>
+											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]"></div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
 											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
@@ -1147,9 +1144,7 @@ export default function Home() {
 													Consulting
 												</span>
 											</div>
-											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]">
-												
-											</div>
+											<div className="w-[30%] h-full flex items-center justify-center text-[#649B9B]"></div>
 										</div>
 										<div className="w-full flex items-center h-[40%] gap-3">
 											<div className="w-[120px] border h-[40px] flex items-center justify-center rounded-full border-[#00393D]">
@@ -1189,7 +1184,7 @@ export default function Home() {
 				</div>
 				<div className="absolute bottom-0 left-0 w-full h-[350px]  bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 			</div>
-			<div className="w-full px-2 sm:px-2 mt-20 flex">
+			<div className="w-full px-2 sm:px-2 pt-24 flex">
 				<div className="w-full min-h-[400px] relative  rounded-3xl overflow-hidden flex flex-col gap- 2xl:flex-row 2xl:justify-center items-center">
 					<div className="2xl:w-[45%] px-8 min-h-[400px] justify-center flex flex-col gap-5 ">
 						<div className=" flex flex-col gap-8">
@@ -1206,7 +1201,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="buttons flex gap-4">
-						<Link
+							<Link
 								href={"https://calendly.com/solutions-devxplore/30min"}
 								target="_blank"
 								scroll={false}
@@ -1215,8 +1210,8 @@ export default function Home() {
 								Consult now
 							</Link>
 							<Link
-							href="#section3"
-							scroll={false}
+								href="#section3"
+								scroll={false}
 								className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] 
 							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
 							>
@@ -2097,7 +2092,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div id="section3" className="mt-20 md:px-8 p-2 w-full relative">
+			<div id="section3" className="pt-24 md:px-8 p-2 w-full relative">
 				<div className="w-full flex flex-col gap-10 bg showCaseBg3">
 					<div className="w-[90%] mx-auto flex flex-col gap-4">
 						<h3 className="text-center sm:text-[38px] text-[28px] text-[#E5FFFD]">
@@ -2236,7 +2231,6 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												Designer Portfolio
 											</h4>
-											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of unique design projects that blend
@@ -2435,7 +2429,6 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												FutureWave AI
 											</h4>
-											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of unique design projects that blend
@@ -2646,7 +2639,6 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												Agency Website
 											</h4>
-											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of unique development projects that
@@ -2847,7 +2839,6 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												Zenith Innovations
 											</h4>
-											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of innovative development projects that
@@ -3058,7 +3049,6 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												BrightWave Marketing
 											</h4>
-											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of unique design projects that blend
@@ -3259,7 +3249,6 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												SmartAds Solutions
 											</h4>
-											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of unique AI-driven marketing projects
@@ -3472,7 +3461,6 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												Apex Solutions
 											</h4>
-											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of innovative management projects that
@@ -3675,7 +3663,6 @@ export default function Home() {
 											<h4 className="text-[20px] text-[#ccfffa]">
 												Synergy Consultants
 											</h4>
-											
 										</div>
 										<p className="text-[#649B9B] text-[14px]">
 											Explore a showcase of innovative management projects that
@@ -3878,7 +3865,80 @@ export default function Home() {
 					<div className="absolute bottom-0 left-0 w-full h-[350px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>{" "}
 				</div>
 			</div>
-			<div id="section4" className="mt-20 px-2 sm:px-8 w-full relative">
+			<div id="section4" className="pt-24 px-2 sm:px-8 w-full relative">
+				<div className="w-[85%] mx-auto flex flex-col items-center gap-5">
+					<h1 className="sm:text-[38px] text-[28px] text-[#E5FFFD] text-center">
+						Our Team
+					</h1>
+					<p className="text-[#507C7C] text-[16px] text-center">
+					At DevXplore, we pride ourselves on our dedicated team of professionals who are committed to delivering top-notch web and mobile app solutions. Our team consists of experts in various fields:
+					</p>
+				</div>
+				<div className="w-full min-h-96 overflow-hidden justify-center items-center flex flex-wrap mt-10 px-5 gap-10">
+					<div className="flex flex-col gap-10 max-w-[440px] h-[350px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
+						<div className="w-full h-[35%]  bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
+							<div className="w-[80px] h-[80px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
+								<Image
+									src={zaman}
+									width={500}
+									height={500}
+									className="w-[80px] h-[80px] rounded-full object-contain object-top"
+								></Image>
+							</div>
+						</div>
+						<div className=" flex flex-col px-4 py-2 gap-4 justify-center items-center text-[#ccfffa]">
+							<span>Mohammed Zaman</span>
+							<span className="text-[#649B9B]">
+								Co-Founder · Softwere Developer
+							</span>
+							<p className="text-[13px] text-center">
+							Co-Founder and frontend developer with 4+ years of experience, creating bespoke web and mobile solutions with technical expertise and innovation.
+							</p>
+						</div>
+					</div>
+					<div className="flex flex-col gap-10 max-w-[440px] h-[350px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
+						<div className="w-full h-[35%] bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
+							<div className="w-[80px] h-[80px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
+								<Image
+									src={arshad}
+									width={500}
+									height={500}
+									className="w-[80px] h-[80px] rounded-full object-contain object-top"
+								></Image>
+							</div>
+						</div>
+						<div className=" flex flex-col px-4 py-2 gap-4 justify-center items-center text-[#ccfffa]">
+							<span>Arshad Aman</span>
+							<span className="text-[#649B9B]">
+								Co-Founder · Softwere Developer
+							</span>
+							<p className="text-[13px] text-center">
+							Co-Founder and backend developer with 5+ years of experience, excelling in problem-solving and precision for high-quality, client-focused project execution.
+							</p>
+						</div>
+					</div>
+					<div className="flex flex-col gap-10 max-w-[440px] h-[350px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
+						<div className="w-full h-[35%] bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
+							<div className="w-[80px] h-[80px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
+								<Image
+									src={suchi}
+									width={500}
+									height={500}
+									className="w-[80px] h-[80px] rounded-full object-contain object-top"
+								></Image>
+							</div>
+						</div>
+						<div className=" flex flex-col px-4 py-2 gap-4 justify-center items-center text-[#ccfffa]">
+							<span>Sucharita Mohanty</span>
+							<span className="text-[#649B9B]">Co-Founder & UI, UX Designer</span>
+							<p className="text-[13px] text-center">
+							Co-Founder and UI/UX designer with 4+ years of experience, crafting intuitive, visually appealing interfaces to enhance user experience creatively and insightfully.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="pt-24 px-2 sm:px-8 w-full relative">
 				<div className="w-full min-h-[400px] flex flex-col gap-5 py-8">
 					<div className="w-[85%] mx-auto flex flex-col items-center gap-5">
 						<h1 className="sm:text-[38px] text-[28px] text-[#E5FFFD] text-center">
@@ -4044,7 +4104,7 @@ export default function Home() {
 				<div className="absolute bottom-0 lg:block hidden w-[250px] h-full bg-gradient-to-r from-[#000e0f] to-transparent left-0"></div>
 				<div className="absolute bottom-0 lg:block hidden w-[250px] h-full bg-gradient-to-l from-[#000e0f] to-transparent right-0"></div>
 			</div>
-			<div className="flex flex-col items-center mt-20 w-full sm:max-w-[2000px] min-h-[650px] mx-auto gap-10 relative py-10 showCaseBg3 transition-all duration-1000">
+			<div className="flex flex-col items-center pt-24 w-full sm:max-w-[2000px] min-h-[650px] mx-auto gap-10 relative py-10 showCaseBg3 transition-all duration-1000">
 				<div className="w-full p-5 mx-auto flex flex-col items-center gap-5">
 					<h1 className="text-[28px] sm:text-[38px] text-[#E5FFFD] text-center">
 						Common Queries, Clear Answers
@@ -4156,7 +4216,9 @@ export default function Home() {
 											: "opacity-100 min-h-[60px] mt-5"
 									} transition-opacity duration-1000`}
 								>
-									Yes, our team is equipped to manage and execute large-scale mobile app projects, ensuring scalability and robust performance.
+									Yes, our team is equipped to manage and execute large-scale
+									mobile app projects, ensuring scalability and robust
+									performance.
 								</p>
 							</div>
 							<button
@@ -4243,7 +4305,9 @@ export default function Home() {
 											: "opacity-100 mt-5 min-h-[60px]"
 									} transition-opacity duration-500`}
 								>
-									We offer maintenance services for all websites and apps, including updates, bug fixes, and security audits, regardless of the original developer.
+									We offer maintenance services for all websites and apps,
+									including updates, bug fixes, and security audits, regardless
+									of the original developer.
 								</p>
 							</div>
 							<button
@@ -4330,7 +4394,9 @@ export default function Home() {
 											: "mt-5 opacity-100 min-h-[60px]"
 									} transition-opacity duration-1000`}
 								>
-									We prioritize user data security by implementing SSL/TLS encryption, regular security audits, and secure coding practices to safeguard against threats.
+									We prioritize user data security by implementing SSL/TLS
+									encryption, regular security audits, and secure coding
+									practices to safeguard against threats.
 								</p>
 							</div>
 							<button
@@ -4497,7 +4563,7 @@ export default function Home() {
 			</div>
 			<div
 				id="section5"
-				className="mt-20 w-full gap-10 sm:px-8 p-2 py-10 flex flex-col items-center showCaseBg3 min-h-[700px]"
+				className="pt-24 w-full gap-10 sm:px-8 p-2 py-10 flex flex-col items-center showCaseBg3 min-h-[700px]"
 			>
 				<div className="sm:w-[85%] px-5 w-full min-h-[150px] flex flex-col items-center justify-center">
 					<h1 className="text-[28px] sm:text-[38px] text-[#E5FFFD] text-center">
@@ -4811,13 +4877,20 @@ export default function Home() {
 								<div className="w-full flex flex-col gap-2 h-full">
 									<div className="relative">
 										<div className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center gap-2 outline-none bg-[#00171A] border-[#00393D] border">
-
-										<Link className="text-sm" href="tel:+9163711 65893" target="_blank" >
-											+91 63711 65893,
-										</Link>
-										<Link className="text-sm" href="tel:+9198270 53173" target="_blank" >
-											+91 98270 53173
-										</Link>
+											<Link
+												className="text-sm"
+												href="tel:+9163711 65893"
+												target="_blank"
+											>
+												+91 63711 65893,
+											</Link>
+											<Link
+												className="text-sm"
+												href="tel:+9198270 53173"
+												target="_blank"
+											>
+												+91 98270 53173
+											</Link>
 										</div>
 										<svg
 											className="absolute top-2 left-2"

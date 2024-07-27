@@ -3878,8 +3878,8 @@ export default function Home() {
 					</p>
 				</div>
 				<div className="w-full min-h-96 overflow-hidden justify-center items-center flex flex-wrap mt-10 px-5 gap-10">
-					<div className="flex flex-col gap-10 max-w-[440px] h-[350px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
-						<div className="w-full h-[35%]  bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
+					<div className="flex flex-col gap-10 max-w-[440px] min-h-[360px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
+						<div className="w-full h-[130px]  bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
 							<div className="w-[100px] h-[100px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
 								<Image
 									alt="Zaman Image"
@@ -3902,8 +3902,8 @@ export default function Home() {
 							</p>
 						</div>
 					</div>
-					<div className="flex flex-col gap-10 max-w-[440px] h-[350px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
-						<div className="w-full h-[35%] bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
+					<div className="flex flex-col gap-10 max-w-[440px] min-h-[360px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
+						<div className="w-full h-[130px] bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
 							<div className="w-[100px] h-[100px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
 								<Image
 									alt="Aman Image"
@@ -3926,8 +3926,8 @@ export default function Home() {
 							</p>
 						</div>
 					</div>
-					<div className="flex flex-col gap-10 max-w-[440px] h-[350px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
-						<div className="w-full h-[35%] bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
+					<div className="flex flex-col gap-10 max-w-[440px] min-h-[360px] overflow-hidden rounded-2xl border border-[#00393d] teambg">
+						<div className="w-full h-[130px] bg-transparent bg-gradient-to-b from-[#00313560] to-[#000e0f] flex  justify-center relative">
 							<div className="w-[100px] h-[100px] rounded-full border-[6px] border-[#00393d] overflow-hidden absolute bottom-[-25px]">
 								<Image
 									alt="Suchi Image"

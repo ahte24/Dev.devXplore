@@ -21,8 +21,7 @@ export const metadata = {
 			"DevXplore offers top-notch web and mobile app development and design services. Transform your ideas into innovative digital solutions with our expert team.",
 		type: "website",
 		url: "https://www.devxplore.tech",
-		image:
-			"https://www.devxplore.tech/favicon.ico",
+		image: "https://www.devxplore.tech/favicon.ico",
 		site_name: "DevXplore.tech",
 	},
 	twitter: {
@@ -31,8 +30,7 @@ export const metadata = {
 		title: "DevXplore.tech | Your Ultimate Tech Solutions Partner",
 		description:
 			"DevXplore offers top-notch web and mobile app development and design services. Transform your ideas into innovative digital solutions with our expert team.",
-		image:
-			"https://www.devxplore.tech/favicon.ico",
+		image: "https://www.devxplore.tech/favicon.ico",
 	},
 };
 
@@ -66,8 +64,8 @@ export default function RootLayout({ children }) {
 				/>
 				<link
 					rel="shortcut icon"
-					href="../public/favicon.ico"
-					type="../public/favicon.ico"
+					href="https://www.devxplore.tech/favicon.ico"
+					type="https://www.devxplore.tech/favicon.ico"
 				/>
 			</Head>
 			<body className={sora.className}>

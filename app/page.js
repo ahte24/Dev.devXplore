@@ -2529,7 +2529,7 @@ export default function Home() {
 															/>
 														</svg>
 														<span className="text-[12px] text-[#99FFF5]">
-															Develoopment
+															Development
 														</span>
 													</div>
 												</div>
@@ -2638,7 +2638,7 @@ export default function Home() {
 															/>
 														</svg>
 														<span className="text-[12px] text-[#99FFF5]">
-															Develoopment
+															Development
 														</span>
 													</div>
 												</div>

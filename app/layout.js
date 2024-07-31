@@ -38,6 +38,15 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<Head>
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
+				></script>
+				<script>
+					window.dataLayer = window.dataLayer || []; function gtag()
+					{dataLayer.push(arguments)}
+					gtag('js', new Date()); gtag('config', 'AW-16659229777');
+				</script>
 				<title>{metadata.title}</title>
 				<meta name="description" content={metadata.description} />
 				<meta name="keywords" content={metadata.keywords} />

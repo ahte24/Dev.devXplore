@@ -76,7 +76,7 @@ const Navbar = () => {
 						<ul className="flex justify-evenly w-[490px] items-center transition-all">
 							<div className="w-[100px] flex justify-center items-center">
 								<Link
-									href="#section1"
+									href="#Home"
 									scroll={false}
 									className="hover:text-white text-[#649B9B] w-[70px] transition-all duration-200 h-[40px] py-3 px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
 								>
@@ -85,7 +85,7 @@ const Navbar = () => {
 							</div>
 							<div className="w-[100px] flex justify-center items-center">
 								<Link
-									href="#section2"
+									href="#services"
 									scroll={false}
 									className="hover:text-white text-[#649B9B] min-w-[72px] transition-all duration-200 h-[40px] py-3 px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
 								>
@@ -96,7 +96,7 @@ const Navbar = () => {
 							</div>
 							<div className="w-[100px] flex justify-center items-center">
 								<Link
-									href="#section3"
+									href="#projects"
 									scroll={false}
 									className="hover:text-white text-[#649B9B] min-w-[79px] transition-all duration-200 h-[40px] py-3 px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
 								>
@@ -107,7 +107,7 @@ const Navbar = () => {
 							</div>
 							<div className="w-[100px] flex justify-center items-center">
 								<Link
-									href="#section4"
+									href="#aboutUs"
 									scroll={false}
 									className="hover:text-white text-[#649B9B] min-w-[79px] transition-all duration-200 h-[40px] py-3 px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
 								>
@@ -118,7 +118,7 @@ const Navbar = () => {
 							</div>
 							<div className="w-[100px] flex justify-center items-center">
 								<Link
-									href="#section5"
+									href="#contactUs"
 									scroll={false}
 									className="hover:text-white text-[#649B9B] min-w-[82px] transition-all duration-200 h-[40px] py-3 px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
 								>
@@ -180,14 +180,14 @@ const Navbar = () => {
 					<div>
 						<ul className=" gap-[10px] p-4 flex flex-col items-center justify-center ">
 							<Link
-								href="#section1"
+								href="#Home"
 								scroll={false}
 								className="text-sm text-center py-2 px-3 transition-all hover:bg-[#1A1A1A] rounded-full"
 							>
 								Home
 							</Link>
 							<Link
-								href="#section2"
+								href="#services"
 								scroll={false}
 								className="text-sm text-center py-2 px-3 transition-all hover:bg-[#1A1A1A] rounded-full"
 							>
@@ -195,7 +195,7 @@ const Navbar = () => {
 							</Link>
 
 							<Link
-								href="#section3"
+								href="#projects"
 								scroll={false}
 								className="text-sm text-center py-2 px-3 transition-all hover:bg-[#1A1A1A] rounded-full"
 							>
@@ -203,7 +203,7 @@ const Navbar = () => {
 							</Link>
 
 							<Link
-								href="#section4"
+								href="#aboutUs"
 								scroll={false}
 								className="text-sm text-center py-2 px-3 transition-all hover:bg-[#1A1A1A] rounded-full"
 							>
@@ -211,7 +211,7 @@ const Navbar = () => {
 							</Link>
 
 							<Link
-								href="#section5"
+								href="#contactUs"
 								scroll={false}
 								className="text-sm text-center py-2 px-3 transition-all hover:bg-[#1A1A1A] rounded-full"
 							>

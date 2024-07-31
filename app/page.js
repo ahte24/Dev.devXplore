@@ -281,7 +281,7 @@ export default function Home() {
 			<ToastContainer />
 			<ScrollAnimation variants={fadeInUp}>
 				<div
-					id="section1"
+					id="Home"
 					className="w-full bg 2xl:flex-row flex-col flex justify-center items-center sm:min-h-[600px] pt-[120px] relative"
 				>
 					<div className="2xl:w-1/2 w-full h-full flex flex-col items-center justify-center">
@@ -308,7 +308,7 @@ export default function Home() {
 									Consult now
 								</Link>
 								<Link
-									href="#section3"
+									href="#projects"
 									scroll={false}
 									className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] 
 							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
@@ -934,7 +934,7 @@ export default function Home() {
 				</div>
 			</ScrollAnimation>
 			<ScrollAnimation variants={fadeInUp}>
-				<div id="section2" className="w-full md:px-8 px-2 pt-24 relative">
+				<div id="services" className="w-full md:px-8 px-2 pt-24 relative">
 					<div className="relative rounded-3xl max-w-full overflow-hidden border-[#002629] md:border sm:p-[16px] border-b-[#000e0f] flex justify-center">
 						<div className="w-full sm:block hidden bg-[#011212] h-[16px] overflow-hidden absolute top-0">
 							<svg
@@ -1269,7 +1269,7 @@ export default function Home() {
 									Consult now
 								</Link>
 								<Link
-									href="#section3"
+									href="#projects"
 									scroll={false}
 									className="flex items-center justify-center transition-all duration-300  h-[50px] w-[150px]  border border-[#00393D] 
 							bg-[#66FFF0] rounded-full text-black text-[14px] hover:bg-[#000e0f] hover:text-white"
@@ -2317,7 +2317,7 @@ export default function Home() {
 				</div>
 			</ScrollAnimation>
 			<ScrollAnimation variants={fadeInUp}>
-				<div id="section3" className="pt-24 md:px-8 p-2 w-full relative">
+				<div id="projects" className="pt-24 md:px-8 p-2 w-full relative">
 					<div className="w-full flex flex-col gap-10 bg showCaseBg3">
 						<div className="w-[90%] mx-auto flex flex-col gap-4">
 							<h3 className="text-center sm:text-[38px] text-[28px] text-[#E5FFFD]">
@@ -3359,7 +3359,7 @@ export default function Home() {
 				</div>
 			</ScrollAnimation>
 			<ScrollAnimation variants={fadeInUp}>
-				<div id="section4" className="pt-24 px-2 sm:px-8 w-full relative">
+				<div id="aboutUs" className="pt-24 px-2 sm:px-8 w-full relative">
 					<div className="w-[85%] mx-auto flex flex-col items-center gap-5">
 						<h1 className="sm:text-[38px] text-[28px] text-[#E5FFFD] text-center">
 							Our Team
@@ -4088,7 +4088,7 @@ export default function Home() {
 			</ScrollAnimation>
 			<ScrollAnimation variants={fadeInUp}>
 				<div
-					id="section5"
+					id="contactUs"
 					className="pt-24 w-full gap-10 sm:px-8 p-2 py-10 flex flex-col items-center showCaseBg3 min-h-[700px]"
 				>
 					<div className="sm:w-[85%] px-5 w-full min-h-[150px] flex flex-col items-center justify-center">

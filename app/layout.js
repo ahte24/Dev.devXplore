@@ -3,6 +3,9 @@ import Head from "next/head";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Image from "next/image";
+import whatsapp from "@/public/whatsapp.svg";
+import Link from "next/link";
 
 const sora = Sora({ subsets: ["latin"] });
 
@@ -43,10 +46,11 @@ export default function RootLayout({ children }) {
 					src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
 				></script>
 				<script>
-					window.dataLayer = window.dataLayer || []; function gtag()
-					{dataLayer.push(arguments)}
+					window.dataLayer = window.dataLayer || []; function gtag(){" "}
+					{/* {window.dataLayer.push(arguments)} */}
 					gtag('js', new Date()); gtag('config', 'AW-16659229777');
 				</script>
+
 				<title>{metadata.title}</title>
 				<meta name="description" content={metadata.description} />
 				<meta name="keywords" content={metadata.keywords} />
@@ -80,7 +84,15 @@ export default function RootLayout({ children }) {
 			<body className={sora.className}>
 				<div className="bg-[#000E0F] text-white">
 					<Navbar />
-					<div className="">{children}</div>
+					<div className="relative">
+						{children}
+						<Link
+							href={"https://wa.me/message/O2HXKL77O6TTF1"} target="_blank"
+							className=" bottom-10 right-10 h-14 w-14 fixed z-50"
+						>
+							<Image src={whatsapp} alt={""} width={100} height={500} />
+						</Link>
+					</div>
 					<Footer />
 				</div>
 			</body>

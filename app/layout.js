@@ -48,7 +48,8 @@ export default function RootLayout({ children }) {
 				<script>
 					window.dataLayer = window.dataLayer || []; function gtag(){" "}
 					{/* {window.dataLayer.push(arguments)} */}
-					gtag('js', new Date()); gtag('config', 'AW-16659229777');
+					gtag(&lsquo;js&lsquo;, new Date()); gtag(&lsquo;config&lsquo;,
+					&lsquo;AW-16659229777&lsquo;);
 				</script>
 
 				<title>{metadata.title}</title>
@@ -87,7 +88,8 @@ export default function RootLayout({ children }) {
 					<div className="relative">
 						{children}
 						<Link
-							href={"https://wa.me/message/O2HXKL77O6TTF1"} target="_blank"
+							href={"https://wa.me/message/O2HXKL77O6TTF1"}
+							target="_blank"
 							className=" bottom-10 right-10 h-14 w-14 fixed z-50"
 						>
 							<Image src={whatsapp} alt={""} width={100} height={500} />

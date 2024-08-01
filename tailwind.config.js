@@ -5,24 +5,8 @@ module.exports = {
 		"./components/**/*.{js,ts,jsx,tsx,mdx}",
 		"./app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
+
 	
-	theme: {
-		extend: {
-			backgroundImage: {
-				"custom-gradient":
-					"linear-gradient(248.01deg, #003033 4.99%, rgba(0, 29, 31, 0) 84.35%)",
-				"gradient-conic":
-					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-			},
-			borderWidth: {
-				1: "1px",
-			},
-			colors: {
-				"custom-dark": "#00383c",
-				customDark: "#000e0f",
-			},
-		},
-	},
 	plugins: [
 		function ({ addUtilities }) {
 			const newUtilities = {

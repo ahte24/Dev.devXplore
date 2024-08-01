@@ -98,7 +98,7 @@ export const metadata = {
 	].join(", "),
 	author: "DevXplore Team",
 	robots: "index, follow",
-	viewport: "width=device-width, initial-scale=1.0",
+	
 	og: {
 		title: "DevXplore | Leading Tech Solutions for Web and Mobile Development",
 		description:
@@ -152,7 +152,6 @@ export default function RootLayout({ children }) {
 				<meta name="keywords" content={metadata.keywords} />
 				<meta name="author" content={metadata.author} />
 				<meta name="robots" content={metadata.robots} />
-				<meta name="viewport" content={metadata.viewport} />
 				<meta property="og:title" content={metadata.og.title} />
 				<meta property="og:description" content={metadata.og.description} />
 				<meta property="og:type" content={metadata.og.type} />

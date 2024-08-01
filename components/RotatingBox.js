@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useRef } from "react";
-import spinner from "@/public/spinner.svg";
 import Image from "next/image";
 import whatsapp from "@/public/whatsapp.svg";
+import spinner from "@/public/spinner.svg";
 
 const RotatingBox = () => {
 	const boxRef = useRef(null);
@@ -28,7 +28,7 @@ const RotatingBox = () => {
 				ref={boxRef}
 				className="w-32 h-32 flex justify-center items-center rounded-full "
 			>
-				<Image src={spinner} width={500} height={500} alt="" />
+				<Image src={spinner} width={500} height={500} alt="spinner" />
 			</div>
 			<Image
 				src={whatsapp}

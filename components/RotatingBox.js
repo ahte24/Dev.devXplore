@@ -26,7 +26,7 @@ const RotatingBox = () => {
 		<div className="flex justify-center items-center relative rounded-full">
 			<div
 				ref={boxRef}
-				className="md:w-32 md:h-32 w-28 h-28 flex justify-center items-center rounded-full "
+				className="md:w-32 md:h-32 w-24 h-24 flex justify-center items-center rounded-full "
 			>
 				<svg
 					width="260"

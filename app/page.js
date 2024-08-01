@@ -266,6 +266,8 @@ export default function Home() {
 	];
 	return (
 		<>
+			
+
 			<div className="">
 				<ToastContainer
 					position="top-right"
@@ -3417,7 +3419,7 @@ export default function Home() {
 					<div id="aboutUs" className="pt-24 px-2 sm:px-8 w-full relative">
 						<div className="w-[85%] mx-auto flex flex-col items-center gap-5">
 							<h1 className="sm:text-[38px] text-[28px] text-[#E5FFFD] text-center">
-								Our Team
+								Meet Our Experts
 							</h1>
 							<p className="text-[#507C7C] text-[16px] text-center">
 								At DevXplore, we pride ourselves on our dedicated team of

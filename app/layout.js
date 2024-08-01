@@ -4,24 +4,104 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
-import whatsapp from "@/public/whatsapp.svg";
 import Link from "next/link";
+import Spinner from "@/components/RotatingBox";
 
 const sora = Sora({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "DevXplore.tech | Your Ultimate Tech Solutions Partner",
+	title:
+		"DevXplore.tech | Leading Tech Solutions for Web and Mobile Development",
 	description:
-		"Unlock the full potential of your business with DevXplore.tech's bespoke web and mobile app solutions. We create custom software that drives success worldwide.",
-	keywords:
-		"devxplore, best development agency, devxplore.tech, devxplore reviews, technology solutions, website development, mobile app development, custom software development, tech startup, enterprise software solutions, web design, mobile UX design, local tech company, software development, devxplore portfolio, IT consultancy, digital transformation, cloud services, AI solutions, blockchain development, SaaS development, e-commerce solutions, agile development, tech innovation, digital agency, tech consultancy, MVP development, full-stack development",
+		"Harness cutting-edge web and mobile app development services with DevXplore.tech. Tailored, innovative solutions for global businesses in the US, UK, and India.",
+	keywords: [
+		"devxplore",
+		"best development agency",
+		"devxplore.tech",
+		"devxplore reviews",
+		"technology solutions",
+		"website development",
+		"mobile app development",
+		"custom software development",
+		"tech startup",
+		"enterprise software solutions",
+		"web design",
+		"mobile UX design",
+		"local tech company",
+		"software development",
+		"devxplore portfolio",
+		"IT consultancy",
+		"digital transformation",
+		"cloud services",
+		"AI solutions",
+		"blockchain development",
+		"SaaS development",
+		"e-commerce solutions",
+		"agile development",
+		"tech innovation",
+		"digital agency",
+		"tech consultancy",
+		"MVP development",
+		"full-stack development",
+		// Additional expanded keywords
+		"web application development",
+		"cross-platform app development",
+		"responsive web design",
+		"user interface design",
+		"user experience optimization",
+		"backend development services",
+		"frontend development services",
+		"tech stack modernization",
+		"API development services",
+		"system integration services",
+		"React development services",
+		"AngularJS development company",
+		"Node.js backend development",
+		"mobile development with Flutter",
+		"iOS and Android app development",
+		"progressive web app solutions",
+		"custom CRM solutions",
+		"ERP software development",
+		"cloud infrastructure services",
+		"DevOps consulting services",
+		"fintech software development",
+		"edtech web solutions",
+		"healthcare app development",
+		"real estate website development",
+		"e-commerce web developers",
+		"travel app development",
+		"retail mobile app solutions",
+		"sports app developers",
+		"entertainment software solutions",
+		"automotive app development",
+		"software development services NYC",
+		"London tech consultancies",
+		"Silicon Valley app developers",
+		"UK-based UX designers",
+		"US tech solution experts",
+		"mobile development firms in USA",
+		"web vikas company India",
+		"mobile app banane wali company",
+		"Bharat mein software solutions",
+		"startup tech support India",
+		"online business solutions provider India",
+		"how to build an ecommerce website",
+		"best mobile app developers for startups",
+		"affordable UX design services in USA",
+		"enterprise software development in London",
+		"custom web development for small businesses",
+		"full-stack developers for hire in India",
+		"outsourcing web projects to India",
+		"outsourcing web development projects to India",
+		"best website developemnt agency in india",
+	].join(", "),
 	author: "DevXplore Team",
 	robots: "index, follow",
 	viewport: "width=device-width, initial-scale=1.0",
 	og: {
-		title: "DevXplore | Your Ultimate Tech Solutions Partner",
+		title: "DevXplore | Leading Tech Solutions for Web and Mobile Development",
 		description:
-			"DevXplore offers top-notch web and mobile app development and design services. Transform your ideas into innovative digital solutions with our expert team.",
+			"DevXplore offers premier web and mobile app development and design services. Transform your business with innovative digital solutions, catering to US, UK, and Indian markets.",
 		type: "website",
 		url: "https://www.devxplore.tech",
 		image: "https://www.devxplore.tech/favicon.ico",
@@ -30,9 +110,10 @@ export const metadata = {
 	twitter: {
 		card: "summary_large_image",
 		site: "@DevXploreTech",
-		title: "DevXplore.tech | Your Ultimate Tech Solutions Partner",
+		title:
+			"DevXplore.tech | Leading Tech Solutions for Web and Mobile Development",
 		description:
-			"DevXplore offers top-notch web and mobile app development and design services. Transform your ideas into innovative digital solutions with our expert team.",
+			"DevXplore offers premier web and mobile app development and design services. Transform your business with innovative digital solutions, catering to US, UK, and Indian markets.",
 		image: "https://www.devxplore.tech/favicon.ico",
 	},
 };
@@ -46,12 +127,12 @@ export default function RootLayout({ children }) {
 					src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
 				></script>
 				<script>
-					window.dataLayer = window.dataLayer || []; function gtag(){" "}
-					{/* {window.dataLayer.push(arguments)} */}
-					gtag(&lsquo;js&lsquo;, new Date()); gtag(&lsquo;config&lsquo;,
-					&lsquo;AW-16659229777&lsquo;);
+					window.dataLayer = window.dataLayer || []; function gtag() {}; if
+					(window.dataLayer) {window.dataLayer.push(arguments)}
+					else
+					{console.error("dataLayer is not defined")} gtag(&lsquo;js&lsquo;, new Date());
+					gtag(&lsquo;config&lsquo;, &lsquo;AW-16659229777&lsquo;);
 				</script>
-
 				<title>{metadata.title}</title>
 				<meta name="description" content={metadata.description} />
 				<meta name="keywords" content={metadata.keywords} />
@@ -83,18 +164,18 @@ export default function RootLayout({ children }) {
 				/>
 			</Head>
 			<body className={sora.className}>
-				<div className="bg-[#000E0F] text-white">
+				<div className="bg-[#000E0F] text-white relative">
 					<Navbar />
-					<div className="relative">
-						{children}
-						<Link
-							href={"https://wa.me/message/O2HXKL77O6TTF1"}
-							target="_blank"
-							className=" bottom-10 right-10 h-14 w-14 fixed z-50"
-						>
-							<Image src={whatsapp} alt={""} width={100} height={500} />
-						</Link>
-					</div>
+
+					{children}
+					<Link
+						href={"https://wa.me/message/O2HXKL77O6TTF1"}
+						target="_blank"
+						className=" bottom-5 right-5 fixed z-50 flex justify-center items-center"
+					>
+						<Spinner />
+					</Link>
+
 					<Footer />
 				</div>
 			</body>

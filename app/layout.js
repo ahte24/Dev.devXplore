@@ -126,13 +126,16 @@ export default function RootLayout({ children }) {
 					async
 					src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
 				></script>
-				<script>
-					window.dataLayer = window.dataLayer || []; function gtag() {}; if
-					(window.dataLayer) {window.dataLayer.push(arguments)}
-					else
-					{console.error("dataLayer is not defined")} gtag(&lsquo;js&lsquo;, new Date());
-					gtag(&lsquo;config&lsquo;, &lsquo;AW-16659229777&lsquo;);
-				</script>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+						gtag('config', 'AW-16659229777');
+					`,
+					}}
+				/>
 				<title>{metadata.title}</title>
 				<meta name="description" content={metadata.description} />
 				<meta name="keywords" content={metadata.keywords} />

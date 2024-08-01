@@ -264,11 +264,10 @@ export default function Home() {
 			image: profile,
 		},
 	];
-	
+
 	return (
 		<>
 			
-
 			<div className="">
 				<ToastContainer
 					position="top-right"

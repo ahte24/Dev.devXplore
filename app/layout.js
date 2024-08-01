@@ -123,6 +123,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<Head>
+				{/* Google tag (gtag.js) */}
 				<script
 					async
 					src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
@@ -134,9 +135,18 @@ export default function RootLayout({ children }) {
 						function gtag(){dataLayer.push(arguments);}
 						gtag('js', new Date());
 						gtag('config', 'AW-16659229777');
-					`,
+            `,
 					}}
 				/>
+				{/* Event snippet for Website traffic conversion page */}
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+					gtag('event', 'conversion', {'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-'});
+            `,
+					}}
+				/>
+
 				<title>{metadata.title}</title>
 				<meta name="description" content={metadata.description} />
 				<meta name="keywords" content={metadata.keywords} />
@@ -172,11 +182,8 @@ export default function RootLayout({ children }) {
 					<Navbar />
 
 					{children}
-					<div
-						className="md:w-32 md:h-32 w-24 h-24 md:bottom-8 md:right-8 bottom-5 right-5 rounded-full fixed z-50 flex justify-center items-center"
-					>
+					<div className="md:w-32 md:h-32 w-24 h-24 md:bottom-8 md:right-8 bottom-5 right-5 rounded-full fixed z-50 flex justify-center items-center">
 						<Spinner />
-						
 					</div>
 
 					<Footer />

@@ -8,14 +8,20 @@ import close from "@/public/close.svg";
 import { useState, useEffect } from "react";
 const Navbar = () => {
 	useEffect(() => {
+		let isAnimating = false; // Ensure only one animation at a time
+
 		const handleScroll = (event) => {
+			if (isAnimating) return; // Prevent overlapping animations
+
 			const target = event.target.closest('a[href^="#"]');
 			if (target) {
 				event.preventDefault();
+
 				const id = target.getAttribute("href").slice(1);
 				const element = document.getElementById(id);
 				if (element) {
-					const targetPosition = element.offsetTop;
+					const rect = element.getBoundingClientRect();
+					const targetPosition = rect.top + window.pageYOffset; // Calculate position
 					const startPosition = window.pageYOffset;
 					const distance = targetPosition - startPosition;
 					const duration = 2000; // Adjust this value to change the speed
@@ -38,17 +44,24 @@ const Navbar = () => {
 							duration
 						);
 						window.scrollTo(0, run);
-						if (timeElapsed < duration) requestAnimationFrame(animateScroll);
+						if (timeElapsed < duration) {
+							requestAnimationFrame(animateScroll);
+						} else {
+							isAnimating = false; // Allow new animations
+						}
 					};
 
+					isAnimating = true; // Block other animations
 					requestAnimationFrame(animateScroll);
+				} else {
+					console.error("Element not found for ID:", id);
 				}
 			}
 		};
 
 		document.addEventListener("click", handleScroll);
 
-		document.addEventListener("click", handleScroll);
+
 
 		return () => {
 			document.removeEventListener("click", handleScroll);

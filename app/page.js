@@ -264,6 +264,7 @@ export default function Home() {
 			image: profile,
 		},
 	];
+	
 	return (
 		<>
 			

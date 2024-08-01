@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: auto;
+    /* Disable default smooth scroll if used */
+}
+
+
 .bg {
     background-image: url("../public/bg.svg");
 }
@@ -21,6 +27,7 @@
 .showCaseBg {
     background-image: url("../public/showCaseBG.svg");
 }
+
 .teambg {
     background-image: url("../public/team.svg");
 }
@@ -29,7 +36,7 @@
     background-image: url("../public/3BG.svg");
 }
 
-.bulb{
+.bulb {
     background-image: url("../public/bulb.svg");
 }
 

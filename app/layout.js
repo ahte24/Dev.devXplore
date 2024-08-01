@@ -122,7 +122,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<Head>
+			<head>
 				{/* Google tag (gtag.js) */}
 				<script
 					async
@@ -131,10 +131,10 @@ export default function RootLayout({ children }) {
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `
-						window.dataLayer = window.dataLayer || [];
-						function gtag(){dataLayer.push(arguments);}
-						gtag('js', new Date());
-						gtag('config', 'AW-16659229777');
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+					gtag('config', 'AW-16659229777');
             `,
 					}}
 				/>
@@ -176,7 +176,7 @@ export default function RootLayout({ children }) {
 					href="https://www.devxplore.tech/favicon.ico"
 					type="https://www.devxplore.tech/favicon.ico"
 				/>
-			</Head>
+			</head>
 			<body className={sora.className}>
 				<div className="bg-[#000E0F] text-white relative">
 					<Navbar />

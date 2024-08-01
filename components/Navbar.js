@@ -50,7 +50,6 @@ const Navbar = () => {
 							isAnimating = false; // Allow new animations
 						}
 					};
-
 					isAnimating = true; // Block other animations
 					requestAnimationFrame(animateScroll);
 				} else {
@@ -67,6 +66,7 @@ const Navbar = () => {
 			document.removeEventListener("click", handleScroll);
 		};
 	}, []);
+
 	const [isChecked, setIsChecked] = useState(false);
 	const [opened, setOpened] = useState(false);
 	const handleCheckboxChange = () => {

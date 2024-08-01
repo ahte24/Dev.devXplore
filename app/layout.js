@@ -175,16 +175,10 @@ export default function RootLayout({ children }) {
 					<Link
 						href={"https://wa.me/message/O2HXKL77O6TTF1"}
 						target="_blank"
-						className=" bottom-8 right-8 fixed z-50 flex justify-center items-center"
+						className=" md:bottom-8 md:right-8 bottom-5 right-5 rounded-full fixed z-50 flex justify-center items-center"
 					>
 						<Spinner />
-						{/* <Image
-							src={whatsapp}
-							className=" md:w-14 md:h-14 w-12 h-12"
-							alt={""}
-							width={100}
-							height={500}
-						/> */}
+						
 					</Link>
 
 					<Footer />

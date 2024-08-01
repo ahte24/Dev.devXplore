@@ -23,7 +23,7 @@ const RotatingBox = () => {
 	}, []);
 
 	return (
-		<div className="flex justify-center items-center relative">
+		<div className="flex justify-center items-center relative rounded-full">
 			<div
 				ref={boxRef}
 				className="md:w-32 md:h-32 w-28 h-28 flex justify-center items-center rounded-full "

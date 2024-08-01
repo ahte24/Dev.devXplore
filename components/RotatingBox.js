@@ -10,7 +10,7 @@ const RotatingBox = () => {
 	useEffect(() => {
 		const handleScroll = (event) => {
 			if (boxRef.current) {
-				const rotation = (window.scrollY / 12) % 360;
+				const rotation = (window.scrollY / 10) % 360;
 				boxRef.current.style.transform = `rotate(${rotation}deg)`;
 			}
 		};
@@ -26,7 +26,7 @@ const RotatingBox = () => {
 		<div className="flex justify-center items-center relative">
 			<div
 				ref={boxRef}
-				className="w-32 h-32 flex justify-center items-center rounded-full "
+				className="md:w-32 md:h-32 w-28 h-28 flex justify-center items-center rounded-full "
 			>
 				<svg
 					width="260"
@@ -135,7 +135,7 @@ const RotatingBox = () => {
 			</div>
 			<Image
 				src={whatsapp}
-				className="absolute w-14 h-14"
+				className="absolute md:w-14 md:h-14 w-12 h-12"
 				alt={""}
 				width={100}
 				height={500}

@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Spinner from "@/components/RotatingBox";
 import whatsapp from "@/public/whatsapp.svg";
-import Script from "next/script";
+
 
 const sora = Sora({ subsets: ["latin"] });
 
@@ -99,7 +99,7 @@ export const metadata = {
 	].join(", "),
 	author: "DevXplore Team",
 	robots: "index, follow",
-
+	
 	og: {
 		title: "DevXplore | Leading Tech Solutions for Web and Mobile Development",
 		description:
@@ -125,11 +125,11 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			<head>
 				{/* Google tag (gtag.js) */}
-				<Script
+				<script
 					async
 					src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
-				></Script>
-				<Script
+				></script>
+				<script
 					dangerouslySetInnerHTML={{
 						__html: `
 					window.dataLayer = window.dataLayer || [];
@@ -140,7 +140,7 @@ export default function RootLayout({ children }) {
 					}}
 				/>
 				{/* Event snippet for Website traffic conversion page */}
-				<Script
+				<script
 					dangerouslySetInnerHTML={{
 						__html: `
 					gtag('event', 'conversion', {'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-'});

@@ -8,7 +8,6 @@ import Link from "next/link";
 import Spinner from "@/components/RotatingBox";
 import whatsapp from "@/public/whatsapp.svg";
 
-
 const sora = Sora({ subsets: ["latin"] });
 
 export const metadata = {
@@ -99,7 +98,7 @@ export const metadata = {
 	].join(", "),
 	author: "DevXplore Team",
 	robots: "index, follow",
-	
+
 	og: {
 		title: "DevXplore | Leading Tech Solutions for Web and Mobile Development",
 		description:
@@ -136,14 +135,19 @@ export default function RootLayout({ children }) {
 					function gtag(){dataLayer.push(arguments);}
 					gtag('js', new Date());
 					gtag('config', 'AW-16659229777');
-            `,
-					}}
-				/>
-				{/* Event snippet for Website traffic conversion page */}
-				<script
-					dangerouslySetInnerHTML={{
-						__html: `
-					gtag('event', 'conversion', {'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-'});
+
+					function gtag_report_conversion(url) {
+					var callback = function () {
+					if (typeof(url) != 'undefined') {
+						window.location = url;
+					}
+					};
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-',
+                    'event_callback': callback
+                });
+                return false;
+				}
             `,
 					}}
 				/>

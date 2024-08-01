@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import whatsapp from "@/public/whatsapp.svg";
-
+import Link from "next/link";
 
 const RotatingBox = () => {
 	const boxRef = useRef(null);
@@ -133,13 +133,19 @@ const RotatingBox = () => {
 					/>
 				</svg>
 			</div>
-			<Image
-				src={whatsapp}
-				className="absolute md:w-14 md:h-14 w-12 h-12"
-				alt={""}
-				width={100}
-				height={500}
-			/>
+			<Link
+				href={"https://wa.me/message/O2HXKL77O6TTF1"}
+				target="_blank"
+				className="absolute"
+			>
+				<Image
+					src={whatsapp}
+					className=" md:w-14 md:h-14 w-12 h-12"
+					alt={""}
+					width={100}
+					height={500}
+				/>
+			</Link>
 		</div>
 	);
 };

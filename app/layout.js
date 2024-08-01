@@ -172,14 +172,12 @@ export default function RootLayout({ children }) {
 					<Navbar />
 
 					{children}
-					<Link
-						href={"https://wa.me/message/O2HXKL77O6TTF1"}
-						target="_blank"
+					<div
 						className="md:w-32 md:h-32 w-24 h-24 md:bottom-8 md:right-8 bottom-5 right-5 rounded-full fixed z-50 flex justify-center items-center"
 					>
 						<Spinner />
 						
-					</Link>
+					</div>
 
 					<Footer />
 				</div>

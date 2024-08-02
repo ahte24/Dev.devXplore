@@ -647,14 +647,14 @@ const Footer = () => {
 					<div className="w-[97%] h-[70px] border-t px-2  border-[#00393D] flex sm:flex-row flex-col justify-center sm:justify-between items-center">
 						<div className="flex  justify-center items-center gap-2">
 							<Link
-								href={"/t&c"}
+								href={"/terms-and-conditions"}
 								className="md:text-[14px] text-[10px] text-[#507C7C]"
 							>
 								Terms & Conditions
 							</Link>
 							<span className="text-[#507C7C] sm:block hidden">|</span>
 							<Link
-								href={"/t&c"}
+								href={"/terms-and-conditions"}
 								className="md:text-[14px] text-[10px] text-[#507C7C] sm:block hidden"
 							>
 								Privacy Policy

@@ -60,8 +60,6 @@ const Navbar = () => {
 
 		document.addEventListener("click", handleScroll);
 
-
-
 		return () => {
 			document.removeEventListener("click", handleScroll);
 		};
@@ -89,7 +87,7 @@ const Navbar = () => {
 						<ul className="flex justify-evenly w-[490px] items-center transition-all">
 							<div className="w-[100px] flex justify-center items-center">
 								<Link
-									href="#Home"
+									href="/"
 									scroll={false}
 									className="hover:text-white text-[#649B9B] w-[70px] transition-all duration-200 h-[40px] py-3 px-2 hover:bg-gradient-to-l hover:from-[#00181b] hover:to-emerald-950 rounded-[100px] hover:border border-teal-700 hover:border-teal-700 gap-2.5 flex justify-center items-center"
 								>

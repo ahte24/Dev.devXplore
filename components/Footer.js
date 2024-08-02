@@ -653,7 +653,7 @@ const Footer = () => {
 							</Link>
 							<span className="text-[#507C7C] ">|</span>
 							<Link
-								href={"/terms-and-conditions"}
+								href={"/privacy-policy"}
 								className="md:text-[14px] text-[10px] text-[#507C7C] "
 							>
 								Privacy Policy

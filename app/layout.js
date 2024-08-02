@@ -14,15 +14,14 @@ const sora = Sora({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<Head>
-				{/* Google tag (gtag.js) */}
-				<Script
-					async
-					src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
-				></Script>
-				<Script
-					dangerouslySetInnerHTML={{
-						__html: `
+			{/* Google tag (gtag.js) */}
+			<Script
+				async
+				src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
+			></Script>
+			<Script
+				dangerouslySetInnerHTML={{
+					__html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
@@ -40,14 +39,14 @@ export default function RootLayout({ children }) {
                 return false;
               }
             `,
-					}}
-				/>
-				<Script
-					async
-					custom-element="amp-analytics"
-					src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
-				></Script>
-
+				}}
+			/>
+			<Script
+				async
+				custom-element="amp-analytics"
+				src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
+			></Script>
+			<Head>
 				{/* Link to favicon */}
 				<link rel="icon" href={favicon} type="image/x-icon" />
 				<link rel="shortcut icon" href={favicon} type="image/x-icon" />

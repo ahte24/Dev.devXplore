@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Spinner from "@/components/RotatingBox";
 import favicon from "./favicon.ico"; // Import the favicon directly if it's in the same directory
 import { Analytics } from "@vercel/analytics/react"; //Imp
+import { SpeedInsights } from "@vercel/speed-insights/next"; //Imp
 
 const sora = Sora({ subsets: ["latin"] });
 
@@ -182,6 +183,7 @@ export default function RootLayout({ children }) {
 					<Navbar />
 					{children}
 					<Analytics />
+					<SpeedInsights />
 					<div className="md:w-32 md:h-32 w-24 h-24 md:bottom-8 md:right-8 bottom-5 right-5 rounded-full fixed z-50 flex justify-center items-center">
 						<Spinner />
 					</div>

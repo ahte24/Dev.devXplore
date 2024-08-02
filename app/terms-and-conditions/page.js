@@ -8,11 +8,11 @@ const TermsAndConditions = () => {
 
 	return (
 		<>
-			<div className="min-h-screen bg-[#000e0f] ">
+			<div className="min-h-screen bg-[#000e0f] p-2 ">
 				<header className="text-[#e5fffd] py-6">
-					<div className="container mx-auto mt-20">
+					<div className="container mx-auto mt-20 flex md:flex-row flex-col  md:justify-between   md:items-center gap-3">
 						<h1 className="text-3xl font-bold">Terms & Conditions</h1>
-						<p>Last updated: {today}</p>
+						<p className="text-[#5e9393]">Last updated: {today}</p>
 					</div>
 				</header>
 

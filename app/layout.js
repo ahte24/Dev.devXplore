@@ -131,26 +131,32 @@ export default function RootLayout({ children }) {
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `
-					window.dataLayer = window.dataLayer || [];
-					function gtag(){dataLayer.push(arguments);}
-					gtag('js', new Date());
-					gtag('config', 'AW-16659229777');
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'AW-16659229777');
 
-					function gtag_report_conversion(url) {
+				
+				function gtag_report_conversion(url) {
 					var callback = function () {
-					if (typeof(url) != 'undefined') {
-						window.location = url;
-					}
-					};
-                gtag('event', 'conversion', {
-                    'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-',
-                    'event_callback': callback
-                });
-                return false;
+						if (typeof(url) != 'undefined') {
+							window.location = url;
+						}
+						};
+						gtag('event', 'conversion', {
+						'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-',
+						'event_callback': callback
+						});
+						return false;
 				}
-            `,
+			`,
 					}}
 				/>
+				<script
+					async
+					custom-element="amp-analytics"
+					src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
+				></script>
 
 				<title>{metadata.title}</title>
 				<meta name="description" content={metadata.description} />
@@ -170,26 +176,20 @@ export default function RootLayout({ children }) {
 					content={metadata.twitter.description}
 				/>
 				<meta name="twitter:image" content={metadata.twitter.image} />
-				<link
-					rel="icon"
-					href="../public/favicon.ico"
-					type="../public/favicon.ico"
-				/>
+				<link rel="icon" href="../public/favicon.ico" type="image/x-icon" />
 				<link
 					rel="shortcut icon"
 					href="https://www.devxplore.tech/favicon.ico"
-					type="https://www.devxplore.tech/favicon.ico"
+					type="image/x-icon"
 				/>
 			</head>
 			<body className={sora.className}>
 				<div className="bg-[#000E0F] text-white relative">
 					<Navbar />
-
 					{children}
 					<div className="md:w-32 md:h-32 w-24 h-24 md:bottom-8 md:right-8 bottom-5 right-5 rounded-full fixed z-50 flex justify-center items-center">
 						<Spinner />
 					</div>
-
 					<Footer />
 				</div>
 			</body>

@@ -54,8 +54,8 @@ export default function RootLayout({ children }) {
 				<link rel="icon" href={favicon} type="image/x-icon" />
 				<link rel="shortcut icon" href={favicon} type="image/x-icon" />
 			</Head>
-			<body className={sora.className}>
-				<div className="bg-[#000E0F] text-white relative">
+			<body className={`${sora.className} bg-[#000e0f]`}>
+				<div className="text-white relative bg-[#000e0f]">
 					<Navbar />
 					{children}
 					<Analytics />

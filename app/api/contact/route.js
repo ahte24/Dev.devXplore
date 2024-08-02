@@ -17,44 +17,44 @@ export async function POST(req) {
 			from: process.env.EMAIL_ENQUIRY,
 			to: process.env.EMAIL_FIRM,
 			subject: "New Enquiry from Contact Form",
-			html: `
-        <div style="font-family: 'Sora', Arial, 'Helvetica Neue', Helvetica, sans-serif; background-color: #000e0f; color: #f0f0f0; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 600px; margin: auto;">
-    <h2 style="color: #4A90E2; font-size: 28px; text-align: center; margin-bottom: 10px;">New Contact Inquiry</h2>
-    <p style="color: #ccc; text-align: center; font-size: 16px;">A potential client has just filled out the contact form. Here are their details:</p>
-    <table style="width: 100%; margin-top: 20px; border-collapse: collapse; color: #f0f0f0;">
-        <thead>
-            <tr style="background-color: #1a1a1a;">
-                <th style="padding: 15px; border-bottom: 2px solid #444; text-align: left; font-size: 18px;">Field</th>
-                <th style="padding: 15px; border-bottom: 2px solid #444; text-align: left; font-size: 18px;">Information</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td style="padding: 12px; border-bottom: 1px solid #333;">Name:</td>
-                <td style="padding: 12px; border-bottom: 1px solid #333;">${name}</td>
-            </tr>
-            <tr>
-                <td style="padding: 12px; border-bottom: 1px solid #333;">Email:</td>
-                <td style="padding: 12px; border-bottom: 1px solid #333;"><a href="mailto:${email}" style="color: #4A90E2; text-decoration: none;">${email}</a></td>
-            </tr>
-            <tr>
-                <td style="padding: 12px; border-bottom: 1px solid #333;">Phone:</td>
-                <td style="padding: 12px; border-bottom: 1px solid #333;">${phone}</td>
-            </tr>
-            <tr>
-                <td style="padding: 12px; border-bottom: 1px solid #333;">Services:</td>
-                <td style="padding: 12px; border-bottom: 1px solid #333;">${services}</td>
-            </tr>
-            <tr>
-                <td style="padding: 12px; border-bottom: 1px solid #333;">Message:</td>
-                <td style="padding: 12px; border-bottom: 1px solid #333;"><p style="white-space: pre-wrap; margin: 0;">${message}</p></td>
-            </tr>
-        </tbody>
-    </table>
-    <p style="text-align: center; color: #ccc; margin-top: 20px; font-size: 16px;">Please consider this inquiry for prompt response.</p>
+			html: `<div style="font-family: 'Sora', Arial, 'Helvetica Neue', Helvetica, sans-serif; background-color: #f5f7fa; color: #333; padding: 30px; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); max-width: 700px; margin: auto; border: 1px solid #ddd; background-image: linear-gradient(to bottom right, #ffffff, #e9f3f5);">
+    <h2 style="color: #007ACC; font-size: 28px; text-align: center; margin-bottom: 20px; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">🌟 New Contact Inquiry 🌟</h2>
+    <p style="color: #666; text-align: center; font-size: 16px; line-height: 1.5;">A potential client has just filled out the contact form. Here are their details:</p>
+    <div style="margin-top: 30px;">
+        <table style="width: 100%; border-collapse: collapse; color: #333; border-radius: 8px; overflow: hidden;">
+            <thead>
+                <tr style="background-color: #007ACC; color: #fff;">
+                    <th style="padding: 15px; text-align: left; font-size: 18px; border-right: 2px solid #005A8D;">Field</th>
+                    <th style="padding: 15px; text-align: left; font-size: 18px;">Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #f5f7fa;">
+                    <td style="padding: 12px; border-bottom: 1px solid #ddd;">Name:</td>
+                    <td style="padding: 12px; border-bottom: 1px solid #ddd;">${name}</td>
+                </tr>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border-bottom: 1px solid #ddd;">Email:</td>
+                    <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="mailto:${email}" style="color: #007ACC; text-decoration: none; transition: color 0.3s ease;">${email}</a></td>
+                </tr>
+                <tr style="background-color: #f5f7fa;">
+                    <td style="padding: 12px; border-bottom: 1px solid #ddd;">Phone:</td>
+                    <td style="padding: 12px; border-bottom: 1px solid #ddd;">${phone}</td>
+                </tr>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border-bottom: 1px solid #ddd;">Services:</td>
+                    <td style="padding: 12px; border-bottom: 1px solid #ddd;">${services}</td>
+                </tr>
+                <tr style="background-color: #f5f7fa;">
+                    <td style="padding: 12px; border-bottom: 1px solid #ddd;">Message:</td>
+                    <td style="padding: 12px; border-bottom: 1px solid #ddd;"><p style="white-space: pre-wrap; margin: 0;">${message}</p></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p style="text-align: center; color: #666; margin-top: 30px; font-size: 16px; line-height: 1.5;">Please consider this inquiry for prompt response.</p>
 </div>
-
-    `,
+`,
 		};
 
 		await transporter.sendMail(mailOptions);

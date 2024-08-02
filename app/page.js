@@ -4703,5 +4703,3 @@ export default function Home() {
 		</>
 	);
 }
-
-

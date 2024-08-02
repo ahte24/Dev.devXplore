@@ -154,9 +154,9 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="flex justify-between gap-5 sm:flex-row flex-col w-full">
-								<div className="relative max-h-[300px] 2xl:hidden block">
-									<div className="w-[300px]  gap-4 flex flex-col p-2 justify-between items-center border-[#00393D] border  rounded-3xl ">
+							<div className="flex justify-center gap-5 items-center sm:flex-row flex-col w-full mb-3 relative">
+								<div className="  2xl:hidden block">
+									<div className="min-w-[270px] min-h-[220px] gap-4 flex flex-col p-2 justify-between items-center border-[#00393D] border  rounded-3xl ">
 										<div className="w-full  flex flex-col gap-2 h-full">
 											<div className="relative">
 												<Link
@@ -281,10 +281,9 @@ const Footer = () => {
 											</div>
 										</div>
 									</div>
-									<div className="absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 								</div>
-								<div className="relative max-h-[300px] 2xl:hidden block">
-									<div className="w-[300px] min-h-[220px] border border-[#00393D] rounded-3xl flex flex-col gap-3 justify-center items-center">
+								<div className=" 2xl:hidden block ">
+									<div className="min-w-[270px] min-h-[220px] border border-[#00393D] rounded-3xl flex flex-col gap-3 justify-center items-center">
 										<h2 className="text-[20px] text-[#CCFFFA]">Thank You!</h2>
 										<span className="text-[16px] text-[#649B9B]">
 											Follow Us on Social Media
@@ -418,8 +417,8 @@ const Footer = () => {
 											</Link>
 										</div>
 									</div>
-									<div className="w-full bottom-0 left-0 absolute bg-gradient-to-t from-[#000e0f] to-transparent h-[40px]"></div>
 								</div>
+									<div className="w-full bottom-0 left-0 absolute bg-gradient-to-t from-[#000e0f] to-transparent h-[40px]"></div>
 							</div>
 							<div className="w-full h-[150px] border-t border-x rounded-t-3xl border-[#00393D] xl:flex items-center hidden">
 								<div className="w-1/3 h-full p-2 flex flex-col gap-3 items-center justify-center ">
@@ -652,10 +651,10 @@ const Footer = () => {
 							>
 								Terms & Conditions
 							</Link>
-							<span className="text-[#507C7C] sm:block hidden">|</span>
+							<span className="text-[#507C7C] ">|</span>
 							<Link
 								href={"/terms-and-conditions"}
-								className="md:text-[14px] text-[10px] text-[#507C7C] sm:block hidden"
+								className="md:text-[14px] text-[10px] text-[#507C7C] "
 							>
 								Privacy Policy
 							</Link>

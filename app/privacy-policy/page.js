@@ -23,7 +23,7 @@ const PrivacyPolicy = () => {
 							1. Introduction
 						</h2>
 						<p className="text-[#5f9494]">
-							DevXplore ("we," "our," or "us") is committed to protecting your
+							DevXplore (&ldquo;we,&ldquo; &ldquo;our,&ldquo; or &ldquo;us&ldquo;) is committed to protecting your
 							privacy. This Privacy Policy outlines how we collect, use, and
 							safeguard your information when you visit our website
 							(https://www.devxplore.tech) and use our services.

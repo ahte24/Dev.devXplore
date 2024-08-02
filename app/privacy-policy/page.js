@@ -207,7 +207,7 @@ export const metadata = {
 	author: "DevXplore Team",
 	robots: "index, follow",
 	og: {
-		title: "DevXplore | Privacy Policy",
+		title: "Privacy Policy | DevXplore",
 		description:
 			"Learn how DevXplore protects your privacy and manages your data. Explore our comprehensive Privacy Policy.",
 		type: "website",
@@ -218,7 +218,7 @@ export const metadata = {
 	twitter: {
 		card: "summary_large_image",
 		site: "@DevXploreTech",
-		title: "DevXplore | Privacy Policy",
+		title: "Privacy Policy | DevXplore",
 		description:
 			"Learn how DevXplore protects your privacy and manages your data. Explore our comprehensive Privacy Policy.",
 		image: favicon.src, // Use imported favicon

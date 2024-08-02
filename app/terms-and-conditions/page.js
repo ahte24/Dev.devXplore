@@ -1,7 +1,7 @@
 // pages/terms-and-conditions.js
 import Link from "next/link";
 import React from "react";
-import favicon from "../favicon.ico"; // Import the favicon directly if it's in the same directory
+import favicon from "@/public/favicon.ico"; // Import the favicon directly if it's in the same directory
 
 const TermsAndConditions = () => {
 	const today = new Date().toLocaleDateString();

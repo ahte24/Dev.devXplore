@@ -4,22 +4,23 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Spinner from "@/components/RotatingBox";
-import favicon from "./favicon.ico"; // Import the favicon directly if it's in the same directory
+import favicon from "@/public/favicon.ico"; // Import the favicon directly if it's in the same directory
 import { Analytics } from "@vercel/analytics/react"; //Imp
 import { SpeedInsights } from "@vercel/speed-insights/next"; //Imp
+import Script from "next/script";
 
 const sora = Sora({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<head>
+			<Head>
 				{/* Google tag (gtag.js) */}
-				<script
+				<Script
 					async
 					src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
-				></script>
-				<script
+				></Script>
+				<Script
 					dangerouslySetInnerHTML={{
 						__html: `
               window.dataLayer = window.dataLayer || [];
@@ -41,16 +42,16 @@ export default function RootLayout({ children }) {
             `,
 					}}
 				/>
-				<script
+				<Script
 					async
 					custom-element="amp-analytics"
 					src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
-				></script>
+				></Script>
 
 				{/* Link to favicon */}
-				<link rel="icon" href={favicon.src} type="image/x-icon" />
-				<link rel="shortcut icon" href={favicon.src} type="image/x-icon" />
-			</head>
+				<link rel="icon" href={favicon} type="image/x-icon" />
+				<link rel="shortcut icon" href={favicon} type="image/x-icon" />
+			</Head>
 			<body className={sora.className}>
 				<div className="bg-[#000E0F] text-white relative">
 					<Navbar />

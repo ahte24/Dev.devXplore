@@ -1,12 +1,45 @@
 // pages/terms-and-conditions.js
 import Link from "next/link";
 import React from "react";
+import Head from "next/head";
 
 const TermsAndConditions = () => {
 	const today = new Date().toLocaleDateString();
 
 	return (
 		<div className="min-h-screen bg-[#000e0f] ">
+			<Head>
+				<title>Terms and Conditions - DevXplore</title>
+				<meta
+					name="description"
+					content="Read the Terms and Conditions for using the DevXplore website and services. Stay informed about our policies."
+				/>
+				<meta
+					name="keywords"
+					content="DevXplore, Terms and Conditions, Web Development, Mobile App Development"
+				/>
+				<meta name="author" content="DevXplore" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<meta property="og:title" content="Terms and Conditions - DevXplore" />
+				<meta
+					property="og:description"
+					content="Read the Terms and Conditions for using the DevXplore website and services. Stay informed about our policies."
+				/>
+				<meta
+					property="og:url"
+					content="https://www.devxplore.tech/terms-and-conditions"
+				/>
+				<meta property="og:type" content="website" />
+				<meta property="og:image" content="/path/to/your/image.jpg" />
+				<meta property="og:site_name" content="DevXplore" />
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="Terms and Conditions - DevXplore" />
+				<meta
+					name="twitter:description"
+					content="Read the Terms and Conditions for using the DevXplore website and services."
+				/>
+				<meta name="twitter:image" content="/path/to/your/image.jpg" />
+			</Head>
 			<header className="text-[#e5fffd] py-6">
 				<div className="container mx-auto mt-20">
 					<h1 className="text-3xl font-bold">Terms & Conditions</h1>
@@ -138,9 +171,9 @@ const TermsAndConditions = () => {
 						10. Governing Law
 					</h2>
 					<p className="text-[#5f9494]">
-						These Terms and Conditions are governed by the laws of India. Any legal action or proceeding relating to your
-						access to or use of the website shall be instituted in a competent
-						court in India.
+						These Terms and Conditions are governed by the laws of India. Any
+						legal action or proceeding relating to your access to or use of the
+						website shall be instituted in a competent court in India.
 					</p>
 				</section>
 

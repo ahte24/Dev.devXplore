@@ -311,7 +311,7 @@ export const metadata = {
 	author: "DevXplore Team",
 	robots: "index, follow",
 	og: {
-		title: "DevXplore | Leading Tech Solutions for Web and Mobile Development",
+		title: "Terms & Conditions | DevXplore",
 		description:
 			"DevXplore offers premier web and mobile app development and design services. Transform your business with innovative digital solutions, catering to US, UK, and Indian markets.",
 		type: "website",
@@ -323,7 +323,7 @@ export const metadata = {
 		card: "summary_large_image",
 		site: "@DevXploreTech",
 		title:
-			"DevXplore.tech | Leading Tech Solutions for Web and Mobile Development",
+			"Terms & Conditions | DevXplore",
 		description:
 			"DevXplore offers premier web and mobile app development and design services. Transform your business with innovative digital solutions, catering to US, UK, and Indian markets.",
 		image: favicon.src, // Use imported favicon

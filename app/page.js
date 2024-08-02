@@ -267,7 +267,7 @@ export default function Home() {
 
 	return (
 		<>
-			<div className="">
+			<div className="overflow-hidden">
 				<ToastContainer
 					position="top-right"
 					autoClose={5000}

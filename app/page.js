@@ -28,6 +28,7 @@ import zaman from "@/public/zaman.png";
 import suchi from "@/public/suchi.png";
 import arshad from "@/public/arshad.png";
 import ScrollAnimation from "@/components/ScrollAnimation";
+
 import {
 	variants,
 	scaleUpVariants,
@@ -35,7 +36,6 @@ import {
 	fadeInUp,
 	slideInRight,
 } from "@/animation/variants";
-import Head from "next/head";
 
 export default function Home() {
 	const [formData, setFormData] = useState({
@@ -267,7 +267,6 @@ export default function Home() {
 
 	return (
 		<>
-			
 			<div className="">
 				<ToastContainer
 					position="top-right"
@@ -555,7 +554,7 @@ export default function Home() {
 														width={57}
 														height={57}
 														src={landingPage}
-														alt=""
+														alt="landingpage"
 													/>
 													<span className="text-[14px]">Landing Page</span>
 													<svg
@@ -4704,3 +4703,5 @@ export default function Home() {
 		</>
 	);
 }
+
+

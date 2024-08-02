@@ -10,6 +10,63 @@ import { SpeedInsights } from "@vercel/speed-insights/next"; //Imp
 
 const sora = Sora({ subsets: ["latin"] });
 
+export default function RootLayout({ children }) {
+	return (
+		<html lang="en">
+			<head>
+				{/* Google tag (gtag.js) */}
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
+				></script>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16659229777');
+              function gtag_report_conversion(url) {
+                var callback = function () {
+                  if (typeof(url) != 'undefined') {
+                    window.location = url;
+                  }
+                };
+                gtag('event', 'conversion', {
+                  'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-',
+                  'event_callback': callback
+                });
+                return false;
+              }
+            `,
+					}}
+				/>
+				<script
+					async
+					custom-element="amp-analytics"
+					src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
+				></script>
+
+				{/* Link to favicon */}
+				<link rel="icon" href={favicon.src} type="image/x-icon" />
+				<link rel="shortcut icon" href={favicon.src} type="image/x-icon" />
+			</head>
+			<body className={sora.className}>
+				<div className="bg-[#000E0F] text-white relative">
+					<Navbar />
+					{children}
+					<Analytics />
+					<SpeedInsights />
+					<div className="md:w-32 md:h-32 w-24 h-24 md:bottom-8 md:right-8 bottom-5 right-5 rounded-full fixed z-50 flex justify-center items-center">
+						<Spinner />
+					</div>
+					<Footer />
+				</div>
+			</body>
+		</html>
+	);
+}
+
 export const metadata = {
 	title:
 		"DevXplore.tech | Leading Tech Solutions for Web and Mobile Development",
@@ -123,79 +180,3 @@ export const metadata = {
 		image: favicon.src, // Use imported favicon
 	},
 };
-
-export default function RootLayout({ children }) {
-	return (
-		<html lang="en">
-			<head>
-				{/* Google tag (gtag.js) */}
-				<script
-					async
-					src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
-				></script>
-				<script
-					dangerouslySetInnerHTML={{
-						__html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-16659229777');
-              function gtag_report_conversion(url) {
-                var callback = function () {
-                  if (typeof(url) != 'undefined') {
-                    window.location = url;
-                  }
-                };
-                gtag('event', 'conversion', {
-                  'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-',
-                  'event_callback': callback
-                });
-                return false;
-              }
-            `,
-					}}
-				/>
-				<script
-					async
-					custom-element="amp-analytics"
-					src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
-				></script>
-
-				<title>{metadata.title}</title>
-				<meta name="description" content={metadata.description} />
-				<meta name="keywords" content={metadata.keywords} />
-				<meta name="author" content={metadata.author} />
-				<meta name="robots" content={metadata.robots} />
-				<meta property="og:title" content={metadata.og.title} />
-				<meta property="og:description" content={metadata.og.description} />
-				<meta property="og:type" content={metadata.og.type} />
-				<meta property="og:url" content={metadata.og.url} />
-				<meta property="og:image" content={metadata.og.image} />
-				<meta name="twitter:card" content={metadata.twitter.card} />
-				<meta name="twitter:site" content={metadata.twitter.site} />
-				<meta name="twitter:title" content={metadata.twitter.title} />
-				<meta
-					name="twitter:description"
-					content={metadata.twitter.description}
-				/>
-				<meta name="twitter:image" content={metadata.twitter.image} />
-
-				{/* Link to favicon */}
-				<link rel="icon" href={favicon.src} type="image/x-icon" />
-				<link rel="shortcut icon" href={favicon.src} type="image/x-icon" />
-			</head>
-			<body className={sora.className}>
-				<div className="bg-[#000E0F] text-white relative">
-					<Navbar />
-					{children}
-					<Analytics />
-					<SpeedInsights />
-					<div className="md:w-32 md:h-32 w-24 h-24 md:bottom-8 md:right-8 bottom-5 right-5 rounded-full fixed z-50 flex justify-center items-center">
-						<Spinner />
-					</div>
-					<Footer />
-				</div>
-			</body>
-		</html>
-	);
-}

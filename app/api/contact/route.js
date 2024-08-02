@@ -18,7 +18,7 @@ export async function POST(req) {
 			to: process.env.EMAIL_FIRM,
 			subject: "New Enquiry from Contact Form",
 			html: `<div style="font-family: 'Sora', Arial, 'Helvetica Neue', Helvetica, sans-serif; background-color: #f5f7fa; color: #333; padding: 30px; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); max-width: 700px; margin: auto; border: 1px solid #ddd; background-image: linear-gradient(to bottom right, #ffffff, #e9f3f5);">
-    <h2 style="color: #007ACC; font-size: 28px; text-align: center; margin-bottom: 20px; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">🌟 New Contact Inquiry 🌟</h2>
+    <h2 style="color: #007ACC; font-size: 28px; text-align: center; margin-bottom: 20px; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">New Contact Enquiry</h2>
     <p style="color: #666; text-align: center; font-size: 16px; line-height: 1.5;">A potential client has just filled out the contact form. Here are their details:</p>
     <div style="margin-top: 30px;">
         <table style="width: 100%; border-collapse: collapse; color: #333; border-radius: 8px; overflow: hidden;">

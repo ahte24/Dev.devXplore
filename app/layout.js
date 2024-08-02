@@ -3,8 +3,6 @@ import Head from "next/head";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Image from "next/image";
-import Link from "next/link";
 import Spinner from "@/components/RotatingBox";
 import whatsapp from "@/public/whatsapp.svg";
 
@@ -98,14 +96,13 @@ export const metadata = {
 	].join(", "),
 	author: "DevXplore Team",
 	robots: "index, follow",
-
 	og: {
 		title: "DevXplore | Leading Tech Solutions for Web and Mobile Development",
 		description:
 			"DevXplore offers premier web and mobile app development and design services. Transform your business with innovative digital solutions, catering to US, UK, and Indian markets.",
 		type: "website",
 		url: "https://www.devxplore.tech",
-		image: "https://www.devxplore.tech/favicon.ico",
+		image: "/favicon.ico", // Correctly points to the favicon
 		site_name: "DevXplore.tech",
 	},
 	twitter: {
@@ -115,7 +112,7 @@ export const metadata = {
 			"DevXplore.tech | Leading Tech Solutions for Web and Mobile Development",
 		description:
 			"DevXplore offers premier web and mobile app development and design services. Transform your business with innovative digital solutions, catering to US, UK, and Indian markets.",
-		image: "https://www.devxplore.tech/favicon.ico",
+		image: "/favicon.ico", // Correctly points to the favicon
 	},
 };
 
@@ -135,21 +132,19 @@ export default function RootLayout({ children }) {
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
 				gtag('config', 'AW-16659229777');
-
-				
 				function gtag_report_conversion(url) {
-					var callback = function () {
-						if (typeof(url) != 'undefined') {
-							window.location = url;
-						}
-						};
-						gtag('event', 'conversion', {
-						'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-',
-						'event_callback': callback
-						});
-						return false;
+                var callback = function () {
+				if (typeof(url) != 'undefined') {
+                    window.location = url;
 				}
-			`,
+                };
+                gtag('event', 'conversion', {
+				'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-',
+				'event_callback': callback
+                });
+                return false;
+				}
+            `,
 					}}
 				/>
 				<script
@@ -176,12 +171,10 @@ export default function RootLayout({ children }) {
 					content={metadata.twitter.description}
 				/>
 				<meta name="twitter:image" content={metadata.twitter.image} />
-				<link rel="icon" href="../public/favicon.ico" type="image/x-icon" />
-				<link
-					rel="shortcut icon"
-					href="https://www.devxplore.tech/favicon.ico"
-					type="image/x-icon"
-				/>
+
+				{/* Link to favicon */}
+				<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+				<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 			</head>
 			<body className={sora.className}>
 				<div className="bg-[#000E0F] text-white relative">

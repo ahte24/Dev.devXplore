@@ -138,10 +138,9 @@ const TermsAndConditions = () => {
 						10. Governing Law
 					</h2>
 					<p className="text-[#5f9494]">
-						These Terms and Conditions are governed by the laws of [Your
-						Country/State]. Any legal action or proceeding relating to your
+						These Terms and Conditions are governed by the laws of India. Any legal action or proceeding relating to your
 						access to or use of the website shall be instituted in a competent
-						court in [Your Country/State].
+						court in India.
 					</p>
 				</section>
 

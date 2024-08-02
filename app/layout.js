@@ -16,6 +16,12 @@ export const metadata = {
 	description:
 		"Harness cutting-edge web and mobile app development services with DevXplore.tech. Tailored, innovative solutions for global businesses in the US, UK, and India.",
 	keywords: [
+		"website development agency",
+		"web development agency",
+		"mobile app development development agency",
+		"mobile app design development agency",
+		"web design development agency",
+		"website design development agency",
 		"devxplore",
 		"best development agency",
 		"devxplore.tech",

@@ -26,7 +26,6 @@ const Navbar = () => {
 					const distance = targetPosition - startPosition;
 					const duration = 2000; // Adjust this value to change the speed
 					let startTime = null;
-
 					const easeInOutQuad = (t, b, c, d) => {
 						t /= d / 2;
 						if (t < 1) return (c / 2) * t * t + b;
@@ -64,19 +63,23 @@ const Navbar = () => {
 			document.removeEventListener("click", handleScroll);
 		};
 	}, []);
-
 	const [isChecked, setIsChecked] = useState(false);
+
 	const [opened, setOpened] = useState(false);
+
 	const handleCheckboxChange = () => {
 		setIsChecked(!isChecked);
 	};
+
 	const [isHidden, setIsHidden] = useState(true);
+
 	const toggleVisibility = () => {
 		setIsHidden(!isHidden);
 	};
+
 	return (
 		<>
-			<div className="md:static  sticky top-0 z-30">
+			<div className="md:static sticky top-0 z-30">
 				<nav className="h-[90px] w-full  flex justify-between items-center px-[20px] absolute backdrop-filter md:backdrop-blur-none backdrop-blur-lg bg-opacity-30 z-30 bg-[#000e0f]">
 					<Link href={"/"} className="">
 						<span className="text-[#ccfffa] text-xl sm:text-2xl">

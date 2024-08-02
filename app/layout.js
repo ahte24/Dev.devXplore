@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Spinner from "@/components/RotatingBox";
-import whatsapp from "@/public/whatsapp.svg";
+import favicon from "./favicon.ico"; // Import the favicon directly if it's in the same directory
 
 const sora = Sora({ subsets: ["latin"] });
 
@@ -102,7 +102,7 @@ export const metadata = {
 			"DevXplore offers premier web and mobile app development and design services. Transform your business with innovative digital solutions, catering to US, UK, and Indian markets.",
 		type: "website",
 		url: "https://www.devxplore.tech",
-		image: "/favicon.ico", // Correctly points to the favicon
+		image: favicon.src, // Use imported favicon
 		site_name: "DevXplore.tech",
 	},
 	twitter: {
@@ -112,7 +112,7 @@ export const metadata = {
 			"DevXplore.tech | Leading Tech Solutions for Web and Mobile Development",
 		description:
 			"DevXplore offers premier web and mobile app development and design services. Transform your business with innovative digital solutions, catering to US, UK, and Indian markets.",
-		image: "/favicon.ico", // Correctly points to the favicon
+		image: favicon.src, // Use imported favicon
 	},
 };
 
@@ -128,22 +128,22 @@ export default function RootLayout({ children }) {
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `
-				window.dataLayer = window.dataLayer || [];
-				function gtag(){dataLayer.push(arguments);}
-				gtag('js', new Date());
-				gtag('config', 'AW-16659229777');
-				function gtag_report_conversion(url) {
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16659229777');
+              function gtag_report_conversion(url) {
                 var callback = function () {
-				if (typeof(url) != 'undefined') {
+                  if (typeof(url) != 'undefined') {
                     window.location = url;
-				}
+                  }
                 };
                 gtag('event', 'conversion', {
-				'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-',
-				'event_callback': callback
+                  'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-',
+                  'event_callback': callback
                 });
                 return false;
-				}
+              }
             `,
 					}}
 				/>
@@ -173,8 +173,8 @@ export default function RootLayout({ children }) {
 				<meta name="twitter:image" content={metadata.twitter.image} />
 
 				{/* Link to favicon */}
-				<link rel="icon" href="/favicon.ico" type="image/x-icon" />
-				<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+				<link rel="icon" href={favicon.src} type="image/x-icon" />
+				<link rel="shortcut icon" href={favicon.src} type="image/x-icon" />
 			</head>
 			<body className={sora.className}>
 				<div className="bg-[#000E0F] text-white relative">

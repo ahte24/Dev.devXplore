@@ -288,7 +288,7 @@ const Footer = () => {
 										<span className="text-[16px] text-[#649B9B]">
 											Follow Us on Social Media
 										</span>
-										<div className="w-[50%] h-[55px] rounded-full border border-[#00393D] flex justify-center items-center gap-3">
+										<div className=" p-2 rounded-full border border-[#00393D] flex justify-center items-center gap-3">
 											<Link href={""}>
 												<svg
 													width="40"

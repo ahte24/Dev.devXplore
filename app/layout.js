@@ -16,10 +16,12 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			{/* Google tag (gtag.js) */}
 			<Script
+				id="gtag"
 				async
 				src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
 			></Script>
 			<Script
+				id="gtag"
 				dangerouslySetInnerHTML={{
 					__html: `
               window.dataLayer = window.dataLayer || [];
@@ -42,6 +44,7 @@ export default function RootLayout({ children }) {
 				}}
 			/>
 			<Script
+				id="gtag"
 				async
 				custom-element="amp-analytics"
 				src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"

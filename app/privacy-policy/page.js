@@ -8,8 +8,10 @@ const PrivacyPolicy = () => {
 
 	return (
 		<>
-			<div className="min-h-screen bg-[#000e0f] p-2
-            ">
+			<div
+				className="min-h-screen bg-[#000e0f] p-2
+            "
+			>
 				<header className="text-[#e5fffd] py-6">
 					<div className="container mx-auto mt-20 flex md:flex-row flex-col  md:justify-between   md:items-center gap-3">
 						<h1 className="text-3xl font-bold">Privacy Policy</h1>
@@ -23,9 +25,10 @@ const PrivacyPolicy = () => {
 							1. Introduction
 						</h2>
 						<p className="text-[#5f9494]">
-							DevXplore (&ldquo;we,&ldquo; &ldquo;our,&ldquo; or &ldquo;us&ldquo;) is committed to protecting your
-							privacy. This Privacy Policy outlines how we collect, use, and
-							safeguard your information when you visit our website
+							DevXplore (&ldquo;we,&ldquo; &ldquo;our,&ldquo; or
+							&ldquo;us&ldquo;) is committed to protecting your privacy. This
+							Privacy Policy outlines how we collect, use, and safeguard your
+							information when you visit our website
 							(https://www.devxplore.tech) and use our services.
 						</p>
 					</section>
@@ -158,7 +161,7 @@ const PrivacyPolicy = () => {
 							If you have any questions or concerns about this Privacy Policy,
 							please contact us at:
 						</p>
-						<address className="text-[#5f9494] flex flex-col gap-1">
+						<div className="text-[#5f9494] flex flex-col gap-1">
 							<strong>DevXplore</strong>
 							<div>
 								Email:{" "}
@@ -179,7 +182,7 @@ const PrivacyPolicy = () => {
 									+91 63711 65893
 								</Link>
 							</div>
-						</address>
+						</div>
 					</section>
 				</main>
 			</div>

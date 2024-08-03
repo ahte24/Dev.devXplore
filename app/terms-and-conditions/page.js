@@ -168,7 +168,7 @@ const TermsAndConditions = () => {
 							For any questions or concerns regarding these Terms and
 							Conditions, please contact us at:
 						</p>
-						<address className="text-[#5f9494] flex flex-col gap-1">
+						<div className="text-[#5f9494] flex flex-col gap-1">
 							<strong>DevXplore</strong>
 							<div>
 								Email:{"  "}
@@ -189,7 +189,7 @@ const TermsAndConditions = () => {
 									+91 63711 65893
 								</Link>
 							</div>
-						</address>
+						</div>
 					</section>
 				</main>
 			</div>

@@ -173,10 +173,10 @@ const TermsAndConditions = () => {
 							<div>
 								Email:{"  "}
 								<Link
-									href="mailto:solution@devxplores.tech"
+									href="mailto:solution@devxplore.tech"
 									className="text-[#e5fffd] hover:underline"
 								>
-									solution@devxplores.tech
+									solution@devxplore.tech
 								</Link>
 							</div>
 							<div>

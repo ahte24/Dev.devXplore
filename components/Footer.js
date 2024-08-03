@@ -418,7 +418,7 @@ const Footer = () => {
 										</div>
 									</div>
 								</div>
-									<div className="w-full bottom-0 left-0 absolute bg-gradient-to-t from-[#000e0f] to-transparent h-[40px]"></div>
+								<div className="w-full bottom-0 left-0 absolute bg-gradient-to-t from-[#000e0f] to-transparent h-[40px]"></div>
 							</div>
 							<div className="w-full h-[150px] border-t border-x rounded-t-3xl border-[#00393D] xl:flex items-center hidden">
 								<div className="w-1/3 h-full p-2 flex flex-col gap-3 items-center justify-center ">

@@ -3717,7 +3717,7 @@ export default function Home() {
 										onClick={toggleVisibility1}
 										className={`hide absolute top-[15px] right-5  ${
 											isHidden1 ? "opacity-0 h-0" : "opacity-100 h-auto"
-										} transition-opacity duration-1000`}
+										} transition-opacity duration-700`}
 									>
 										<svg
 											width="36"
@@ -3795,7 +3795,7 @@ export default function Home() {
 												isHidden2
 													? "opacity-0 max-h-0 mt-0"
 													: "opacity-100 max-h-[200px] mt-5"
-											} transition-all duration-1000`}
+											} transition-all duration-700`}
 										>
 											Yes, our team is equipped to manage and execute
 											large-scale mobile app projects, ensuring scalability and
@@ -3884,7 +3884,7 @@ export default function Home() {
 												isHidden3
 													? "opacity-0 max-h-0 mt-0"
 													: "opacity-100 max-h-[200px] mt-5"
-											} transition-all duration-1000`}
+											} transition-all duration-700`}
 										>
 											We offer maintenance services for all websites and apps,
 											including updates, bug fixes, and security audits,
@@ -3973,7 +3973,7 @@ export default function Home() {
 												isHidden4
 													? "opacity-0 max-h-0"
 													: "mt-5 opacity-100 max-h-[200px]"
-											} transition-all duration-1000`}
+											} transition-all duration-700`}
 										>
 											We prioritize user data security by implementing SSL/TLS
 											encryption, regular security audits, and secure coding
@@ -4051,9 +4051,7 @@ export default function Home() {
 										</svg>
 									</button>
 								</div>
-								<div 
-									onClick={toggleVisibility5}
-									className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
+								<div onClick={toggleVisibility5} className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 									<div className="flex flex-col">
 										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 											What is your approach to UI/UX design?
@@ -4063,7 +4061,7 @@ export default function Home() {
 												isHidden5
 													? "opacity-0 max-h-0"
 													: "mt-5 opacity-100 max-h-[200px]"
-											} transition-all duration-1000`}
+											} transition-all duration-700`}
 										>
 											Our UI/UX design process focuses on creating intuitive and
 											visually appealing interfaces. We conduct thorough

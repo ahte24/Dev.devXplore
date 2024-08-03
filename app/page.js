@@ -2503,10 +2503,10 @@ export default function Home() {
 											: "opacity-0 h-0 "
 									} transition-opacity duration-700`}
 								>
-									<div className="w-full min-h-[700px] lg:flex-row flex-col flex items-center gap-10 ">
-										<div className="w-full lg:w-1/2">
+									<div className="w-full min-h-[600px] xl:flex-row flex-col flex items-center gap-10 ">
+										<div className="w-full xl:w-1/2">
 											<ScrollAnimation variants={fadeInUp}>
-												<div className="relative min-h-[700px] justify-evenly flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+												<div className="relative min-h-[600px] justify-between flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 													<div className="flex flex-col gap-5">
 														<div className="w-full h-[60px] flex justify-between items-center">
 															<h4 className="text-[20px] text-[#ccfffa]">
@@ -2614,9 +2614,9 @@ export default function Home() {
 											</ScrollAnimation>
 										</div>
 
-										<div className="w-full lg:w-1/2">
+										<div className="w-full xl:w-1/2">
 											<ScrollAnimation variants={fadeInUp}>
-												<div className="relative min-h-[700px] justify-evenly flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+												<div className="relative min-h-[600px] justify-between flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 													<div className="flex flex-col gap-5">
 														<div className="w-full h-[60px] flex justify-between items-center">
 															<h4 className="text-[20px] text-[#ccfffa]">
@@ -2732,10 +2732,10 @@ export default function Home() {
 											: "opacity-0 h-0"
 									} transition-opacity duration-700`}
 								>
-									<div className="w-full min-h-[700px] lg:flex-row flex-col flex items-center gap-10">
-										<div className="w-full lg:w-1/2">
+									<div className="w-full min-h-[600px] xl:flex-row flex-col flex items-center gap-10">
+										<div className="w-full xl:w-1/2">
 											<ScrollAnimation variants={fadeInUp}>
-												<div className=" relative min-h-[700px] justify-evenly flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+												<div className=" relative min-h-[600px] justify-between flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 													<div className="flex flex-col gap-5">
 														<div className="w-full h-[60px] flex justify-between items-center">
 															<h4 className="text-[20px] text-[#ccfffa]">
@@ -2842,9 +2842,9 @@ export default function Home() {
 												</div>
 											</ScrollAnimation>
 										</div>
-										<div className="w-full lg:w-1/2">
+										<div className="w-full xl:w-1/2">
 											<ScrollAnimation variants={fadeInUp}>
-												<div className="relative min-h-[700px] justify-evenly flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+												<div className="relative min-h-[600px] justify-between flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 													<div className="flex flex-col gap-5">
 														<div className="w-full h-[60px] flex justify-between items-center">
 															<h4 className="text-[20px] text-[#ccfffa]">
@@ -2960,10 +2960,10 @@ export default function Home() {
 											: "opacity-0 h-0"
 									} transition-opacity duration-700`}
 								>
-									<div className="w-full min-h-[700px] lg:flex-row flex-col flex items-center gap-10">
-										<div className="w-full lg:w-1/2">
+									<div className="w-full min-h-[600px] xl:flex-row flex-col flex items-center gap-10">
+										<div className="w-full xl:w-1/2">
 											<ScrollAnimation variants={fadeInUp}>
-												<div className="min-h-[650px] justify-evenly relative flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+												<div className="min-h-[600px] justify-between relative flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 													<div className="flex flex-col gap-5">
 														<div className="w-full h-[60px] flex justify-between items-center">
 															<h4 className="text-[20px] text-[#ccfffa]">
@@ -3070,9 +3070,9 @@ export default function Home() {
 												</div>
 											</ScrollAnimation>
 										</div>
-										<div className="w-full lg:w-1/2">
+										<div className="w-full xl:w-1/2">
 											<ScrollAnimation variants={fadeInUp}>
-												<div className="min-h-[650px] justify-evenly relative flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+												<div className="min-h-[600px] justify-between relative flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 													<div className="flex flex-col gap-5">
 														<div className="w-full h-[60px] flex justify-between items-center">
 															<h4 className="text-[20px] text-[#ccfffa]">
@@ -3188,10 +3188,10 @@ export default function Home() {
 											: "opacity-0 h-0"
 									} transition-opacity duration-700`}
 								>
-									<div className="w-full min-h-[700px] lg:flex-row flex-col flex items-center gap-10">
-										<div className="w-full lg:w-1/2">
+									<div className="w-full min-h-[600px] xl:flex-row flex-col flex items-center gap-10">
+										<div className="w-full xl:w-1/2">
 											<ScrollAnimation variants={fadeInUp}>
-												<div className="min-h-[700px] justify-evenly relative w-full flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+												<div className="min-h-[600px] justify-between relative w-full flex flex-col sm:p-8 p-3 gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 													<div className="flex flex-col gap-5">
 														<div className="w-full h-[60px] flex justify-between items-center">
 															<h4 className="text-[20px] text-[#ccfffa]">
@@ -3298,9 +3298,9 @@ export default function Home() {
 												</div>
 											</ScrollAnimation>
 										</div>
-										<div className="w-full lg:w-1/2">
+										<div className="w-full xl:w-1/2">
 											<ScrollAnimation variants={fadeInUp}>
-												<div className="min-h-[700px] justify-evenly relative w-full flex flex-col sm:p-8 p-3  gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
+												<div className="min-h-[600px] justify-between relative w-full flex flex-col sm:p-8 p-3  gap-5 bg-gradient-to-bl from-[#00171A] to-transparent rounded-3xl border  border-[#00393D]">
 													<div className="flex flex-col gap-5">
 														<div className="w-full h-[60px] flex justify-between items-center">
 															<h4 className="text-[20px] text-[#ccfffa]">

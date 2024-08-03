@@ -167,7 +167,7 @@ const PrivacyPolicy = () => {
 								Email:{" "}
 								<Link
 									href="mailto:solution@devxplore.tech"
-									className="text-[#e5fffd] hover:underline"
+									className="text-[#e5fffd] hover:underline text-sm"
 								>
 									solution@devxplore.tech
 								</Link>
@@ -175,7 +175,7 @@ const PrivacyPolicy = () => {
 							<div>
 								Phone:{" "}
 								<Link
-									className="text-[#e5fffd] hover:underline"
+									className="text-[#e5fffd] hover:underline text-sm"
 									href="tel:+916371165893"
 									target="_blank"
 								>

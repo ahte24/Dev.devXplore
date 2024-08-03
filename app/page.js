@@ -3695,7 +3695,7 @@ export default function Home() {
 						</div>
 						<div className="w-full flex flex-col my-5 gap-4 xl:flex-row px-5 sm:px-10">
 							<div className="w-full gap-4 flex flex-col items-center">
-								<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
+								<div onClick={toggleVisibility1} className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 									<div className="flex flex-col">
 										<h4 className="font-semibold text-[#CCFFFA] w-[85%]">
 											How long does it take to complete a web development
@@ -3704,9 +3704,9 @@ export default function Home() {
 										<p
 											className={`text-[16px] text-[#507C7C] ${
 												isHidden1
-													? "opacity-0 h-0 mt-0"
-													: "opacity-100 min-h-[60px] mt-5"
-											} transition-opacity duration-1000`}
+													? "opacity-0 max-h-0 mt-0"
+													: "opacity-100 max-h-[200px] mt-5"
+											} transition-all duration-1000`}
 										>
 											The timeline varies depending on the project s complexity
 											and requirements. Our team strives to deliver projects on
@@ -3784,7 +3784,7 @@ export default function Home() {
 										</svg>
 									</button>
 								</div>
-								<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
+								<div onClick={toggleVisibility2} className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 									<div className="flex flex-col">
 										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 											Can you handle large-scale mobile app development
@@ -3793,9 +3793,9 @@ export default function Home() {
 										<p
 											className={`text-[16px] text-[#507C7C] ${
 												isHidden2
-													? "opacity-0 h-0 mt-0"
-													: "opacity-100 min-h-[60px] mt-5"
-											} transition-opacity duration-1000`}
+													? "opacity-0 max-h-0 mt-0"
+													: "opacity-100 max-h-[200px] mt-5"
+											} transition-all duration-1000`}
 										>
 											Yes, our team is equipped to manage and execute
 											large-scale mobile app projects, ensuring scalability and
@@ -3873,7 +3873,7 @@ export default function Home() {
 										</svg>
 									</button>
 								</div>
-								<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
+								<div onClick={toggleVisibility3} className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 									<div className="flex flex-col">
 										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 											Do you offer maintenance services for websites and apps
@@ -3882,9 +3882,9 @@ export default function Home() {
 										<p
 											className={`text-[16px] text-[#507C7C] ${
 												isHidden3
-													? "opacity-0 mt-0 h-[0px]"
-													: "opacity-100 mt-5 min-h-[60px]"
-											} transition-opacity duration-500`}
+													? "opacity-0 max-h-0 mt-0"
+													: "opacity-100 max-h-[200px] mt-5"
+											} transition-all duration-1000`}
 										>
 											We offer maintenance services for all websites and apps,
 											including updates, bug fixes, and security audits,
@@ -3962,7 +3962,7 @@ export default function Home() {
 										</svg>
 									</button>
 								</div>
-								<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
+								<div onClick={toggleVisibility4} className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 									<div className="flex flex-col">
 										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 											How do you ensure the security of user data in your web
@@ -3971,9 +3971,9 @@ export default function Home() {
 										<p
 											className={`text-[16px] text-[#507C7C] ${
 												isHidden4
-													? "opacity-0 h-0"
-													: "mt-5 opacity-100 min-h-[60px]"
-											} transition-opacity duration-1000`}
+													? "opacity-0 max-h-0"
+													: "mt-5 opacity-100 max-h-[200px]"
+											} transition-all duration-1000`}
 										>
 											We prioritize user data security by implementing SSL/TLS
 											encryption, regular security audits, and secure coding
@@ -4051,7 +4051,9 @@ export default function Home() {
 										</svg>
 									</button>
 								</div>
-								<div className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
+								<div 
+									onClick={toggleVisibility5}
+									className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
 									<div className="flex flex-col">
 										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 											What is your approach to UI/UX design?
@@ -4059,9 +4061,9 @@ export default function Home() {
 										<p
 											className={`text-[16px] text-[#507C7C] ${
 												isHidden5
-													? "opacity-0 h-0"
-													: "mt-5 opacity-100 min-h-[60px]"
-											} transition-opacity duration-1000`}
+													? "opacity-0 max-h-0"
+													: "mt-5 opacity-100 max-h-[200px]"
+											} transition-all duration-1000`}
 										>
 											Our UI/UX design process focuses on creating intuitive and
 											visually appealing interfaces. We conduct thorough

@@ -4404,8 +4404,8 @@ export default function Home() {
 																</option>
 																<option value="Web Design">Web Design</option>
 																<option value="App Design">App Design</option>
-																<option value="Job Applicant">
-																	Job Applicant
+																<option value="Job Applicantion">
+																	Job Applicantion
 																</option>
 																<option value="Feedback">Feedback</option>
 															</select>

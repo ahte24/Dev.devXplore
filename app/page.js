@@ -4354,7 +4354,6 @@ export default function Home() {
 														required
 														id="services"
 														name="services"
-														required
 														value={formData.services}
 														onChange={handleChange}
 														className="rounded-full w-full pl-14 h-[56px] text-sm  outline-none bg-[#00171A] border-[#00393D] border appearance-none"

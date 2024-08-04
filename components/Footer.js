@@ -315,7 +315,8 @@ const Footer = () => {
 											Follow Us on Social Media
 										</span>
 										<div className=" p-2 rounded-full border border-[#00393D] flex justify-center items-center gap-3">
-											<Link href={""}>
+											<Link  className="LinkedIn"
+											href={"https://www.facebook.com/share/V19o52Bi9BPVA7Hp/?mibextid=qi2Omg"} target="_blank">
 												<svg
 													width="40"
 													height="40"
@@ -399,7 +400,8 @@ const Footer = () => {
 													</defs>
 												</svg>
 											</Link>
-											<Link href={""}>
+											<Link  className="LinkedIn"
+											href={"https://www.linkedin.com/company/devxplore/"} target="_blank">
 												<svg
 													width="40"
 													height="40"

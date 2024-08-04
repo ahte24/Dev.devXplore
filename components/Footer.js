@@ -1,8 +1,32 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
 
 const Footer = () => {
+	useEffect(() => {
+		const handleScroll = (event) => {
+			const target = event.target.closest('a[href^="#"]');
+			if (target) {
+				event.preventDefault();
+				const id = target.getAttribute("href").slice(1);
+				const element = document.getElementById(id);
+				if (element) {
+					window.scrollTo({
+						top: element.offsetTop,
+						behavior: "smooth",
+					});
+				}
+			}
+		};
+
+		document.addEventListener("click", handleScroll);
+
+		return () => {
+			document.removeEventListener("click", handleScroll);
+		};
+	}, []);
 	return (
 		<div className="xl:px-10 px-2 mt-20">
 			<div className="relative rounded-t-3xl max-h-[850px] max-w-full overflow-hidden border-[#002629] border border-b-[#000e0f] flex justify-center">
@@ -421,7 +445,11 @@ const Footer = () => {
 								<div className="w-full bottom-0 left-0 absolute bg-gradient-to-t from-[#000e0f] to-transparent h-[40px]"></div>
 							</div>
 							<div className="w-full h-[150px] border-t border-x rounded-t-3xl border-[#00393D] xl:flex items-center hidden">
-								<div className="w-1/3 h-full p-2 flex flex-col gap-3 items-center justify-center ">
+								<Link
+									href={"#contactUs"}
+									scroll={false}
+									className="w-1/3 h-full p-2 flex flex-col gap-2 items-center justify-center "
+								>
 									<span className="text-[14px] text-center text-[#507C7C]">
 										Let’s work together
 									</span>
@@ -463,8 +491,8 @@ const Footer = () => {
 											</svg>
 										</button>
 									</div>
-								</div>
-								<div className="w-1/3 h-full p-2 flex flex-col gap-3 items-center justify-center border-x border-[#00393D]">
+								</Link>
+								<div className="w-1/3 h-full p-2 flex flex-col gap-2 items-center justify-center border-x border-[#00393D]">
 									<span className="text-[14px] text-center text-[#507C7C]">
 										Creative tools
 									</span>
@@ -506,13 +534,22 @@ const Footer = () => {
 											</svg>
 										</button>
 									</div>
+									<span className="text-sm text-[#507c7c] font-bold">
+										{"(Comming Soon)"}
+									</span>
 								</div>
 								<div className="w-1/3 h-full p-5 flex flex-col gap-3 items-center justify-center ">
 									<span className="text-[14px] text-[#507C7C]">
 										Follow Our Socials
 									</span>
 									<div className="w-[150px] h-[50px] rounded-full border border-[#00393D] flex justify-center items-center gap-3">
-										<Link href={"#"}>
+										<Link
+											className="Facebook"
+											target="_blank"
+											href={
+												"https://www.facebook.com/share/V19o52Bi9BPVA7Hp/?mibextid=qi2Omg"
+											}
+										>
 											<svg
 												width="36"
 												height="36"
@@ -596,7 +633,11 @@ const Footer = () => {
 												</defs>
 											</svg>
 										</Link>
-										<Link href={""}>
+										<Link
+											className="LinkedIn"
+											href={"https://www.linkedin.com/company/devxplore/"}
+											target="_blank"
+										>
 											<svg
 												width="36"
 												height="36"
@@ -660,7 +701,7 @@ const Footer = () => {
 							</Link>
 						</div>
 						<div className="text-[#507C7C] md:text-[14px] text-[10px]">
-							© 2024 DevXplore. -- All rights reserved.
+							© 2024 DevXplore. | All rights reserved.
 						</div>
 					</div>
 				</div>

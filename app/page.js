@@ -3695,7 +3695,10 @@ export default function Home() {
 						</div>
 						<div className="w-full flex flex-col my-5 gap-4 xl:flex-row px-5 sm:px-10">
 							<div className="w-full gap-4 flex flex-col items-center">
-								<div onClick={toggleVisibility1} className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
+								<div
+									onClick={toggleVisibility1}
+									className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
+								>
 									<div className="flex flex-col">
 										<h4 className="font-semibold text-[#CCFFFA] w-[85%]">
 											How long does it take to complete a web development
@@ -3784,7 +3787,10 @@ export default function Home() {
 										</svg>
 									</button>
 								</div>
-								<div onClick={toggleVisibility2} className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
+								<div
+									onClick={toggleVisibility2}
+									className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
+								>
 									<div className="flex flex-col">
 										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 											Can you handle large-scale mobile app development
@@ -3873,7 +3879,10 @@ export default function Home() {
 										</svg>
 									</button>
 								</div>
-								<div onClick={toggleVisibility3} className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
+								<div
+									onClick={toggleVisibility3}
+									className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
+								>
 									<div className="flex flex-col">
 										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 											Do you offer maintenance services for websites and apps
@@ -3962,7 +3971,10 @@ export default function Home() {
 										</svg>
 									</button>
 								</div>
-								<div onClick={toggleVisibility4} className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
+								<div
+									onClick={toggleVisibility4}
+									className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
+								>
 									<div className="flex flex-col">
 										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 											How do you ensure the security of user data in your web
@@ -4051,7 +4063,10 @@ export default function Home() {
 										</svg>
 									</button>
 								</div>
-								<div onClick={toggleVisibility5} className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center">
+								<div
+									onClick={toggleVisibility5}
+									className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
+								>
 									<div className="flex flex-col">
 										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
 											What is your approach to UI/UX design?
@@ -4339,6 +4354,7 @@ export default function Home() {
 														required
 														id="services"
 														name="services"
+														required
 														value={formData.services}
 														onChange={handleChange}
 														className="rounded-full w-full pl-14 h-[56px] text-sm  outline-none bg-[#00171A] border-[#00393D] border appearance-none"
@@ -4359,6 +4375,7 @@ export default function Home() {
 														<option value="Web Design">Web Design</option>
 														<option value="App Design">App Design</option>
 														<option value="Job Applicant">Job Applicant</option>
+														<option value="Feedback">Feedback</option>
 													</select>
 													<svg
 														className="absolute top-2 left-2"
@@ -4565,7 +4582,13 @@ export default function Home() {
 											Follow Us on Social Media
 										</span>
 										<div className="w-[50%] h-[55px] rounded-full border border-[#00393D] flex justify-center items-center gap-3">
-											<Link href={""}>
+											<Link
+												className="Facebook"
+												target="_blank"
+												href={
+													"https://www.facebook.com/share/V19o52Bi9BPVA7Hp/?mibextid=qi2Omg"
+												}
+											>
 												<svg
 													width="40"
 													height="40"
@@ -4649,7 +4672,11 @@ export default function Home() {
 													</defs>
 												</svg>
 											</Link>
-											<Link href={""}>
+											<Link
+												className="LinkedIn"
+												target="_blank"
+												href={"https://www.linkedin.com/company/devxplore/"}
+											>
 												<svg
 													width="40"
 													height="40"

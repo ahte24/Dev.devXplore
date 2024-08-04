@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
 					{children}
 					<Analytics />
 					<SpeedInsights />
-					<div className="md:w-32 md:h-32 w-24 h-24 md:bottom-8 md:right-8 bottom-5 right-5 rounded-full fixed z-50 flex justify-center items-center">
+					<div className="w-fit h-fit md:bottom-8 md:right-8 bottom-5 right-5 rounded-full fixed z-50 flex justify-center items-center">
 						<Spinner />
 					</div>
 					<Footer />

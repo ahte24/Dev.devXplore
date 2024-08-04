@@ -126,14 +126,20 @@ const Footer = () => {
 											<h4>Home</h4>
 										</div>
 										<div className="flex flex-col  gap-3">
-											<Link href={"#"} className="text-[16px] text-[#507C7C]">
-												testimonial
+											<Link href={"#services"} className="text-[16px] text-[#507C7C]">
+												Services
 											</Link>
-											<Link href={"#"} className="text-[16px] text-[#507C7C]">
-												FAQ’s{" "}
+											<Link href={"#projects"} className="text-[16px] text-[#507C7C]">
+												Projects
 											</Link>
-											<Link href={"#"} className="text-[16px] text-[#507C7C]">
-												Why Us?
+											<Link href={"#aboutUs"} className="text-[16px] text-[#507C7C]">
+												Our Experts
+											</Link>
+										<Link href={"#FAQ"} className="text-[16px] text-[#507C7C]">
+												FAQ’s
+											</Link>
+											<Link href={"#testimonials"} className="text-[16px] text-[#507C7C]">
+											Testimonial
 											</Link>
 										</div>
 									</div>
@@ -144,17 +150,17 @@ const Footer = () => {
 											<h4>Services</h4>
 										</div>
 										<div className="flex flex-col  gap-3">
-											<Link href={"#"} className="text-[16px] text-[#507C7C]">
+											<Link href={"#services"} className="text-[16px] text-[#507C7C]">
 												UI UX Design
 											</Link>
-											<Link href={"#"} className="text-[16px] text-[#507C7C]">
+											<Link href={"#services"} className="text-[16px] text-[#507C7C]">
 												Development
 											</Link>
-											<Link href={"#"} className="text-[16px] text-[#507C7C]">
-												Project Management
+											<Link href={"#services"} className="text-[16px] text-[#507C7C]">
+												Management
 											</Link>
-											<Link href={"#"} className="text-[16px] text-[#507C7C]">
-												Graphic Design
+											<Link href={"#services"} className="text-[16px] text-[#507C7C]">
+											Consulting
 											</Link>
 										</div>
 									</div>
@@ -165,15 +171,11 @@ const Footer = () => {
 											<h4>Others</h4>
 										</div>
 										<div className="flex flex-col  gap-3">
-											<Link href={"#"} className="text-[16px] text-[#507C7C]">
-												Company
-											</Link>
-											<Link href={"#"} className="text-[16px] text-[#507C7C]">
+											
+											<Link href={"#client"} className="text-[16px] text-[#507C7C]">
 												Clients
 											</Link>
-											<Link href={"#"} className="text-[16px] text-[#507C7C]">
-												Projects
-											</Link>
+											
 										</div>
 									</div>
 								</div>

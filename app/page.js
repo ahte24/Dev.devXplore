@@ -922,24 +922,24 @@ export default function Home() {
 					</div>
 				</ScrollAnimation>
 				<ScrollAnimation variants={fadeInUp}>
-					<div className="w-full pt-20 min-h-[180px] gap-4  flex flex-col justify-center px-2 md:px-8">
-						<h4 className="text-center text-[16px] text-[#C1D7D7] my-4">
+					<div id="client" className="w-full pt-20 min-h-[180px] gap-4  flex flex-col justify-center px-2 md:px-8">
+						<h4 className="sm:text-[38px] text-[28px] text-[#E5FFFD] text-center">
 							Our Custombers
 						</h4>
 						<div className="flex items-center lg:flex-row flex-col min-h-[90px] justify-center  md:gap-4 gap-2">
 							<div className="flex justify-center w-full lg:w-1/2 items-center gap-4 relative">
 								<div className="w-1/3 border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-									<span className="text-[#007780] px-2 font-bold text-center sm:text-balance text-xs">
+									<span className="text-[#007780] px-2 font-bold text-center sm:text-[16px] text-xs">
 										Pinksurfing
 									</span>
 								</div>
 								<div className="w-1/3  border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-									<span className="text-[#007780] px-2 font-bold text-center sm:text-balance text-xs">
+									<span className="text-[#007780] px-2 font-bold text-center sm:text-[16px] text-xs">
 										Superuniforms
 									</span>
 								</div>
 								<div className="w-1/3  border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-									<span className="text-[#007780] px-2 font-bold text-center sm:text-balance text-xs">
+									<span className="text-[#007780] px-2 font-bold text-center sm:text-[16px] text-xs">
 										Zenith Innovations
 									</span>
 								</div>
@@ -947,17 +947,17 @@ export default function Home() {
 							</div>
 							<div className="flex justify-center w-full lg:w-1/2  items-center md:gap-4 gap-2 relative">
 								<div className="w-1/3  border-x border-t  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-									<span className="text-[#007780] px-2 font-bold text-center sm:text-balance text-xs">
+									<span className="text-[#007780] px-2 font-bold text-center sm:text-[16px] text-xs">
 										Apex Solutions
 									</span>
 								</div>
 								<div className="w-1/3  border  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-									<span className="text-[#007780] px-2 text-center sm:text-balance text-xs font-bold">
+									<span className="text-[#007780] px-2 text-center sm:text-[16px] text-xs font-bold">
 										Synergy Consultants
 									</span>
 								</div>
 								<div className="w-1/3  border  border-[#00393D] rounded-2xl bg-gradient-to-b from-[#00171A] to-[#000000ad] flex justify-center items-center h-[70px]">
-									<span className="text-[#007780] px-2 text-center sm:text-balance text-xs font-bold">
+									<span className="text-[#007780] px-2 text-center sm:text-[16px] text-xs font-bold">
 										SmartAds Solutions
 									</span>
 								</div>
@@ -1120,9 +1120,13 @@ export default function Home() {
 																experience. Committed to innovation
 															</p>
 														</div>
-														<button className="w-[90%] mx-auto h-[50px] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
+														<Link
+															href={"#projects"}
+															scroll={false}
+															className="w-[90%] mx-auto h-[50px] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]"
+														>
 															Learn More
-														</button>
+														</Link>
 													</div>
 												</div>
 											</ScrollAnimation>
@@ -1173,9 +1177,13 @@ export default function Home() {
 																experience. Committed to quality.
 															</p>
 														</div>
-														<button className="w-[90%] mx-auto h-[50px] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
+														<Link
+															href={"#projects"}
+															scroll={false}
+															className="w-[90%] mx-auto h-[50px] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]"
+														>
 															Learn More
-														</button>
+														</Link>
 													</div>
 												</div>
 											</ScrollAnimation>
@@ -1228,9 +1236,13 @@ export default function Home() {
 																maximum impact. Committed to growth.
 															</p>
 														</div>
-														<button className="w-[90%] mx-auto h-[50px] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
+														<Link
+															href={"#projects"}
+															scroll={false}
+															className="w-[90%] mx-auto h-[50px] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]"
+														>
 															Learn More
-														</button>
+														</Link>
 													</div>
 												</div>
 											</ScrollAnimation>
@@ -1281,9 +1293,13 @@ export default function Home() {
 																Committed to excellence.
 															</p>
 														</div>
-														<button className="w-[90%] mx-auto h-[50px] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]">
+														<Link
+															href={"#projects"}
+															scroll={false}
+															className="w-[90%] mx-auto h-[50px] bg-[#00171A] z-20 flex justify-center items-center border border-[#00393D] rounded-full text-[14px] text-[#E5FFFD]"
+														>
 															Learn More
-														</button>
+														</Link>
 													</div>
 												</div>
 											</ScrollAnimation>
@@ -3510,7 +3526,7 @@ export default function Home() {
 					</div>
 				</ScrollAnimation>
 				<ScrollAnimation variants={fadeInUp}>
-					<div className="pt-24 px-2 sm:px-8 w-full relative">
+					<div id="testimonials" className="Testimonials pt-24 px-2 sm:px-8 w-full relative">
 						<div className="w-full min-h-[400px] flex flex-col gap-5 py-8">
 							<div className="w-[85%] mx-auto flex flex-col items-center gap-5">
 								<h1 className="sm:text-[38px] text-[28px] text-[#E5FFFD] text-center">
@@ -3523,166 +3539,168 @@ export default function Home() {
 									experiences theyve encountered working with us.
 								</p>
 							</div>
-							<div className="w-full h-fit overflow-hidden items-center">
-								<div className="relative w-fit">
-									<div
-										className="flex gap-4 transition-transform duration-500 ease-in-out"
-										style={{
-											transform: `translateX(-${currentIndex * itemWidth}px)`,
-										}}
-									>
-										{testimonials.map((testimonial, index) => (
-											<div
-												key={index}
-												className="h-full min-w-[330px] flex-shrink-0"
-											>
-												<div className="flex flex-col justify-between gap-2  transition-all duration-200  sm:h-[290px] border border-[#00393D] rounded-2xl p-5 hover:bg-gradient-to-b from-[#00393d9a] to-transparent">
-													<div className="w-full h-[70px] flex items-center gap-3">
-														<Image
-															className="rounded-[50%] w-12 h-12 object-cover"
-															width={1000}
-															height={1000}
-															src={testimonial.image}
-															alt=""
-														/>
-														<div className="flex flex-col justify-center gap-1">
-															<h3 className="text-[#CCFFFA] sm:text-[16px] text-sm">
-																{testimonial.name}
-															</h3>
-															<span className="text-xs sm:text-[14px] text-[#507C7C]">
-																{testimonial.title}
-															</span>
+							<ScrollAnimation variants={slideInRight}>
+								<div className="w-full h-fit overflow-hidden items-center">
+									<div className="relative w-fit">
+										<div
+											className="flex gap-4 transition-transform duration-500 ease-in-out"
+											style={{
+												transform: `translateX(-${currentIndex * itemWidth}px)`,
+											}}
+										>
+											{testimonials.map((testimonial, index) => (
+												<div
+													key={index}
+													className="h-full min-w-[330px] flex-shrink-0"
+												>
+													<div className="flex flex-col justify-between gap-2  transition-all duration-200  sm:h-[290px] border border-[#00393D] rounded-2xl p-5 hover:bg-gradient-to-b from-[#00393d9a] to-transparent">
+														<div className="w-full h-[70px] flex items-center gap-3">
+															<Image
+																className="rounded-[50%] w-12 h-12 object-cover"
+																width={1000}
+																height={1000}
+																src={testimonial.image}
+																alt=""
+															/>
+															<div className="flex flex-col justify-center gap-1">
+																<h3 className="text-[#CCFFFA] sm:text-[16px] text-sm">
+																	{testimonial.name}
+																</h3>
+																<span className="text-xs sm:text-[14px] text-[#507C7C]">
+																	{testimonial.title}
+																</span>
+															</div>
+														</div>
+														<p className="md:text-[14px] text-[12px] text-[#649B9B] min-h-[100px] text-wrap w-[310px]">
+															{testimonial.quote}
+														</p>
+														<div className="h-[30px] flex gap-2 items-center">
+															⭐⭐⭐⭐⭐
 														</div>
 													</div>
-													<p className="md:text-[14px] text-[12px] text-[#649B9B] min-h-[100px] text-wrap w-[310px]">
-														{testimonial.quote}
-													</p>
-													<div className="h-[30px] flex gap-2 items-center">
-														⭐⭐⭐⭐⭐
-													</div>
 												</div>
-											</div>
-										))}
+											))}
+										</div>
+									</div>
+									<div className="w-full flex justify-between  items-center mt-8 ">
+										<div className="w-[300px] h-full flex-col flex gap-1 justify-center z-20">
+											<span className="text-[#507C7C] text-[12px] sm:text-[15px]">
+												Worked with
+											</span>
+											<span className="text-[#CCFFFA] text-[13px] sm:text-[16px]">
+												132+ Companies Worldwide
+											</span>
+										</div>
+										<div className="buttons z-20 gap-1 items-center min-w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border flex justify-between">
+											<button onClick={handlePrevClick}>
+												<svg
+													width="52"
+													height="36"
+													viewBox="0 0 52 36"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="51"
+														height="35"
+														rx="17.5"
+														stroke="#00393D"
+													/>
+													<path
+														d="M28.5 13L23.5 18L28.5 23"
+														stroke="white"
+														strokeWidth="2"
+														strokeLinecap="round"
+														strokeLinejoin="round"
+													/>
+												</svg>
+											</button>
+											<button onClick={handleNextClick}>
+												<svg
+													width="52"
+													height="36"
+													viewBox="0 0 52 36"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="51"
+														height="35"
+														rx="17.5"
+														fill="url(#paint0_linear_1_597)"
+													/>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="51"
+														height="35"
+														rx="17.5"
+														stroke="#00393D"
+													/>
+													<rect
+														x="0.5"
+														y="0.5"
+														width="51"
+														height="35"
+														rx="17.5"
+														stroke="url(#paint1_radial_1_597)"
+													/>
+													<path
+														d="M23.5 13L28.5 18L23.5 23"
+														stroke="white"
+														strokeWidth="2"
+														strokeLinecap="round"
+														strokeLinejoin="round"
+													/>
+													<defs>
+														<linearGradient
+															id="paint0_linear_1_597"
+															x1="58.898"
+															y1="-13.0909"
+															x2="2.11379"
+															y2="20.033"
+															gradientUnits="userSpaceOnUse"
+														>
+															<stop offset="0.238871" stopColor="#003033" />
+															<stop
+																offset="1"
+																stopColor="#001D1F"
+																stopOpacity="0"
+															/>
+														</linearGradient>
+														<radialGradient
+															id="paint1_radial_1_597"
+															cx="0"
+															cy="0"
+															r="1"
+															gradientUnits="userSpaceOnUse"
+															gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
+														>
+															<stop stopColor="#00998A" />
+															<stop
+																offset="0.597922"
+																stopColor="#00998A"
+																stopOpacity="0"
+															/>
+														</radialGradient>
+													</defs>
+												</svg>
+											</button>
+										</div>
 									</div>
 								</div>
-								<div className="w-full flex justify-between  items-center mt-8 ">
-									<div className="w-[300px] h-full flex-col flex gap-1 justify-center z-20">
-										<span className="text-[#507C7C] text-[12px] sm:text-[15px]">
-											Worked with
-										</span>
-										<span className="text-[#CCFFFA] text-[13px] sm:text-[16px]">
-											132+ Companies Worldwide
-										</span>
-									</div>
-									<div className="buttons z-20 gap-1 items-center min-w-[130px] h-[55px] rounded-full border-[#00393D] p-2 border flex justify-between">
-										<button onClick={handlePrevClick}>
-											<svg
-												width="52"
-												height="36"
-												viewBox="0 0 52 36"
-												fill="none"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													stroke="#00393D"
-												/>
-												<path
-													d="M28.5 13L23.5 18L28.5 23"
-													stroke="white"
-													strokeWidth="2"
-													strokeLinecap="round"
-													strokeLinejoin="round"
-												/>
-											</svg>
-										</button>
-										<button onClick={handleNextClick}>
-											<svg
-												width="52"
-												height="36"
-												viewBox="0 0 52 36"
-												fill="none"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													fill="url(#paint0_linear_1_597)"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													stroke="#00393D"
-												/>
-												<rect
-													x="0.5"
-													y="0.5"
-													width="51"
-													height="35"
-													rx="17.5"
-													stroke="url(#paint1_radial_1_597)"
-												/>
-												<path
-													d="M23.5 13L28.5 18L23.5 23"
-													stroke="white"
-													strokeWidth="2"
-													strokeLinecap="round"
-													strokeLinejoin="round"
-												/>
-												<defs>
-													<linearGradient
-														id="paint0_linear_1_597"
-														x1="58.898"
-														y1="-13.0909"
-														x2="2.11379"
-														y2="20.033"
-														gradientUnits="userSpaceOnUse"
-													>
-														<stop offset="0.238871" stopColor="#003033" />
-														<stop
-															offset="1"
-															stopColor="#001D1F"
-															stopOpacity="0"
-														/>
-													</linearGradient>
-													<radialGradient
-														id="paint1_radial_1_597"
-														cx="0"
-														cy="0"
-														r="1"
-														gradientUnits="userSpaceOnUse"
-														gradientTransform="translate(25.7347 36) rotate(-90) scale(10.8 15.6)"
-													>
-														<stop stopColor="#00998A" />
-														<stop
-															offset="0.597922"
-															stopColor="#00998A"
-															stopOpacity="0"
-														/>
-													</radialGradient>
-												</defs>
-											</svg>
-										</button>
-									</div>
-								</div>
-							</div>
+							</ScrollAnimation>
 						</div>
 						<div className="absolute bottom-0 lg:block hidden w-[250px] h-full bg-gradient-to-r from-[#000e0f] to-transparent left-0"></div>
 						<div className="absolute bottom-0 lg:block hidden w-[250px] h-full bg-gradient-to-l from-[#000e0f] to-transparent right-0"></div>
 					</div>
 				</ScrollAnimation>
 				<ScrollAnimation variants={fadeInUp}>
-					<div className="flex flex-col items-center pt-24 w-full sm:max-w-[2000px] min-h-[650px] mx-auto gap-10 relative py-10 showCaseBg3 transition-all duration-1000">
+					<div id="FAQ" className="FAQ flex flex-col items-center pt-24 w-full sm:max-w-[2000px] min-h-[650px] mx-auto gap-10 relative py-10 showCaseBg3 transition-all duration-1000">
 						<div className="w-full p-5 mx-auto flex flex-col items-center gap-5">
 							<h1 className="text-[28px] sm:text-[38px] text-[#E5FFFD] text-center">
 								Common Queries, Clear Answers
@@ -3695,466 +3713,477 @@ export default function Home() {
 						</div>
 						<div className="w-full flex flex-col my-5 gap-4 xl:flex-row px-5 sm:px-10">
 							<div className="w-full gap-4 flex flex-col items-center">
-								<div
-									onClick={toggleVisibility1}
-									className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
-								>
-									<div className="flex flex-col">
-										<h4 className="font-semibold text-[#CCFFFA] w-[85%]">
-											How long does it take to complete a web development
-											project?
-										</h4>
-										<p
-											className={`text-[16px] text-[#507C7C] ${
-												isHidden1
-													? "opacity-0 max-h-0 mt-0"
-													: "opacity-100 max-h-[200px] mt-5"
-											} transition-all duration-1000`}
-										>
-											The timeline varies depending on the project s complexity
-											and requirements. Our team strives to deliver projects on
-											time while maintaining the highest quality standards.
-										</p>
-									</div>
-									<button
+								<ScrollAnimation variants={fadeInUp}>
+									<div
 										onClick={toggleVisibility1}
-										className={`hide absolute top-[15px] right-5  ${
-											isHidden1 ? "opacity-0 h-0" : "opacity-100 h-auto"
-										} transition-opacity duration-700`}
+										className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
 									>
-										<svg
-											width="36"
-											height="36"
-											viewBox="0 0 40 40"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
+										<div className="flex flex-col">
+											<h4 className="font-semibold text-[#CCFFFA] w-[85%]">
+												How long does it take to complete a web development
+												project?
+											</h4>
+											<p
+												className={`text-[16px] text-[#507C7C] ${
+													isHidden1
+														? "opacity-0 max-h-0 mt-0"
+														: "opacity-100 max-h-[200px] mt-5"
+												} transition-all duration-1000`}
+											>
+												The timeline varies depending on the project s
+												complexity and requirements. Our team strives to deliver
+												projects on time while maintaining the highest quality
+												standards.
+											</p>
+										</div>
+										<button
+											onClick={toggleVisibility1}
+											className={`hide absolute top-[15px] right-5  ${
+												isHidden1 ? "opacity-0 h-0" : "opacity-100 h-auto"
+											} transition-opacity duration-700`}
 										>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												fill="#00171A"
-											/>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												stroke="#00393D"
-											/>
-											<path
-												d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
-									</button>
-									<button
-										onClick={toggleVisibility1}
-										className={`Show absolute top-[15px] right-5 ${
-											isHidden1 ? "opacity-100 h-auto" : "opacity-0 h-0"
-										} transition-opacity duration-1000`}
-									>
-										<svg
-											width="36"
-											height="36"
-											viewBox="0 0 40 40"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
+											<svg
+												width="36"
+												height="36"
+												viewBox="0 0 40 40"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													fill="#00171A"
+												/>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													stroke="#00393D"
+												/>
+												<path
+													d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+										</button>
+										<button
+											onClick={toggleVisibility1}
+											className={`Show absolute top-[15px] right-5 ${
+												isHidden1 ? "opacity-100 h-auto" : "opacity-0 h-0"
+											} transition-opacity duration-1000`}
 										>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												fill="#00171A"
-											/>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												stroke="#00393D"
-											/>
-											<path
-												d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
-									</button>
-								</div>
-								<div
-									onClick={toggleVisibility2}
-									className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
-								>
-									<div className="flex flex-col">
-										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
-											Can you handle large-scale mobile app development
-											projects?
-										</h4>
-										<p
-											className={`text-[16px] text-[#507C7C] ${
-												isHidden2
-													? "opacity-0 max-h-0 mt-0"
-													: "opacity-100 max-h-[200px] mt-5"
-											} transition-all duration-700`}
-										>
-											Yes, our team is equipped to manage and execute
-											large-scale mobile app projects, ensuring scalability and
-											robust performance.
-										</p>
+											<svg
+												width="36"
+												height="36"
+												viewBox="0 0 40 40"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													fill="#00171A"
+												/>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													stroke="#00393D"
+												/>
+												<path
+													d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+										</button>
 									</div>
-									<button
+								</ScrollAnimation>
+								<ScrollAnimation variants={fadeInUp}>
+									<div
 										onClick={toggleVisibility2}
-										className={`hide absolute top-[15px] right-5 ${
-											isHidden2 ? "opacity-0 h-0" : "opacity-100 h-auto"
-										} transition-opacity duration-1000`}
+										className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
 									>
-										<svg
-											width="36"
-											height="36"
-											viewBox="0 0 40 40"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
+										<div className="flex flex-col">
+											<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
+												Can you handle large-scale mobile app development
+												projects?
+											</h4>
+											<p
+												className={`text-[16px] text-[#507C7C] ${
+													isHidden2
+														? "opacity-0 max-h-0 mt-0"
+														: "opacity-100 max-h-[200px] mt-5"
+												} transition-all duration-700`}
+											>
+												Yes, our team is equipped to manage and execute
+												large-scale mobile app projects, ensuring scalability
+												and robust performance.
+											</p>
+										</div>
+										<button
+											onClick={toggleVisibility2}
+											className={`hide absolute top-[15px] right-5 ${
+												isHidden2 ? "opacity-0 h-0" : "opacity-100 h-auto"
+											} transition-opacity duration-1000`}
 										>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												fill="#00171A"
-											/>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												stroke="#00393D"
-											/>
-											<path
-												d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
-									</button>
-									<button
-										onClick={toggleVisibility2}
-										className={`Show absolute top-[15px] right-5 ${
-											isHidden2 ? "opacity-100 h-auto" : "opacity-0 h-0"
-										} transition-opacity duration-1000`}
-									>
-										<svg
-											width="36"
-											height="36"
-											viewBox="0 0 40 40"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
+											<svg
+												width="36"
+												height="36"
+												viewBox="0 0 40 40"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													fill="#00171A"
+												/>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													stroke="#00393D"
+												/>
+												<path
+													d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+										</button>
+										<button
+											onClick={toggleVisibility2}
+											className={`Show absolute top-[15px] right-5 ${
+												isHidden2 ? "opacity-100 h-auto" : "opacity-0 h-0"
+											} transition-opacity duration-1000`}
 										>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												fill="#00171A"
-											/>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												stroke="#00393D"
-											/>
-											<path
-												d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
-									</button>
-								</div>
-								<div
-									onClick={toggleVisibility3}
-									className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
-								>
-									<div className="flex flex-col">
-										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
-											Do you offer maintenance services for websites and apps
-											developed by other companies?
-										</h4>
-										<p
-											className={`text-[16px] text-[#507C7C] ${
-												isHidden3
-													? "opacity-0 max-h-0 mt-0"
-													: "opacity-100 max-h-[200px] mt-5"
-											} transition-all duration-700`}
-										>
-											We offer maintenance services for all websites and apps,
-											including updates, bug fixes, and security audits,
-											regardless of the original developer.
-										</p>
+											<svg
+												width="36"
+												height="36"
+												viewBox="0 0 40 40"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													fill="#00171A"
+												/>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													stroke="#00393D"
+												/>
+												<path
+													d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+										</button>
 									</div>
-									<button
+								</ScrollAnimation>
+								<ScrollAnimation variants={fadeInUp}>
+									<div
 										onClick={toggleVisibility3}
-										className={`hide absolute top-[15px] right-5 ${
-											isHidden3 ? "opacity-0 h-0" : "opacity-100 h-auto"
-										} transition-opacity duration-1000`}
+										className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
 									>
-										<svg
-											width="36"
-											height="36"
-											viewBox="0 0 40 40"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
+										<div className="flex flex-col">
+											<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
+												Do you offer maintenance services for websites and apps
+												developed by other companies?
+											</h4>
+											<p
+												className={`text-[16px] text-[#507C7C] ${
+													isHidden3
+														? "opacity-0 max-h-0 mt-0"
+														: "opacity-100 max-h-[200px] mt-5"
+												} transition-all duration-700`}
+											>
+												We offer maintenance services for all websites and apps,
+												including updates, bug fixes, and security audits,
+												regardless of the original developer.
+											</p>
+										</div>
+										<button
+											onClick={toggleVisibility3}
+											className={`hide absolute top-[15px] right-5 ${
+												isHidden3 ? "opacity-0 h-0" : "opacity-100 h-auto"
+											} transition-opacity duration-1000`}
 										>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												fill="#00171A"
-											/>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												stroke="#00393D"
-											/>
-											<path
-												d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
-									</button>
-									<button
-										onClick={toggleVisibility3}
-										className={`Show absolute top-[15px] right-5  ${
-											isHidden3 ? "opacity-100 h-auto" : "opacity-0 h-0"
-										} transition-opacity duration-1000`}
-									>
-										<svg
-											width="36"
-											height="36"
-											viewBox="0 0 40 40"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
+											<svg
+												width="36"
+												height="36"
+												viewBox="0 0 40 40"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													fill="#00171A"
+												/>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													stroke="#00393D"
+												/>
+												<path
+													d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+										</button>
+										<button
+											onClick={toggleVisibility3}
+											className={`Show absolute top-[15px] right-5  ${
+												isHidden3 ? "opacity-100 h-auto" : "opacity-0 h-0"
+											} transition-opacity duration-1000`}
 										>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												fill="#00171A"
-											/>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												stroke="#00393D"
-											/>
-											<path
-												d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
-									</button>
-								</div>
-								<div
-									onClick={toggleVisibility4}
-									className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
-								>
-									<div className="flex flex-col">
-										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
-											How do you ensure the security of user data in your web
-											applications?
-										</h4>
-										<p
-											className={`text-[16px] text-[#507C7C] ${
-												isHidden4
-													? "opacity-0 max-h-0"
-													: "mt-5 opacity-100 max-h-[200px]"
-											} transition-all duration-700`}
-										>
-											We prioritize user data security by implementing SSL/TLS
-											encryption, regular security audits, and secure coding
-											practices to safeguard against threats.
-										</p>
+											<svg
+												width="36"
+												height="36"
+												viewBox="0 0 40 40"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													fill="#00171A"
+												/>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													stroke="#00393D"
+												/>
+												<path
+													d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+										</button>
 									</div>
-									<button
+								</ScrollAnimation>
+								<ScrollAnimation variants={fadeInUp}>
+									<div
 										onClick={toggleVisibility4}
-										className={`hide absolute top-[15px] right-5  ${
-											isHidden4 ? "opacity-0 h-0" : "opacity-100 h-auto"
-										} transition-opacity duration-1000`}
+										className="cursor-pointer max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
 									>
-										<svg
-											width="36"
-											height="36"
-											viewBox="0 0 40 40"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
+										<div className="flex flex-col">
+											<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
+												How do you ensure the security of user data in your web
+												applications?
+											</h4>
+											<p
+												className={`text-[16px] text-[#507C7C] ${
+													isHidden4
+														? "opacity-0 max-h-0"
+														: "mt-5 opacity-100 max-h-[200px]"
+												} transition-all duration-700`}
+											>
+												We prioritize user data security by implementing SSL/TLS
+												encryption, regular security audits, and secure coding
+												practices to safeguard against threats.
+											</p>
+										</div>
+										<button
+											onClick={toggleVisibility4}
+											className={`hide absolute top-[15px] right-5  ${
+												isHidden4 ? "opacity-0 h-0" : "opacity-100 h-auto"
+											} transition-opacity duration-1000`}
 										>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												fill="#00171A"
-											/>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												stroke="#00393D"
-											/>
-											<path
-												d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
-									</button>
-									<button
-										onClick={toggleVisibility4}
-										className={`Show absolute top-[15px] right-5  ${
-											isHidden4 ? "opacity-100 h-auto" : "opacity-0 h-0"
-										} transition-opacity duration-1000`}
-									>
-										<svg
-											width="36"
-											height="36"
-											viewBox="0 0 40 40"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
+											<svg
+												width="36"
+												height="36"
+												viewBox="0 0 40 40"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													fill="#00171A"
+												/>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													stroke="#00393D"
+												/>
+												<path
+													d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+										</button>
+										<button
+											onClick={toggleVisibility4}
+											className={`Show absolute top-[15px] right-5  ${
+												isHidden4 ? "opacity-100 h-auto" : "opacity-0 h-0"
+											} transition-opacity duration-1000`}
 										>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												fill="#00171A"
-											/>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												stroke="#00393D"
-											/>
-											<path
-												d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
-									</button>
-								</div>
-								<div
-									onClick={toggleVisibility5}
-									className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
-								>
-									<div className="flex flex-col">
-										<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
-											What is your approach to UI/UX design?
-										</h4>
-										<p
-											className={`text-[16px] text-[#507C7C] ${
-												isHidden5
-													? "opacity-0 max-h-0"
-													: "mt-5 opacity-100 max-h-[200px]"
-											} transition-all duration-700`}
-										>
-											Our UI/UX design process focuses on creating intuitive and
-											visually appealing interfaces. We conduct thorough
-											research and usability testing to ensure an excellent user
-											experience.
-										</p>
+											<svg
+												width="36"
+												height="36"
+												viewBox="0 0 40 40"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													fill="#00171A"
+												/>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													stroke="#00393D"
+												/>
+												<path
+													d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+										</button>
 									</div>
-									<button
+								</ScrollAnimation>
+								<ScrollAnimation variants={fadeInUp}>
+									<div
 										onClick={toggleVisibility5}
-										className={`hide absolute top-[15px] right-5  ${
-											isHidden5 ? "opacity-0 h-0" : "opacity-100 h-auto"
-										} transition-opacity duration-1000`}
+										className="max-w-[750px] min-h-[60px] p-5 border relative rounded-3xl gap-2 flex  border-[#002629] transition-all items-center"
 									>
-										<svg
-											width="36"
-											height="36"
-											viewBox="0 0 40 40"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
+										<div className="flex flex-col">
+											<h4 className="md:font-semibold text-[#CCFFFA] w-[85%]">
+												What is your approach to UI/UX design?
+											</h4>
+											<p
+												className={`text-[16px] text-[#507C7C] ${
+													isHidden5
+														? "opacity-0 max-h-0"
+														: "mt-5 opacity-100 max-h-[200px]"
+												} transition-all duration-700`}
+											>
+												Our UI/UX design process focuses on creating intuitive
+												and visually appealing interfaces. We conduct thorough
+												research and usability testing to ensure an excellent
+												user experience.
+											</p>
+										</div>
+										<button
+											onClick={toggleVisibility5}
+											className={`hide absolute top-[15px] right-5  ${
+												isHidden5 ? "opacity-0 h-0" : "opacity-100 h-auto"
+											} transition-opacity duration-1000`}
 										>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												fill="#00171A"
-											/>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												stroke="#00393D"
-											/>
-											<path
-												d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
-									</button>
-									<button
-										onClick={toggleVisibility5}
-										className={`Show absolute top-[15px] right-5  ${
-											isHidden5 ? "opacity-100 h-auto" : "opacity-0 h-0"
-										} transition-opacity duration-1000`}
-									>
-										<svg
-											width="36"
-											height="36"
-											viewBox="0 0 40 40"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
+											<svg
+												width="36"
+												height="36"
+												viewBox="0 0 40 40"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													fill="#00171A"
+												/>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													stroke="#00393D"
+												/>
+												<path
+													d="M25.8333 19.1666H14.1667C13.9457 19.1666 13.7337 19.2544 13.5774 19.4107C13.4211 19.567 13.3333 19.7789 13.3333 20C13.3333 20.221 13.4211 20.4329 13.5774 20.5892C13.7337 20.7455 13.9457 20.8333 14.1667 20.8333H25.8333C26.0543 20.8333 26.2663 20.7455 26.4226 20.5892C26.5789 20.4329 26.6667 20.221 26.6667 20C26.6667 19.7789 26.5789 19.567 26.4226 19.4107C26.2663 19.2544 26.0543 19.1666 25.8333 19.1666Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+										</button>
+										<button
+											onClick={toggleVisibility5}
+											className={`Show absolute top-[15px] right-5  ${
+												isHidden5 ? "opacity-100 h-auto" : "opacity-0 h-0"
+											} transition-opacity duration-1000`}
 										>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												fill="#00171A"
-											/>
-											<rect
-												x="0.5"
-												y="0.5"
-												width="39"
-												height="39"
-												rx="19.5"
-												stroke="#00393D"
-											/>
-											<path
-												d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
-												fill="#1AFFE9"
-											/>
-										</svg>
-									</button>
-								</div>
+											<svg
+												width="36"
+												height="36"
+												viewBox="0 0 40 40"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													fill="#00171A"
+												/>
+												<rect
+													x="0.5"
+													y="0.5"
+													width="39"
+													height="39"
+													rx="19.5"
+													stroke="#00393D"
+												/>
+												<path
+													d="M25.8333 19.1667H20.8333V14.1667C20.8333 13.9457 20.7455 13.7337 20.5893 13.5775C20.433 13.4212 20.221 13.3334 20 13.3334C19.779 13.3334 19.567 13.4212 19.4107 13.5775C19.2545 13.7337 19.1667 13.9457 19.1667 14.1667V19.1667H14.1667C13.9457 19.1667 13.7337 19.2545 13.5774 19.4108C13.4211 19.5671 13.3333 19.779 13.3333 20C13.3333 20.2211 13.4211 20.433 13.5774 20.5893C13.7337 20.7456 13.9457 20.8334 14.1667 20.8334H19.1667V25.8334C19.1667 26.0544 19.2545 26.2663 19.4107 26.4226C19.567 26.5789 19.779 26.6667 20 26.6667C20.221 26.6667 20.433 26.5789 20.5893 26.4226C20.7455 26.2663 20.8333 26.0544 20.8333 25.8334V20.8334H25.8333C26.0543 20.8334 26.2663 20.7456 26.4226 20.5893C26.5789 20.433 26.6667 20.2211 26.6667 20C26.6667 19.779 26.5789 19.5671 26.4226 19.4108C26.2663 19.2545 26.0543 19.1667 25.8333 19.1667Z"
+													fill="#1AFFE9"
+												/>
+											</svg>
+										</button>
+									</div>
+								</ScrollAnimation>
 							</div>
 						</div>
 					</div>
@@ -4176,86 +4205,285 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="w-full p-4 justify-center lg:flex-row lg:items-start flex-col items-center flex gap-8">
-							<div className="lg:w-[60%] w-full relative">
-								<form
-									onSubmit={handleSubmit}
-									className="border-[#00393D] border rounded-3xl sm:p-10 p-4 bg-gradient-to-bl from-[#00171A] to-transparent"
-								>
-									<div className="w-full h-full flex  flex-col gap-8">
-										<div className="w-full gap-10 flex flex-col lg:flex-row justify-between md:items-center">
-											<div className="lg:w-1/2 w-full flex flex-col gap-2 h-full">
-												<label
-													className="text-[#E5FFFD] text-[16px] font-light"
-													htmlFor="name"
-												>
-													Name:
-												</label>
-												<div className="relative">
-													<input
+							<div className="lg:w-[60%] w-full">
+								<ScrollAnimation variants={fadeInUp}>
+									<div className="w-full relative">
+										<form
+											onSubmit={handleSubmit}
+											className="border-[#00393D] border rounded-3xl sm:p-10 p-4 bg-gradient-to-bl from-[#00171A] to-transparent"
+										>
+											<div className="w-full h-full flex  flex-col gap-8">
+												<div className="w-full gap-10 flex flex-col lg:flex-row justify-between md:items-center">
+													<div className="lg:w-1/2 w-full flex flex-col gap-2 h-full">
+														<label
+															className="text-[#E5FFFD] text-[16px] font-light"
+															htmlFor="name"
+														>
+															Name:
+														</label>
+														<div className="relative">
+															<input
+																required
+																className="rounded-full w-full pl-14 h-[56px] placeholder:text-sm placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
+																placeholder="Enter Name"
+																type="text"
+																name="name"
+																value={formData.name}
+																onChange={handleChange}
+															/>
+															<svg
+																className="absolute top-2 left-2"
+																width="40"
+																height="40"
+																viewBox="0 0 40 40"
+																fill="none"
+																xmlns="http://www.w3.org/2000/svg"
+															>
+																<rect
+																	x="0.5"
+																	y="0.5"
+																	width="39"
+																	height="39"
+																	rx="19.5"
+																	fill="#001D1F"
+																/>
+																<rect
+																	x="0.5"
+																	y="0.5"
+																	width="39"
+																	height="39"
+																	rx="19.5"
+																	stroke="#00393D"
+																/>
+																<path
+																	fillRule="evenodd"
+																	clipRule="evenodd"
+																	d="M16.25 15C16.25 12.9289 17.9289 11.25 20 11.25C22.0711 11.25 23.75 12.9289 23.75 15C23.75 17.0711 22.0711 18.75 20 18.75C17.9289 18.75 16.25 17.0711 16.25 15Z"
+																	fill="#507C7C"
+																/>
+																<path
+																	fillRule="evenodd"
+																	clipRule="evenodd"
+																	d="M13.126 26.7544C13.1905 23.013 16.2433 20 20 20C23.7568 20 26.8097 23.0131 26.874 26.7547C26.8782 27.0028 26.7353 27.23 26.5097 27.3335C24.5273 28.2432 22.3221 28.75 20.0003 28.75C17.6782 28.75 15.4729 28.2431 13.4903 27.3332C13.2647 27.2297 13.1218 27.0026 13.126 26.7544Z"
+																	fill="#507C7C"
+																/>
+															</svg>
+														</div>
+													</div>
+													<div className="lg:w-1/2 w-full flex flex-col gap-2 h-full">
+														<label
+															className="text-[#E5FFFD] text-[16px] font-light"
+															htmlFor="email"
+														>
+															Email:
+														</label>
+														<div className="relative">
+															<input
+																required
+																className="rounded-full placeholder:text-sm w-full pl-14 h-[56px] placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
+																placeholder="Enter Email"
+																type="email"
+																name="email"
+																value={formData.email}
+																onChange={handleChange}
+															/>
+															<svg
+																className="absolute top-2 left-2"
+																width="40"
+																height="40"
+																viewBox="0 0 40 40"
+																fill="none"
+																xmlns="http://www.w3.org/2000/svg"
+															>
+																<rect
+																	x="0.5"
+																	y="0.5"
+																	width="39"
+																	height="39"
+																	rx="19.5"
+																	fill="#001D1F"
+																/>
+																<rect
+																	x="0.5"
+																	y="0.5"
+																	width="39"
+																	height="39"
+																	rx="19.5"
+																	stroke="#00393D"
+																/>
+																<path
+																	d="M11.25 17.2242V24.375C11.25 25.7557 12.3693 26.875 13.75 26.875H26.25C27.6307 26.875 28.75 25.7557 28.75 24.375V17.2242L21.3102 21.8026C20.5067 22.297 19.4933 22.297 18.6898 21.8026L11.25 17.2242Z"
+																	fill="#507C7C"
+																/>
+																<path
+																	d="M28.75 15.7565V15.625C28.75 14.2443 27.6307 13.125 26.25 13.125H13.75C12.3693 13.125 11.25 14.2443 11.25 15.625V15.7565L19.3449 20.738C19.7466 20.9852 20.2534 20.9852 20.6551 20.738L28.75 15.7565Z"
+																	fill="#507C7C"
+																/>
+															</svg>
+														</div>
+													</div>
+												</div>
+												<div className="w-full gap-10 flex flex-col lg:flex-row justify-between md:items-center">
+													<div className="lg:w-1/2 w-full flex flex-col gap-2 h-full">
+														<label
+															className="text-[#E5FFFD] text-[16px] font-light"
+															htmlFor="phone"
+														>
+															Phone:
+														</label>
+														<div className="relative">
+															<input
+																className="rounded-full placeholder:text-sm  w-full pl-14 h-[56px] placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
+																placeholder="Enter Phone Number"
+																type="text"
+																name="phone"
+																value={formData.phone}
+																onChange={handleChange}
+															/>
+															<svg
+																className="absolute top-2 left-2"
+																width="40"
+																height="40"
+																viewBox="0 0 40 40"
+																fill="none"
+																xmlns="http://www.w3.org/2000/svg"
+															>
+																<rect
+																	x="0.5"
+																	y="0.5"
+																	width="39"
+																	height="39"
+																	rx="19.5"
+																	fill="#001D1F"
+																/>
+																<rect
+																	x="0.5"
+																	y="0.5"
+																	width="39"
+																	height="39"
+																	rx="19.5"
+																	stroke="#00393D"
+																/>
+																<path
+																	fillRule="evenodd"
+																	clipRule="evenodd"
+																	d="M11.25 13.75C11.25 12.3693 12.3693 11.25 13.75 11.25H14.893C15.61 11.25 16.235 11.738 16.4089 12.4335L17.3304 16.1195C17.4828 16.7294 17.2549 17.3713 16.752 17.7485L15.674 18.557C15.5621 18.641 15.5377 18.7639 15.5692 18.8497C16.5154 21.4329 18.5671 23.4846 21.1503 24.4308C21.2361 24.4623 21.359 24.4379 21.443 24.326L22.2515 23.248C22.6287 22.7451 23.2706 22.5172 23.8805 22.6696L27.5665 23.5911C28.262 23.765 28.75 24.39 28.75 25.107V26.25C28.75 27.6307 27.6307 28.75 26.25 28.75H24.375C17.1263 28.75 11.25 22.8737 11.25 15.625V13.75Z"
+																	fill="#507C7C"
+																/>
+															</svg>
+														</div>
+													</div>
+													<div className="lg:w-1/2 w-full flex flex-col gap-2 h-full">
+														<label
+															className="text-[#E5FFFD] text-[16px] font-light"
+															htmlFor="Services"
+														>
+															Services:
+														</label>
+														<div className="relative">
+															<select
+																required
+																id="services"
+																name="services"
+																value={formData.services}
+																onChange={handleChange}
+																className="rounded-full w-full pl-14 h-[56px] text-sm  outline-none bg-[#00171A] border-[#00393D] border appearance-none"
+															>
+																<option
+																	className="text-[#507C7C]"
+																	disabled
+																	value=""
+																>
+																	--Please choose an option--
+																</option>
+																<option value="Web Development">
+																	Web Development
+																</option>
+																<option value="App Development">
+																	App Development
+																</option>
+																<option value="Web Design">Web Design</option>
+																<option value="App Design">App Design</option>
+																<option value="Job Applicant">
+																	Job Applicant
+																</option>
+																<option value="Feedback">Feedback</option>
+															</select>
+															<svg
+																className="absolute top-2 left-2"
+																width="40"
+																height="40"
+																viewBox="0 0 40 40"
+																fill="none"
+																xmlns="http://www.w3.org/2000/svg"
+															>
+																<rect
+																	x="0.5"
+																	y="0.5"
+																	width="39"
+																	height="39"
+																	rx="19.5"
+																	fill="#001D1F"
+																/>
+																<rect
+																	x="0.5"
+																	y="0.5"
+																	width="39"
+																	height="39"
+																	rx="19.5"
+																	stroke="#00393D"
+																/>
+																<path
+																	d="M11.25 17.2242V24.375C11.25 25.7557 12.3693 26.875 13.75 26.875H26.25C27.6307 26.875 28.75 25.7557 28.75 24.375V17.2242L21.3102 21.8026C20.5067 22.297 19.4933 22.297 18.6898 21.8026L11.25 17.2242Z"
+																	fill="#507C7C"
+																/>
+																<path
+																	d="M28.75 15.7565V15.625C28.75 14.2443 27.6307 13.125 26.25 13.125H13.75C12.3693 13.125 11.25 14.2443 11.25 15.625V15.7565L19.3449 20.738C19.7466 20.9852 20.2534 20.9852 20.6551 20.738L28.75 15.7565Z"
+																	fill="#507C7C"
+																/>
+															</svg>
+														</div>
+													</div>
+												</div>
+												<div className="z-20">
+													<textarea
 														required
-														className="rounded-full w-full pl-14 h-[56px] placeholder:text-sm placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
-														placeholder="Enter Name"
-														type="text"
-														name="name"
-														value={formData.name}
+														className="rounded-xl p-3 w-full h-[160px] placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
+														name="message"
+														id="message"
+														placeholder="Your message..."
+														value={formData.message}
 														onChange={handleChange}
-													/>
-													<svg
-														className="absolute top-2 left-2"
-														width="40"
-														height="40"
-														viewBox="0 0 40 40"
-														fill="none"
-														xmlns="http://www.w3.org/2000/svg"
+													></textarea>
+												</div>
+												<div className="flex justify-center z-20">
+													<button
+														type="submit"
+														className="text-black bg-[#66FFF0] w-[220px] h-[45px] rounded-full border-[#00393D] text-[14px] hover:border hover:text-white hover:bg-[#001112] transition-all duration-300"
 													>
-														<rect
-															x="0.5"
-															y="0.5"
-															width="39"
-															height="39"
-															rx="19.5"
-															fill="#001D1F"
-														/>
-														<rect
-															x="0.5"
-															y="0.5"
-															width="39"
-															height="39"
-															rx="19.5"
-															stroke="#00393D"
-														/>
-														<path
-															fillRule="evenodd"
-															clipRule="evenodd"
-															d="M16.25 15C16.25 12.9289 17.9289 11.25 20 11.25C22.0711 11.25 23.75 12.9289 23.75 15C23.75 17.0711 22.0711 18.75 20 18.75C17.9289 18.75 16.25 17.0711 16.25 15Z"
-															fill="#507C7C"
-														/>
-														<path
-															fillRule="evenodd"
-															clipRule="evenodd"
-															d="M13.126 26.7544C13.1905 23.013 16.2433 20 20 20C23.7568 20 26.8097 23.0131 26.874 26.7547C26.8782 27.0028 26.7353 27.23 26.5097 27.3335C24.5273 28.2432 22.3221 28.75 20.0003 28.75C17.6782 28.75 15.4729 28.2431 13.4903 27.3332C13.2647 27.2297 13.1218 27.0026 13.126 26.7544Z"
-															fill="#507C7C"
-														/>
-													</svg>
+														Submit Your Message
+													</button>
 												</div>
 											</div>
-											<div className="lg:w-1/2 w-full flex flex-col gap-2 h-full">
-												<label
-													className="text-[#E5FFFD] text-[16px] font-light"
-													htmlFor="email"
-												>
-													Email:
-												</label>
+										</form>
+										<div className="absolute w-full bottom-0 left-0 h-[150px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
+									</div>
+								</ScrollAnimation>
+							</div>
+
+							<div className=" lg:items-center lg:flex lg:flex-col flex-row justify-center gap-20  hidden">
+								<ScrollAnimation variants={fadeInUp}>
+									<div className="relative">
+										<div className="w-full  gap-4 flex flex-col p-5 justify-between items-center border-[#00393D] border  rounded-3xl ">
+											<div className="w-full  flex flex-col gap-2 h-full">
 												<div className="relative">
-													<input
-														required
-														className="rounded-full placeholder:text-sm w-full pl-14 h-[56px] placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
-														placeholder="Enter Email"
-														type="email"
-														name="email"
-														value={formData.email}
-														onChange={handleChange}
-													/>
+													<Link
+														href={"mailto:solutions@devxplore.tech"}
+														target="_blank"
+														className="rounded-full max-w-[330px] pl-14 pr-2 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border"
+													>
+														solutions@devxplore.tech
+													</Link>
 													<svg
 														className="absolute top-2 left-2"
 														width="40"
@@ -4282,33 +4510,33 @@ export default function Home() {
 														/>
 														<path
 															d="M11.25 17.2242V24.375C11.25 25.7557 12.3693 26.875 13.75 26.875H26.25C27.6307 26.875 28.75 25.7557 28.75 24.375V17.2242L21.3102 21.8026C20.5067 22.297 19.4933 22.297 18.6898 21.8026L11.25 17.2242Z"
-															fill="#507C7C"
+															fill="#1AFFE9"
 														/>
 														<path
 															d="M28.75 15.7565V15.625C28.75 14.2443 27.6307 13.125 26.25 13.125H13.75C12.3693 13.125 11.25 14.2443 11.25 15.625V15.7565L19.3449 20.738C19.7466 20.9852 20.2534 20.9852 20.6551 20.738L28.75 15.7565Z"
-															fill="#507C7C"
+															fill="#1AFFE9"
 														/>
 													</svg>
 												</div>
 											</div>
-										</div>
-										<div className="w-full gap-10 flex flex-col lg:flex-row justify-between md:items-center">
-											<div className="lg:w-1/2 w-full flex flex-col gap-2 h-full">
-												<label
-													className="text-[#E5FFFD] text-[16px] font-light"
-													htmlFor="phone"
-												>
-													Phone:
-												</label>
+											<div className="w-full flex flex-col gap-2 h-full">
 												<div className="relative">
-													<input
-														className="rounded-full placeholder:text-sm  w-full pl-14 h-[56px] placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
-														placeholder="Enter Phone Number"
-														type="text"
-														name="phone"
-														value={formData.phone}
-														onChange={handleChange}
-													/>
+													<div className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center gap-2 outline-none bg-[#00171A] border-[#00393D] border">
+														<Link
+															className="text-sm"
+															href="tel:+9163711 65893"
+															target="_blank"
+														>
+															+91 63711 65893,
+														</Link>
+														<Link
+															className="text-sm"
+															href="tel:+9198270 53173"
+															target="_blank"
+														>
+															+91 98270 53173
+														</Link>
+													</div>
 													<svg
 														className="absolute top-2 left-2"
 														width="40"
@@ -4337,45 +4565,16 @@ export default function Home() {
 															fillRule="evenodd"
 															clipRule="evenodd"
 															d="M11.25 13.75C11.25 12.3693 12.3693 11.25 13.75 11.25H14.893C15.61 11.25 16.235 11.738 16.4089 12.4335L17.3304 16.1195C17.4828 16.7294 17.2549 17.3713 16.752 17.7485L15.674 18.557C15.5621 18.641 15.5377 18.7639 15.5692 18.8497C16.5154 21.4329 18.5671 23.4846 21.1503 24.4308C21.2361 24.4623 21.359 24.4379 21.443 24.326L22.2515 23.248C22.6287 22.7451 23.2706 22.5172 23.8805 22.6696L27.5665 23.5911C28.262 23.765 28.75 24.39 28.75 25.107V26.25C28.75 27.6307 27.6307 28.75 26.25 28.75H24.375C17.1263 28.75 11.25 22.8737 11.25 15.625V13.75Z"
-															fill="#507C7C"
+															fill="#1AFFE9"
 														/>
 													</svg>
 												</div>
 											</div>
-											<div className="lg:w-1/2 w-full flex flex-col gap-2 h-full">
-												<label
-													className="text-[#E5FFFD] text-[16px] font-light"
-													htmlFor="Services"
-												>
-													Services:
-												</label>
+											<div className="w-full flex flex-col gap-2 h-full">
 												<div className="relative">
-													<select
-														required
-														id="services"
-														name="services"
-														value={formData.services}
-														onChange={handleChange}
-														className="rounded-full w-full pl-14 h-[56px] text-sm  outline-none bg-[#00171A] border-[#00393D] border appearance-none"
-													>
-														<option
-															className="text-[#507C7C]"
-															disabled
-															value=""
-														>
-															--Please choose an option--
-														</option>
-														<option value="Web Development">
-															Web Development
-														</option>
-														<option value="App Development">
-															App Development
-														</option>
-														<option value="Web Design">Web Design</option>
-														<option value="App Design">App Design</option>
-														<option value="Job Applicant">Job Applicant</option>
-														<option value="Feedback">Feedback</option>
-													</select>
+													<div className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
+														Bhubaneswar, Odisha
+													</div>
 													<svg
 														className="absolute top-2 left-2"
 														width="40"
@@ -4401,326 +4600,167 @@ export default function Home() {
 															stroke="#00393D"
 														/>
 														<path
-															d="M11.25 17.2242V24.375C11.25 25.7557 12.3693 26.875 13.75 26.875H26.25C27.6307 26.875 28.75 25.7557 28.75 24.375V17.2242L21.3102 21.8026C20.5067 22.297 19.4933 22.297 18.6898 21.8026L11.25 17.2242Z"
-															fill="#507C7C"
-														/>
-														<path
-															d="M28.75 15.7565V15.625C28.75 14.2443 27.6307 13.125 26.25 13.125H13.75C12.3693 13.125 11.25 14.2443 11.25 15.625V15.7565L19.3449 20.738C19.7466 20.9852 20.2534 20.9852 20.6551 20.738L28.75 15.7565Z"
-															fill="#507C7C"
+															fillRule="evenodd"
+															clipRule="evenodd"
+															d="M19.6165 28.6259C19.6416 28.6405 19.6614 28.6517 19.6754 28.6596L19.6987 28.6726C19.8844 28.7745 20.1148 28.7738 20.3007 28.6729L20.3246 28.6596C20.3386 28.6517 20.3584 28.6405 20.3835 28.6259C20.4339 28.5967 20.5058 28.5542 20.5963 28.4985C20.7771 28.3872 21.0323 28.223 21.3372 28.0076C21.9459 27.5776 22.7581 26.9395 23.5721 26.1061C25.1922 24.4474 26.875 21.9551 26.875 18.75C26.875 14.953 23.797 11.875 20 11.875C16.203 11.875 13.125 14.953 13.125 18.75C13.125 21.9551 14.8078 24.4474 16.4279 26.1061C17.2419 26.9395 18.0541 27.5776 18.6628 28.0076C18.9677 28.223 19.2229 28.3872 19.4037 28.4985C19.4942 28.5542 19.5661 28.5967 19.6165 28.6259ZM20 21.25C21.3807 21.25 22.5 20.1307 22.5 18.75C22.5 17.3693 21.3807 16.25 20 16.25C18.6193 16.25 17.5 17.3693 17.5 18.75C17.5 20.1307 18.6193 21.25 20 21.25Z"
+															fill="#1AFFE9"
 														/>
 													</svg>
 												</div>
 											</div>
 										</div>
-										<div className="z-20">
-											<textarea
-												required
-												className="rounded-xl p-3 w-full h-[160px] placeholder:text-[#507C7C] outline-none bg-[#00171A] border-[#00393D] border"
-												name="message"
-												id="message"
-												placeholder="Your message..."
-												value={formData.message}
-												onChange={handleChange}
-											></textarea>
-										</div>
-										<div className="flex justify-center z-20">
-											<button
-												type="submit"
-												className="text-black bg-[#66FFF0] w-[220px] h-[45px] rounded-full border-[#00393D] text-[14px] hover:border hover:text-white hover:bg-[#001112] transition-all duration-300"
-											>
-												Submit Your Message
-											</button>
-										</div>
+										<div className="absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
 									</div>
-								</form>
-								<div className="absolute w-full bottom-0 left-0 h-[150px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
-							</div>
-							<div className=" lg:items-center lg:flex lg:flex-col flex-row justify-center gap-20  hidden">
-								<div className="relative">
-									<div className="w-full  gap-4 flex flex-col p-5 justify-between items-center border-[#00393D] border  rounded-3xl ">
-										<div className="w-full  flex flex-col gap-2 h-full">
-											<div className="relative">
+								</ScrollAnimation>
+								<ScrollAnimation variants={fadeInUp}>
+									<div className="relative">
+										<div className="w-[350px] min-h-[235px] border border-[#00393D] rounded-3xl flex flex-col gap-3 justify-center items-center">
+											<h2 className="text-[20px] text-[#CCFFFA]">Thank You!</h2>
+											<span className="text-[16px] text-[#649B9B]">
+												Follow Us on Social Media
+											</span>
+											<div className="w-[50%] h-[55px] rounded-full border border-[#00393D] flex justify-center items-center gap-3">
 												<Link
-													href={"mailto:solutions@devxplore.tech"}
+													className="Facebook"
 													target="_blank"
-													className="rounded-full max-w-[330px] pl-14 pr-2 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border"
+													href={
+														"https://www.facebook.com/share/V19o52Bi9BPVA7Hp/?mibextid=qi2Omg"
+													}
 												>
-													solutions@devxplore.tech
+													<svg
+														width="40"
+														height="40"
+														viewBox="0 0 40 40"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="39"
+															height="39"
+															rx="19.5"
+															fill="#00171A"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="39"
+															height="39"
+															rx="19.5"
+															stroke="#00393D"
+														/>
+														<g clipPath="url(#clip0_1_812)">
+															<path
+																d="M30 20C30 14.4771 25.5229 10 20 10C14.4771 10 10 14.4771 10 20C10 24.9912 13.6568 29.1283 18.4375 29.8785V22.8906H15.8984V20H18.4375V17.7969C18.4375 15.2906 19.9305 13.9062 22.2146 13.9062C23.3084 13.9062 24.4531 14.1016 24.4531 14.1016V16.5625H23.1922C21.95 16.5625 21.5625 17.3334 21.5625 18.125V20H24.3359L23.8926 22.8906H21.5625V29.8785C26.3432 29.1283 30 24.9912 30 20Z"
+																fill="#1AFFE9"
+															/>
+														</g>
+														<defs>
+															<clipPath id="clip0_1_812">
+																<rect
+																	width="20"
+																	height="20"
+																	fill="white"
+																	transform="translate(10 10)"
+																/>
+															</clipPath>
+														</defs>
+													</svg>
 												</Link>
-												<svg
-													className="absolute top-2 left-2"
-													width="40"
-													height="40"
-													viewBox="0 0 40 40"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														fill="#001D1F"
-													/>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														stroke="#00393D"
-													/>
-													<path
-														d="M11.25 17.2242V24.375C11.25 25.7557 12.3693 26.875 13.75 26.875H26.25C27.6307 26.875 28.75 25.7557 28.75 24.375V17.2242L21.3102 21.8026C20.5067 22.297 19.4933 22.297 18.6898 21.8026L11.25 17.2242Z"
-														fill="#1AFFE9"
-													/>
-													<path
-														d="M28.75 15.7565V15.625C28.75 14.2443 27.6307 13.125 26.25 13.125H13.75C12.3693 13.125 11.25 14.2443 11.25 15.625V15.7565L19.3449 20.738C19.7466 20.9852 20.2534 20.9852 20.6551 20.738L28.75 15.7565Z"
-														fill="#1AFFE9"
-													/>
-												</svg>
-											</div>
-										</div>
-										<div className="w-full flex flex-col gap-2 h-full">
-											<div className="relative">
-												<div className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center gap-2 outline-none bg-[#00171A] border-[#00393D] border">
-													<Link
-														className="text-sm"
-														href="tel:+9163711 65893"
-														target="_blank"
+												<Link href={""}>
+													<svg
+														width="40"
+														height="40"
+														viewBox="0 0 40 40"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
 													>
-														+91 63711 65893,
-													</Link>
-													<Link
-														className="text-sm"
-														href="tel:+9198270 53173"
-														target="_blank"
+														<rect
+															x="0.5"
+															y="0.5"
+															width="39"
+															height="39"
+															rx="19.5"
+															fill="#00171A"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="39"
+															height="39"
+															rx="19.5"
+															stroke="#00393D"
+														/>
+														<g clipPath="url(#clip0_1_815)">
+															<path
+																d="M16.2918 28.1251C23.8371 28.1251 27.9652 21.8724 27.9652 16.4517C27.9652 16.2759 27.9613 16.0962 27.9535 15.9204C28.7566 15.3397 29.4496 14.6203 30 13.7962C29.2521 14.129 28.458 14.3463 27.6449 14.4407C28.5011 13.9275 29.1421 13.1213 29.4492 12.1716C28.6438 12.6489 27.763 12.9856 26.8445 13.1673C26.2257 12.5098 25.4075 12.0744 24.5164 11.9285C23.6253 11.7826 22.711 11.9343 21.9148 12.3602C21.1186 12.7861 20.4848 13.4624 20.1115 14.2845C19.7382 15.1067 19.6462 16.029 19.8496 16.9087C18.2187 16.8269 16.6233 16.4032 15.1667 15.6652C13.71 14.9272 12.4247 13.8913 11.3941 12.6247C10.8703 13.5278 10.71 14.5965 10.9459 15.6135C11.1817 16.6306 11.7959 17.5197 12.6637 18.1001C12.0122 18.0794 11.375 17.904 10.8047 17.5884V17.6392C10.8041 18.5869 11.1317 19.5056 11.7319 20.2391C12.3321 20.9726 13.1678 21.4756 14.0969 21.6626C13.4934 21.8277 12.86 21.8518 12.2457 21.7329C12.5079 22.548 13.018 23.2609 13.7048 23.7721C14.3916 24.2833 15.2209 24.5673 16.077 24.5845C14.6237 25.726 12.8285 26.3452 10.9805 26.3423C10.6527 26.3418 10.3253 26.3217 10 26.2821C11.8774 27.4866 14.0613 28.1263 16.2918 28.1251Z"
+																fill="#1AFFE9"
+															/>
+														</g>
+														<defs>
+															<clipPath id="clip0_1_815">
+																<rect
+																	width="20"
+																	height="20"
+																	fill="white"
+																	transform="translate(10 10)"
+																/>
+															</clipPath>
+														</defs>
+													</svg>
+												</Link>
+												<Link
+													className="LinkedIn"
+													target="_blank"
+													href={"https://www.linkedin.com/company/devxplore/"}
+												>
+													<svg
+														width="40"
+														height="40"
+														viewBox="0 0 40 40"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
 													>
-														+91 98270 53173
-													</Link>
-												</div>
-												<svg
-													className="absolute top-2 left-2"
-													width="40"
-													height="40"
-													viewBox="0 0 40 40"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														fill="#001D1F"
-													/>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														stroke="#00393D"
-													/>
-													<path
-														fillRule="evenodd"
-														clipRule="evenodd"
-														d="M11.25 13.75C11.25 12.3693 12.3693 11.25 13.75 11.25H14.893C15.61 11.25 16.235 11.738 16.4089 12.4335L17.3304 16.1195C17.4828 16.7294 17.2549 17.3713 16.752 17.7485L15.674 18.557C15.5621 18.641 15.5377 18.7639 15.5692 18.8497C16.5154 21.4329 18.5671 23.4846 21.1503 24.4308C21.2361 24.4623 21.359 24.4379 21.443 24.326L22.2515 23.248C22.6287 22.7451 23.2706 22.5172 23.8805 22.6696L27.5665 23.5911C28.262 23.765 28.75 24.39 28.75 25.107V26.25C28.75 27.6307 27.6307 28.75 26.25 28.75H24.375C17.1263 28.75 11.25 22.8737 11.25 15.625V13.75Z"
-														fill="#1AFFE9"
-													/>
-												</svg>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="39"
+															height="39"
+															rx="19.5"
+															fill="#00171A"
+														/>
+														<rect
+															x="0.5"
+															y="0.5"
+															width="39"
+															height="39"
+															rx="19.5"
+															stroke="#00393D"
+														/>
+														<g clipPath="url(#clip0_1_818)">
+															<path
+																d="M28.5195 10H11.4766C10.6602 10 10 10.6445 10 11.4414V28.5547C10 29.3516 10.6602 30 11.4766 30H28.5195C29.3359 30 30 29.3516 30 28.5586V11.4414C30 10.6445 29.3359 10 28.5195 10ZM15.9336 27.043H12.9648V17.4961H15.9336V27.043ZM14.4492 16.1953C13.4961 16.1953 12.7266 15.4258 12.7266 14.4766C12.7266 13.5273 13.4961 12.7578 14.4492 12.7578C15.3984 12.7578 16.168 13.5273 16.168 14.4766C16.168 15.4219 15.3984 16.1953 14.4492 16.1953ZM27.043 27.043H24.0781V22.4023C24.0781 21.2969 24.0586 19.8711 22.5352 19.8711C20.9922 19.8711 20.7578 21.0781 20.7578 22.3242V27.043H17.7969V17.4961H20.6406V18.8008H20.6797C21.0742 18.0508 22.043 17.2578 23.4844 17.2578C26.4883 17.2578 27.043 19.2344 27.043 21.8047V27.043Z"
+																fill="#1AFFE9"
+															/>
+														</g>
+														<defs>
+															<clipPath id="clip0_1_818">
+																<rect
+																	width="20"
+																	height="20"
+																	fill="white"
+																	transform="translate(10 10)"
+																/>
+															</clipPath>
+														</defs>
+													</svg>
+												</Link>
 											</div>
 										</div>
-										<div className="w-full flex flex-col gap-2 h-full">
-											<div className="relative">
-												<div className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center  outline-none bg-[#00171A] border-[#00393D] border">
-													Bhubaneswar, Odisha
-												</div>
-												<svg
-													className="absolute top-2 left-2"
-													width="40"
-													height="40"
-													viewBox="0 0 40 40"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														fill="#001D1F"
-													/>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														stroke="#00393D"
-													/>
-													<path
-														fillRule="evenodd"
-														clipRule="evenodd"
-														d="M19.6165 28.6259C19.6416 28.6405 19.6614 28.6517 19.6754 28.6596L19.6987 28.6726C19.8844 28.7745 20.1148 28.7738 20.3007 28.6729L20.3246 28.6596C20.3386 28.6517 20.3584 28.6405 20.3835 28.6259C20.4339 28.5967 20.5058 28.5542 20.5963 28.4985C20.7771 28.3872 21.0323 28.223 21.3372 28.0076C21.9459 27.5776 22.7581 26.9395 23.5721 26.1061C25.1922 24.4474 26.875 21.9551 26.875 18.75C26.875 14.953 23.797 11.875 20 11.875C16.203 11.875 13.125 14.953 13.125 18.75C13.125 21.9551 14.8078 24.4474 16.4279 26.1061C17.2419 26.9395 18.0541 27.5776 18.6628 28.0076C18.9677 28.223 19.2229 28.3872 19.4037 28.4985C19.4942 28.5542 19.5661 28.5967 19.6165 28.6259ZM20 21.25C21.3807 21.25 22.5 20.1307 22.5 18.75C22.5 17.3693 21.3807 16.25 20 16.25C18.6193 16.25 17.5 17.3693 17.5 18.75C17.5 20.1307 18.6193 21.25 20 21.25Z"
-														fill="#1AFFE9"
-													/>
-												</svg>
-											</div>
-										</div>
+										<div className="w-full bottom-0 left-0 absolute bg-gradient-to-t from-[#000e0f] to-transparent h-[40px]"></div>
 									</div>
-									<div className="absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#000e0f] to-transparent"></div>
-								</div>
-								<div className="relative">
-									<div className="w-[350px] min-h-[235px] border border-[#00393D] rounded-3xl flex flex-col gap-3 justify-center items-center">
-										<h2 className="text-[20px] text-[#CCFFFA]">Thank You!</h2>
-										<span className="text-[16px] text-[#649B9B]">
-											Follow Us on Social Media
-										</span>
-										<div className="w-[50%] h-[55px] rounded-full border border-[#00393D] flex justify-center items-center gap-3">
-											<Link
-												className="Facebook"
-												target="_blank"
-												href={
-													"https://www.facebook.com/share/V19o52Bi9BPVA7Hp/?mibextid=qi2Omg"
-												}
-											>
-												<svg
-													width="40"
-													height="40"
-													viewBox="0 0 40 40"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														fill="#00171A"
-													/>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														stroke="#00393D"
-													/>
-													<g clipPath="url(#clip0_1_812)">
-														<path
-															d="M30 20C30 14.4771 25.5229 10 20 10C14.4771 10 10 14.4771 10 20C10 24.9912 13.6568 29.1283 18.4375 29.8785V22.8906H15.8984V20H18.4375V17.7969C18.4375 15.2906 19.9305 13.9062 22.2146 13.9062C23.3084 13.9062 24.4531 14.1016 24.4531 14.1016V16.5625H23.1922C21.95 16.5625 21.5625 17.3334 21.5625 18.125V20H24.3359L23.8926 22.8906H21.5625V29.8785C26.3432 29.1283 30 24.9912 30 20Z"
-															fill="#1AFFE9"
-														/>
-													</g>
-													<defs>
-														<clipPath id="clip0_1_812">
-															<rect
-																width="20"
-																height="20"
-																fill="white"
-																transform="translate(10 10)"
-															/>
-														</clipPath>
-													</defs>
-												</svg>
-											</Link>
-											<Link href={""}>
-												<svg
-													width="40"
-													height="40"
-													viewBox="0 0 40 40"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														fill="#00171A"
-													/>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														stroke="#00393D"
-													/>
-													<g clipPath="url(#clip0_1_815)">
-														<path
-															d="M16.2918 28.1251C23.8371 28.1251 27.9652 21.8724 27.9652 16.4517C27.9652 16.2759 27.9613 16.0962 27.9535 15.9204C28.7566 15.3397 29.4496 14.6203 30 13.7962C29.2521 14.129 28.458 14.3463 27.6449 14.4407C28.5011 13.9275 29.1421 13.1213 29.4492 12.1716C28.6438 12.6489 27.763 12.9856 26.8445 13.1673C26.2257 12.5098 25.4075 12.0744 24.5164 11.9285C23.6253 11.7826 22.711 11.9343 21.9148 12.3602C21.1186 12.7861 20.4848 13.4624 20.1115 14.2845C19.7382 15.1067 19.6462 16.029 19.8496 16.9087C18.2187 16.8269 16.6233 16.4032 15.1667 15.6652C13.71 14.9272 12.4247 13.8913 11.3941 12.6247C10.8703 13.5278 10.71 14.5965 10.9459 15.6135C11.1817 16.6306 11.7959 17.5197 12.6637 18.1001C12.0122 18.0794 11.375 17.904 10.8047 17.5884V17.6392C10.8041 18.5869 11.1317 19.5056 11.7319 20.2391C12.3321 20.9726 13.1678 21.4756 14.0969 21.6626C13.4934 21.8277 12.86 21.8518 12.2457 21.7329C12.5079 22.548 13.018 23.2609 13.7048 23.7721C14.3916 24.2833 15.2209 24.5673 16.077 24.5845C14.6237 25.726 12.8285 26.3452 10.9805 26.3423C10.6527 26.3418 10.3253 26.3217 10 26.2821C11.8774 27.4866 14.0613 28.1263 16.2918 28.1251Z"
-															fill="#1AFFE9"
-														/>
-													</g>
-													<defs>
-														<clipPath id="clip0_1_815">
-															<rect
-																width="20"
-																height="20"
-																fill="white"
-																transform="translate(10 10)"
-															/>
-														</clipPath>
-													</defs>
-												</svg>
-											</Link>
-											<Link
-												className="LinkedIn"
-												target="_blank"
-												href={"https://www.linkedin.com/company/devxplore/"}
-											>
-												<svg
-													width="40"
-													height="40"
-													viewBox="0 0 40 40"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														fill="#00171A"
-													/>
-													<rect
-														x="0.5"
-														y="0.5"
-														width="39"
-														height="39"
-														rx="19.5"
-														stroke="#00393D"
-													/>
-													<g clipPath="url(#clip0_1_818)">
-														<path
-															d="M28.5195 10H11.4766C10.6602 10 10 10.6445 10 11.4414V28.5547C10 29.3516 10.6602 30 11.4766 30H28.5195C29.3359 30 30 29.3516 30 28.5586V11.4414C30 10.6445 29.3359 10 28.5195 10ZM15.9336 27.043H12.9648V17.4961H15.9336V27.043ZM14.4492 16.1953C13.4961 16.1953 12.7266 15.4258 12.7266 14.4766C12.7266 13.5273 13.4961 12.7578 14.4492 12.7578C15.3984 12.7578 16.168 13.5273 16.168 14.4766C16.168 15.4219 15.3984 16.1953 14.4492 16.1953ZM27.043 27.043H24.0781V22.4023C24.0781 21.2969 24.0586 19.8711 22.5352 19.8711C20.9922 19.8711 20.7578 21.0781 20.7578 22.3242V27.043H17.7969V17.4961H20.6406V18.8008H20.6797C21.0742 18.0508 22.043 17.2578 23.4844 17.2578C26.4883 17.2578 27.043 19.2344 27.043 21.8047V27.043Z"
-															fill="#1AFFE9"
-														/>
-													</g>
-													<defs>
-														<clipPath id="clip0_1_818">
-															<rect
-																width="20"
-																height="20"
-																fill="white"
-																transform="translate(10 10)"
-															/>
-														</clipPath>
-													</defs>
-												</svg>
-											</Link>
-										</div>
-									</div>
-									<div className="w-full bottom-0 left-0 absolute bg-gradient-to-t from-[#000e0f] to-transparent h-[40px]"></div>
-								</div>
+								</ScrollAnimation>
 							</div>
 						</div>
 					</div>

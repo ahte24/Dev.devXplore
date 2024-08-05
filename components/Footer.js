@@ -539,7 +539,7 @@ const Footer = () => {
 										</button>
 									</div>
 									<span className="text-sm text-[#507c7c] font-bold">
-										{"(Comming Soon)"}
+										{"(Coming Soon)"}
 									</span>
 								</div>
 								<div className="w-1/3 h-full p-5 flex flex-col gap-3 items-center justify-center ">

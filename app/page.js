@@ -10,7 +10,7 @@ import webApp from "@/public/webApp.svg";
 import uiDesign from "@/public/uiDesign.svg";
 import uX from "@/public/uX.svg";
 import landingPage from "@/public/landingPage.svg";
-import Design from "@/public/Design.svg";
+import Design from "@/public/DesignIcon.svg";
 import Dev from "@/public/Dev.svg";
 import Management from "@/public/Management.svg";
 import showCase from "@/public/showcase.svg";
@@ -922,7 +922,10 @@ export default function Home() {
 					</div>
 				</ScrollAnimation>
 				<ScrollAnimation variants={fadeInUp}>
-					<div id="client" className="w-full pt-20 min-h-[180px] gap-4  flex flex-col justify-center px-2 md:px-8">
+					<div
+						id="client"
+						className="w-full pt-20 min-h-[180px] gap-4  flex flex-col justify-center px-2 md:px-8"
+					>
 						<h4 className="sm:text-[38px] text-[28px] text-[#E5FFFD] text-center">
 							Our Custombers
 						</h4>
@@ -1083,7 +1086,7 @@ export default function Home() {
 																<Image
 																	width={50}
 																	height={50}
-																	src={Dev}
+																	src={Design}
 																	alt=""
 																/>
 																<span className="text-[18px] text-[#CCFFFA]">
@@ -1199,7 +1202,7 @@ export default function Home() {
 																<Image
 																	width={50}
 																	height={50}
-																	src={Dev}
+																	src={Management}
 																	alt=""
 																/>
 																<span className="text-[18px] text-[#CCFFFA]">
@@ -1256,7 +1259,7 @@ export default function Home() {
 																<Image
 																	width={50}
 																	height={50}
-																	src={Dev}
+																	src={Design}
 																	alt=""
 																/>
 																<span className="text-[18px] text-[#CCFFFA]">
@@ -2129,7 +2132,7 @@ export default function Home() {
 												fill="none"
 												xmlns="http://www.w3.org/2000/svg"
 											>
-												<g clipPath="url(#clip0_1_425)">
+												<g clipPath="url(#clip0_1_470)">
 													<rect
 														x="1"
 														y="1"
@@ -2150,12 +2153,12 @@ export default function Home() {
 													/>
 													<path
 														d="M45.7998 8L45.7998 16.4"
-														stroke="url(#paint0_linear_1_425)"
+														stroke="url(#paint0_linear_1_470)"
 														strokeWidth="0.6"
 													/>
 													<path
 														d="M50 12.2L41.6 12.2"
-														stroke="url(#paint1_linear_1_425)"
+														stroke="url(#paint1_linear_1_470)"
 														strokeWidth="0.6"
 													/>
 													<path
@@ -2170,56 +2173,40 @@ export default function Home() {
 													/>
 													<path
 														d="M45.7998 41.6L45.7998 50"
-														stroke="url(#paint2_linear_1_425)"
+														stroke="url(#paint2_linear_1_470)"
 														strokeWidth="0.6"
 													/>
 													<path
 														d="M50 45.8L41.6 45.8"
-														stroke="url(#paint3_linear_1_425)"
+														stroke="url(#paint3_linear_1_470)"
 														strokeWidth="0.6"
 													/>
 													<path
 														d="M12.2002 41.6L12.2002 50"
-														stroke="url(#paint4_linear_1_425)"
+														stroke="url(#paint4_linear_1_470)"
 														strokeWidth="0.6"
 													/>
 													<path
 														d="M16.3999 45.8L7.9999 45.8"
-														stroke="url(#paint5_linear_1_425)"
+														stroke="url(#paint5_linear_1_470)"
 														strokeWidth="0.6"
 													/>
 													<path
 														d="M12.2002 8L12.2002 16.4"
-														stroke="url(#paint6_linear_1_425)"
+														stroke="url(#paint6_linear_1_470)"
 														strokeWidth="0.6"
 													/>
 													<path
 														d="M16.3999 12.2L7.9999 12.2"
-														stroke="url(#paint7_linear_1_425)"
+														stroke="url(#paint7_linear_1_470)"
 														strokeWidth="0.6"
 													/>
 													<path
-														d="M32.5 24.5C32.5 26.433 30.933 28 29 28C27.067 28 25.5 26.433 25.5 24.5C25.5 22.567 27.067 21 29 21C30.933 21 32.5 22.567 32.5 24.5Z"
+														d="M37.0918 31.3257L37.2848 29.4316C37.3878 28.421 37.4558 27.7537 37.4024 27.3332L37.4211 27.3333C38.2931 27.3333 39 26.5871 39 25.6667C39 24.7462 38.2931 24 37.4211 24C36.549 24 35.8421 24.7462 35.8421 25.6667C35.8421 26.083 35.9867 26.4636 36.2258 26.7557C35.8826 26.9793 35.4338 27.4511 34.7584 28.1613L34.7584 28.1613C34.2381 28.7084 33.9779 28.9819 33.6877 29.0243C33.5269 29.0478 33.363 29.0236 33.2145 28.9546C32.9465 28.83 32.7678 28.4919 32.4105 27.8155L30.5268 24.2504C30.3063 23.8332 30.1218 23.484 29.9554 23.2029C30.6379 22.8354 31.1053 22.0864 31.1053 21.2222C31.1053 19.9949 30.1627 19 29 19C27.8373 19 26.8947 19.9949 26.8947 21.2222C26.8947 22.0864 27.3621 22.8354 28.0446 23.2029C27.8782 23.484 27.6937 23.8332 27.4732 24.2504L25.5895 27.8155C25.2322 28.4919 25.0535 28.83 24.7855 28.9546C24.637 29.0236 24.4731 29.0478 24.3123 29.0243C24.0221 28.9819 23.7619 28.7084 23.2416 28.1613C22.5662 27.4511 22.1174 26.9793 21.7742 26.7557C22.0133 26.4636 22.1579 26.083 22.1579 25.6667C22.1579 24.7462 21.451 24 20.5789 24C19.7069 24 19 24.7462 19 25.6667C19 26.5871 19.7069 27.3333 20.5789 27.3333L20.5976 27.3332C20.5442 27.7537 20.6122 28.421 20.7152 29.4316L20.9082 31.3257C21.0153 32.377 21.1044 33.3774 21.2136 34.2778H36.7864C36.8956 33.3774 36.9847 32.377 37.0918 31.3257Z"
 														fill="#66FFF0"
 													/>
 													<path
-														d="M35 33.5C35 35.433 32.3137 37 29 37C25.6863 37 23 35.433 23 33.5C23 31.567 25.6863 30 29 30C32.3137 30 35 31.567 35 33.5Z"
-														fill="#66FFF0"
-													/>
-													<path
-														d="M24.122 22C24.2995 22 24.4728 22.0174 24.6401 22.0506C24.2325 22.7745 24 23.6101 24 24.5C24 25.3683 24.2213 26.1848 24.6106 26.8964C24.4524 26.9258 24.2891 26.9413 24.122 26.9413C22.7076 26.9413 21.561 25.8351 21.561 24.4706C21.561 23.1061 22.7076 22 24.122 22Z"
-														fill="#66FFF0"
-													/>
-													<path
-														d="M22.4473 35.986C21.8794 35.3071 21.5 34.474 21.5 33.5C21.5 32.5558 21.8566 31.744 22.3958 31.0767C20.4911 31.2245 19 32.2662 19 33.5294C19 34.8044 20.5173 35.8538 22.4473 35.986Z"
-														fill="#66FFF0"
-													/>
-													<path
-														d="M33.9999 24.5C33.9999 25.3683 33.7786 26.1848 33.3893 26.8964C33.5475 26.9258 33.7108 26.9413 33.8779 26.9413C35.2923 26.9413 36.4389 25.8351 36.4389 24.4706C36.4389 23.1061 35.2923 22 33.8779 22C33.7004 22 33.5272 22.0174 33.3599 22.0506C33.7674 22.7745 33.9999 23.6101 33.9999 24.5Z"
-														fill="#66FFF0"
-													/>
-													<path
-														d="M35.5526 35.986C37.4826 35.8538 38.9999 34.8044 38.9999 33.5294C38.9999 32.2662 37.5088 31.2245 35.6041 31.0767C36.1433 31.744 36.4999 32.5558 36.4999 33.5C36.4999 34.474 36.1205 35.3071 35.5526 35.986Z"
+														d="M27.8548 39H30.1452C33.1304 39 34.623 39 35.6189 38.0591C36.0535 37.6484 36.3288 36.908 36.5274 35.9444H21.4726C21.6712 36.908 21.9465 37.6484 22.3811 38.0591C23.377 39 24.8696 39 27.8548 39Z"
 														fill="#66FFF0"
 													/>
 												</g>
@@ -2233,7 +2220,7 @@ export default function Home() {
 												/>
 												<defs>
 													<linearGradient
-														id="paint0_linear_1_425"
+														id="paint0_linear_1_470"
 														x1="45.7998"
 														y1="16.4"
 														x2="45.7998"
@@ -2249,7 +2236,7 @@ export default function Home() {
 														/>
 													</linearGradient>
 													<linearGradient
-														id="paint1_linear_1_425"
+														id="paint1_linear_1_470"
 														x1="41.6"
 														y1="12.2"
 														x2="50"
@@ -2265,7 +2252,7 @@ export default function Home() {
 														/>
 													</linearGradient>
 													<linearGradient
-														id="paint2_linear_1_425"
+														id="paint2_linear_1_470"
 														x1="45.7998"
 														y1="50"
 														x2="45.7998"
@@ -2281,7 +2268,7 @@ export default function Home() {
 														/>
 													</linearGradient>
 													<linearGradient
-														id="paint3_linear_1_425"
+														id="paint3_linear_1_470"
 														x1="41.6"
 														y1="45.8"
 														x2="50"
@@ -2297,7 +2284,7 @@ export default function Home() {
 														/>
 													</linearGradient>
 													<linearGradient
-														id="paint4_linear_1_425"
+														id="paint4_linear_1_470"
 														x1="12.2002"
 														y1="50"
 														x2="12.2002"
@@ -2313,7 +2300,7 @@ export default function Home() {
 														/>
 													</linearGradient>
 													<linearGradient
-														id="paint5_linear_1_425"
+														id="paint5_linear_1_470"
 														x1="7.9999"
 														y1="45.8"
 														x2="16.3999"
@@ -2329,7 +2316,7 @@ export default function Home() {
 														/>
 													</linearGradient>
 													<linearGradient
-														id="paint6_linear_1_425"
+														id="paint6_linear_1_470"
 														x1="12.2002"
 														y1="16.4"
 														x2="12.2002"
@@ -2345,7 +2332,7 @@ export default function Home() {
 														/>
 													</linearGradient>
 													<linearGradient
-														id="paint7_linear_1_425"
+														id="paint7_linear_1_470"
 														x1="7.9999"
 														y1="12.2"
 														x2="16.3999"
@@ -2360,7 +2347,7 @@ export default function Home() {
 															stopOpacity="0"
 														/>
 													</linearGradient>
-													<clipPath id="clip0_1_425">
+													<clipPath id="clip0_1_470">
 														<rect
 															x="1"
 															y="1"
@@ -2372,8 +2359,9 @@ export default function Home() {
 													</clipPath>
 												</defs>
 											</svg>
+
 											<span className="text-[#CCFFFA] text-[18px]">
-												Client-Centric Approach
+												Collaborative Approach
 											</span>
 										</div>
 										<p className="text-[15px] text-[#649B9B]">
@@ -3526,7 +3514,10 @@ export default function Home() {
 					</div>
 				</ScrollAnimation>
 				<ScrollAnimation variants={fadeInUp}>
-					<div id="testimonials" className="Testimonials pt-24 px-2 sm:px-8 w-full relative">
+					<div
+						id="testimonials"
+						className="Testimonials pt-24 px-2 sm:px-8 w-full relative"
+					>
 						<div className="w-full min-h-[400px] flex flex-col gap-5 py-8">
 							<div className="w-[85%] mx-auto flex flex-col items-center gap-5">
 								<h1 className="sm:text-[38px] text-[28px] text-[#E5FFFD] text-center">
@@ -3700,7 +3691,10 @@ export default function Home() {
 					</div>
 				</ScrollAnimation>
 				<ScrollAnimation variants={fadeInUp}>
-					<div id="FAQ" className="FAQ flex flex-col items-center pt-24 w-full sm:max-w-[2000px] min-h-[650px] mx-auto gap-10 relative py-10 showCaseBg3 transition-all duration-1000">
+					<div
+						id="FAQ"
+						className="FAQ flex flex-col items-center pt-24 w-full sm:max-w-[2000px] min-h-[650px] mx-auto gap-10 relative py-10 showCaseBg3 transition-all duration-1000"
+					>
 						<div className="w-full p-5 mx-auto flex flex-col items-center gap-5">
 							<h1 className="text-[28px] sm:text-[38px] text-[#E5FFFD] text-center">
 								Common Queries, Clear Answers

@@ -16,12 +16,12 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			{/* Google tag (gtag.js) */}
 			<Script
-				id="gtag"
+				id="gtag1"
 				async
 				src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
 			></Script>
 			<Script
-				id="gtag"
+				id="gtag2"
 				dangerouslySetInnerHTML={{
 					__html: `
               window.dataLayer = window.dataLayer || [];
@@ -44,11 +44,28 @@ export default function RootLayout({ children }) {
 				}}
 			/>
 			<Script
-				id="gtag"
+				id="gtag3"
 				async
 				custom-element="amp-analytics"
 				src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
 			></Script>
+			{/* New Google Analytics script */}
+			<Script
+				id="gtag4"
+				async
+				src="https://www.googletagmanager.com/gtag/js?id=G-8JK9MMMRV4"
+			></Script>
+			<Script
+				id="gtag5"
+				dangerouslySetInnerHTML={{
+					__html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-8JK9MMMRV4');
+            `,
+				}}
+			/>
 			<Head>
 				{/* Link to favicon */}
 				<link rel="icon" href={favicon} type="image/x-icon" />
@@ -69,7 +86,6 @@ export default function RootLayout({ children }) {
 		</html>
 	);
 }
-
 export const metadata = {
 	title:
 		"DevXplore.tech | Leading Tech Solutions for Web and Mobile Development",

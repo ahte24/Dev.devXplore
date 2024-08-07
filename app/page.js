@@ -112,28 +112,35 @@ export default function Home() {
 		}
 	};
 
-	useEffect(() => {
-		const handleScroll = (event) => {
-			const target = event.target.closest('a[href^="#"]');
-			if (target) {
-				event.preventDefault();
-				const id = target.getAttribute("href").slice(1);
-				const element = document.getElementById(id);
-				if (element) {
-					window.scrollTo({
-						top: element.offsetTop,
-						behavior: "smooth",
-					});
-				}
-			}
-		};
+/**
+ * useEffect hook to handle smooth scrolling to anchor links when clicked.
+ */
+useEffect(() => {
+    /**
+     * Event handler to scroll to the target anchor link smoothly.
+     * @param {Event} event - The click event.
+     */
+    const handleScroll = (event) => {
+        const target = event.target.closest('a[href^="#"]');
+        if (target) {
+            event.preventDefault();
+            const id = target.getAttribute("href").slice(1);
+            const element = document.getElementById(id);
+            if (element) {
+                window.scrollTo({
+                    top: element.offsetTop,
+                    behavior: "smooth",
+                });
+            }
+        }
+    };
 
-		document.addEventListener("click", handleScroll);
+    document.addEventListener("click", handleScroll);
 
-		return () => {
-			document.removeEventListener("click", handleScroll);
-		};
-	}, []);
+    return () => {
+        document.removeEventListener("click", handleScroll);
+    };
+}, []);
 
 	const [currentVisibleIndex, setCurrentVisibleIndex] = useState(0); // Initially no div visible
 

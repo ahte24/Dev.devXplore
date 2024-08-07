@@ -14,14 +14,14 @@ const sora = Sora({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			{/* Google tag (gtag.js)
+			{/* Google tag (gtag.js) */}
 			<Script
-				id="gtag1"
+				id="gtag"
 				async
 				src="https://www.googletagmanager.com/gtag/js?id=AW-16659229777"
 			></Script>
 			<Script
-				id="gtag2"
+				id="gtag"
 				dangerouslySetInnerHTML={{
 					__html: `
               window.dataLayer = window.dataLayer || [];
@@ -44,26 +44,11 @@ export default function RootLayout({ children }) {
 				}}
 			/>
 			<Script
-				id="gtag3"
+				id="gtag"
 				async
 				custom-element="amp-analytics"
 				src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
-			></Script> */}
-			{/* Add the Google Analytics script */}
-			<Script
-				async
-				src="https://www.googletagmanager.com/gtag/js?id=G-8JK9MMMRV4"
-			/>
-			<Script id="google-analytics">
-				{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-8JK9MMMRV4');
-        `}
-			</Script>
-
+			></Script>
 			<Head>
 				{/* Link to favicon */}
 				<link rel="icon" href={favicon} type="image/x-icon" />
@@ -84,6 +69,7 @@ export default function RootLayout({ children }) {
 		</html>
 	);
 }
+
 export const metadata = {
 	title:
 		"DevXplore.tech | Leading Tech Solutions for Web and Mobile Development",

@@ -14,7 +14,7 @@ const sora = Sora({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			{/* Google tag (gtag.js) */}
+			{/* Google tag (gtag.js)
 			<Script
 				id="gtag1"
 				async
@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
 				async
 				custom-element="amp-analytics"
 				src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
-			></Script>
+			></Script> */}
 			{/* New Google Analytics script */}
 			<Script
 				id="gtag1"

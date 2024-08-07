@@ -49,42 +49,20 @@ export default function RootLayout({ children }) {
 				custom-element="amp-analytics"
 				src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
 			></Script> */}
-			{/* New Google Analytics script */}
+			{/* Add the Google Analytics script */}
 			<Script
-				id="gtag1"
 				async
 				src="https://www.googletagmanager.com/gtag/js?id=G-8JK9MMMRV4"
-			></Script>
-			<Script
-				id="gtag2"
-				dangerouslySetInnerHTML={{
-					__html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-8JK9MMMRV4');
-      gtag('config', 'AW-16659229777');
-      function gtag_report_conversion(url) {
-        var callback = function () {
-          if (typeof(url) != 'undefined') {
-            window.location = url;
-          }
-        };
-        gtag('event', 'conversion', {
-          'send_to': 'AW-16659229777/HB4gCN6HlccZENHY3oc-',
-          'event_callback': callback
-        });
-        return false;
-      }
-    `,
-				}}
 			/>
-			<Script
-				id="gtag3"
-				async
-				custom-element="amp-analytics"
-				src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
-			></Script>
+			<Script id="google-analytics">
+				{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-8JK9MMMRV4');
+        `}
+			</Script>
 
 			<Head>
 				{/* Link to favicon */}

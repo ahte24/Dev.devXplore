@@ -4525,10 +4525,10 @@ export default function Home() {
 													<div className="rounded-full w-[320px] pl-14 h-[56px] text-[#CCFFFA] text-[14px] flex items-center gap-2 outline-none bg-[#00171A] border-[#00393D] border">
 														<Link
 															className="text-sm"
-															href="tel:+9163711 65893"
+															href="tel:+9191141 11987"
 															target="_blank"
 														>
-															+91 63711 65893,
+															+91 91141 11987,
 														</Link>
 														<Link
 															className="text-sm"
@@ -4770,3 +4770,4 @@ export default function Home() {
 		</>
 	);
 }
+

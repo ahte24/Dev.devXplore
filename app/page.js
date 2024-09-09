@@ -4379,7 +4379,7 @@ export default function Home() {
 															className="text-[#E5FFFD] text-[16px] font-light"
 															htmlFor="Services"
 														>
-															Services:
+															Objective:
 														</label>
 														<div className="relative">
 															<select

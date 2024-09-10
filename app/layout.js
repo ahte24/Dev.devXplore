@@ -77,6 +77,10 @@ export const metadata = {
 		"Harness cutting-edge web and mobile app development services with DevXplore.tech. Tailored, innovative solutions for global businesses in the US, UK, and India.",
 	keywords: [
 		"best website development agency",
+		"best website development agency in jajpur town",
+		"best website development agency in bhubaneshwar",
+		"best website development agency in bhubaneswar",
+		"best website development agency in odisha",
 		"web development agency",
 		"mobile app development development agency",
 		"mobile app design development agency",

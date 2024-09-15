@@ -628,7 +628,14 @@ export const metadata = {
 			"DevXplore offers premier web and mobile app development and design services. Transform your business with innovative digital solutions, catering to US, UK, and Indian markets.",
 		type: "website",
 		url: "https://www.devxplore.tech",
-		image: favicon.src, // Use imported favicon
+		images: [
+			{
+				url: "https://img.freepik.com/premium-photo/development-crossplatform-websites-mobile-apps-laptops-generative-ai_870512-1181.jpg", // Replace with actual image path
+				width: 800,
+				height: 600,
+				alt: "Motodrager logo",
+			},
+		],
 		site_name: "DevXplore.tech",
 	},
 	twitter: {
@@ -638,6 +645,13 @@ export const metadata = {
 			"DevXplore.tech | Leading Tech Solutions for Web and Mobile Development",
 		description:
 			"DevXplore offers premier web and mobile app development and design services. Transform your business with innovative digital solutions, catering to US, UK, and Indian markets.",
-		image: favicon.src, // Use imported favicon
+		images: [
+			{
+				url: "https://img.freepik.com/premium-photo/development-crossplatform-websites-mobile-apps-laptops-generative-ai_870512-1181.jpg", // Replace with actual image path
+				width: 800,
+				height: 600,
+				alt: "Motodrager logo",
+			},
+		],
 	},
 };
